@@ -1,7 +1,15 @@
 var localBiblio = {
+  "ABDO2017": {
+    title: "AlgemeneBeveiligingseisen voor Defensieopdrachten 2017",
+    href: "https://www.defensie.nl/binaries/defensie/documenten/beleidsnota-s/2017/06/13/abdo-2017/ABDO+2017_web.pdf",
+  },
   "AIAct-ShapingEuropesdigitalfuture": {
     title: "AI Act - Shaping Europe’s digital future",
     href: "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+  },
+  "APG-persoonsgegevens": {
+    title: "Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens)",
+    href: "https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/privacy-en-persoonsgegevens/wat-zijn-persoonsgegevens",
   },
   "AVG": {
     title: "Verordening (EU) 2016/679",
@@ -24,7 +32,7 @@ var localBiblio = {
     href: "https://www.encyclo.nl/",
   },
   "Gegevensdelingsbeleid": {
-    title: "JAGA Gegevensdelingsbeleid 1B-1 v0.98",
+    title: "JAGA Gegevensdelingsbeleid v1.0",
     href: "https://jenvgegevens.pleio.nl/",
   },
   "ISO27000": {
@@ -32,7 +40,7 @@ var localBiblio = {
     href: "https://www.iso.org/standard/73906.html",
   },
   "ImplementatiehandreikingGegevensdeling": {
-    title: "JAGA Implementatiehandreiking Gegevensdeling 1B-3 v0.98",
+    title: "JAGA Implementatiehandreiking Gegevensdeling v1.0",
     href: "https://jenvgegevens.pleio.nl/",
   },
   "KDJV": {
@@ -43,11 +51,11 @@ var localBiblio = {
     href: "https://docs.geostandaarden.nl/mim/mim",
   },
   "ModelGLP": {
-    title: "Model GLP 5B-1 v0.98",
+    title: "Model GLP v1.0",
     href: "https://jenvgegevens.pleio.nl/",
   },
   "ModelGLS": {
-    title: "Model GLS 5B-2 v0.98",
+    title: "Model GLS v1.0",
     href: "https://jenvgegevens.pleio.nl/",
   },
   "ModelVO": {
@@ -93,6 +101,10 @@ var localBiblio = {
   "VerordeningEU20241689": {
     title: "Verordening (EU) 2024/1689 Geharmoniseerde regels betreffende artificiële intelligentie (de \"AI Act\")",
     href: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+  },
+  "WPG": {
+    title: "Wet politiegegevens",
+    href: "https://wetten.overheid.nl/jci1.3:c:BWBR0022463&z=2023-11-01&g=2023-11-01",
   },
   "WSJG2024": {
     title: "Wet justitiële en strafvorderlijke gegevens",

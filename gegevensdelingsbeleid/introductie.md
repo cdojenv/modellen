@@ -3,17 +3,16 @@
 ## Gegevensdelingen {#IntroGegevensdeling}
 
 Een [gegevensdeling](#gegevensdeling) tussen twee verschillende [partijen](#partij) is onderhevig aan het [gegevensdelingsbeleid](#gegevensdelingsbeleid) zoals beschreven in het [[Gegevensdelingsbeleid]], wanneer:
-* De [gegevensdeling] een [setgebaseerde gegevensdeling](#setgebaseerde-gegevensdeling) is;
+
+* De [gegevensdeling](#gegevensdeling) een [setgebaseerde gegevensdeling](#setgebaseerde-gegevensdeling) is;
 * Gegevens worden uitgewisseld tussen de ene en de andere gebruikersomgeving (verwerking van de te delen gegevens door [ontvanger](#ontvanger) vindt buiten de technische omgeving plaats van waaruit [verstrekker](#verstrekker) de gegevens deelt);
-* Een JenV onderdeel [verstrekker](#verstrekker) of [ontvanger](#ontvanger) is.
+* Een [organisatieonderdeel](#organisatieonderdeel) van het Ministerie van Justitie & Veiligheid [verstrekker](#verstrekker) of [ontvanger](#ontvanger) is.
 
 Het [gegevensdelingsbeleid](#gegevensdelingsbeleid) schrijft voor dat we de afspraken over de procesgang, randvoorwaarden en inhoud van de geplande [gegevensdelingen](#gegevensdeling) vastleggen voordat we gaan delen (behoudens in [crisissituaties](#crisissituatie), waarbij je eerst mag delen en dan vastleggen).
 
-De vastlegging van de juridische en organisatorische afspraken voor deze [gegevensdeling](#gegevensdeling) gebeurt in een [gegevensleveringsprotocol](#gegevensleveringsprotocol). Eventueel kan dit ook in een [verwerkersovereenkomst](#verwerkersovereenkomst) worden gedaan.
+De vastlegging van de primair juridische en organisatorische afspraken voor deze [gegevensdeling](#gegevensdeling) gebeurt in een [gegevensleveringsprotocol](#gegevensleveringsprotocol). Het vastleggen van deze afspraken gebeurt met het oog op gegevensbeheersing en heeft niet tot doel het maken van juridisch bindende afspraken. Het aspect ‘juridisch' beperkt zich hierbij tot de vastlegging van het [doel](#doel) en de gehanteerde [wettelijke grondslag](#wettelijke-grondslag) van een beoogde [gegevensdeling](#gegevensdeling). Eventueel kan deze vastlegging ook in een [verwerkersovereenkomst](#verwerkersovereenkomst) worden gedaan.
 
-De functionele en technische beschrijving van de inhoud van de levering, de [gegevensleverset](#gegevensleverset), evenals de manier waarop we leveren en de afspraken die betrekking hebben op de operationele aspecten van de [gegevensdeling](#gegevensdeling), worden beschreven in een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie).
-
-We beschouwen hier alleen [gegevensdelingen](#gegevensdeling) waarbij minimaal één van de [partijen](#partij) een [organisatieonderdeel](#organisatieonderdeel) van het Ministerie van Justitie en Veiligheid is.
+De functionele en technische beschrijving van de inhoud van de [gegevensdeling](#gegevensdeling), de [gegevensleverset](#gegevensleverset), evenals de manier waarop we leveren en de afspraken die betrekking hebben op de operationele aspecten van de [gegevensdeling](#gegevensdeling), worden beschreven in een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie).
 
 ## Gegevensleveringsprotocol (GLP) {#IntroGLP}
 
@@ -44,31 +43,29 @@ Het [Model GLP](#model-GLP) is een template dat de voorkeur heeft voor het vastl
 
 ## Gegevensleveringsspecificatie (GLS) {#IntroGLS}
 
-Een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie) omvat een reeks afspraken die we vastleggen. Zolang aan de eisen in het gegevensdelingsbeleid over wat er moet worden vastgelegd wordt voldaan, is dit vormvrij. Veelal zullen de afspraken worden vastgelegd in een (gegevensleveringsspecificatie)document maar dat is geen verplichting.
-
-De vastlegging zelf omvat ongeacht de vorm van de vastlegging, daarom de volgende verplichte onderdelen:
+Een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie) omvat een reeks afspraken die we vastleggen. Zolang aan de eisen in het gegevensdelingsbeleid over wat er moet worden vastgelegd wordt voldaan, is dit vormvrij. De vastlegging zelf omvat, ongeacht de vorm van de vastlegging, daarom de volgende verplichte onderdelen:
 
 * De unieke identificatie van de GLS door middel van een [GLS-code](#gls-code).
 * De naam.
 * Een verwijzing naar óf het bijbehorende [gegevensleveringsprotocol](#gegevensleveringsprotocol), óf de bijbehorende [verwerkersovereenkomst](#verwerkersovereenkomst).
 * Een [populatiebeschrijving](#populatiebeschrijving) die beschrijft welke gegevens er worden gedeeld. Hierin kan ook informeel worden beschreven welke filtering en selectie de bron al bij voorbaat toepast op de totale beschikbare gegevenspopulatie.
-* Een overzicht van de betrokken verstrekkende en ontvangende partijen inclusief hun vertegenwoordigers (en hun naam, rol, functie en contactgegevens).
-* Een [begrippenkader](#begrippenkader) met daarin alle voor gegevenstypen gebruikte termen.
-* Een [logisch gegevensmodel](#logisch-gegevensmodel) met daarin alle [gegevenstype](#gegevenstype)n. Een gegevenstype heeft een unieke code, een naam, en een waardetype. Een gegevenstype dat een categorie weergeeft kent ook een waardebereik.
-* De [classificatie](#classificatie)s van objectief vast te stellen eigenschappen van de gegevenslevering, bijvoorbeeld op het gebied van vertrouwelijkheid, geheimhouding, begrijpelijkheid, verantwoording et cetera. Deze worden aangeduid in vooraf afgesproken waarden en categorieën. Soms is bij een bepaalde classificatie een nadere aanduiding nodig, zoals bijvoorbeeld een [geregistreerd algoritme](#geregistreerd-algoritme) waar het [AKI-gegevens](#aki-gegevens-direct-of-regelgebaseerd) betreft.
-* De afspraken over de manier waarop de levering tot stand komt. Op het niveau van de gehele levering gaat het in ieder geval om de afspraken over maatregelen tegen herleidbaarheid van gegevens, over hoe foutherstel verloopt en hoe de communicatie zal verlopen.
+* Een overzicht van de betrokken [verstrekker](#verstrekker) en [ontvanger](#ontvanger) inclusief hun vertegenwoordigers (en hun naam, rol, functie en contactgegevens).
+* Een [begrippenkader](#begrippenkader) met daarin alle voor [gegevenstype](#gegevenstype)n gebruikte termen.
+* Een [logisch gegevensmodel](#logisch-gegevensmodel) met daarin alle [gegevenstype](#gegevenstype)n. Een [gegevenstype](#gegevenstype) heeft een unieke code, een naam, en een waardetype. Een gegevenstype dat een categorie weergeeft kent ook een waardebereik.
+* De [classificatie](#classificatie)s van objectief vast te stellen eigenschappen van de [gegevensdeling](#gegevensdeling), bijvoorbeeld op het gebied van vertrouwelijkheid, geheimhouding, begrijpelijkheid, verantwoording et cetera. Deze worden aangeduid in vooraf afgesproken waarden en categorieën. Soms is bij een bepaalde classificatie een nadere aanduiding nodig, zoals bijvoorbeeld een [geregistreerd algoritme](#geregistreerd-algoritme) waar het [AKI-gegevens](#aki-gegevens-direct-of-regelgebaseerd) betreft.
+* De afspraken over de manier waarop de [gegevensdeling](#gegevensdeling) tot stand komt. Voor de [gegevensdeling](#gegevensdeling) in haar geheel gaat het in ieder geval om de afspraken over maatregelen tegen herleidbaarheid van gegevens, over hoe foutherstel verloopt en hoe de communicatie zal verlopen.
 * Minimaal één [gegevensleversetspecificatie](#gegevensleversetspecificatie).
 
 Verder kan de [gegevensleveringsspecificatie](#gegevensleveringsspecificatie) de volgende optionele elementen bevatten:
 
-* Een globale beschrijving van de gegevenslevering. Dit omvat bijvoorbeeld een beschrijving van het proces, de partijen, en de manier waarop wordt geleverd.
+* Een globale beschrijving van de [gegevensdeling](#gegevensdeling). Dit omvat bijvoorbeeld een beschrijving van het proces, de partijen, en de manier waarop wordt geleverd.
 * Een verwijzing naar een gebruikt [GLS standaardmodel](#gls-standaardmodel).
 * Een verwijzing naar een set van [GLS standaardafspraken](#gls-standaardafspraken).
 * Verwijzingen naar gerelateerde [document](#document)en, zoals bijlagen.
 
 ### Gegevensleversetspecificatie {#IntroGegevensleversetspecificatie}
 
-Binnen een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie) wordt minimaal één, maar mogelijk  meerdere [gegevensleverset](#gegevensleverset) gedefinieerd. Dat komt omdat uit de bron meerdere selecties te maken zijn, met meerdere filters, aggregatieniveaus en geleverde gegevenstypen. Zo kan men dagelijks een delta-levering aanleveren, en elke maand een totaallevering. Of men kan de leveringen per populatie splitsen, bijvoorbeeld per stad. Toch zijn ze allemaal varianten binnen dezelfde gegevensdeling.
+Binnen een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie) wordt minimaal één, maar mogelijk  meerdere [gegevensleverset](#gegevensleverset)(s) gedefinieerd. Dat komt omdat uit de bron meerdere selecties te maken zijn, met meerdere filters, aggregatieniveaus en geleverde [gegevenstype](#gegevenstype)n. Zo kan men dagelijks een delta-levering aanleveren, en elke maand een totaallevering. Of men kan de leveringen per populatie splitsen, bijvoorbeeld per stad. Toch zijn ze allemaal varianten binnen dezelfde gegevensdeling.
 
 Een gegevensleversetspecificatie omvat dus veel van dezelfde elementen als de gegevensleveringsspecificatie, maar toegespitst op datgene wat ook daadwerkelijk op enig moment als één geheel geleverd zal worden.
 
@@ -81,68 +78,74 @@ De gegevensleversetspecificatie omvat ongeacht de vorm van de vastlegging, daaro
 
 De gegevensleversetspecificatie kent ook een aantal onderdelen die alleen aanwezig zijn indien nodig:
 
-* De toegepaste [gegevensfilterregel](#gegevensfilterregel)s op de gegevenstypen in de gegevenslevering. Deze regels worden gebruikt om de selectiecriteria te beschrijven die gelden ten opzichte van de populatie van de gehele gegevenslevering.
-* De [classificatie](#classificatie)s van objectief vast te stellen eigenschappen van de gegevensleverset, bijvoorbeeld op het gebied van vertrouwelijkheid, geheimhouding, begrijpelijkheid, verantwoording et cetera. Deze worden aangeduid in vooraf afgesproken waarden en categorieën. Het gaat hier vooral om de afwijkingen ten opzichte van de gegevenslevering als geheel.
+* De toegepaste [gegevensfilterregel](#gegevensfilterregel)s op de [gegevenstype](#gegevenstype)n in de gegevenslevering. Deze regels worden gebruikt om de selectiecriteria te beschrijven die gelden ten opzichte van de populatie van de gehele [gegevensdeling](#gegevensdeling).
+* De [classificatie](#classificatie)s van objectief vast te stellen eigenschappen van de gegevensleverset, bijvoorbeeld op het gebied van vertrouwelijkheid, geheimhouding, begrijpelijkheid, verantwoording et cetera. Deze worden aangeduid in vooraf afgesproken waarden en categorieën. Het gaat hier vooral om de afwijkingen ten opzichte van de [gegevensdeling](#gegevensdeling) als geheel.
 * Een [gegevensleversetafspraak](#gegevensleversetafspraak) voor alle specifiek te regelen zaken rond de levering van de gegevensleverset. Het gaat hier o.a. om de omgang met tijdslijnen, bewaartermijnen en beveiligingsmaatregelen.
 
 ### Gegevensmiddelspecificaties {#IntroGegevensmiddelspecificatie}
 
-Elke gegevensmiddelspecificatie specificeert een ander gegevensmiddel, maar de inhoud is (qua betekenis) gelijk voor elk gegevensmiddel op dezelfde [gegevensleverset](#gegevensleverset). Een voorbeeld is een dagafschrift van de bank. Dit kan vaak in meerdere formaten (CSV, PDF of MT904-formaat) worden gedownload. Dit zijn verschillende gegevensmiddelen met elk een eigen formaat en kenmerken, die bij dezelfde gegevensleverset (bijvoorbeeld de boekingen van een partij op een bankrekening in een bepaalde periode) horen. De gegevens in de gegevensmiddelen blijven dezelfde betekenis behouden ongeacht welk gegevensmiddel wordt geselecteerd.
+Elke [gegevensmiddelspecificatie](#gegevensmiddelspecificatie) specificeert een ander [gegevensmiddel](#gegevensmiddel), maar de inhoud is (qua betekenis) gelijk voor elk [gegevensmiddel](#gegevensmiddel) op dezelfde [gegevensleverset](#gegevensleverset). Een voorbeeld is een dagafschrift van de bank. Dit kan vaak in meerdere formaten (CSV, PDF of MT904-formaat) worden gedownload. Dit zijn verschillende gegevensmiddelen met elk een eigen formaat en kenmerken, die bij dezelfde gegevensleverset (bijvoorbeeld de boekingen van een partij op een bankrekening in een bepaalde periode) horen. De gegevens in de gegevensmiddelen blijven dezelfde betekenis behouden ongeacht welk gegevensmiddel wordt geselecteerd.
 
-Zowel aan de verstrekkende als ontvangende kant zijn gegevensmiddelen nodig voor de permanente opslag van de gegevens, maar in de context van gegevensdeling beschrijven we in een gegevensmiddelspecificatie het gegevensmiddel wat gebruikt wordt voor het *transport* van gegevens tussen de verstrekkende en ontvangende [partij](#partij).
+Zowel bij de [verstrekker](#verstrekker) als [ontvanger](#ontvanger) zijn [gegevensmiddel](#gegevensmiddel)en nodig voor de permanente opslag van de gegevens, maar in de context van [gegevensdeling](#gegevensdeling) beschrijven we in een [gegevensmiddelspecificatie](#gegevensmiddelspecificatie) het [gegevensmiddel](#gegevensmiddel) wat gebruikt wordt voor het *transport* van gegevens tussen de [verstrekker](#verstrekker) en [ontvanger](#ontvanger).
 
-Een gegevensmiddelspecificatie omvat de volgende verplichte zaken:
+Een [gegevensmiddelspecificatie](#gegevensmiddelspecificatie) omvat de volgende zaken:
 
-* De unieke identificatie van de gegevensmiddelspecificatie door middel van een gegevensmiddelspecificatiecode.
-* Het type gegevensmiddel, bijvoorbeeld CSV-bestand, Excel, REST API, et cetera.
+* De unieke identificatie door middel van een gegevensmiddelspecificatiecode.
+* Het type [gegevensmiddel](#gegevensmiddel), bijvoorbeeld CSV-bestand, Excel, REST API, et cetera.
 * Een [technisch gegevensmodel](#technisch-gegevensmodel). Dit is binnen de MIM bekend als MIM niveau 4. Dit bestaat uit de [gegevensveld](#gegevensveld)en in het gegevensmiddel. De technische metadata in headers en footers is hier ook onderdeel van. Een gegevensveld wordt voorzien van een naam en een beschrijving.
-* De relatie tussen de [gegevenstype](#gegevenstype)n in het logisch model en de [gegevensveld](#gegevensveld)en in het technisch model. Elk gegevensveld hoort bij een gegevenstype.
+* De relatie tussen de [gegevenstype](#gegevenstype)n in het logisch model en de [gegevensveld](#gegevensveld)en in het technisch model. Elk [gegevensveld](#gegevensveld) hoort bij een [gegevenstype](#gegevenstype).
 * De [gegevensmiddelafspraken](#gegevensmiddelafspraak) over de karakteristieken van het gegevensmiddel:
-  * De initiatie van de gegevenslevering via dit specifieke gegevensmiddel;
-  * De actualiteit van de gegevens in het gegevensmiddel;
-  * De frequentie waarmee dit gegevensmiddel beschikbaar wordt gesteld;
+  * De initiatie van de [gegevensdeling](#gegevensdeling) via dit specifieke gegevensmiddel;
+  * De actualiteit van de gegevens in het [gegevensmiddel](#gegevensmiddel);
+  * De frequentie waarmee dit [gegevensmiddel](#gegevensmiddel) beschikbaar wordt gesteld;
   * De manier waarop een eventuele deltaverwerking wordt gekenmerkt en bestuurd;
-  * De opdeling van een gegevensmiddel in eventuele deelleveringen;
+  * De opdeling van een [gegevensmiddel](#gegevensmiddel) in eventuele deelleveringen;
   * De wijze van leveren;
-  * De transportkarakteristieken van het gegevensmiddel zoals protocollen, locaties, aanspreekmethoden, authenticatie en autorisatie, benodigde hardware, compressie, etc.
-  * De naamgeving van onderdelen van het gegevensmiddel (inclusief extensies);
+  * De transportkarakteristieken van het [gegevensmiddel](#gegevensmiddel) zoals protocollen, locaties, aanspreekmethoden, authenticatie en autorisatie, benodigde hardware, compressie, etc.
+  * De naamgeving van onderdelen van het [gegevensmiddel](#gegevensmiddel) (inclusief extensies);
   * De beschrijving van het specifieke medium, inclusief bestandsformaat, scheidingstekens en ontsnappingstekens, de karakterset, etc.;
-  * De samenstelling van het gegevensmiddel, zoals de manier waarop het gegevensmiddel in losse bestanden wordt opgedeeld bij gebruik van bestanden. Hier wordt ook de enveloppe van het gegevensmiddel beschreven, indien de bestanden worden gebundeld (denk bijv. aan een zipfile).
-  * Afspraken over de interpretatie van het gegevensmiddel. Denk daarbij aan de manier waarop datums, getallen, bedragen en andere zaken worden omgezet naar tekst bij gebruik van een CSV-formaat.
+  * De samenstelling van het [gegevensmiddel](#gegevensmiddel), zoals de manier waarop het [gegevensmiddel](#gegevensmiddel) in losse bestanden wordt opgedeeld bij gebruik van bestanden. Hier wordt ook de enveloppe van het [gegevensmiddel](#gegevensmiddel) beschreven, indien de bestanden worden gebundeld (denk bijv. aan een zipfile).
+  * Afspraken over de interpretatie van het [gegevensmiddel](#gegevensmiddel). Denk daarbij aan de manier waarop datums, getallen, bedragen en andere zaken worden omgezet naar tekst bij gebruik van een CSV-formaat.
 
-De gegevensmiddelspecificatie kent optioneel nog:
+De [gegevensmiddelspecificatie](#gegevensmiddelspecificatie) kent optioneel nog:
 
-* Een beschrijving van het gegevensmiddel.
+* Een beschrijving van het [gegevensmiddel](#gegevensmiddel).
 
 ### Gegevenstypes {#IntroGegevenstype}
 
-Een [gegevenstype](#gegevenstype) is een typering van een verzameling gegevens met gelijke eigenschappen (zoals bijvoorbeeld een straatnaam alle gegevens beschrijft met een bepaald formaat en regels voor de vulling). Het beschrijft en normeert een eigenschap van een categorie van objecten in de werkelijkheid, zodat deze kunnen worden vastgelegd in een administratie. Aan een gegevenstype kan dus een eenduidige definitie worden gekoppeld die aangeeft hoe het in de werkelijkheid zit, die kan verschillen van de fysieke implementatie.
+Een [gegevenstype](#gegevenstype) is een typering van een verzameling gegevens met gelijke eigenschappen (zoals bijvoorbeeld een straatnaam alle gegevens beschrijft met een bepaald formaat en regels voor de vulling). Het beschrijft en normeert een eigenschap van een categorie van objecten in de werkelijkheid, zodat deze kunnen worden vastgelegd in een administratie. Aan een [gegevenstype](#gegevenstype) kan dus een eenduidige definitie worden gekoppeld die aangeeft hoe het in de werkelijkheid zit, die kan verschillen van de fysieke implementatie.
 
-Een gegevenstype heeft verplicht:
+Een [gegevenstype](#gegevenstype) heeft verplicht:
 
-* Een unieke identificatie van het gegevenstype door middel van een code
+* Een unieke identificatie door middel van een code
 * Een beschrijvende naam
-* Een waardetype dat aangeeft welke waarden de eigenschap kan aannemen
+* Een beschrijving die een eventuele verbijzondering van de bijbehorende term in dit gegevenstype uitlegt
+* Een [waardetype gegevenstype](#waardetype-gegevenstype) dat aangeeft aan welke structuur de waarden die de eigenschap kan aannemen, moeten voldoen.
 
-Een gegevenstype kan ook een categorisch gegevenstype zijn. In dat geval heeft het gegevenstype ook nog verplicht:
+Een [gegevenstype](#gegevenstype) kan ook een [categorisch gegevenstype](#gegevenstype-categorisch) zijn. In dat geval heeft het gegevenstype ook nog verplicht:
 
-* Een waardebereik gegevenstype dat aangeeft welke waardes zijn toegestaan.
+* Een [waardebereik gegevenstype](#waardebereik-gegevenstype) dat aangeeft uit welke waardes een [categorisch gegevenstype](#gegevenstype-categorisch) bestaat.
 
-Verder is het mogelijk dat een gegevenstype de volgende eigenschappen heeft:
-
-* De [classificatie](#classificatie)s van objectief vast te stellen eigenschappen van het gegevenstype, bijvoorbeeld het soort persoonsgegevens wanneer het persoonsgegevens betreft. Deze worden aangeduid in vooraf afgesproken waarden en categorieën. Soms is bij een bepaalde classificatie een nadere aanduiding nodig, zoals bijvoorbeeld een [geregistreerd algoritme](#geregistreerd-algoritme) waar het [AKI-gegevens](#aki-gegevens-direct-of-regelgebaseerd) betreft, of bij bijzondere persoonsgegevens waar het de nadere aanduiding van de bijzondere persoonsgegevens betreft.
+Verder is het mogelijk dat een [gegevenstype](#gegevenstype) eigenschappen heeft die worden geduid met behulp van [classificatie](#classificatie)s.
 
 Gegevenstypen worden gebundeld in een [logisch gegevensmodel](#logisch-gegevensmodel).
 
 ### Gegevensvelden {#IntroGegevensveld}
 
-Een [gegevensveld](#gegevensveld) duidt een specifieke locatie aan binnen een gegevensmiddel waarin een bepaalde soort informatie of data-element wordt opgeslagen. Het vertegenwoordigt de kleinste eenheid van data die betekenisvol is binnen de context van het gegevensmiddel. Een gegevensveld is een bouwsteen van een technisch gegevensmodel.
+Een [gegevensveld](#gegevensveld) duidt een specifieke locatie aan binnen een [gegevensmiddel](#gegevensmiddel) waarin een bepaalde soort informatie of data-element wordt opgeslagen. Het vertegenwoordigt de kleinste eenheid van data die betekenisvol is binnen de context van het [gegevensmiddel](#gegevensmiddel).
 
 Een gegevensveld heeft altijd de volgende eigenschappen:
 
 * Een unieke identificatie middels een gegevensveld id.
 * Een naam
-* Een beschrijving, meestal inclusief het veldtype, de lengte en dergelijke.
-* Een [gegevenstypemapping](#gegevenstypemapping), die aangeeft met welk gegevenstype het gegevensveld overeenkomt.
+* Een [gegevenstypemapping](#gegevenstypemapping), die aangeeft met welk [gegevenstype](#gegevenstype) het gegevensveld overeenkomt.
 
 Gegevensvelden worden gebundeld in een [technisch gegevensmodel](#technisch-gegevensmodel).
+
+### Classificaties
+
+De [classificatie](#classificatie)s omvatten vooraf bepaalde [classificatiewaarden](#classificatiewaarde) in vooraf bepaalde categorieën van objectief vast te stellen eigenschappen van het [gegevenstype](#gegevenstype). Denk bijvoorbeeld aan een [persoonsgegevensclassificatie](#persoonsgegevensclassificatie) wanneer het [persoonsgegevens](#persoonsgegeven) betreft.
+
+Soms is bij een bepaalde classificatie een nadere aanduiding nodig, zoals bijvoorbeeld een [geregistreerd algoritme](#geregistreerd-algoritme) waar het [AKI-gegevens](#aki-gegevens-direct-of-regelgebaseerd) betreft, of een nadere duiding van [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven).
+
+Een classificatie wordt gekenmerkt door het classificatietype (zoals bijv. classificatie persoonsgegevens of classificatie AKI-gegevens) en de [classificatiesoort](#classificatiesoort).

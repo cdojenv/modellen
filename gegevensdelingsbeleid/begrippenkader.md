@@ -8,7 +8,7 @@
 
 Bron: Artikel 2 lid 7,  [[RichtlijnEU20191024]]
 
-Gerelateerd: [Document](#document), [Persoonsgegevens](#persoonsgegevens)
+Gerelateerd: [Persoonsgegevens](#persoonsgegevens), [Document](#document)
 
 ### BIV-classificatie
 
@@ -28,7 +28,7 @@ Toelichting: De niveaus van BBN worden aangeduid met een getal: BBN1, BBN2, BBN3
 
 Bron: Baseline Informatievoorziening Overheid v1.0.4zv [[BIO]]
 
-Gerelateerd: [Classificatie](#classificatie), [Partij](#partij), [Risicoclassificatie](#risicoclassificatie)
+Gerelateerd: [Classificatie](#classificatie), [Risicoclassificatie](#risicoclassificatie), [Partij](#partij)
 
 ### Begrippenkader
 
@@ -38,17 +38,25 @@ Gerelateerd: [Classificatie](#classificatie), [Partij](#partij), [Risicoclassifi
 
 Bron: Nederlandse standaard voor het beschrijven van begrippen [[NL-SBB]]
 
+### Bijzonder persoonsgegeven
+
+> Persoonsgegeven waaruit ras of etnische afkomst, politieke opvattingen, religieuze of levensbeschouwelijke overtuigingen, of het lidmaatschap van een vakbond blijken, en verwerking van genetische gegevens, biometrische gegevens met het oog op de unieke identificatie van een persoon, of gegevens over gezondheid, of gegevens met betrekking tot iemands seksueel gedrag of seksuele gerichtheid zijn verboden.
+
+Toelichting: Bijzondere persoonsgegevens zijn gegevens die zó privacygevoelig zijn dat het grote(re) impact op iemand kan hebben als deze gegevens worden verwerkt. Daarom krijgen bijzondere persoonsgegevens extra bescherming in de AVG. Voor het verwerken van bijzondere persoonsgegevens gelden strenge voorwaarden. Die komen erop neer dat het verboden is om bijzondere persoonsgegevens te verwerken, tenzij er een wettelijke uitzondering is.
+
+Bron: artikel 9,  [[AVG]]
+
 ### Crisissituatie
 
 > Een situatie waarin een individu, groep, organisatie of samenleving wordt geconfronteerd met een plotselinge en significante bedreiging of verstoring die de normale operatie, veiligheid, waarden of doelstellingen in gevaar brengt, en waarin snelle en effectieve besluitvorming en actie vereist zijn om de situatie te stabiliseren of te beheersen.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 ### Datamaskering
 
 > Het proces waarbij gevoelige gegevens zodanig worden gewijzigd zodat ze geen of weinig waarde hebben voor ongeauthoriseerde gebruikers terwijl ze wel bruikbaar blijven voor systemen en/of geautoriseerde gebruikers.
 
-Bron: JAGA Implementatiehandreiking Gegevensdeling 1B-3 v0.98 [[ImplementatiehandreikingGegevensdeling]]
+Bron: JAGA Implementatiehandreiking Gegevensdeling v1.0 [[ImplementatiehandreikingGegevensdeling]]
 
 ### Doel
 
@@ -56,7 +64,7 @@ Alternatieve aanduiding: *Verwerkingsdoel*
 
 > Een beschrijving van datgene dat [verstrekker](#verstrekker) c.q. [ontvanger](#ontvanger) met de gegevens uit de [gegevensdeling](#gegevensdeling) probeert te realiseren.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Verstrekker](#verstrekker), [Ontvanger](#ontvanger), [Gegevensdeling](#gegevensdeling)
 
@@ -64,15 +72,15 @@ Gerelateerd: [Verstrekker](#verstrekker), [Ontvanger](#ontvanger), [Gegevensdeli
 
 > Een doelbinding in de context van het [gegevensdelingsbeleid](#gegevensdelingsbeleid) geeft aan met welk [doel](#doel) gegevens worden gedeeld. Dit [doel](#doel) is vooraf bepaald, uitdrukkelijk en welomschreven.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
-Gerelateerd: [Doel](#doel), [Gegevensdelingsbeleid](#gegevensdelingsbeleid)
+Gerelateerd: [Gegevensdelingsbeleid](#gegevensdelingsbeleid), [Doel](#doel)
 
 ### GLP geldigheidsduur
 
 > De tijdsperiode waarbinnen een [GLP](#gegevensleveringsprotocol) van toepassing is, uitgedrukt in een begindatum en een einddatum.
 
-Bron: Model GLP 5B-1 v0.98 [[ModelGLP]], JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: Model GLP v1.0 [[ModelGLP]], JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
@@ -82,7 +90,7 @@ Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
 Toelichting: Een code is uniek binnen een bepaalde organisatorische context, bijvoorbeeld een JenV-onderdeel of een keten. Bij het bepalen van de code wordt verondersteld dat deze context bekend is. Om te voorkomen dat verstrekker en ontvanger andere codes hanteren voor dezelfde GLP, is verstrekker hierbij in de lead.
 
-Bron: Model GLP 5B-1 v0.98 [[ModelGLP]]
+Bron: Model GLP v1.0 [[ModelGLP]]
 
 Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
@@ -92,7 +100,7 @@ Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
 Toelichting: Een code is uniek binnen een bepaalde organisatorische context, bijvoorbeeld een JenV-onderdeel of een keten. Bij het bepalen van de code wordt verondersteld dat deze context bekend is. Om te voorkomen dat verstrekker en ontvanger andere codes hanteren voor dezelfde GLP, is verstrekker hierbij in de lead.
 
-Bron: Model GLS 5B-2 v0.98 [[ModelGLS]]
+Bron: Model GLS v1.0 [[ModelGLS]]
 
 Gerelateerd: [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie)
 
@@ -128,7 +136,7 @@ Alternatieve aanduiding: *GLP*
 
 Toelichting: Voor een gegevensdeling moet een Gegevensleveringsprotocol (GLP) worden opgesteld en afgesproken. Het opstellen van een GLP zorgt voor een waarborg dat er duidelijke en vastgelegde overeenstemming is tussen twee partijen (en er basis afspraken liggen) over de wijze van samenwerking en manier van gegevensdeling.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Afspraak](#afspraak), [Gegevensdeling](#gegevensdeling)
 
@@ -144,7 +152,7 @@ Een GLS mag in iedere willekeurige vorm worden vastgelegd mits de inhoudelijke v
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Omvat: [Gegevensmiddelspecificatie](#gegevensmiddelspecificatie), [Logisch gegevensmodel](#logisch-gegevensmodel), [Technisch gegevensmodel](#technisch-gegevensmodel), [Gegevensleversetspecificatie](#gegevensleversetspecificatie)
+Omvat: [Gegevensleversetspecificatie](#gegevensleversetspecificatie), [Logisch gegevensmodel](#logisch-gegevensmodel), [Technisch gegevensmodel](#technisch-gegevensmodel), [Gegevensmiddelspecificatie](#gegevensmiddelspecificatie)
 
 Gerelateerd: [Gegevensdeling](#gegevensdeling)
 
@@ -154,7 +162,7 @@ Gerelateerd: [Gegevensdeling](#gegevensdeling)
 
 Toelichting: De gegevensleverset wordt gedistribueerd en komt in een gegevensmiddel terecht. De gegevensleverset wordt in de gegevensleversetspecificatie beschreven.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Gegevensdeling](#gegevensdeling)
 
@@ -164,7 +172,7 @@ Gerelateerd: [Gegevensdeling](#gegevensdeling)
 
 Toelichting: Een heraanlevering vindt doorgaans plaats wanneer de voorgaande c.q. originele aanlevering onvolkomendheden bevat. De aard hiervan kan in de praktijk verschillend zijn. Zo kan bijvoorbeeld blijken dat een aanlevering onvolledig was, of de Verstrekker heeft bijvoorbeeld na initiele levering vastgesteld dat de verstrekte gegevens fouten bevatten.
 
-Bron: Model GLS 5B-2 v0.98 [[ModelGLS]], JAGA Implementatiehandreiking Gegevensdeling 1B-3 v0.98 [[ImplementatiehandreikingGegevensdeling]]
+Bron: Model GLS v1.0 [[ModelGLS]], JAGA Implementatiehandreiking Gegevensdeling v1.0 [[ImplementatiehandreikingGegevensdeling]]
 
 Gerelateerd: [Verstrekker](#verstrekker)
 
@@ -174,7 +182,7 @@ Gerelateerd: [Verstrekker](#verstrekker)
 
 Toelichting: Op basis van de leveringskarakteristieken kan de uitvoering van de gegevensdeling concreet worden gerealiseerd. De primaire focus ligt hierbij op de gegevenslogistiek.
 
-Bron: Model GLS 5B-2 v0.98 [[ModelGLS]]
+Bron: Model GLS v1.0 [[ModelGLS]]
 
 Gerelateerd: [Gegevensleverset](#gegevensleverset)
 
@@ -216,7 +224,7 @@ Bron: Artikel 1o,  [[WSJG2024]]
 
 > Een verzameling gevallen waarover een [gegevensleverset](#gegevensleverset) gaat.
 
-Bron: JAGA Implementatiehandreiking Gegevensdeling 1B-3 v0.98 [[ImplementatiehandreikingGegevensdeling]]
+Bron: JAGA Implementatiehandreiking Gegevensdeling v1.0 [[ImplementatiehandreikingGegevensdeling]]
 
 Gerelateerd: [Gegevensleverset](#gegevensleverset)
 
@@ -228,7 +236,7 @@ Bron: artikel 4 lid 5,  [[AVG]]
 
 Gerelateerd: [Persoonsgegevens](#persoonsgegevens)
 
-### Rubriceringniveau
+### Rubriceringsniveau
 
 > Aanduiding van de verwachte nadelige gevolgen aan de belangen van de Staat, van zijn bondgenoten of van één of meer ministeries als (een deel van) de informatie bekend wordt bij niet geautoriseerden.
 
@@ -302,7 +310,7 @@ Bron: overweging 46, preambule,  [[AVG]]
 
 > Een [grondslag](#grondslag) die gebaseerd is op een specifieke wet- of regelgeving.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Specialisatie van: [Grondslag](#grondslag)
 
@@ -316,7 +324,7 @@ Gerelateerd: [Grondslag](#grondslag)
 
 Toelichting: Een afspraak is een overeenkomst tussen twee partijen. De beschrijving van de afspraak omvat de details en voorwaarden die beide partijen verplicht zijn na te komen als onderdeel van hun overeenkomst. Een afspraak kan over een specifiek onderwerp gaan, waar meerdere afspraken over worden gemaakt.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Partij](#partij)
 
@@ -324,7 +332,7 @@ Gerelateerd: [Partij](#partij)
 
 > Afspraak omtrent documentdoelstelling is een [afspraak](#afspraak) die beschrijft waarop de [GLP](#gegevensleveringsprotocol) gericht is.
 
-Bron: Kerndepartement J&V [[KDJV]], Model GLP 5B-1 v0.98 [[ModelGLP]]
+Bron: Model GLP v1.0 [[ModelGLP]], Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak](#afspraak)
 
@@ -332,31 +340,31 @@ Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak]
 
 > Afspraak omtrent geschillen is een [afspraak](#afspraak) omtrent eventuele geschillen met betrekking tot een [GLP](#gegevensleveringsprotocol).
 
-Bron: Kerndepartement J&V [[KDJV]], Model GLP 5B-1 v0.98 [[ModelGLP]]
+Bron: Kerndepartement J&V [[KDJV]], Model GLP v1.0 [[ModelGLP]]
 
-Gerelateerd: [Afspraak](#afspraak), [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
+Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak](#afspraak)
 
 ### Afspraak omtrent opschorten of opzeggen
 
 > Afspraak omtrent opschorten of opzeggen is een [afspraak](#afspraak) betreffende dat een [GLP](#gegevensleveringsprotocol) kan worden [opgeschort](#opgeschort) of [opgezegd](#opgezegd).
 
-Bron: Model GLP 5B-1 v0.98 [[ModelGLP]], Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Model GLP v1.0 [[ModelGLP]]
 
-Gerelateerd: [Opgeschort](#opgeschort), [Afspraak](#afspraak), [Opgezegd](#opgezegd), [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
+Gerelateerd: [Opgeschort](#opgeschort), [Afspraak](#afspraak), [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Opgezegd](#opgezegd)
 
 ### Afspraak omtrent tussentijdse evaluatie
 
 > Afspraak omtrent tussentijdse evaluatie is een [afspraak](#afspraak) over controle op de afspraken in een [GLP](#gegevensleveringsprotocol), gedurende de [GLP geldigheidsduur](#glp-geldigheidsduur) van het [GLP](#gegevensleveringsprotocol).
 
-Bron: Kerndepartement J&V [[KDJV]], Model GLP 5B-1 v0.98 [[ModelGLP]]
+Bron: Model GLP v1.0 [[ModelGLP]], Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak](#afspraak), [GLP geldigheidsduur](#glp-geldigheidsduur)
+Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [GLP geldigheidsduur](#glp-geldigheidsduur), [Afspraak](#afspraak)
 
 ### Afspraak omtrent verantwoordelijkheden en verplichtingen ontvanger
 
 > Afspraak omtrent verantwoordelijkheden en verplichtingen ontvanger is een [afspraak](#afspraak) over de verantwoordelijkheden en verplichtingen waar [ontvanger](#ontvanger) zich aan bindt bij een [GLP](#gegevensleveringsprotocol).
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak](#afspraak), [Ontvanger](#ontvanger)
 
@@ -364,15 +372,15 @@ Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak]
 
 > Afspraak omtrent verantwoordelijkheden en verplichtingen verstrekker is een [afspraak](#afspraak) over de verantwoordelijkheden en verplichtingen waar [verstrekker](#verstrekker) zich aan bindt bij een [GLP](#gegevensleveringsprotocol).
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
-Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak](#afspraak), [Verstrekker](#verstrekker)
+Gerelateerd: [Verstrekker](#verstrekker), [Afspraak](#afspraak), [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
 ### Afspraak omtrent wijzigingsprocedure
 
 > Afspraak omtrent wijzigingsprocedure is een [afspraak](#afspraak) over de afgesproken werkwijze in geval van wijzigingen met betrekking tot een [GLP](#gegevensleveringsprotocol).
 
-Bron: Model GLP 5B-1 v0.98 [[ModelGLP]], Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Model GLP v1.0 [[ModelGLP]]
 
 Gerelateerd: [Afspraak](#afspraak), [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
@@ -380,9 +388,9 @@ Gerelateerd: [Afspraak](#afspraak), [Gegevensleveringsprotocol](#gegevensleverin
 
 > Akkoord is een [GLP status](#glp-status) die aangeeft dat een [akkoordverklaring](#akkoordverklaring) is afgelegd voor een [GLP](#gegevensleveringsprotocol), namens [verstrekker](#verstrekker) en [ontvanger](#ontvanger).
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
-Gerelateerd: [Akkoordverklaring](#akkoordverklaring), [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Verstrekker](#verstrekker), [Ontvanger](#ontvanger), [GLP status](#glp-status)
+Gerelateerd: [Ontvanger](#ontvanger), [Verstrekker](#verstrekker), [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Akkoordverklaring](#akkoordverklaring), [GLP status](#glp-status)
 
 ### Akkoordverklaring
 
@@ -390,15 +398,15 @@ Gerelateerd: [Akkoordverklaring](#akkoordverklaring), [Gegevensleveringsprotocol
 
 Toelichting: Goedkeuring kan middels ondertekening, of in overleg op andere wijze. Goedkeuring gebeurt door de eindverantwoordelijke functionaris van een partij.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
-Gerelateerd: [Verstrekker](#verstrekker), [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Ontvanger](#ontvanger), [Eindverantwoordelijke functionaris](#eindverantwoordelijke-functionaris)
+Gerelateerd: [Ontvanger](#ontvanger), [Eindverantwoordelijke functionaris](#eindverantwoordelijke-functionaris), [Verstrekker](#verstrekker), [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
 ### Auteur
 
 > Een auteur is een natuurlijk persoon die een [document](#document) opstelt.
 
-Bron: Model GLP 5B-1 v0.98 [[ModelGLP]], Model GLS 5B-2 v0.98 [[ModelGLS]]
+Bron: Model GLP v1.0 [[ModelGLP]], Model GLS v1.0 [[ModelGLS]]
 
 Gerelateerd: [Document](#document)
 
@@ -406,7 +414,7 @@ Gerelateerd: [Document](#document)
 
 > Concept is een [GLP status](#glp-status) die aangeeft dat [partijen](#partij) bezig zijn met het opstellen van een [GLP](#gegevensleveringsprotocol).
 
-Bron: Model GLS 5B-2 v0.98 [[ModelGLS]], Model GLP 5B-1 v0.98 [[ModelGLP]]
+Bron: Model GLS v1.0 [[ModelGLS]], Model GLP v1.0 [[ModelGLP]]
 
 Gerelateerd: [GLP status](#glp-status), [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Partij](#partij)
 
@@ -420,7 +428,7 @@ Bron: Artikel 4 lid 12,  [[AVG]]
 
 > Het verwerken van uitsluitend wijzigingen op een [gegevensleverset](#gegevensleverset) die door de [verstrekker](#verstrekker) al een keer is geleverd.
 
-Bron: Model GLP 5B-1 v0.98 [[ModelGLP]], Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Model GLP v1.0 [[ModelGLP]]
 
 Gerelateerd: [Verstrekker](#verstrekker), [Gegevensleverset](#gegevensleverset)
 
@@ -440,11 +448,11 @@ Alternatieve aanduiding: *Verwerkingsdoel ontvanger*
 
 > Een beschrijving van datgene dat [ontvanger](#ontvanger) met de gegevens uit de [gegevensdeling](#gegevensdeling) probeert te realiseren.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Specialisatie van: [Doel](#doel)
 
-Gerelateerd: [Ontvanger](#ontvanger), [Gegevensdeling](#gegevensdeling)
+Gerelateerd: [Gegevensdeling](#gegevensdeling), [Ontvanger](#ontvanger)
 
 ### Doel verstrekker
 
@@ -452,7 +460,7 @@ Alternatieve aanduiding: *Verwerkingsdoel verstrekker*
 
 > Een beschrijving van datgene dat [verstrekker](#verstrekker) met de gegevens uit de [gegevensdeling](#gegevensdeling) probeert te realiseren.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Specialisatie van: [Doel](#doel)
 
@@ -462,7 +470,7 @@ Gerelateerd: [Verstrekker](#verstrekker), [Gegevensdeling](#gegevensdeling)
 
 > Een doorlevering ontstaat wanneer gegevens die zijn gedeeld door [verstrekker](#verstrekker) met [ontvanger](#ontvanger), door de [ontvanger](#ontvanger) worden gedeeld met een derde.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Verstrekker](#verstrekker), [Ontvanger](#ontvanger)
 
@@ -470,11 +478,11 @@ Gerelateerd: [Verstrekker](#verstrekker), [Ontvanger](#ontvanger)
 
 > De [functie](#functie) die namens een partij eindverantwoordelijkheid heeft voor een [gegevensdeling](#gegevensdeling).
 
-Bron: Model GLP 5B-1 v0.98 [[ModelGLP]], Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Model GLP v1.0 [[ModelGLP]]
 
 Specialisatie van: [Functie](#functie)
 
-Gerelateerd: [Functie](#functie), [Gegevensdeling](#gegevensdeling)
+Gerelateerd: [Gegevensdeling](#gegevensdeling), [Functie](#functie)
 
 ### Eindverantwoordelijke functionaris
 
@@ -482,7 +490,7 @@ Alternatieve aanduiding: *Verantwoordelijke functionaris, eindverantwoordelijke*
 
 > De [functionaris](#functionaris) die namens een partij eindverantwoordelijkheid heeft voor een [gegevensdeling](#gegevensdeling).
 
-Bron: Kerndepartement J&V [[KDJV]], JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: Kerndepartement J&V [[KDJV]], JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Specialisatie van: [Functionaris](#functionaris)
 
@@ -492,7 +500,7 @@ Gerelateerd: [Gegevensdeling](#gegevensdeling), [Functionaris](#functionaris)
 
 > Financiële afspraak is een [afspraak](#afspraak) over een eventuele financiële vergoeding met betrekking tot een [GLP](#gegevensleveringsprotocol).
 
-Bron: Kerndepartement J&V [[KDJV]], Model GLP 5B-1 v0.98 [[ModelGLP]]
+Bron: Model GLP v1.0 [[ModelGLP]], Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak](#afspraak)
 
@@ -500,7 +508,7 @@ Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak]
 
 > Een functie is een specifieke rol of positie die een medewerker van een [partij](#partij) inneemt binnen die partij, inclusief bijbehorende taken, verantwoordelijkheden, bevoegdheden en verwachtingen.
 
-Bron: Model GLP 5B-1 v0.98 [[ModelGLP]], Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Model GLP v1.0 [[ModelGLP]]
 
 Gerelateerd: [Partij](#partij)
 
@@ -508,25 +516,27 @@ Gerelateerd: [Partij](#partij)
 
 > Een functionaris is een natuurlijk persoon die een specifieke [functie](#functie) bekleedt binnen een [partij](#partij).
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]], Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Functie](#functie), [Partij](#partij)
 
 ### GLP Standaardafspraken
 
-> Een verzameling GLP Standaardafspraken is een benoemde verzameling [afspraken](#afspraak) die kan worden gebruikt bij het opstellen van een [gegevensleveringsprotocol](#gegevensleveringsprotocol).
+> Een verzameling GLP Standaardafspraken is een voorgedefinieerde verzameling [afspraken](#afspraak) die kan worden gebruikt bij het opstellen van een [gegevensleveringsprotocol](#gegevensleveringsprotocol).
 
 Toelichting: GLP Standaardafspraken kunnen volgen uit bijvoorbeeld het Gegevensdelingsbeleid of een Model GLP.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
-Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [Afspraak](#afspraak)
+Gerelateerd: [Afspraak](#afspraak), [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
 ### GLP status
 
-> De status van een [GLP](#gegevensleveringsprotocol).
+> GLP status is een aanduiding van de huidige toestand waarin een [GLP](#gegevensleveringsprotocol) zich bevindt.
 
-Bron: Model GLP 5B-1 v0.98 [[ModelGLP]], Kerndepartement J&V [[KDJV]], JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Toelichting: Mogelijke GLP statussen zijn 'akkoord', 'concept', 'opgeschort', 'opgezegd', 'verlopen'.
+
+Bron: Model GLP v1.0 [[ModelGLP]], JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]], Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
@@ -542,7 +552,7 @@ Bron: Techopedia [[Techopedia]]
 
 > Richtinggevende aanwijzingen voor de integrale beheersing van [gegevensdeling](#gegevensdeling), zowel qua inrichting als qua uitvoering.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Gegevensdeling](#gegevensdeling)
 
@@ -562,7 +572,7 @@ Alternatieve aanduiding: *Basis*
 
 Toelichting: Een grondslag is of een wettelijke grondslag, of een grondslag op basis van vrijwilligheid.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Gegevensdeling](#gegevensdeling)
 
@@ -570,11 +580,11 @@ Gerelateerd: [Gegevensdeling](#gegevensdeling)
 
 > De [grondslag](#grondslag) op basis waarvan de [ontvanger](#ontvanger) de ontvangst van de gegevens in de [gegevensdeling](#gegevensdeling) rechtvaardigt.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Specialisatie van: [Grondslag](#grondslag)
 
-Gerelateerd: [Gegevensdeling](#gegevensdeling), [Grondslag](#grondslag), [Ontvanger](#ontvanger)
+Gerelateerd: [Ontvanger](#ontvanger), [Grondslag](#grondslag), [Gegevensdeling](#gegevensdeling)
 
 ### Grondslag op basis van vrijwilligheid
 
@@ -582,7 +592,7 @@ Gerelateerd: [Gegevensdeling](#gegevensdeling), [Grondslag](#grondslag), [Ontvan
 
 Toelichting: Indien de deling en het gebruik van de beoogde gegevens niet worden beperkt door specifieke wet- en/of regelgeving kunnen de gegevens worden gedeeld op basis van vrijwilligheid.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Grondslag](#grondslag)
 
@@ -592,17 +602,17 @@ Gerelateerd: [Grondslag](#grondslag)
 
 *Afgeleid uit de definitie van 'Grondslag'.*
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Specialisatie van: [Grondslag](#grondslag)
 
-Gerelateerd: [Verstrekker](#verstrekker), [Gegevensdeling](#gegevensdeling), [Grondslag](#grondslag)
+Gerelateerd: [Grondslag](#grondslag), [Verstrekker](#verstrekker), [Gegevensdeling](#gegevensdeling)
 
 ### Grondslag vrijwilligheid verantwoording
 
 > Verantwoording dat bij een [grondslag op basis van vrijwilligheid](#grondslag-op-basis-van-vrijwilligheid) geen beperkingen zijn op basis van wet- en regelgeving.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Grondslag op basis van vrijwilligheid](#grondslag-op-basis-van-vrijwilligheid)
 
@@ -620,25 +630,25 @@ Bron: Wikipedia [[Wikipedia]]
 
 Toelichting: GLP's opgesteld conform dit model voldoen aan het gegevensdelingsbeleid. De specificaties in de model GLP zijn gericht op datgene wat minimaal moet worden afgesproken rondom een gegevensdeling.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Gerelateerd: [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
 ### Noodzaak
 
-> Een beoordeling waarom de gegevens in de [gegevensdeling](#gegevensdeling) voor het bepaalde [doel](#doel) nodig zijn en of daadwerkelijk de volledige gegevens in de [gegevensdeling](#gegevensdeling) nodig zijn.
+> Een beoordeling waarom de gegevens in de [gegevensdeling](#gegevensdeling) voor het bepaalde [doel](#doel) nodig zijn en of daadwerkelijk alle gegevens in de [gegevensdeling](#gegevensdeling) nodig zijn.
 
-Toelichting: De noodzaak zal vaak verwijzen naar grondslag en doelbinding om aan te geven waarom een bepaalde gegevensdeling noodzakelijk is.
+Toelichting: Als hetzelfde doel kan worden bereikt door minder gegevens te delen, dan moet dat worden overwogen. De noodzaak zal vaak verwijzen naar grondslag en doelbinding om aan te geven waarom een bepaalde gegevensdeling noodzakelijk is.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
-Gerelateerd: [Doel](#doel), [Gegevensdeling](#gegevensdeling)
+Gerelateerd: [Gegevensdeling](#gegevensdeling), [Doel](#doel)
 
 ### Opgeschort
 
 > Opgeschort is een [GLP status](#glp-status) die aangeeft dat is besloten de afspraken in een [GLP](#gegevensleveringsprotocol) tijdelijk stop te zetten.
 
-Bron: Kerndepartement J&V [[KDJV]], Model GLP 5B-1 v0.98 [[ModelGLP]]
+Bron: Kerndepartement J&V [[KDJV]], Model GLP v1.0 [[ModelGLP]]
 
 Gerelateerd: [GLP status](#glp-status), [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
@@ -646,7 +656,7 @@ Gerelateerd: [GLP status](#glp-status), [Gegevensleveringsprotocol](#gegevenslev
 
 > Opgezegd is een [GLP status](#glp-status) die aangeeft dat is besloten de afspraken in een [GLP](#gegevensleveringsprotocol) definitief stop te zetten.
 
-Bron: Kerndepartement J&V [[KDJV]], Model GLP 5B-1 v0.98 [[ModelGLP]]
+Bron: Kerndepartement J&V [[KDJV]], Model GLP v1.0 [[ModelGLP]]
 
 Gerelateerd: [GLP status](#glp-status), [Gegevensleveringsprotocol](#gegevensleveringsprotocol)
 
@@ -668,13 +678,13 @@ Gerelateerd: [Partij](#partij)
 
 > Een natuurlijk persoon of rechtspersoon, een overheidsinstantie, een dienst of een ander orgaan, al dan niet een derde, die zichzelf rechtsgeldig kan vertegenwoordigen.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 ### Selectiecriteria
 
 > De filters die worden gebruikt om een specifieke deelverzameling van gegevens te selecteren uit de verzameling van alle bij de [verstrekker](#verstrekker) beschikbare gegevens.
 
-Bron: Kerndepartement J&V [[KDJV]], Model GLP 5B-1 v0.98 [[ModelGLP]]
+Bron: Kerndepartement J&V [[KDJV]], Model GLP v1.0 [[ModelGLP]]
 
 Gerelateerd: [Verstrekker](#verstrekker)
 
@@ -684,7 +694,7 @@ Gerelateerd: [Verstrekker](#verstrekker)
 
 Toelichting: De verzameling wordt gedefinieerd door de kenmerken te specificeren waaraan de gevallen binnen de verzameling moeten voldoen. Dit kan bijvoorbeeld in de vorm: "alle nieuw aangemelde strafzaken van de maand juli 2023." Op voorhand is in beginsel niet bekend hoeveel gevallen de verzameling zal bevatten.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Specialisatie van: [Gegevensdeling](#gegevensdeling)
 
@@ -696,7 +706,7 @@ Gerelateerd: [Gegevensdeling](#gegevensdeling)
 
 Toelichting: Bijvoorbeeld een zaak of een verdachte. Op basis van de identificerende kenmerken van de enkele zaak of verdachte worden relevante gegevens (opgevraagd en) gedeeld.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
 Specialisatie van: [Gegevensdeling](#gegevensdeling)
 
@@ -706,17 +716,17 @@ Gerelateerd: [Gegevensdeling](#gegevensdeling)
 
 > Het informeren van [verstrekker](#verstrekker) door [ontvanger](#ontvanger) indien naar het oordeel van de [ontvanger](#ontvanger) kwaliteitsproblemen in een verstrekte [gegevensleverset](#gegevensleverset) worden gesignaleerd.
 
-Bron: JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
-Gerelateerd: [Verstrekker](#verstrekker), [Ontvanger](#ontvanger), [Gegevensleverset](#gegevensleverset)
+Gerelateerd: [Verstrekker](#verstrekker), [Gegevensleverset](#gegevensleverset), [Ontvanger](#ontvanger)
 
 ### Verlopen
 
 > Verlopen is een [GLP status](#glp-status) die aangeeft dat de [GLP geldigheidsduur](#glp-geldigheidsduur) van een [GLP](#gegevensleveringsprotocol) is verstreken.
 
-Bron: Kerndepartement J&V [[KDJV]], JAGA Gegevensdelingsbeleid 1B-1 v0.98 [[Gegevensdelingsbeleid]]
+Bron: Kerndepartement J&V [[KDJV]], JAGA Gegevensdelingsbeleid v1.0 [[Gegevensdelingsbeleid]]
 
-Gerelateerd: [GLP geldigheidsduur](#glp-geldigheidsduur), [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [GLP status](#glp-status)
+Gerelateerd: [GLP status](#glp-status), [Gegevensleveringsprotocol](#gegevensleveringsprotocol), [GLP geldigheidsduur](#glp-geldigheidsduur)
 
 ### Versie
 
@@ -754,29 +764,13 @@ Gerelateerd: [Informatieobject](#informatieobject)
 
 ## Gegevensleveringsspecificatie
 
-### AKI-gegevens: bevat geen gegevens die uit algoritmen afkomstig zijn
+### AKI-gegevens: bevat geen AKI-gegevens
 
 > De informatie bevat geen gegevens die uit algoritmen afkomstig zijn.
 
-Toelichting: Het gaat om directe invoer van gegevens die niet afkomstig zijn uit AI- of regelgebaseerde systemen.
+Toelichting: Het gaat om directe invoer van gegevens die niet afkomstig zijn uit AI- of regelgebaseerde systemen, of om gegevens die zijn afgeleid met behulp van expliciete regels.
 
 Bron: Verordening (EU) 2024/1689 Geharmoniseerde regels betreffende artificiële intelligentie (de "AI Act") [[VerordeningEU20241689]], AI Act - Shaping Europe’s digital future [[AIAct-ShapingEuropesdigitalfuture]]
-
-### AKI-gegevens: bevat gegevens die op basis van regels zijn afgeleid
-
-> De informatie bevat gegevens die op basis van regels zijn afgeleid.
-
-Toelichting: Het gaat om het afleiden van gegevens met behulp van expliciete regels, dus niet door (of op basis van) AI gegegenereerde gegevens.
-
-Bron: AI Act - Shaping Europe’s digital future [[AIAct-ShapingEuropesdigitalfuture]], Verordening (EU) 2024/1689 Geharmoniseerde regels betreffende artificiële intelligentie (de "AI Act") [[VerordeningEU20241689]]
-
-### AKI-gegevens: ja, beperkt risico
-
-> De informatie bevat gegevens die afkomstig zijn uit systemen die i) interageren met mensen, ii) worden gebruikt om emoties te detecteren of mensen in te delen in (sociale) categorieën op basis van biometrische gegevens, of iii) inhoud genereren of manipuleren (“deep fakes”).
-
-Toelichting: Het gaat hier bijvoorbeeld om gegevens gegenereerd door chatbots en systemen die niet-schadelijke deepfakes genereren.
-
-Bron: AI Act - Shaping Europe’s digital future [[AIAct-ShapingEuropesdigitalfuture]], Verordening (EU) 2024/1689 Geharmoniseerde regels betreffende artificiële intelligentie (de "AI Act") [[VerordeningEU20241689]]
 
 ### AKI-gegevens: ja, hoog risico
 
@@ -784,9 +778,9 @@ Bron: AI Act - Shaping Europe’s digital future [[AIAct-ShapingEuropesdigitalfu
 
 Toelichting: Het gaat hier bijvoorbeeld om gegevens afkomstig uit AI-systemen die gebruikt worden voor de beoordeling van een examen of screening van sollicitanten. Deze systemen mogen alleen gebruikt worden onder strikte voorwaarden en moeten aan strenge eisen voldoen.
 
-Bron: Verordening (EU) 2024/1689 Geharmoniseerde regels betreffende artificiële intelligentie (de "AI Act") [[VerordeningEU20241689]], AI Act - Shaping Europe’s digital future [[AIAct-ShapingEuropesdigitalfuture]]
+Bron: AI Act - Shaping Europe’s digital future [[AIAct-ShapingEuropesdigitalfuture]], Verordening (EU) 2024/1689 Geharmoniseerde regels betreffende artificiële intelligentie (de "AI Act") [[VerordeningEU20241689]]
 
-### AKI-gegevens: ja, minimaal risico
+### AKI-gegevens: ja, minimaal of geen risico
 
 > De informatie bevat gegevens die uit AI algoritmen afkomstig zij, die weinig tot geen risico's met zich meebrengen voor de veiligheid of rechten van mensen.
 
@@ -802,6 +796,14 @@ Toelichting: Het gaat hier bijvoorbeeld om systemen voor het opstellen van een "
 
 Bron: AI Act - Shaping Europe’s digital future [[AIAct-ShapingEuropesdigitalfuture]], Verordening (EU) 2024/1689 Geharmoniseerde regels betreffende artificiële intelligentie (de "AI Act") [[VerordeningEU20241689]]
 
+### AKI-gegevens: ja, specifiek risico
+
+> De informatie bevat gegevens die afkomstig zijn uit systemen die i) interageren met mensen, ii) worden gebruikt om emoties te detecteren of mensen in te delen in (sociale) categorieën op basis van biometrische gegevens, of iii) inhoud genereren of manipuleren (“deep fakes”).
+
+Toelichting: Het gaat hier bijvoorbeeld om gegevens gegenereerd door chatbots en systemen die niet-schadelijke deepfakes genereren. Deze systemen kennen specifieke risico's waartegen mitigerende maatregelen moeten worden genomen.
+
+Bron: Verordening (EU) 2024/1689 Geharmoniseerde regels betreffende artificiële intelligentie (de "AI Act") [[VerordeningEU20241689]], AI Act - Shaping Europe’s digital future [[AIAct-ShapingEuropesdigitalfuture]]
+
 ### Administratieve kwaliteitseis
 
 > Een administratieve kwaliteitseis is een [kwaliteitseis](#kwaliteitseis) aan een administratief aspect van de [gegevensdeling](#gegevensdeling).
@@ -810,7 +812,235 @@ Toelichting: Deze eisen hebben betrekking op het leveringsproces en de bijbehore
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevensdeling](#gegevensdeling), [Kwaliteitseis](#kwaliteitseis)
+Gerelateerd: [Kwaliteitseis](#kwaliteitseis), [Gegevensdeling](#gegevensdeling)
+
+### Afspraak over administratieve kwaliteit
+
+> Een [afspraak](#afspraak) over administratieve kwaliteit beschrijft op welke manier men de kwaliteit van de procesgang en de administratie daarvan gaat borgen en bewaken.
+
+Toelichting: Het gaat hier bijvoorbeeld om afspraken over leverbetrouwbaarheid en levertijdigheid.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Afspraak](#afspraak)
+
+### Afspraak over bewaartermijnen
+
+> Een [afspraak](#afspraak) over de bewaartermijnen geeft de condities aan waaronder deze start of eindigt, van de gegevens in de [gegevensleverset](#gegevensleverset) en bijbehorend [gegevensmiddel](#gegevensmiddel) die onder de verantwoordelijkheid van de [ontvanger](#ontvanger) worden bewaard. Deze is afhankelijk van de waardering van het [verwerkingsbelang](#verwerkingsbelang) “verantwoordingsbelang”.
+
+Toelichting: Indien er een verantwoordingsbelang is, dan geldt in het kader van de Archiefwet en AVG dat alle partijen die betrokken zijn bij de gegevenslevering een bepaalde bewaartermijn in acht hebben te nemen, waarna de gegevens moeten worden vernietigd (of permanent worden bewaard). Echter, deze kan voor elke van de bij de gegevenslevering betrokken partijen verschillen. Ze kan zelfs verschillen per activiteit waarin de gegevens ontstaan, of de vorm waarin ze worden vastgelegd.
+
+Daarom wordt afgesproken welke partij de gegevensleverset en gegevensmiddel(len) voor welke periode mag bewaren en hoe de vernietiging wordt uitgevoerd. Hierbij wordt verschil gemaakt tussen de bewaring na ontvangst van de gegevens en de bewaring na beëindiging van het gegevensleveringsprotocol.
+
+Partijen hoeven gegevens slechts te bewaren tot hun taak is vervuld en de rechtsgrond voor bewaren is verstreken, maar voor een uitvoerende partij ergens in het midden van de keten is dat moment veel dichter bij het moment van ontvangst dan voor een verantwoordelijke partij.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Verwerkingsbelang](#verwerkingsbelang), [Afspraak](#afspraak), [Gegevensmiddel](#gegevensmiddel), [Ontvanger](#ontvanger), [Gegevensleverset](#gegevensleverset)
+
+### Afspraak over communicatie bij afwijkende levering
+
+> Een [afspraak](#afspraak) over de communicatie bij afwijkende levering beschrijft de wijze van communicatie in geval er inhoudelijk of qua procesgang wordt afgeweken van de overeengekomen [gegevensleveringsspecificatie](#gegevensleveringsspecificatie).
+
+Toelichting: Het gaat hierbij met name om de communicatie als de geleverde gegevens niet kunnen worden verwerkt, en minder om de inhoudelijke kwaliteitsaspecten.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Afspraak](#afspraak), [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie)
+
+### Afspraak over communicatie bij normale levering
+
+> Een [afspraak](#afspraak) over de communicatie bij normale levering beschrijft de wijze van communicatie in geval er inhoudelijk of qua procesgang geen afwijkingen zijn van de overeengekomen [gegevensleveringsspecificatie](#gegevensleveringsspecificatie).
+
+Toelichting: Deze afspraak maakt duidelijk onder welke voorwaarden de verstrekker aan haar leveringsverplichting heeft voldaan en hoe ontvanger en verstrekker dat aan elkaar kenbaar maken.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie), [Afspraak](#afspraak)
+
+### Afspraak over communicatie over kwaliteit
+
+> Een [afspraak](#afspraak) over de communicatie over de kwaliteit beschrijft de wijze van communicatie over de kwaliteit van de ontvangen gegevens.
+
+Toelichting: Hierin wordt met name beschreven dat problemen met de kwaliteit aan elkaar worden gemeld en dat wordt gecommuniceerd over de oplossing en bijbehorende oplossingstermijn van gemelde problemen.
+
+Het gaat hierbij om problemen met de kwaliteit buiten de bestaande afspraken in de gegevensleveringsspecificatie, waarbij de snelheid van handelen minder belangrijk is dan de correctheid van de oplossing.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Afspraak](#afspraak)
+
+### Afspraak over de actualiteit van het gegevensmiddel
+
+> Een [afspraak](#afspraak) over de actualiteit van de gegevens in het [gegevensmiddel](#gegevensmiddel) beschrijft het extractiemoment van de [gegevensleverset](#gegevensleverset) uit de oorspronkelijke bron, en het verschil in tijd tussen dat moment en het moment waarop de gegevensleverset beschikbaar wordt voor de ontvangende [partij](#partij) in een gegevensmiddel.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Partij](#partij), [Afspraak](#afspraak), [Gegevensmiddel](#gegevensmiddel), [Gegevensleverset](#gegevensleverset)
+
+### Afspraak over de gegevensleveringsfrequentie
+
+> Een [afspraak](#afspraak) over de gegevensleveringsfrequentie beschrijft op welke momenten en met welke frequentie het [gegevensmiddel](#gegevensmiddel) beschikbaar wordt gesteld.
+
+Toelichting: Er zijn verschillende mogelijkheden. Bij een API is “ad-hoc” van toepassing, d.w.z. ontsluiting is mogelijk op elk gewenst moment, tenzij er bijvoorbeeld openingstijden van toepassing zijn. In dat geval is de frequentie bijvoorbeeld “dagelijks, van 09:00 t/m 17:00”. Hier kan ook worden gesproken over perioden waarin de dienst niet beschikbaar is.
+Bij bestandslevering is de frequentie vaak eenvoudiger: dagelijks, maandelijks
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Afspraak](#afspraak)
+
+### Afspraak over de gegevensleveringsinitiatie
+
+> Een [afspraak](#afspraak) over de initiatie van de [gegevensdeling](#gegevensdeling) beschrijft de manier waarop de logistiek van de levering wordt gestart (geïnitieerd).
+
+Toelichting: Het gaat hier met name om de manier waarop het proces start, dus bijvoorbeeld:
+- Geautomatiseerd, bijvoorbeeld op een specifiek moment, omdat een bestand aankomt of omdat de ontvanger de gegevens opvraagt;
+- Handmatig, op initiatief van de verstrekker of ontvanger.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Afspraak](#afspraak), [Gegevensdeling](#gegevensdeling)
+
+### Afspraak over de interpretatie van het gegevensmiddel
+
+### Afspraak over de naamgevingsconventies
+
+> Een afspraak over een naamgevingsconventie is een [afspraak](#afspraak) over de manier waarop de onderdelen van een [gegevensmiddel](#gegevensmiddel) van namen worden voorzien.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Afspraak](#afspraak)
+
+### Afspraak over de samenstelling van het gegevensmiddel
+
+### Afspraak over de transportkarakteristieken
+
+> Een afspraak over een transportkarakteristiek is een [afspraak](#afspraak) over een aspect van de manier waarop een [gegevensmiddel](#gegevensmiddel) wordt getransporteerd.
+
+Toelichting: De compressie, encryptie en enveloppe van een gegevensmiddel dienen in de gegevensmiddelspecificatie te worden afgestemd, evenals de gebruikte protocollen, de plek waarop het gegevensmiddel kan worden gevonden, et cetera. Een enveloppe is bijvoorbeeld een zip-file.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Afspraak](#afspraak), [Gegevensmiddel](#gegevensmiddel)
+
+### Afspraak over de wijze van leveren
+
+> Een [afspraak](#afspraak) over de wijze van leveren beschrijft de manier waarop de [gegevensdeling](#gegevensdeling) met behulp van een [gegevensmiddel](#gegevensmiddel) technisch plaatsvindt .
+
+Toelichting: De partij die de beschrijving aanlevert is afhankelijk van de wijze waarop de gegevenslevering wordt geïnitieerd en afgehandeld:
+- als er sprake is van Pull, dus de ontvanger haalt op, dan moet de verstrekker het koppelvlak beschrijven ;
+- Als er sprake is van Push, dus de verstrekker stuurt op, dan moet de ontvanger het koppelvlak beschrijven;
+- Als er sprake is van een combinatie push/pull dan moeten beide verantwoordelijke partijen de koppelvlakken beschrijven.
+Hier wordt volledig gespecificeerd hoe de leveringswijze wordt ingericht. Dat omvat bijvoorbeeld servernamen, benodigde toegangsrechten, toegangspaden naar bestanden en dergelijke.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Gegevensdeling](#gegevensdeling), [Afspraak](#afspraak)
+
+### Afspraak over deelleveringen
+
+> Een [afspraak](#afspraak) over de (herkenning van en omgang met) deelleveringen beschrijft of het mogelijk is dat de [gegevensleverset](#gegevensleverset) in delen wordt geleverd, hoe deze delen worden verdeeld over de [gegevensmiddelen](#gegevensmiddel) en hoe deze kunnen worden herkend.
+
+Toelichting: Het gaat hier alleen om partitionering, dit is technisch.
+Het gaat hier bijvoorbeeld om :
+- Een gegevenslevering waarbij de gegevens van afzonderlijke organisaties los worden geleverd, omdat niet elke organisatie gelijktijdig rapporteert;
+- Een gegevenslevering waarbij per geografisch gebied een deelverzameling wordt gegeven.
+- Een levering waarbij deelleveringen worden gedaan, omdat het totaalbestand anders te groot wordt.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Afspraak](#afspraak), [Gegevensleverset](#gegevensleverset)
+
+### Afspraak over deltaverwerking
+
+> Een [afspraak](#afspraak) over [deltaverwerking](#deltaverwerking) beschrijft of de [gegevensdeling](#gegevensdeling) uitgaat van het verwerken van complete leveringen van de gehele [gegevensleverset](#gegevensleverset) zoals deze op extractiemoment bekend is, of dat er ook leveringen worden verwacht die alleen de wijzigingen ten opzichte van een vorige [versie](#versie) van de gegevensleverset geven, en hoe dat tot uiting komt in een [gegevensmiddel](#gegevensmiddel).
+
+Toelichting: Deltaverwerkingen lopen na verloop van tijd uit de pas met de oorspronkelijke bron, tenzij er strikte maatregelen worden genomen om dat te voorkomen (tellingen, hashing, etc.) en/of er na verloop van tijd weer gesynchroniseerd wordt met de complete stand. Indien er deltaleveringen worden voorzien moet dit goed worden uitgewerkt.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Afspraak](#afspraak), [Deltaverwerking](#deltaverwerking), [Versie](#versie), [Gegevensdeling](#gegevensdeling), [Gegevensleverset](#gegevensleverset)
+
+### Afspraak over foutherstel door hernieuwde levering
+
+> Een [afspraak](#afspraak) over foutherstel door hernieuwde levering beschrijft hoe wordt omgegaan met opnieuw aangeleverde gegevens, bijvoorbeeld na het optreden van fouten in de oorspronkelijke [gegevensdeling](#gegevensdeling).
+
+Toelichting: Het kan zijn dat er een gegevenslevering plaatsvind door middel van bestanden, waarbij een bestand door de leverancier onvolledig wordt samengesteld. In dat geval wil men waarschijnlijk een correctie inladen. Daarover moet vooraf worden afgesproken hoe dat gaat.
+
+Onderwerpen waarover afspraken kunnen worden gemaakt zijn o.a. de omstandigheden waaronder een heraanlevering kan plaatsvinden, de manier waarop die wordt aangevraagd, of een heraanlevering andere metadata meekrijgt, et cetera.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Afspraak](#afspraak), [Gegevensdeling](#gegevensdeling)
+
+### Afspraak over gegevenskwaliteit
+
+> Een [afspraak](#afspraak) over gegevenskwaliteit beschrijft op welke manier men de inhoudelijke kwaliteit van de gegevens gaat borgen en meten.
+
+Toelichting: Het gaat hier bijvoorbeeld om afspraken over conformiteit aan het logisch gegevensmodel.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Afspraak](#afspraak)
+
+### Afspraak over het gegevensmiddeltype
+
+> Een [afspraak](#afspraak) over een gegevensmiddeltype beschrijft de manier waarop wordt omgegaan met de specifieke karakteristieken van het soort [gegevensmiddel](#gegevensmiddel).
+
+Toelichting: Elk soort gegevensmiddel heeft karakteristieken waarover afspraken moeten worden gemaakt.
+
+Voor bestanden gaat het bijvoorbeeld om formaten, scheidingstekens bij een CSV-formaat, compressie, ondertekening, etc.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Afspraak](#afspraak)
+
+### Afspraak over maatregelen tegen herleidbaarheid  van gegevens
+
+> Een gegevensleveringsafspraak over maatregelen tegen herleidbaarheid  van gegevens is een [afspraak](#afspraak) die beschrijft hoe men omgaat met het voorkomen van herleidbaarheid van gegevens naar individuen, door zowel de leverende als de ontvangende [partij](#partij).
+
+Toelichting: De leverancier kan bepaalde maatregelen toepassen om herleidbaarheid van bijzondere persoonskenmerken zoals religie, etniciteit of seksuele voorkeur naar individuele personen te voorkomen. Hiervoor kan “Privacy Enhancing Technology” (PET) worden ingezet.
+Maatregelen zijn onder andere:
+- Pseudonimiseren of anonimiseren van gegevens;
+- Maskering van bepaalde kenmerken;
+Ook de ontvanger kan bepaalde maatregelen moeten hanteren, om te voorkomen dat de gegevens na verrijking, bijvoorbeeld met het klantenbestand van een grote gegevensbank, de gegevens alsnog te herleiden zijn naar individuen.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Afspraak](#afspraak), [Partij](#partij)
+
+### Afspraak over tijdslijnen
+
+> Een [afspraak](#afspraak) over tijdslijnen beschrijft de inhoud van de [gegevensleverset](#gegevensleverset) met betrekking tot de historische [versies](#versie) van gegevens in de bron.
+
+Toelichting: Als we kijken naar een bron kan deze ook de historische versies leveren van gegevens, indien de bron deze vasthoud. Daarover kan men afspraken maken. Daarbij zijn er drie standaard mogelijkheden: actueel, point-in-time en historisch. Bij actueel worden geen historische gegevens geleverd, bij point-in-time worden de gegevens geleverd die op dat punt in tijd actueel waren, en bij historisch worden alle historische versies geleverd.
+
+Hierbij zijn er relaties met andere afspraken, bijvoorbeeld over delta-levering of gewone levering, en over de selectieperiode van de gegevens, die gezamenlijk de inhoud van de levering vormgeven.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Versie](#versie), [Gegevensleverset](#gegevensleverset), [Afspraak](#afspraak)
+
+### Afspraak over toe te passen beveiligingsmaatregelen
+
+> Een [afspraak](#afspraak) over toe te passen beveiligingsmaatregelen beschrijft de beveiligingsmaatregelen die de [ontvanger](#ontvanger) en [verstrekker](#verstrekker) moeten toepassen, ter bescherming van de gegevens in de [gegevensleverset](#gegevensleverset) en bijbehorende gegevensmiddelen tegen onbevoegde inzage, wijziging of verwijdering.
+
+Toelichting: Deze maatregelen zijn afhankelijk van de waardering van de relevante [risicoclassificatie]s, met name het Vastgesteld Basisbeveiligingsniveau (BBN).
+De maatregelen zijn van toepassing op alle vormen van gegevensopslag van de beschreven gegevensset.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Verstrekker](#verstrekker), [Afspraak](#afspraak), [Gegevensleverset](#gegevensleverset), [Ontvanger](#ontvanger)
+
+### Afspraak over toegangsgerechtigden
+
+> Een [afspraak](#afspraak) over toegangsgerechtigden beschrijft welke benoemde groep natuurlijke of niet-natuurlijke (rechts)personen de rechten krijgt om bevoegde inzage en/of wijziging en/of verwijdering uit te voeren op de gegevens.
+
+Toelichting: Gegevens kunnen toegangsbeperkingen hebben die losstaan van rubricering of BIV-niveaus. Deze worden hier beschreven.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Afspraak](#afspraak)
 
 ### Algoritme en/of kunstmatige intelligentie (AKI) gegevensclassificatie
 
@@ -822,7 +1052,7 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Specialisatie van: [Classificatie](#classificatie)
 
-Gerelateerd: [Gegevenstype](#gegevenstype), [Gegevensdeling](#gegevensdeling), [Gegevensclassificatie](#gegevensclassificatie), [Gegevensleverset](#gegevensleverset)
+Gerelateerd: [Gegevensclassificatie](#gegevensclassificatie), [Gegevensleverset](#gegevensleverset), [Gegevensdeling](#gegevensdeling), [Gegevenstype](#gegevenstype)
 
 ### BIV-classificatie Beschikbaarheid - Hoog
 
@@ -926,61 +1156,129 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Bron: 3.7,  [[ISO27000]]
 
-Gerelateerd: [Classificatie](#classificatie), [Partij](#partij), [Risicoclassificatie](#risicoclassificatie)
+Gerelateerd: [Classificatie](#classificatie), [Risicoclassificatie](#risicoclassificatie), [Partij](#partij)
 
 ### Bijzondere Persoonsgegevens: biometrische gegevens met het oog op de unieke identificatie van een persoon
 
-> Bevat tot natuurlijke personen herleidbare biometrische gegevens zoals vingerafdrukken, gezichtsfoto's, DNA of andere biologische eigenschap.
+> Bevat tot natuurlijke personen herleidbare biometrische gegevens.
 
-Bron: Kerndepartement J&V [[KDJV]]
+Toelichting: Dit zijn persoonsgegevens die het resultaat zijn van een specifieke technische verwerking van iemands kenmerken, waarmee eenduidig vast te stellen is wie iemand is. Bijvoorbeeld met een vingerafdrukscan, gezichtsherkenning, een irisscan of een digitale stemopname.
+
+Bron: Kerndepartement J&V [[KDJV]], Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens) [[APG-persoonsgegevens]]
 
 ### Bijzondere Persoonsgegevens: gegevens met betrekking tot iemands seksueel gedrag of seksuele gerichtheid
 
 > Bevat tot natuurlijke personen herleidbare informatie over seksueel gedrag of seksuele gerichtheid.
 
-Bron: Kerndepartement J&V [[KDJV]]
+Bron: Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens) [[APG-persoonsgegevens]], Kerndepartement J&V [[KDJV]]
 
 ### Bijzondere Persoonsgegevens: gegevens over gezondheid
 
 > Bevat tot natuurlijke personen herleidbare medische gegevens.
 
-Bron: Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens) [[APG-persoonsgegevens]]
 
 ### Bijzondere Persoonsgegevens: genetische gegevens
 
 > Bevat tot natuurlijke personen herleidbare genetische gegevens.
 
-Bron: Kerndepartement J&V [[KDJV]]
+Toelichting: Deze persoonsgegevens geven unieke informatie over iemands fysiologie of gezondheid en/of over de gezondheid van familieleden. Dat maakt de informatie zo gevoelig. In de praktijk gaat het hierbij vooral om informatie over erfelijkheid en genetische kenmerken die het resultaat is van een biologisch monster. Bijvoorbeeld informatie uit analyse van het DNA.
+
+Bron: Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens) [[APG-persoonsgegevens]], Kerndepartement J&V [[KDJV]]
 
 ### Bijzondere Persoonsgegevens: lidmaatschap van een vakbond
 
 > Bevat tot natuurlijke personen herleidbare informatie over het lidmaatschap van een vakbond.
 
-Bron: Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens) [[APG-persoonsgegevens]]
 
 ### Bijzondere Persoonsgegevens: politieke opvattingen
 
 > Bevat tot natuurlijke personen herleidbare informatie over politieke opvattingen.
 
-Bron: Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens) [[APG-persoonsgegevens]]
 
 ### Bijzondere Persoonsgegevens: ras of etnische afkomst
 
 > Bevat tot natuurlijke personen herleidbare informatie over etniciteit en afkomst.
 
-Bron: Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens) [[APG-persoonsgegevens]]
 
 ### Bijzondere Persoonsgegevens: religieuze of levensbeschouwelijke overtuigingen
 
 > Bevat tot natuurlijke personen herleidbare informatie over religieuze of levensbeschouwelijke overtuiging.
 
+Bron: Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens) [[APG-persoonsgegevens]], Kerndepartement J&V [[KDJV]]
+
+### Categorie betrokkenen bij justitiële gegevens
+
+> De Categorie betrokkenen bij justitiële gegevens omvat de volgende categorieën:
+- veroordeelde personen
+- van rechtsvervolging ontslagen personen
+- vrijgesproken personen.
+
+Bron: Wet justitiële en strafvorderlijke gegevens [[WSJG2024]]
+
+### Categorie betrokkenen bij politiegegevens
+
+> De Categorie betrokkenen bij politiegegevens omvat de volgende categorieën:
+- verdachte personen
+- mogelijke of huidige slachtoffers
+- getuigen, informanten of contacten van verdachte en/of dader(s)
+- veroordeelde dader(s).
+
+Toelichting: Deze betrokkenen zijn gelijk aan de [categorie betrokkenen bij strafvorderlijke gegevens]
+
+Bron: Wet politiegegevens [[WPG]]
+
+### Categorie betrokkenen bij strafvorderlijke gegevens
+
+> De Categorie betrokkenen bij strafvorderlijke gegevens omvat de volgende categorieën:
+- verdachte personen
+- mogelijke of huidige slachtoffers
+- getuigen, informanten of contacten van verdachte en/of dader(s)
+- veroordeelde dader(s).
+
+Toelichting: Deze betrokkenen zijn gelijk aan de [categorie betrokkenen bij politiegegevens]
+
+Bron: Wet justitiële en strafvorderlijke gegevens [[WSJG2024]]
+
+### Categorie betrokkenen per classificatietype
+
+> Er kunnen gegevens worden verzameld over categorieën van betrokkenen die specifiek worden vermeld in de relevante wetgeving.
+
+Toelichting: Per soort classificatie kunnen bepaalde soorten betrokken partijen relevant zijn. Denk aan verdachten, getuigen of slachtoffers. Hun gegevens worden verschillend behandeld, afhankelijk van de classificaties van de gegevens.
+
 Bron: Kerndepartement J&V [[KDJV]]
+
+### Categorisch gegevenstype
+
+Alternatieve aanduiding: *Gegevenstype categorisch*
+
+> Een categorisch gegevenstype definieert een [gegevenstype](#gegevenstype) aan de hand van de waarden die het gegevenstype kan aannemen.
+
+Toelichting: Een voorbeeld van een categorisch gegevenstype is een opsomming van mogelijke waarden voor aantallen
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Gegevenstype](#gegevenstype)
 
 ### Classificatie
 
 > Een classificatie is een indeling of groepering van objecten, gegevens of waarden in categorieën of klassen op basis van gedeelde kenmerken of criteria.
 
 Toelichting: Een classificatie wordt gekenmerkt door een naam (of onderwerp), de categorie en een vastgestelde definitie (het is niet slechts een lijstje met waarden).
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+### Classificatiesoort
+
+> De classificaties kunnen worden ingedeeld in drie soorten:
+- Gegevensclassificaties,
+- Gegevenskenmerken,
+- Verwerkingsbelangen.
+
+Toelichting: We verdelen de classificaties verder onder in drie soorten, om deze eenvoudiger te kunnen hanteren in documentatie en administratie. De gegevensclassificaties omvatten de BBN en BIV-classificaties. De verwerkingsbelangen omvatten het rubriceringsniveau (i.v.m. de relatie met te beschermen belangen), het verantwoordingsbelang en het vitaal belang. De overige classificaties zijn ondergebracht bij de gegevenskenmerken.
 
 Bron: Kerndepartement J&V [[KDJV]]
 
@@ -1004,38 +1302,6 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Verstrekker](#verstrekker), [Ontvanger](#ontvanger), [Gegevensdeling](#gegevensdeling), [Afspraak](#afspraak)
 
-### Communicatieafspraak bij afwijkende levering
-
-> Een communicatieafspraak bij afwijkende levering is een [afspraak](#afspraak) over de wijze van communicatie in geval er inhoudelijk of qua procesgang wordt afgeweken van de overeengekomen [gegevensleveringsspecificatie](#gegevensleveringsspecificatie).
-
-Toelichting: Het gaat hierbij met name om de communicatie als de geleverde gegevens niet kunnen worden verwerkt, en minder om de inhoudelijke kwaliteitsaspecten.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Afspraak](#afspraak), [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie)
-
-### Communicatieafspraak bij normale levering
-
-> Een communicatieafspraak bij normale levering is een [afspraak](#afspraak) over de wijze van communicatie in geval er inhoudelijk of qua procesgang geen afwijkingen zijn van de overeengekomen [gegevensleveringsspecificatie](#gegevensleveringsspecificatie).
-
-Toelichting: Deze afspraak maakt duidelijk onder welke voorwaarden de verstrekker aan haar leveringsverplichting heeft voldaan en hoe ontvanger en verstrekker dat aan elkaar kenbaar maken.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie), [Afspraak](#afspraak)
-
-### Communicatieafspraak over kwaliteit
-
-> Een commmunicatieafspraak over kwaliteit is een [afspraak](#afspraak) over de wijze van communicatie over de kwaliteit van de ontvangen gegevens.
-
-Toelichting: Hierin wordt met name beschreven dat problemen met de kwaliteit aan elkaar worden gemeld en dat wordt gecommuniceerd over de oplossing en bijbehorende oplossingstermijn van gemelde problemen.
-
-Het gaat hierbij om problemen met de kwaliteit buiten de bestaande afspraken in de gegevensleveringsspecificatie, waarbij de snelheid van handelen minder belangrijk is dan de correctheid van de oplossing.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Afspraak](#afspraak)
-
 ### Contactpersoon
 
 > Een contactpersoon is een [functionaris](#functionaris) met een specifieke taak, namelijk om de rol van aanspreekpunt voor een taak of verantwoordelijkheid van de [partij](#partij) waar deze voor werkt te vervullen.
@@ -1046,11 +1312,13 @@ Gerelateerd: [Partij](#partij), [Functionaris](#functionaris)
 
 ### GLS Standaardafspraken
 
-> Een verzameling GLS Standaardafspraken is een benoemde verzameling [afspraken](#afspraak) die kan worden gebruikt bij het opstellen van een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie).
+> Een verzameling GLS Standaardafspraken is een voorgedefinieerde verzameling [afspraken](#afspraak) die kan worden gebruikt bij het opstellen van een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie).
+
+Toelichting: GLS Standaardafspraken kunnen volgen uit bijvoorbeeld het Gegevensdelingsbeleid of een Model GLS.
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Afspraak](#afspraak), [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie)
+Gerelateerd: [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie), [Afspraak](#afspraak)
 
 ### GLS Standaardmodel
 
@@ -1062,7 +1330,7 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Specialisatie van: [Document](#document)
 
-Gerelateerd: [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie), [Document](#document)
+Gerelateerd: [Document](#document), [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie)
 
 ### Gegevensfilterregel
 
@@ -1086,33 +1354,7 @@ Voor zover de afspraken specifiek kunnen worden gemaakt en op formele wijze kunn
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Verstrekker](#verstrekker), [Afspraak](#afspraak), [Gegevensdeling](#gegevensdeling), [Ontvanger](#ontvanger)
-
-### Gegevensleveringsafspraak over foutherstel door hernieuwde levering
-
-> Een [afspraak](#afspraak) over foutherstel door hernieuwde levering beschrijft hoe wordt omgegaan met opnieuw aangeleverde gegevens, bijvoorbeeld na het optreden van fouten in de oorspronkelijke [gegevensdeling](#gegevensdeling).
-
-Toelichting: Het kan zijn dat er een gegevenslevering plaatsvind door middel van bestanden, waarbij een bestand door de leverancier onvolledig wordt samengesteld. In dat geval wil men waarschijnlijk een correctie inladen. Daarover moet vooraf worden afgesproken hoe dat gaat.
-
-Onderwerpen waarover afspraken kunnen worden gemaakt zijn o.a. de omstandigheden waaronder een heraanlevering kan plaatsvinden, de manier waarop die wordt aangevraagd, of een heraanlevering andere metadata meekrijgt, et cetera.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Afspraak](#afspraak), [Gegevensdeling](#gegevensdeling)
-
-### Gegevensleveringsafspraak over maatregelen tegen herleidbaarheid  van gegevens
-
-> Een gegevensleveringsafspraak over maatregelen tegen herleidbaarheid  van gegevens is een [afspraak](#afspraak) die beschrijft hoe men omgaat met het voorkomen van herleidbaarheid van gegevens naar individuen, door zowel de leverende als de ontvangende [partij](#partij).
-
-Toelichting: De leverancier kan bepaalde maatregelen toepassen om herleidbaarheid van bijzondere persoonskenmerken zoals religie, etniciteit of seksuele voorkeur naar individuele personen te voorkomen. Hiervoor kan “Privacy Enhancing Technology” (PET) worden ingezet.
-Maatregelen zijn onder andere:
-- Pseudonimiseren of anonimiseren van gegevens;
-- Maskering van bepaalde kenmerken;
-Ook de ontvanger kan bepaalde maatregelen moeten hanteren, om te voorkomen dat de gegevens na verrijking, bijvoorbeeld met het klantenbestand van een grote gegevensbank, de gegevens alsnog te herleiden zijn naar individuen.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Afspraak](#afspraak), [Partij](#partij)
+Gerelateerd: [Afspraak](#afspraak), [Gegevensdeling](#gegevensdeling), [Ontvanger](#ontvanger), [Verstrekker](#verstrekker)
 
 ### Gegevensleveringsspecificatiedocument
 
@@ -1120,7 +1362,7 @@ Gerelateerd: [Afspraak](#afspraak), [Partij](#partij)
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Afspraak](#afspraak), [Partij](#partij), [Gegevensdeling](#gegevensdeling), [Document](#document)
+Gerelateerd: [Document](#document), [Afspraak](#afspraak), [Partij](#partij), [Gegevensdeling](#gegevensdeling)
 
 ### Gegevensleversetafspraak
 
@@ -1128,44 +1370,7 @@ Gerelateerd: [Afspraak](#afspraak), [Partij](#partij), [Gegevensdeling](#gegeven
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Afspraak](#afspraak), [Gegevensleverset](#gegevensleverset), [Verstrekker](#verstrekker), [Gegevensdeling](#gegevensdeling), [Ontvanger](#ontvanger)
-
-### Gegevensleversetafspraak over bewaartermijn
-
-> Een afspraak over een bewaartermijn is een [afspraak](#afspraak) over de bewaartermijnen en de condities waaronder deze start of eindigt, van de gegevens in de [gegevensleverset](#gegevensleverset) en bijbehorend [gegevensmiddel](#gegevensmiddel) die onder de verantwoordelijkheid van de [ontvanger](#ontvanger) worden bewaard. Deze is afhankelijk van de waardering van het [verwerkingsbelang](#verwerkingsbelang) “verantwoordingsbelang”.
-
-Toelichting: Indien er een verantwoordingsbelang is, dan geldt in het kader van de Archiefwet en AVG dat alle partijen die betrokken zijn bij de gegevenslevering een bepaalde bewaartermijn in acht hebben te nemen, waarna de gegevens moeten worden vernietigd (of permanent worden bewaard). Echter, deze kan voor elke van de bij de gegevenslevering betrokken partijen verschillen. Ze kan zelfs verschillen per activiteit waarin de gegevens ontstaan, of de vorm waarin ze worden vastgelegd.
-
-Daarom wordt afgesproken welke partij de gegevensleverset en gegevensmiddel(len) voor welke periode mag bewaren en hoe de vernietiging wordt uitgevoerd. Hierbij wordt verschil gemaakt tussen de bewaring na ontvangst van de gegevens en de bewaring na beëindiging van het gegevensleveringsprotocol.
-
-Partijen hoeven gegevens slechts te bewaren tot hun taak is vervuld en de rechtsgrond voor bewaren is verstreken, maar voor een uitvoerende partij ergens in het midden van de keten is dat moment veel dichter bij het moment van ontvangst dan voor een verantwoordelijke partij.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Afspraak](#afspraak), [Gegevensmiddel](#gegevensmiddel), [Ontvanger](#ontvanger), [Gegevensleverset](#gegevensleverset), [Verwerkingsbelang](#verwerkingsbelang)
-
-### Gegevensleversetafspraak over tijdslijnen
-
-> Een afspraak over tijdslijnen is een [afspraak](#afspraak) over de inhoud van de [gegevensleverset](#gegevensleverset) met betrekking tot de historische [versies](#versie) van gegevens in de bron.
-
-Toelichting: Als we kijken naar een bron kan deze ook de historische versies leveren van gegevens, indien de bron deze vasthoud. Daarover kan men afspraken maken. Daarbij zijn er drie standaard mogelijkheden: actueel, point-in-time en historisch. Bij actueel worden geen historische gegevens geleverd, bij point-in-time worden de gegevens geleverd die op dat punt in tijd actueel waren, en bij historisch worden alle historische versies geleverd.
-
-Hierbij zijn er relaties met andere afspraken, bijvoorbeeld over delta-levering of gewone levering, en over de selectieperiode van de gegevens, die gezamenlijk de inhoud van de levering vormgeven.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Gegevensleverset](#gegevensleverset), [Afspraak](#afspraak), [Versie](#versie)
-
-### Gegevensleversetafspraak over toe te passen beveiligingsmaatregelen
-
-> Een afspraak over toe te passen beveiligingsmaatregelen is een [afspraak](#afspraak) over de beveiligingsmaatregelen die de [ontvanger](#ontvanger) en [verstrekker](#verstrekker) moeten toepassen, ter bescherming van de gegevens in de [gegevensleverset](#gegevensleverset) en bijbehorende gegevensmiddelen tegen onbevoegde inzage, wijziging of verwijdering.
-
-Toelichting: Deze maatregelen zijn afhankelijk van de waardering van de relevante [risicoclassificatie]s, met name het Vastgesteld Basisbeveiligingsniveau (BBN).
-De maatregelen zijn van toepassing op alle vormen van gegevensopslag van de beschreven gegevensset.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Ontvanger](#ontvanger), [Afspraak](#afspraak), [Gegevensleverset](#gegevensleverset), [Verstrekker](#verstrekker)
+Gerelateerd: [Verstrekker](#verstrekker), [Gegevensleverset](#gegevensleverset), [Ontvanger](#ontvanger), [Afspraak](#afspraak), [Gegevensdeling](#gegevensdeling)
 
 ### Gegevensleversetpopulatie
 
@@ -1175,7 +1380,7 @@ Toelichting: De gegevensleverset wordt gespecificeerd door zowel de gegevensleve
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevensleverset](#gegevensleverset), [Gegevensmiddel](#gegevensmiddel)
+Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Gegevensleverset](#gegevensleverset)
 
 ### Gegevensleversetspecificatie
 
@@ -1189,7 +1394,7 @@ Onderdeel van: [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie)
 
 Omvat: [Logisch gegevensmodel](#logisch-gegevensmodel)
 
-Gerelateerd: [Gegevensleverset](#gegevensleverset), [Afspraak](#afspraak), [Gegevensdeling](#gegevensdeling), [Gegevensdelingsbeleid](#gegevensdelingsbeleid)
+Gerelateerd: [Gegevensleverset](#gegevensleverset), [Gegevensdeling](#gegevensdeling), [Afspraak](#afspraak), [Gegevensdelingsbeleid](#gegevensdelingsbeleid)
 
 ### Gegevensmiddel
 
@@ -1210,106 +1415,7 @@ Toelichting: Het is mogelijk, maar niet verplicht, dat per gegevensmiddel andere
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Gegevensdeling](#gegevensdeling), [Afspraak](#afspraak), [Ontvanger](#ontvanger), [Verstrekker](#verstrekker)
-
-### Gegevensmiddelafspraak over de actualiteit van het gegevensmiddel
-
-> Een [afspraak](#afspraak) over de actualiteit van de gegevens in het [gegevensmiddel](#gegevensmiddel) beschrijft het extractiemoment van de [gegevensleverset](#gegevensleverset) uit de oorspronkelijke bron, en het verschil in tijd tussen dat moment en het moment waarop de gegevensleverset beschikbaar wordt voor de ontvangende [partij](#partij) in een gegevensmiddel.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Afspraak](#afspraak), [Partij](#partij), [Gegevensmiddel](#gegevensmiddel), [Gegevensleverset](#gegevensleverset)
-
-### Gegevensmiddelafspraak over de gegevensleveringsfrequentie
-
-> Een [afspraak](#afspraak) over de gegevensleveringsfrequentie beschrijft op welke momenten en met welke frequentie het [gegevensmiddel](#gegevensmiddel) beschikbaar wordt gesteld.
-
-Toelichting: Er zijn verschillende mogelijkheden. Bij een API is “ad-hoc” van toepassing, d.w.z. ontsluiting is mogelijk op elk gewenst moment, tenzij er bijvoorbeeld openingstijden van toepassing zijn. In dat geval is de frequentie bijvoorbeeld “dagelijks, van 09:00 t/m 17:00”. Hier kan ook worden gesproken over perioden waarin de dienst niet beschikbaar is.
-Bij bestandslevering is de frequentie vaak eenvoudiger: dagelijks, maandelijks
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Afspraak](#afspraak)
-
-### Gegevensmiddelafspraak over de gegevensleveringsinitiatie
-
-> Een [afspraak](#afspraak) over de initiatie van de [gegevensdeling](#gegevensdeling) beschrijft de manier waarop de logistiek van de levering wordt gestart (geïnitieerd).
-
-Toelichting: Het gaat hier met name om de manier waarop het proces start, dus bijvoorbeeld:
-- Geautomatiseerd, bijvoorbeeld op een specifiek moment, omdat een bestand aankomt of omdat de ontvanger de gegevens opvraagt;
-- Handmatig, op initiatief van de verstrekker of ontvanger.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Gegevensdeling](#gegevensdeling), [Afspraak](#afspraak)
-
-### Gegevensmiddelafspraak over de wijze van leveren
-
-> Een [afspraak](#afspraak) over de wijze van leveren beschrijft de manier waarop de [gegevensdeling](#gegevensdeling) met behulp van een [gegevensmiddel](#gegevensmiddel) technisch plaatsvindt .
-
-Toelichting: De partij die de beschrijving aanlevert is afhankelijk van de wijze waarop de gegevenslevering wordt geïnitieerd en afgehandeld:
-- als er sprake is van Pull, dus de ontvanger haalt op, dan moet de verstrekker het koppelvlak beschrijven ;
-- Als er sprake is van Push, dus de verstrekker stuurt op, dan moet de ontvanger het koppelvlak beschrijven;
-- Als er sprake is van een combinatie push/pull dan moeten beide verantwoordelijke partijen de koppelvlakken beschrijven.
-Hier wordt volledig gespecificeerd hoe de leveringswijze wordt ingericht. Dat omvat bijvoorbeeld servernamen, benodigde toegangsrechten, toegangspaden naar bestanden en dergelijke.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Gegevensdeling](#gegevensdeling), [Gegevensmiddel](#gegevensmiddel), [Afspraak](#afspraak)
-
-### Gegevensmiddelafspraak over deelleveringen
-
-> Een [afspraak](#afspraak) over de (herkenning van en omgang met) deelleveringen beschrijft of het mogelijk is dat de [gegevensleverset](#gegevensleverset) in delen wordt geleverd, hoe deze delen worden verdeeld over de [gegevensmiddelen](#gegevensmiddel) en hoe deze kunnen worden herkend.
-
-Toelichting: Het gaat hier alleen om partitionering, dit is technisch.
-Het gaat hier bijvoorbeeld om :
-- Een gegevenslevering waarbij de gegevens van afzonderlijke organisaties los worden geleverd, omdat niet elke organisatie gelijktijdig rapporteert;
-- Een gegevenslevering waarbij per geografisch gebied een deelverzameling wordt gegeven.
-- Een levering waarbij deelleveringen worden gedaan, omdat het totaalbestand anders te groot wordt.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Afspraak](#afspraak), [Gegevensleverset](#gegevensleverset), [Gegevensmiddel](#gegevensmiddel)
-
-### Gegevensmiddelafspraak over deltaverwerking
-
-> Een [afspraak](#afspraak) over [deltaverwerking](#deltaverwerking) beschrijft of de [gegevensdeling](#gegevensdeling) uitgaat van het verwerken van complete leveringen van de gehele [gegevensleverset](#gegevensleverset) zoals deze op extractiemoment bekend is, of dat er ook leveringen worden verwacht die alleen de wijzigingen ten opzichte van een vorige [versie](#versie) van de gegevensleverset geven, en hoe dat tot uiting komt in een [gegevensmiddel](#gegevensmiddel).
-
-Toelichting: Deltaverwerkingen lopen na verloop van tijd uit de pas met de oorspronkelijke bron, tenzij er strikte maatregelen worden genomen om dat te voorkomen (tellingen, hashing, etc.) en/of er na verloop van tijd weer gesynchroniseerd wordt met de complete stand. Indien er deltaleveringen worden voorzien moet dit goed worden uitgewerkt.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Versie](#versie), [Gegevensdeling](#gegevensdeling), [Deltaverwerking](#deltaverwerking), [Gegevensleverset](#gegevensleverset), [Afspraak](#afspraak)
-
-### Gegevensmiddelafspraak over gegevensmiddeltype
-
-> Een [afspraak](#afspraak) over een gegevensmiddeltype beschrijft de manier waarop wordt omgegaan met de specifieke karakteristieken van het soort [gegevensmiddel](#gegevensmiddel).
-
-Toelichting: Elk soort gegevensmiddel heeft karakteristieken waarover afspraken moeten worden gemaakt.
-
-Voor bestanden gaat het bijvoorbeeld om formaten, scheidingstekens bij een CSV-formaat, compressie, ondertekening, etc.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Afspraak](#afspraak)
-
-### Gegevensmiddelafspraak over naamgevingsconventies
-
-> Een afspraak over een naamgevingsconventie is een [afspraak](#afspraak) over de manier waarop de onderdelen van een [gegevensmiddel](#gegevensmiddel) van namen worden voorzien.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Afspraak](#afspraak), [Gegevensmiddel](#gegevensmiddel)
-
-### Gegevensmiddelafspraak over transportkarakteristiek
-
-> Een afspraak over een transportkarakteristiek is een [afspraak](#afspraak) over een aspect van de manier waarop een [gegevensmiddel](#gegevensmiddel) wordt getransporteerd.
-
-Toelichting: De compressie, encryptie en enveloppe van een gegevensmiddel dienen in de gegevensmiddelspecificatie te worden afgestemd, evenals de gebruikte protocollen, de plek waarop het gegevensmiddel kan worden gevonden, et cetera. Een enveloppe is bijvoorbeeld een zip-file.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Afspraak](#afspraak)
+Gerelateerd: [Afspraak](#afspraak), [Ontvanger](#ontvanger), [Gegevensdeling](#gegevensdeling), [Gegevensmiddel](#gegevensmiddel), [Verstrekker](#verstrekker)
 
 ### Gegevensmiddelspecificatie
 
@@ -1334,7 +1440,7 @@ Het gebruik van het concept gegevenstype is handig, omdat één type gegeven fys
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Onderdeel van: [Logisch gegevensmodel](#logisch-gegevensmodel), [Gegevenstypemapping](#gegevenstypemapping)
+Onderdeel van: [Gegevenstypemapping](#gegevenstypemapping), [Logisch gegevensmodel](#logisch-gegevensmodel)
 
 ### Gegevenstypemapping
 
@@ -1345,7 +1451,7 @@ De beperkingen aan een technisch gegevensmodel hoeven niet overeen te komen met 
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevensleverset](#gegevensleverset), [Gegevensmiddel](#gegevensmiddel), [Gegevensveld](#gegevensveld), [Gegevenstype](#gegevenstype)
+Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Gegevensleverset](#gegevensleverset), [Gegevenstype](#gegevenstype), [Gegevensveld](#gegevensveld)
 
 ### Gegevensveld
 
@@ -1353,9 +1459,9 @@ Gerelateerd: [Gegevensleverset](#gegevensleverset), [Gegevensmiddel](#gegevensmi
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Onderdeel van: [Technisch gegevensmodel](#technisch-gegevensmodel), [Gegevenstypemapping](#gegevenstypemapping)
+Onderdeel van: [Gegevenstypemapping](#gegevenstypemapping), [Technisch gegevensmodel](#technisch-gegevensmodel)
 
-Gerelateerd: [Gegevenstype](#gegevenstype), [Technisch gegevensmodel](#technisch-gegevensmodel), [Gegevensmiddel](#gegevensmiddel), [Logisch gegevensmodel](#logisch-gegevensmodel)
+Gerelateerd: [Gegevenstype](#gegevenstype), [Logisch gegevensmodel](#logisch-gegevensmodel), [Gegevensmiddel](#gegevensmiddel), [Technisch gegevensmodel](#technisch-gegevensmodel)
 
 ### Gerechtelijke Strafgegevens
 
@@ -1455,7 +1561,7 @@ Toelichting: Dit is de persoon waar contact mee opgenomen moet kunnen worden in 
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Verstrekker](#verstrekker), [Functionaris](#functionaris), [Gegevensdeling](#gegevensdeling)
+Gerelateerd: [Verstrekker](#verstrekker), [Gegevensdeling](#gegevensdeling), [Functionaris](#functionaris)
 
 ### Logisch gegevensmodel
 
@@ -1465,11 +1571,11 @@ Toelichting: Let op dat metadata ook onderdeel vormt van het gegevensmodel: als 
 
 Bron: Metamodel informatiemodelleren [[MIM]]
 
-Onderdeel van: [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie), [Gegevensleversetspecificatie](#gegevensleversetspecificatie)
+Onderdeel van: [Gegevensleversetspecificatie](#gegevensleversetspecificatie), [Gegevensleveringsspecificatie](#gegevensleveringsspecificatie)
 
 Omvat: [Gegevenstype](#gegevenstype)
 
-Gerelateerd: [Gegevenstype](#gegevenstype), [Gegevensleverset](#gegevensleverset)
+Gerelateerd: [Gegevensleverset](#gegevensleverset), [Gegevenstype](#gegevenstype)
 
 ### Ontvangstbeheerder
 
@@ -1481,7 +1587,7 @@ Toelichting: Dit is degene die binnen de ontvangende partij operationeel verantw
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Ontvanger](#ontvanger), [Functionaris](#functionaris), [Gegevensdeling](#gegevensdeling)
+Gerelateerd: [Gegevensdeling](#gegevensdeling), [Functionaris](#functionaris), [Ontvanger](#ontvanger)
 
 ### Persoonsgegevens: bevat bijzondere persoonsgegevens
 
@@ -1529,7 +1635,17 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Specialisatie van: [Classificatie](#classificatie)
 
-Gerelateerd: [Gegevensclassificatie](#gegevensclassificatie), [Gegevensdeling](#gegevensdeling), [Gegevenstype](#gegevenstype), [Gegevensleverset](#gegevensleverset)
+Gerelateerd: [Gegevensleverset](#gegevensleverset), [Gegevensclassificatie](#gegevensclassificatie), [Gegevensdeling](#gegevensdeling), [Gegevenstype](#gegevenstype)
+
+### Politiegegevens: bevat bijzondere politiegegevens
+
+> Bevat [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) die onder de Wet Politiegegevens vallen.
+
+Toelichting: Het gaat hier om dezelfde categorieën van persoonsgegevens als in de AVG.
+
+Bron: Kerndepartement J&V [[KDJV]], artikel 9,  [[AVG]]
+
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
 
 ### Politiegegevens: bevat geen politiegegevens
 
@@ -1549,7 +1665,7 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevenstype](#gegevenstype), [Gegevensdeling](#gegevensdeling), [Gegevensleverset](#gegevensleverset), [Gegevensclassificatie](#gegevensclassificatie)
+Gerelateerd: [Gegevensclassificatie](#gegevensclassificatie), [Gegevensleverset](#gegevensleverset), [Gegevenstype](#gegevenstype), [Gegevensdeling](#gegevensdeling)
 
 ### Populatiebeschrijving
 
@@ -1559,7 +1675,7 @@ Toelichting: Deze beschrijving vertelt o.a. hoe deze populatie is samengesteld (
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevensdeling](#gegevensdeling), [Gegevensleverset](#gegevensleverset), [Gegevenstype](#gegevenstype)
+Gerelateerd: [Gegevenstype](#gegevenstype), [Gegevensdeling](#gegevensdeling), [Gegevensleverset](#gegevensleverset)
 
 ### Privacy officer
 
@@ -1578,6 +1694,47 @@ Gerelateerd: [Partij](#partij), [Functionaris](#functionaris)
 Bron: Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Gegevensdeling](#gegevensdeling), [Classificatie](#classificatie)
+
+### Rubriceringsniveau - Departementaal VERTROUWELIJK (Dep.V)
+
+> Indien kennisname door niet geautoriseerde [partijen](#partij) schade kan toebrengen aan de belangen van één of meerdere ministeries.
+
+Bron: Besluit Voorschrift Informatiebeveiliging Rijksdienst Bijzondere Informatie 2013 (VIRBI 2013) [[VIRBI2013]]
+
+Gerelateerd: [Partij](#partij)
+
+### Rubriceringsniveau - Ongerubriceerd
+
+> Ongerubriceerde informatie zijn gegevens die geen rubricering hebben, maar mogelijk wel een aanduiding van groepen die toegang krijgen tot de gegevens (merking).
+
+Toelichting: Ongerubriceerd betekent niet automatisch "intern" of "openbaar". Toegang tot deze gegevens is altijd op basis van "need to know". Verder kan er een inperking van de groep gemachtigden van toepassing zijn, waardoor de gegevens vertrouwelijk moeten worden behandeld.
+
+Bron: Algemene
+Beveiligingseisen voor Defensieopdrachten 2017 [[ABDO2017]]
+
+### Rubriceringsniveau - Staatsgeheim CONFIDENTIEEL (Stg.C)
+
+> Indien kennisname door niet geautoriseerde [partijen](#partij) schade kan toebrengen aan een van de vitale belangen van de Staat of zijn bondgenoten
+
+Bron: Besluit Voorschrift Informatiebeveiliging Rijksdienst Bijzondere Informatie 2013 (VIRBI 2013) [[VIRBI2013]]
+
+Gerelateerd: [Partij](#partij)
+
+### Rubriceringsniveau - Staatsgeheim GEHEIM (Stg.G)
+
+> Indien kennisname door niet geautoriseerde [partijen](#partij) ernstige schade kan toebrengen aan een van de vitale belangen van de Staat of zijn bondgenoten
+
+Bron: Besluit Voorschrift Informatiebeveiliging Rijksdienst Bijzondere Informatie 2013 (VIRBI 2013) [[VIRBI2013]]
+
+Gerelateerd: [Partij](#partij)
+
+### Rubriceringsniveau - Staatsgeheim ZEER GEHEIM (Stg.ZG)
+
+> Indien kennisname door niet geautoriseerde [partijen](#partij) zeer ernstige schade kan toebrengen aan een van de vitale belangen van de Staat of zijn bondgenoten
+
+Bron: Besluit Voorschrift Informatiebeveiliging Rijksdienst Bijzondere Informatie 2013 (VIRBI 2013) [[VIRBI2013]]
+
+Gerelateerd: [Partij](#partij)
 
 ### Strafvorderlijke gegevens
 
@@ -1603,68 +1760,6 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Strafvorderlijke gegevens](#strafvorderlijke-gegevens)
 
-### Te beschermen belang
-
-> Een te beschermen belang is een [verwerkingsbelang](#verwerkingsbelang) dat aangeeft of een partij een te beschermen belang heeft bij de inhoud van een [gegevenstype](#gegevenstype), [gegevensleverset](#gegevensleverset) of [gegevensdeling](#gegevensdeling), en zo ja, op welk niveau het te beschermen belang moet worden beschermd.
-
-*Deze definitie komt uit de voorloper van de Besluit Voorschrift Informatiebeveiliging Rijksdienst Bijzondere Informatie 2013 (VIRBI), het Beveiligingsvoorschrift Rijksdienst 2013 (BVR). Deze is begin 2021  opgevolgd door de VIRBI, die dit begrip niet meer kent.*
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Gegevensleverset](#gegevensleverset), [Gegevenstype](#gegevenstype), [Gegevensdeling](#gegevensdeling), [Verwerkingsbelang](#verwerkingsbelang)
-
-### Te beschermen belang - Geheim - Departementaal VERTROUWELIJK (Dep.V)
-
-> Indien kennisname door niet geautoriseerde [partijen](#partij) schade kan toebrengen aan de belangen van één of meerdere ministeries.
-
-Bron: Besluit Voorschrift Informatiebeveiliging Rijksdienst Bijzondere Informatie 2013 (VIRBI 2013) [[VIRBI2013]]
-
-Gerelateerd: [Partij](#partij)
-
-### Te beschermen belang - Geheim - Staatsgeheim CONFIDENTIEEL (Stg.C)
-
-> Indien kennisname door niet geautoriseerde [partijen](#partij) schade kan toebrengen aan een van de vitale belangen van de Staat of zijn bondgenoten
-
-Bron: Besluit Voorschrift Informatiebeveiliging Rijksdienst Bijzondere Informatie 2013 (VIRBI 2013) [[VIRBI2013]]
-
-Gerelateerd: [Partij](#partij)
-
-### Te beschermen belang - Geheim - Staatsgeheim GEHEIM (Stg.G)
-
-> Indien kennisname door niet geautoriseerde [partijen](#partij) ernstige schade kan toebrengen aan een van de vitale belangen van de Staat of zijn bondgenoten
-
-Bron: Besluit Voorschrift Informatiebeveiliging Rijksdienst Bijzondere Informatie 2013 (VIRBI 2013) [[VIRBI2013]]
-
-Gerelateerd: [Partij](#partij)
-
-### Te beschermen belang - Geheim - Staatsgeheim ZEER GEHEIM (Stg.ZG)
-
-> Indien kennisname door niet geautoriseerde [partijen](#partij) zeer ernstige schade kan toebrengen aan een van de vitale belangen van de Staat of zijn bondgenoten
-
-Bron: Besluit Voorschrift Informatiebeveiliging Rijksdienst Bijzondere Informatie 2013 (VIRBI 2013) [[VIRBI2013]]
-
-Gerelateerd: [Partij](#partij)
-
-### Te beschermen belang - Intern
-
-> Deze informatie mag binnen de organisatie gedeeld worden met alle medewerkers en openbaar worden van deze informatie veroorzaakt geen schade voor de organisatie.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-### Te beschermen belang - Openbaar
-
-> Openbare informatie omvat openbare/publieke data en/of informatie waaraan geen gebruiksbeperkingen zijn gesteld. Staat gelijk aan “Geen te beschermen belang”
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-### Te beschermen belang - Vertrouwelijk
-
-> Wanneer onbedoeld openbaar worden, negatieve gevolgen kan hebben voor bestuurders, de betrokken [partijen](#partij) (financieel of anderszins), en/of burgers (privacy), anders dan benoemd bij 'Intern'. Deze informatie is enkel toegankelijk voor geautoriseerde partijen.
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-Gerelateerd: [Partij](#partij)
-
 ### Technisch gegevensmodel
 
 > Een beschrijving van de lay-out van het [gegevensmiddel](#gegevensmiddel) in de vorm waarin het wordt overgedragen. Het beschrijft de [gegevensvelden](#gegevensveld) in het gegevensmiddel.
@@ -1677,7 +1772,7 @@ Onderdeel van: [Gegevensmiddelspecificatie](#gegevensmiddelspecificatie), [Gegev
 
 Omvat: [Gegevensveld](#gegevensveld)
 
-Gerelateerd: [Gegevensmiddel](#gegevensmiddel), [Gegevensveld](#gegevensveld)
+Gerelateerd: [Gegevensveld](#gegevensveld), [Gegevensmiddel](#gegevensmiddel)
 
 ### Tenuitvoerleggingsgegevens
 
@@ -1703,27 +1798,31 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Tenuitvoerleggingsgegevens](#tenuitvoerleggingsgegevens)
 
-### Verantwoordingsbelang - is afhankelijk van de context
-
-> Voor deze informatie is er wel een verantwoordingsbelang , maar is de start- en einddatum van de bewaring (vernietigingsdatum) afhankelijk van gebeurtenissen die nog moeten plaatsvinden
-
-Bron: Kerndepartement J&V [[KDJV]]
-
-### Verantwoordingsbelang - kennen geen verantwoordingsbelang
+### Verantwoordingsbelang - geen verantwoordingsbelang
 
 > Deze informatie kent geen verantwoordingsbelang
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-### Verantwoordingsbelang - moeten blijvend bewaard worden
+### Verantwoordingsbelang - moet blijvend worden bewaard
 
 > Voor deze informatie is geen vernietigingsdatum voorzien, wel eventuele overdracht naar het Nationaal Archief
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-### Verantwoordingsbelang - moeten tijdelijk bewaard worden
+### Verantwoordingsbelang met context  - ja, de termijn is afhankelijk van de context
+
+> Voor deze informatie is er wel een verantwoordingsbelang , maar is de start- en einddatum van de bewaring (vernietigingsdatum) afhankelijk van gebeurtenissen die nog moeten plaatsvinden
+
+Toelichting: Dit is een verbijzondering van de [classificatie] verantwoordingsbelang. Bij deze classificatie dient altijd een context te worden aangegeven.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+### Verantwoordingsbelang met context - moet tijdelijk worden bewaard
 
 > Voor deze informatie is de vernietigingsdatum bekend
+
+Toelichting: Dit is een verbijzondering van de [classificatie] verantwoordingsbelang. Bij deze classificatie dient altijd een context te worden aangegeven.
 
 Bron: Kerndepartement J&V [[KDJV]]
 
@@ -1747,9 +1846,21 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-### Waardetype
+### Waardebereik gegevenstype
 
-> Een beschrijving van de structuur waar een waarde aan moet voldoen.
+> Een waardebereik beschrijft welke waarden een [gegevenstype categorisch]() kan hebben.
+
+Toelichting: Het gaat hier om een opsomming van waarden die gezamenlijk alle toegestane waarden voor het gegevenstype beschrijven.
 
 Bron: Kerndepartement J&V [[KDJV]]
+
+### Waardetype gegevenstype
+
+> Een waardetype beschrijft de structuur waar een waarde van een [gegevenstype](#gegevenstype) aan moet voldoen.
+
+Toelichting: Een waardetype beschrijft bijvoorbeeld dat een waarde alleen kan bestaan uit een bit (boolean), of uit een datum met bepaald formaat (bijvoorbeeld JJJJMMDD), of uit een geheel getal tussen bepaalde maximale en minimale waarden (integer).
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Gegevenstype](#gegevenstype)
 

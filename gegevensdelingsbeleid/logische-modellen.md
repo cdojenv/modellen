@@ -8,9 +8,11 @@
 
 ![](gegevensleveringsspecificatie.uml.svg "Logisch gegevensmodel gegevensleveringsspecificatie")
 
-### Gegevensmiddelspecificatie
+Vanwege de omvang van het logisch model gegevensleveringsspecificatie wordt het model hieropvolgend nogmaals weergegeven, opgesplitst in sub-modellen. Deze sub-modellen bevatten gezamenlijk alle informatie uit het bovenliggende model.
 
-![](gls_gls_gms.uml.svg "Logisch gegevensmodel gegevensmiddelspecificatie")
+### Afspraken
+
+![](afspraken.uml.svg "Logisch gegevensmodel GLS afspraken")
 
 ### Classificaties
 
@@ -18,7 +20,7 @@
 
 ### Gegevenstypering
 
-![](gls_gls_gms.uml.svg "Logisch gegevensmodel GLS gegevenstypering")
+![](typeringsadministratie.uml.svg "Logisch gegevensmodel GLS gegevenstypering")
 
 ### Overig
 
