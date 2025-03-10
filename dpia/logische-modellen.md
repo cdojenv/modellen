@@ -100,6 +100,18 @@ Vanwege de omvang van het logisch model voor de gehele DPIA wordt het model opge
 
 <a href="./logische-modellen/15_rechten_van_de_betrokkene.uml.svg" target="_blank">Vergrote versie op nieuw tabblad</a>
 
+### DPIA - 16. Risicos voor betrokkenen
+
+![LGM DPIA - 16. Risicos voor betrokkenen](logische-modellen/16_risicos_voor_betrokkenen.uml.svg "Logisch gegevensmodel DPIA - 16. Risicos voor betrokkenen")
+
+<a href="./logische-modellen/16_risicos_voor_betrokkenen.uml.svg" target="_blank">Vergrote versie op nieuw tabblad</a>
+
+### DPIA - 17. Maatregelen
+
+![LGM DPIA - 17. Maatregelen](logische-modellen/17_maatregelen.uml.svg "Logisch gegevensmodel DPIA - 17. Maatregelen")
+
+<a href="./logische-modellen/17_maatregelen.uml.svg" target="_blank">Vergrote versie op nieuw tabblad</a>
+
 ## Pre-scan DPIA
 
 ### Pre-scan DPIA
