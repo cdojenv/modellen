@@ -233,7 +233,7 @@
 |-|-|
 |Eigenschap van|[Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking)|
 |Type|[bekend/onbekend](#-bekend-onbekend)|
-|Mogelijke waarden|bekend; onbekend|
+|Mogelijke waarden|onbekend; bekend|
 
 ### Betrokken partij bij gegevensverwerking is ontvanger {#-etrokken-partij-bij-gegevensverwerking-is-ontvanger}
 
@@ -324,7 +324,7 @@
 |{: .def}||
 |-|-|
 |Eigenschap van|[Bewaartermijn van persoonsgegeven in gegevensverwerking](#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking)|
-|Type|[bewaartermijn](#-bewaartermijn)|
+|Type|CharacterString|
 
 ### Motivatie bewaartermijn persoonsgegeven in gegevensverwerking {#-otivatie-bewaartermijn-persoonsgegeven-in-gegevensverwerking}
 
@@ -412,7 +412,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)|
 |Type|[classificatie_persoonsgegevens_aanwezig](#-classificatie-persoonsgegevens-aanwezig)|
-|Mogelijke waarden|bevat persoonsgegevens; bevat geen persoonsgegevens|
+|Mogelijke waarden|bevat geen persoonsgegevens; bevat persoonsgegevens|
 
 ## Classificatie Type Bijzondere Persoonsgegevens {#-lassificatie-ype-ijzondere-ersoonsgegevens}
 
@@ -428,7 +428,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)|
 |Type|[classificatie_type_bpg_waarde](#-classificatie-type-bpg-waarde)|
-|Mogelijke waarden|gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over politieke opvattingen; gegevens over ras of etnische afkomst; biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over gezondheid; gegevens over lidmaatschap van een vakbond; genetische gegevens; gegevens over religieuze of levensbeschouwelijke overtuigingen|
+|Mogelijke waarden|biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over ras of etnische afkomst; gegevens over politieke opvattingen; gegevens over lidmaatschap van een vakbond; gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over religieuze of levensbeschouwelijke overtuigingen; gegevens over gezondheid; genetische gegevens|
 
 ## Classificatie Type Persoonsgegevens {#-lassificatie-ype-ersoonsgegevens}
 
@@ -445,7 +445,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
 |Type|[classificatie_type_pg_waarde](#-classificatie-type-pg-waarde)|
-|Mogelijke waarden|bevat nationale identificatienummers; bevat strafrechtelijke persoonsgegevens; bevat gevoelige persoonsgegevens; bevat bijzondere persoonsgegevens; bevat gewone persoonsgegevens|
+|Mogelijke waarden|bevat bijzondere persoonsgegevens; bevat nationale identificatienummers; bevat gewone persoonsgegevens; bevat strafrechtelijke persoonsgegevens; bevat gevoelige persoonsgegevens|
 
 ## Conclusie toelaatbaarheid hergebruik {#-onclusie-toelaatbaarheid-hergebruik}
 
@@ -466,8 +466,7 @@
 |{: .def}||
 |-|-|
 |Eigenschap van|[Conclusie toelaatbaarheid hergebruik](#-onclusie-toelaatbaarheid-hergebruik)|
-|Type|[toelaatbaarheid hergebruik](#-toelaatbaarheid-hergebruik)|
-|Mogelijke waarden|toelaatbaar o.b.v. toestemming; niet toelaatbaar; toelaatbaar o.b.v. Unie- of lidstaatrechtelijk recht|
+|Type|CharacterString|
 
 ### Conclusie toelaatbaarheid hergebruik in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde {#-onclusie-toelaatbaarheid-hergebruik-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde}
 
@@ -547,7 +546,7 @@
 |-|-|
 |Eigenschap van|[DPIA](#-)|
 |Type|[wel/geen sprake van geautomatiseerde besluitvorming](#-wel-geen-sprake-van-geautomatiseerde-besluitvorming)|
-|Mogelijke waarden|geen sprake van geautomatiseerde besluitvorming; sprake van geautomatiseerde besluitvorming|
+|Mogelijke waarden|sprake van geautomatiseerde besluitvorming; geen sprake van geautomatiseerde besluitvorming|
 
 ### Algoritme {#-lgoritme}
 
@@ -1176,7 +1175,7 @@
 |-|-|
 |Eigenschap van|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
 |Type|[rechtsgrond](#-rechtsgrond)|
-|Mogelijke waarden|Rechtsgrond wettelijke verplichting; Rechtsgrond vitaal belang; Rechtsgrond toestemming; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond taak van algemeen belang; Rechtsgrond gerechtvaardigd belang|
+|Mogelijke waarden|Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond taak van algemeen belang; Rechtsgrond gerechtvaardigd belang; Rechtsgrond toestemming; Rechtsgrond wettelijke verplichting|
 
 ### Organisatorische activiteit persoonsgegevens heeft Gegevensverwerking persoonsgegevens {#-rganisatorische-activiteit-persoonsgegevens-heeft-egevensverwerking-persoonsgegevens}
 
@@ -1611,7 +1610,7 @@
 |-|-|
 |Eigenschap van|[Persoonsgegeven via betrokken partij](#-ersoonsgegeven-via-betrokken-partij)|
 |Type|[rechtsgrond](#-rechtsgrond)|
-|Mogelijke waarden|Rechtsgrond wettelijke verplichting; Rechtsgrond vitaal belang; Rechtsgrond toestemming; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond taak van algemeen belang; Rechtsgrond gerechtvaardigd belang|
+|Mogelijke waarden|Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond taak van algemeen belang; Rechtsgrond gerechtvaardigd belang; Rechtsgrond toestemming; Rechtsgrond wettelijke verplichting|
 
 ### Partij verstrekt persoonsgegeven {#-artij-verstrekt-persoonsgegeven}
 
@@ -1704,7 +1703,7 @@
 |-|-|
 |Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
 |Type|[risiconiveau](#-risiconiveau)|
-|Mogelijke waarden|laag; hoog; midden|
+|Mogelijke waarden|hoog; laag; midden|
 
 ### Motivatie kans risico voor betrokkenen {#-otivatie-kans-risico-voor-betrokkenen}
 
@@ -1726,7 +1725,7 @@
 |-|-|
 |Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
 |Type|[impact](#-impact)|
-|Mogelijke waarden|hoog; laag; midden|
+|Mogelijke waarden|hoog; midden; laag|
 
 ### Kans op optreden risico voor betrokkenen {#-ans-op-optreden-risico-voor-betrokkenen}
 
@@ -1734,7 +1733,7 @@
 |-|-|
 |Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
 |Type|[kans](#-kans)|
-|Mogelijke waarden|hoog; midden; laag|
+|Mogelijke waarden|midden; hoog; laag|
 
 ### Risico voor betrokkenen in relatie met DPIA {#-isico-voor-betrokkenen-}
 
@@ -1979,11 +1978,6 @@
 |{: .def}||
 |-|-|
 
-### bewaartermijn {#-bewaartermijn}
-
-|{: .def}||
-|-|-|
-
 ### categorie betrokkenen {#-categorie-betrokkenen}
 
 |{: .def}||
@@ -2009,6 +2003,7 @@
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|CharacterString|
 
 ### doorgiftemechanisme {#-doorgiftemechanisme}
 
@@ -2124,6 +2119,7 @@
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|CharacterString|
 
 ### procedure recht van de betrokkene {#-procedure-recht-van-de-betrokkene}
 

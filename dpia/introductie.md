@@ -4,7 +4,7 @@ In deze introductie worden de gemodelleerde gegevens verbonden in een verhaal, w
 
 ## DPIA {#IntroDPIA}
 
-Een Data Protection Impact Assessment ([DPIA](#dpia)) is een vastlegging van de impact die een bepaalde [gegevensverwerking](#gegevensverwerking) heeft of kan hebben op de privacy van burgers. Deze DPIA is onderhevig aan de Algemene Verordening Gegevensbescherming ([[AVG]]).
+Een Data Protection Impact Assessment ([DPIA](#dpia)) is een vastlegging van de impact die een bepaalde [gegevensverwerking](#gegevensverwerking) heeft of kan hebben op de rechten en vrijheden van natuurlijke personen, waaronder het recht op privacy.
 
 In deze specificatie wordt beschreven uit welke gegevens een DPIA is opgebouwd, en hoe deze zich onderling verhouden, op het conceptuele en semantische niveau. De beschrijving zal per paragraaf gebeuren, conform de indeling in het [[ModelDPIARijksdienst]].
 
@@ -37,8 +37,8 @@ Er zijn vele partijen betrokken bij het opstellen van de DPIA. Deze worden ook b
 
 * Een [verwerkingsverantwoordelijke die DPIA opstelt](#verwerkingsverantwoordelijke-die-dpia-opstelt). 
 * De [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke) heeft een [documentbeheerder](#documentbeheerder).
-* Daarnaast heeft deze [partij](#partij) ook een [functionaris voor gegevensbescherming](#functionaris-voor-gegevensbescherming). 
-* Een [functionaris voor gegevensbescherming](#functionaris-voor-gegevensbescherming) is een [persoon](#persoon) die werkt voor een [partij](#partij) die betrokken is bij de [DPIA](#dpia) in de rol van functionaris voor gegevensbescherming, waarvan mogelijk de [organisatorische eenheid](#organisatorische-eenheid) bekend is. Een [functionaris voor gegevensbescherming](#functionaris-voor-gegevensbescherming) stelt een [advies FG](#advies-fg) op. In de DPIA wordt beschreven hoe met dat advies is omgegaan.
+* Daarnaast heeft deze [partij](#partij) vaak (maar niet altijd) een [functionaris voor gegevensbescherming](#functionaris-voor-gegevensbescherming). 
+* Een [functionaris voor gegevensbescherming](#functionaris-voor-gegevensbescherming) is een [persoon](#persoon) die werkt voor een [partij](#partij) die betrokken is bij de [DPIA](#dpia) in de rol van functionaris voor gegevensbescherming, waarvan mogelijk de [organisatorische eenheid](#organisatorische-eenheid) bekend is. Een [functionaris voor gegevensbescherming](#functionaris-voor-gegevensbescherming) stelt een [advies FG](#advies-fg) op.
 * De overige [verwerkingsverantwoordelijken bij de DPIA](#verwerkingsverantwoordelijke-bij-dpia).
 * De [betrokken functies bij opstellen DPIA](#betrokken-functies-bij-opstellen-dpia).
 * De genoemde functies zijn [functies in de organisatorische eenheid van een partij](#functie-in-organisatorische-eenheid-van-partij). Dat is dus een functie bij een team of afdeling van een organisatie.
@@ -157,7 +157,7 @@ Paragraaf 8 van het rijksmodel voor de [DPIA](#dpia) bevat informatie over de [v
 
 Hierbij wordt voor elke gegevensverwerking het [Land](#land) benoemd waar de verwerking plaatsvindt. Indien dit een [derde land](#derde-land) betreft, is er sprake van een [verwerkingslocatie buiten de EER](#verwerkingslocatie-buiten-de-eer) en dus van [internationale doorgifte](#internationale-doorgifte). In dat geval moet het [doorgiftemechanisme](#doorgiftemechanisme) worden beschreven.
 
-Als er sprake is van een [verwerkingslocatie buiten de EER](#verwerkingslocatie-buiten-de-eer) dan is er ook sprake van een [risico op basis van doorgifte](#risico-op-basis-van-doorgifte) als een [initieel risico voor betrokkenen](#initieel-risico-voor-betrokkenen). Eventuele genomen [maatregelen tegen risico op basis van doorgifte](#maatregel-tegen-risico-op-basis-van-doorgifte) worden daarbij vastgelegd.
+Als er sprake is van een [verwerkingslocatie buiten de EER](#verwerkingslocatie-buiten-de-eer) dan is er ook sprake van een [risico op basis van doorgifte](#risico-op-basis-van-doorgifte) als een [inherent risico voor betrokkenen](#inherent-risico-voor-betrokkenen). Eventuele genomen [maatregelen tegen risico op basis van doorgifte](#maatregel-tegen-risico-op-basis-van-doorgifte) worden daarbij vastgelegd.
 
 ### 09. Juridisch/Beleidsmatig kader {#IntroJuridischBeleidsmatigKader}
 
@@ -210,7 +210,7 @@ Verder wordt er een [subsidiariteitsbeoordeling](#subsidiariteitsbeoordeling) va
 
 ### 15. Rechten van de betrokkene {#IntroRechtenVanDeBetrokkene}
 
-Paragraaf 15 van het rijksmodel voor de [DPIA](#dpia) beschrijf voor elk [recht van de betrokkene](#recht-van-de-betrokkene) de [procedure ter invulling van het recht van de betrokkene](#procedure-ter-invulling-van-het-recht-van-de-betrokkene) waarmee dat recht van de betrokkene wordt geborgd.
+Paragraaf 15 van het rijksmodel voor de [DPIA](#dpia) beschrijft voor elk [recht van de betrokkene](#recht-van-de-betrokkene) de [procedure ter invulling van het recht van de betrokkene](#procedure-ter-invulling-van-het-recht-van-de-betrokkene) waarmee dat recht van de betrokkene wordt geborgd.
 
 Indien er een [beperking op recht van de betrokkene](#beperking-op-recht-van-de-betrokkene) op het [recht van de betrokkene](#recht-van-de-betrokkene) wordt geplaatst, wordt ook de [rechtsgrond voor beperking op recht van de betrokkene](#rechtsgrond-voor-beperking-op-recht-van-de-betrokkene) vastgelegd. Deze rechtsgrond is een [wetsartikel over beperking op recht van de betrokkene](#wetsartikel-over-beperking-op-recht-van-de-betrokkene). Dit is specifieke [wet- en regelgeving over beperking op recht van de betrokkene](#wet-en-regelgeving-over-beperking-op-recht-van-de-betrokkene).
 

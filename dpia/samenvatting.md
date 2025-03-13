@@ -3,7 +3,17 @@ Dit document beschrijft de gegevenstypering van het Data Privacy Impact Assessme
 1. Een [introductie voor de DPIA](#IntroDPIA) en [voor de pre-scan DPIA](#IntroPre-scanDPIA) die in verhalende vorm de relatie tussen de begrippen uitlegt.
 1. De definities van de [relevante begrippen](#begrippen) voor de [DPIA](#dpia-00-algemeen) en voor de [pre-scan DPIA](#pre-scan-dpia-a-inleiding-algemeen), evenals hun onderlinge relaties;
 1. De conceptuele informatiemodellen van de [DPIA](#cim-dpia) (CIM) en van de [pre-scan DPIA](#cim-pre-scan_dpia). Deze modellen beschrijven de informatiebehoefte in termen van de relevante objecten en hun eigenschappen;
-1. De logische gegevensmodellen (LGM) van de [DPIA](#dpia-2) en van de [pre-scan DPIA](#pre-scan-dpia-1) die beschrijven welke gegevens bijgehouden dienen te worden (en op welke wijze) als men een administratie (boekhouding) van de pre-scan DPIA en DPIA zou willen bijhouden.
+1. De logische gegevensmodellen (LGM) van de [DPIA](#dpia-2) en van de [pre-scan DPIA](#pre-scan-dpia-2) die beschrijven welke gegevens bijgehouden dienen te worden (en op welke wijze) als men een administratie (boekhouding) van de pre-scan DPIA en DPIA zou willen bijhouden.
+
+De modellen zijn gebaseerd op de volgende documenten:
+
+* Rapportagemodel DPIA Rijksdienst v3.0, 25 juli 2023 ([[RapportagemodelDPIARijksdienst]])
+* Model DPIA Rijksdienst v3.0, mei 2023 ([[ModelDPIARijksdienst]])
+* Handreiking Pre-scan DPIA, versie 2.0, 23 augustus 2024 ([[HandreikingPre-scanDPIA]])
+en 
+* Pre-scan Data Protection Impact Assessment v2.0, 23 augustus 2024 ([[Pre-scanDPIA]])
+
+Deze documenten worden beheerd door de Privacy Adviseurs Rijk (PAR).
 
 **Versionering in dit document**
 

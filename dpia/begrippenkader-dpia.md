@@ -76,9 +76,7 @@ Gerelateerd: [DPIA](#dpia), [Document](#document)
 
 > Een DPIA inleiding is een optionele openingstekst van een [DPIA](#dpia).
 
-Toelichting: Denk bijvoorbeeld aan: 
-
-* Verwijzing naar het privacybeleid
+Toelichting: Denk bijvoorbeeld aan: * Verwijzing naar het privacybeleid
 * Motivatie achter de uitvoering van deze DPIA
 * Informatie over de manier waarop deze DPIA is opgesteld
 
@@ -224,9 +222,7 @@ Toelichting: In het kader van gegevensbescherming kan een normenkader bijvoorbee
 
 Bron: Normenkader, [[Nora]], paragraaf 1.8, pagina 14/15, [[ModelDPIARijksdienst]]
 
-Voorbeeld(en): 
-
-* Het Voorschrift Informatiebeveiliging Rijksdienst 2007 (VIR 2007);
+Voorbeeld(en): * Het Voorschrift Informatiebeveiliging Rijksdienst 2007 (VIR 2007);
 * Het Besluit voorschrift informatiebeveiliging rijksdienst – bijzondere informatie 2013 (VIRBI 2013);
 * De Baseline Informatiebeveiliging Overheid (BIO).
 
@@ -344,8 +340,7 @@ Voorbeeld(en): Een normenkader kan stellen dat "persoonsgegevens passend beveili
 
 > Het voorstel is een beschrijving van waar een [DPIA](#dpia) over gaat, op hoofdlijnen, hoe het voorstel tot stand is gekomen en wat de beweegredenen zijn achter de totstandkoming van het voorstel.
 
-Toelichting: Met een korte en bondige beschrijving van de gegevensverwerkingen, wordt de reikwijdte van het DPIA-rapport duidelijk. Ten behoeve van de duidelijkheid en de reikwijdte kan het ook nuttig zijn om expliciet aan te geven waar de DPIA in ieder geval niet over gaat. Ter controle of de beschrijving van het voorstel compleet is kunnen de volgende punten worden nagegaan: 1. Wat is de aanleiding voor het voorstel;
-2. Vervangt of vernieuwt het voorstel een bestaande situatie en is deze bestaande situatie beschreven in relatie tot de nieuwe situatie;
+Toelichting: Met een korte en bondige beschrijving van de gegevensverwerkingen, wordt de reikwijdte van het DPIA-rapport duidelijk. Ten behoeve van de duidelijkheid en de reikwijdte kan het ook nuttig zijn om expliciet aan te geven waar de DPIA in ieder geval niet over gaat. Ter controle of de beschrijving van het voorstel compleet is kunnen de volgende punten worden nagegaan: 1. Wat is de aanleiding voor het voorstel; 2. Vervangt of vernieuwt het voorstel een bestaande situatie en is deze bestaande situatie beschreven in relatie tot de nieuwe situatie;
 3. Welke departementen en organisaties zijn betrokken bij het voorstel;
 4. Is bij het voorstel sprake van privacy by design en privacy by default en is beschreven hoe deze beginselen geïmplementeerd zijn; en
 5. Wat zijn de redenen dat het voorstel op deze manier tot stand is gekomen en wordt uitgevoerd?
@@ -544,9 +539,7 @@ Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
 ### Gevoelig persoonsgegeven
 
-> Een gevoelig persoonsgegeven is een [persoonsgegeven](#persoonsgegeven) dat niet expliciet in de AVG is benoemd als aparte categorie, maar dat wel een grotere impact heeft op iemands privacy dan een [gewoon persoonsgegeven](#gewoon-persoonsgegeven). Het omvat alle persoonsgegevens die: 
-
-* verband houden met huishoudelijke en privéactiviteiten;
+> Een gevoelig persoonsgegeven is een [persoonsgegeven](#persoonsgegeven) dat niet expliciet in de AVG is benoemd als aparte categorie, maar dat wel een grotere impact heeft op iemands privacy dan een [gewoon persoonsgegeven](#gewoon-persoonsgegeven). Het omvat alle persoonsgegevens die: * verband houden met huishoudelijke en privéactiviteiten;
 * en/of de uitoefening van een grondrecht beïnvloeden;
 * en/of of omdat de schending van de vertrouwelijkheid van deze gegevens duidelijk gevolgen heeft voor het dagelijkse leven van de betrokkene.
 
@@ -766,9 +759,7 @@ Voorbeeld(en): Verzoek om informatie, betaling/transactie.
 
 > Een stroomschema is een visualisatie van [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens).
 
-Toelichting: Omdat de gegevensverwerkingen binnen het voorstel gecompliceerd kunnen zijn en het niet altijd gemakkelijk is om het geheel van gegevensverwerkingen in woorden uit te drukken is het van belang om de gegevensverwerkingen te visualiseren, bijvoorbeeld aan de hand van een input-proces-output model, stroomschema of workflow. Een duidelijk stroomschema kan namelijk in een oogopslag laten zien hoe de gegevensverwerkingen binnen het proces lopen, waardoor gemakkelijk het overzicht kan worden bewaard in de DPIA. Verder kan ook gerefereerd worden naar het gebruikte stroomschema in de rest van de DPIA. Om de duidelijkheid van het stroomschema te vergroten kan aan de volgende elementen worden gedacht: 
-
-* Benoem alle betrokken partijen in het stroomschema. Op die manier is het duidelijk welke partij verantwoordelijk of onderdeel is bij desbetreffende gegevensverwerking en wanneer de partijen precies worden betrokken bij de gegevensverwerkingen. Geef ook aan wat de AVG-rol is van iedere betrokken partij.
+Toelichting: Omdat de gegevensverwerkingen binnen het voorstel gecompliceerd kunnen zijn en het niet altijd gemakkelijk is om het geheel van gegevensverwerkingen in woorden uit te drukken is het van belang om de gegevensverwerkingen te visualiseren, bijvoorbeeld aan de hand van een input-proces-output model, stroomschema of workflow. Een duidelijk stroomschema kan namelijk in een oogopslag laten zien hoe de gegevensverwerkingen binnen het proces lopen, waardoor gemakkelijk het overzicht kan worden bewaard in de DPIA. Verder kan ook gerefereerd worden naar het gebruikte stroomschema in de rest van de DPIA. Om de duidelijkheid van het stroomschema te vergroten kan aan de volgende elementen worden gedacht: * Benoem alle betrokken partijen in het stroomschema. Op die manier is het duidelijk welke partij verantwoordelijk of onderdeel is bij desbetreffende gegevensverwerking en wanneer de partijen precies worden betrokken bij de gegevensverwerkingen. Geef ook aan wat de AVG-rol is van iedere betrokken partij.
 * Wanneer het stroomschema groter is dan de reikwijdte van de DPIA, geef duidelijk aan in het stroomschema over welke gegevensverwerkingen de DPIA gaat.
 * Voeg per gegevensverwerking toe of specifieke applicaties, software, online platformen of cloud opslag wordt gebruikt.
 
@@ -1328,9 +1319,7 @@ Bron: Overeenkomst betreffende de Europese Economische Ruimte, Oporto, 02-05-199
 
 > Internationale doorgifte is het doorgeven van [persoonsgegevens](#persoonsgegeven) aan een [derde land](#derde-land) of internationale organisatie.
 
-Toelichting: De EDPB heeft de volgende drie cumulatieve criteria vastgesteld om een doorgifte buiten de EER (internationale doorgifte) te identificeren:
-
- * een verwerkingsverantwoordelijke of een verwerker is onderworpen aan de AVG voor de gegeven verwerking;
+Toelichting: De EDPB heeft de volgende drie cumulatieve criteria vastgesteld om een doorgifte buiten de EER (internationale doorgifte) te identificeren: * een verwerkingsverantwoordelijke of een verwerker is onderworpen aan de AVG voor de gegeven verwerking;
 * deze verwerkingsverantwoordelijke of verwerker zendt de persoonsgegevens door naar of stelt deze beschikbaar aan een andere organisatie (gegevensbeheerder of verwerker);
 * deze andere organisatie bevindt zich in een land buiten de EER (een derde land) of is een internationale organisatie. Er is ook sprake van internationale doorgifte als het hoofdkantoor van de cloudprovider buiten de EER is gevestigd, opslag van gegevens buiten de EER plaatsvindt, support van buiten de EER wordt geleverd of telemetrie en/of diagnostische gegevens buiten de EER worden verwerkt.
 
@@ -1723,9 +1712,7 @@ Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
 
 > Strafrechtelijke persoonsgegevens zijn [persoonsgegevens](#persoonsgegeven) die strafrechtelijke veroordelingen en strafbare feiten of daarmee verband houdende veiligheidsmaatregelen betreffen. Verder gaat het ook om [persoonsgegevens](#persoonsgegeven) over een door de rechter opgelegd verbod naar aanleiding van onrechtmatig of hinderlijk gedrag.
 
-Toelichting: Het gaat hier zowel om veroordelingen als om verdenkingen van strafbare feiten. Meer in het algemeen, gaat het om persoonsgegevens die betrekking hebben op gedragingen die aanleiding geven tot maatschappelijke afkeuring en de bescherming van deze persoonsgegevens heeft als doel om te voorkomen dat betrokkenen gestigmatiseerd worden of op andere manier ernstige wijze inbreuk wordt gemaakt op hun privé- of beroepsleven. Volgens rechtspraak van het Europese Hof van Justitie zijn er drie criteria relevant om te beoordelen of sprake is van strafrechtelijke persoonsgegevens in de zin van artikel 10 AVG:
-
-* Juridische kwalificatie van het strafbare feit naar nationaal recht;
+Toelichting: Het gaat hier zowel om veroordelingen als om verdenkingen van strafbare feiten. Meer in het algemeen, gaat het om persoonsgegevens die betrekking hebben op gedragingen die aanleiding geven tot maatschappelijke afkeuring en de bescherming van deze persoonsgegevens heeft als doel om te voorkomen dat betrokkenen gestigmatiseerd worden of op andere manier ernstige wijze inbreuk wordt gemaakt op hun privé- of beroepsleven. Volgens rechtspraak van het Europese Hof van Justitie zijn er drie criteria relevant om te beoordelen of sprake is van strafrechtelijke persoonsgegevens in de zin van artikel 10 AVG: * Juridische kwalificatie van het strafbare feit naar nationaal recht;
 * Aard van het strafbare feit; en
 * De zwaarte van de sanctie die aan de betrokkene kan worden opgelegd. Zelfs voor strafbare feiten die naar nationaal recht niet als strafbare feiten in strafrechtelijke zin worden gekwalificeerd, kan uit de aard van het strafbare feit zelf en/of uit de zwaarte voortvloeien dat sprake is van strafrechtelijke persoonsgegevens. Strafrechtelijke persoonsgegevens kunnen, bijvoorbeeld, ook voorkomen in zwarte lijsten en een Verklaring Omtrent Gedrag (VOG). Dat is niet per definitie het geval, omdat een zwarte lijst ook kan bestaan uit negatieve gegevens over personen die niet strafrechtelijk van aard zijn en in een VOG kunnen strafrechtelijke persoonsgegevens ontbreken. Wees echter wel bewust dat dergelijke documenten strafrechtelijke persoonsgegevens kunnen bevatten; de beoordeling van strafrechtelijke persoonsgegevens dient breder te worden gelezen dan strafbare feiten die direct een relatie hebben met handelingen die vallen onder het strafrecht.
 
@@ -1962,9 +1949,7 @@ Gerelateerd: [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdo
 
 > Een verenigbaarheidstoets is een beoordeling of een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) [verenigbaar](#verenigbaar) is met het [oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde) van de [persoonsgegevens](#persoonsgegeven).
 
-Toelichting: Ter beoordeling van de verenigbaarheid moet worden gekeken naar een aantal elementen:
-
-* het verband tussen het nieuwe doel en het oorspronkelijke doel. Hoe dichter die bij elkaar liggen, hoe eerder de verwerking verenigbaar is.
+Toelichting: Ter beoordeling van de verenigbaarheid moet worden gekeken naar een aantal elementen: * het verband tussen het nieuwe doel en het oorspronkelijke doel. Hoe dichter die bij elkaar liggen, hoe eerder de verwerking verenigbaar is.
 * de context waarin de persoonsgegevens zijn verzameld. Hier moet worden gekeken naar de relatie tussen de verwerkingsverantwoordelijke en de betrokkene en wat de betrokkene redelijk kan verwachten.
 * de aard van de persoonsgegevens. Bij gevoelige persoonsgegevens geldt een hoger beschermingsniveau en dat deze minder snel voor andere doelen mogen worden gebruikt.
 * de mogelijke gevolgen van de verdere verwerking voor betrokkenen.
@@ -1992,9 +1977,7 @@ Alternatieve aanduiding: *Evenredigheid*
 
 > Proportionaliteit is een beginsel dat stelt dat een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) alleen is toegestaan als de indringendheid van de [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) in een redelijke verhouding staat tot het [verwerkingsdoeleinde](#verwerkingsdoeleinde).
 
-Toelichting: Ter beoordeling van de proportionaliteit kunnen de volgende vragen worden gesteld:
-
-* Staat de inbreuk op de persoonlijke levenssfeer en de bescherming van de persoonsgegevens van de betrokkenen in evenredige verhouding tot de verwerkingsdoeleinden?
+Toelichting: Ter beoordeling van de proportionaliteit kunnen de volgende vragen worden gesteld: * Staat de inbreuk op de persoonlijke levenssfeer en de bescherming van de persoonsgegevens van de betrokkenen in evenredige verhouding tot de verwerkingsdoeleinden?
 * Is de gegevensverwerking van persoonsgegevens te verwachten en voorzienbaar voor de betrokkenen?
 * Hoe groot is het belang om de verwerkingsdoeleinden te bewerkstelligen?
 * Is de gegevensverwerking het meest effectieve middel om het doeleinde te bereiken?
@@ -2154,9 +2137,7 @@ Gerelateerd: [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven), [Re
 
 Alternatieve aanduiding: *Recht van betrokkene, privacyrecht*
 
-> Een recht van de betrokkene is een recht dat een [betrokkene](#betrokkene) heeft als het gaat om de verwerking van zijn/haar [persoonsgegevens](#persoonsgegeven). Het gaat hierbij om de volgende rechten:
-
-* Het [recht op informatie](#recht-op-informatie),
+> Een recht van de betrokkene is een recht dat een [betrokkene](#betrokkene) heeft als het gaat om de verwerking van zijn/haar [persoonsgegevens](#persoonsgegeven). Het gaat hierbij om de volgende rechten: * Het [recht op informatie](#recht-op-informatie),
 * Het [recht van inzage](#recht-van-inzage),
 * Het [recht op rectificatie en aanvulling](#recht-op-rectificatie-en-aanvulling),
 * Het [recht op gegevenswissing](#recht-op-gegevenswissing) (vergetelheid),
@@ -2392,7 +2373,7 @@ Gerelateerd: [Impact](#impact), [Risico voor betrokkenen](#risico-voor-betrokken
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]]
 
-Gerelateerd: , [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), 
 
 ### Mogelijk sprake van discriminatie
 
@@ -2464,7 +2445,7 @@ Toelichting: Het gaat hier om de situatie waarin persoonsgegevens worden verwerk
 * Heridentificatie van gepseudonimiseerde gegeven
 * Elk ander aanzienlijk economisch of sociaal nadeel Bij het opstellen van een DPIA worden alle (mogelijke) risico's voor de betrokkenen beschreven, ook als er al maatregelen zijn getroffen om deze risico's te mitigeren.
 
-*Deze definitie is afgeleid uit de beschrijving in het Model DPIA Rijksdienst.*
+*Deze definitie is afgeleid uit de beschrijving in het Model DPIA Rijksdienst. Risico's voor betrokkenen kunnen worden onderverdeeld in inherente risico's, resterende risico's en secundaire risico's.*
 
 Bron: paragraaf 3.16, pagina 52, [[ModelDPIARijksdienst]]
 
@@ -2490,7 +2471,7 @@ Toelichting: Het risiconiveau wordt bepaald aan de hand van de formule kans x im
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]], overweging 90, preambule, [[AVG]]
 
-Gerelateerd: [Impact](#impact), , [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: , [Impact](#impact), [Risico voor betrokkenen](#risico-voor-betrokkenen)
 
 ## DPIA - 17. Maatregelen
 
@@ -2535,7 +2516,7 @@ Gerelateerd: [Functie](#functie), [Maatregel](#maatregel), [Organisatorische een
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Hoog risico](#hoog-risico), , [DPIA met resterende risico's](#dpia-met-resterende-risico's), [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen)
+Gerelateerd: , [Hoog risico](#hoog-risico), [DPIA met resterende risico's](#dpia-met-resterende-risico's), [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen)
 
 ### DPIA met resterende risico's
 
@@ -2641,7 +2622,7 @@ Toelichting: Wanneer uit de DPIA voor overheidsverwerkingen blijkt dat de gegeve
 
 *De definitie komt grotendeels uit de AVG. Echter, in artikel 36, lid 1, AVG staat "Wanneer uit een gegevensbeschermingseffectbeoordeling krachtens artikel 35 blijkt dat de verwerking een hoog risico zou opleveren indien de verwerkingsverantwoordelijke geen maatregelen neemt om het risico te beperken, raadpleegt de verwerkingsverantwoordelijke voorafgaand aan de verwerking de toezichthoudende autoriteit." Dit is onjuist, daar genomen maatregelen in acht dienen te worden genomen bij de bepaling of een hoog risico overblijft. De definitie is hierop aangepast op basis van de informatie in het Model DPIA Rijksdienst.*
 
-Bron: Model DPIA Rijksdienst, mei 2023 [[ModelDPIARijksdienst]], artikel 36, lid 1, [[AVG]]
+Bron: Model DPIA Rijksdienst v3.0, mei 2023 [[ModelDPIARijksdienst]], artikel 36, lid 1, [[AVG]]
 
 Gerelateerd: [Hoog risico](#hoog-risico), [DPIA met resterend hoog risico](#dpia-met-resterend-hoog-risico), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Maatregel](#maatregel)
 
@@ -2663,8 +2644,7 @@ Gerelateerd: [Organisatorische activiteit](#organisatorische-activiteit)
 
 > Een organisatorische activiteit met DPIA-verplichting is van toepassing wanneer een [partij](#partij) verplicht is een [DPIA](#dpia) op te stellen voor een specifieke [organisatorische activiteit](#organisatorische-activiteit).
 
-Toelichting: Een partij is in ieder geval verplicht een DPIA op te stellen bij een gegevensverwerking als:
-* tenminste één gegevensverwerking uit de Lijst AP plaats vindt; of
+Toelichting: Een partij is in ieder geval verplicht een DPIA op te stellen bij een gegevensverwerking als: * tenminste één gegevensverwerking uit de Lijst AP plaats vindt; of
 * tenminste twee criteria uit de Lijst EDPB gelden. Als dit niet van toepassing is, kan er op basis van andere criteria nog steeds een DPIA-verplichting gelden. Dit kan worden afgeleid van de antwoorden op de overige vragen in de pre-scan DPIA.
 
 *Deze definitie is afgeleid van het gebruik in de Pre-scan DPIA.*
@@ -3556,16 +3536,12 @@ Gerelateerd: [EDPB](#edpb), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens]
 
 ### Lijst EDPB: Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens
 
-> Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens is een criteria uit de [Lijst EDPB](#lijst-edpb) die bestaat uit de volgende typen persoonsgegevens:
-
-* [gevoelige persoonsgegevens](#gevoelig-persoonsgegeven)
+> Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens is een criteria uit de [Lijst EDPB](#lijst-edpb) die bestaat uit de volgende typen persoonsgegevens: * [gevoelige persoonsgegevens](#gevoelig-persoonsgegeven)
 * [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven)
 * [strafrechtelijke persoonsgegevens](#strafrechtelijk-persoonsgegeven)
 * [nationale identificatienummers](#nationaal-identificatienummer)
 
-Toelichting: Het omvat de categorieën persoonsgegevens zoals omschreven in artikel 9 en 10 van de AVG (bijzondere en strafrechtelijke persoonsgegevens), evenals nationale identificatienummers (artikel 87 van de AVG). Daarnaast omvat het alle persoonsgegevens die:
-
-* verband houden met huishoudelijke en privéactiviteiten;
+Toelichting: Het omvat de categorieën persoonsgegevens zoals omschreven in artikel 9 en 10 van de AVG (bijzondere en strafrechtelijke persoonsgegevens), evenals nationale identificatienummers (artikel 87 van de AVG). Daarnaast omvat het alle persoonsgegevens die: * verband houden met huishoudelijke en privéactiviteiten;
 * en/of de uitoefening van een grondrecht beïnvloeden;
 * en/of of omdat de schending van de vertrouwelijkheid van deze gegevens duidelijk gevolgen heeft voor het dagelijkse leven van de betrokkene.
 

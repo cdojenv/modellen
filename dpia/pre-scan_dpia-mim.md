@@ -39,7 +39,7 @@
 |-|-|
 |Eigenschap van|[Categorie betrokkenen in organisatorische activiteit](#-ategorie-betrokkenen-in-organisatorische-activiteit)|
 |Type|[categorie betrokkenen pre-scan DPIA](#-categorie-betrokkenen-pre-scan-)|
-|Mogelijke waarden|Andere kwetsbare groepen; Kinderen jonger dan 16 jaar; Specificatie categorie betrokkenen; Burgers; Medewerkers/bewindspersonen|
+|Mogelijke waarden|Burgers; Andere kwetsbare groepen; Kinderen jonger dan 16 jaar; Medewerkers/bewindspersonen; Specificatie categorie betrokkenen|
 
 ### Aantal betrokkenen van categorie {#-antal-betrokkenen-van-categorie}
 
@@ -100,7 +100,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)|
 |Type|[classificatie_type_bpg_waarde](#-classificatie-type-bpg-waarde)|
-|Mogelijke waarden|gegevens over politieke opvattingen; genetische gegevens; gegevens over lidmaatschap van een vakbond; gegevens over religieuze of levensbeschouwelijke overtuigingen; gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over ras of etnische afkomst; biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over gezondheid|
+|Mogelijke waarden|biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over lidmaatschap van een vakbond; gegevens over ras of etnische afkomst; genetische gegevens; gegevens over gezondheid; gegevens over religieuze of levensbeschouwelijke overtuigingen; gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over politieke opvattingen|
 
 ## Classificatie Type Persoonsgegevens {#-lassificatie-ype-ersoonsgegevens}
 
@@ -117,7 +117,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
 |Type|[classificatie_type_pg_waarde](#-classificatie-type-pg-waarde)|
-|Mogelijke waarden|bevat gewone persoonsgegevens; bevat bijzondere persoonsgegevens; bevat nationale identificatienummers; bevat gevoelige persoonsgegevens; bevat strafrechtelijke persoonsgegevens|
+|Mogelijke waarden|bevat gewone persoonsgegevens; bevat strafrechtelijke persoonsgegevens; bevat nationale identificatienummers; bevat bijzondere persoonsgegevens; bevat gevoelige persoonsgegevens|
 
 ## Organisatorische activiteit {#-rganisatorische-activiteit}
 
@@ -168,7 +168,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit gevoelige persoonsgegevens](#-rganisatorische-activiteit-gevoelige-persoonsgegevens)|
 |Type|[categorie gevoelige persoonsgegevens](#-categorie-gevoelige-persoonsgegevens)|
-|Mogelijke waarden|Gegevens die kunnen worden gebruikt voor fraude; Gebruikersnamen, wachtwoorden en andere inloggegevens; Andere gegevens die kunnen leiden tot stigmatisering of uitsluiting van de betrokkene; Communicatie- en locatiegegevens; Gegevens over de financiële situatie van de betrokkene; Surfgedrag; Gegevens die betrekking hebben op kwetsbare groepen|
+|Mogelijke waarden|Gebruikersnamen, wachtwoorden en andere inloggegevens; Gegevens die betrekking hebben op kwetsbare groepen; Gegevens die kunnen worden gebruikt voor fraude; Surfgedrag; Andere gegevens die kunnen leiden tot stigmatisering of uitsluiting van de betrokkene; Communicatie- en locatiegegevens; Gegevens over de financiële situatie van de betrokkene|
 
 ## Organisatorische activiteit gewone persoonsgegevens {#-rganisatorische-activiteit-gewone-persoonsgegevens}
 
@@ -184,7 +184,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit gewone persoonsgegevens](#-rganisatorische-activiteit-gewone-persoonsgegevens)|
 |Type|[categorie gewone persoonsgegevens](#-categorie-gewone-persoonsgegevens)|
-|Mogelijke waarden|Gegevens verzameld via een website; Apparaat- en internetgegevens; Helpdeskgegevens; Content; Naam, contactgegevens; Diagnostische gegevens of telemetrie; Overige; Demografische gegevens; Logging|
+|Mogelijke waarden|Overige; Naam, contactgegevens; Demografische gegevens; Content; Helpdeskgegevens; Logging; Apparaat- en internetgegevens; Gegevens verzameld via een website; Diagnostische gegevens of telemetrie|
 
 ## Organisatorische activiteit met DPIA-verplichting {#-rganisatorische-activiteit-met-verplichting}
 
@@ -245,7 +245,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit met algoritme](#-rganisatorische-activiteit-met-algoritme)|
 |Type|[wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem](#-wel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-systeem)|
-|Mogelijke waarden|sprake van een algoritme dat kwalificeert als een AI-systeem; geen sprake van een algoritme dat kwalificeert als een AI-systeem|
+|Mogelijke waarden|geen sprake van een algoritme dat kwalificeert als een AI-systeem; sprake van een algoritme dat kwalificeert als een AI-systeem|
 
 ## Organisatorische activiteit met internationale doorgifte {#-rganisatorische-activiteit-met-internationale-doorgifte}
 
@@ -261,7 +261,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte)|
 |Type|[on premise/datacenter EER/buiten EER](#-on-premise-datacenter-buiten-)|
-|Mogelijke waarden|datacenter EER; buiten EER; on premise|
+|Mogelijke waarden|buiten EER; on premise; datacenter EER|
 
 ### Internationale doorgifte bijzondere persoonsgegevens {#-nternationale-doorgifte-bijzondere-persoonsgegevens}
 
@@ -269,7 +269,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte)|
 |Type|[wel/geen bijzondere persoonsgegevens](#-wel-geen-bijzondere-persoonsgegevens)|
-|Mogelijke waarden|geen bijzondere persoonsgegevens; bijzondere persoonsgegevens|
+|Mogelijke waarden|bijzondere persoonsgegevens; geen bijzondere persoonsgegevens|
 
 ### Doorgiftemechanisme organisatorische activiteit {#-oorgiftemechanisme-organisatorische-activiteit}
 
@@ -277,7 +277,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte)|
 |Type|[doorgiftemechanisme pre-scan DPIA](#-doorgiftemechanisme-pre-scan-)|
-|Mogelijke waarden|Binding Corporate Rules (BCR); standaard contractsbepalingen (SCC); uitzondering artikel 49 AVG; goedgekeurd certificeringsmechanisme; juridisch bindend en afdwingbaar instrument; overig mechanisme; adequaatheidsbesluit; goedgekeurde gedragscode|
+|Mogelijke waarden|overig mechanisme; Binding Corporate Rules (BCR); standaard contractsbepalingen (SCC); uitzondering artikel 49 AVG; goedgekeurde gedragscode; juridisch bindend en afdwingbaar instrument; adequaatheidsbesluit; goedgekeurd certificeringsmechanisme|
 
 ## Organisatorische activiteit met internationale doorgifte bijzondere persoonsgegevens {#-rganisatorische-activiteit-met-internationale-doorgifte-bijzondere-persoonsgegevens}
 
@@ -328,7 +328,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
 |Type|[wel/geen digitale dienst primair bedoeld voor gebruik door personen jonger dan 18](#-wel-geen-digitale-dienst-primair-bedoeld-voor-gebruik-door-personen-jonger-dan-18)|
-|Mogelijke waarden|jonger dan 18 jaar; een digitale dienst aangeboden die primair bedoeld is voor gebruik door personen; geen digitale dienst aangeboden die primair bedoeld is voor gebruik door; personen jonger dan 18 jaar|
+|Mogelijke waarden|jonger dan 18 jaar; een digitale dienst aangeboden die primair bedoeld is voor gebruik door personen; personen jonger dan 18 jaar; geen digitale dienst aangeboden die primair bedoeld is voor gebruik door|
 
 ### Algoritme {#-lgoritme}
 
@@ -344,7 +344,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
 |Type|[criteria lijst EDPB](#-criteria-lijst-)|
-|Mogelijke waarden|Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens; Mensen beoordelen met persoonskenmerken (evaluatie of scoring); Gebruik van nieuwe technologieën; Stelselmatige en grootschalige monitoring; Koppelen van datasets; Geautomatiseerde besluitvorming; Verwerking van persoonsgegevens over kwetsbare groepen of personen; Blokkering van een dienst, recht of contract; Grootschalige gegevensverwerkingen|
+|Mogelijke waarden|Gebruik van nieuwe technologieën; Stelselmatige en grootschalige monitoring; Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens; Geautomatiseerde besluitvorming; Koppelen van datasets; Blokkering van een dienst, recht of contract; Grootschalige gegevensverwerkingen; Mensen beoordelen met persoonskenmerken (evaluatie of scoring); Verwerking van persoonsgegevens over kwetsbare groepen of personen|
 
 ### Organisatorische activiteit beschrijving {#-rganisatorische-activiteit-beschrijving}
 
@@ -359,7 +359,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
 |Type|[gegevensverwerking lijst AP](#-gegevensverwerking-lijst-)|
-|Mogelijke waarden|Controle werknemers; Biometrische gegevens; Internet of things; Financiële situatie; Genetische persoonsgegevens; Heimelijk onderzoek; Communicatiegegevens; Gezondheidsgegevens; Locatiegegevens; Zwarte lijsten; Samenwerkingsverbanden; Observatie en beïnvloeding van gedrag; Creditscores; Cameratoezicht; Flexibel cameratoezicht; Profilering; Fraudebestrijding|
+|Mogelijke waarden|Flexibel cameratoezicht; Samenwerkingsverbanden; Heimelijk onderzoek; Observatie en beïnvloeding van gedrag; Internet of things; Gezondheidsgegevens; Locatiegegevens; Biometrische gegevens; Cameratoezicht; Financiële situatie; Communicatiegegevens; Creditscores; Zwarte lijsten; Controle werknemers; Profilering; Fraudebestrijding; Genetische persoonsgegevens|
 
 ### Internationale doorgifte {#-nternationale-doorgifte}
 
@@ -367,7 +367,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
 |Type|[wel/geen persoonsgegevens](#-wel-geen-persoonsgegevens)|
-|Mogelijke waarden|persoonsgegevens; geen persoonsgegevens|
+|Mogelijke waarden|geen persoonsgegevens; persoonsgegevens|
 
 ## Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB {#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-}
 
@@ -385,7 +385,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
 |Type|[gegevensverwerkingsfrequentie](#-gegevensverwerkingsfrequentie)|
-|Mogelijke waarden|Vaker dan maandelijks; Minstens jaarlijks; Onregelmatig; Minstens maandelijks; Continu; Eenmalig|
+|Mogelijke waarden|Continu; Minstens maandelijks; Vaker dan maandelijks; Onregelmatig; Minstens jaarlijks; Eenmalig|
 
 ### Basisregistratie bij organisatorische activiteit {#-asisregistratie-bij-organisatorische-activiteit}
 
@@ -393,7 +393,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
 |Type|[basisregistratie](#-basisregistratie)|
-|Mogelijke waarden|Basisregistratie Grootschalige Topografie - BGT; Basisregistratie Topografie - BRT; Basisregistratie Inkomen - BRI; Basisregistratie Voertuigen - BRV; Basisregistratie Adressen en Gebouwen - BAG; Basisregistratie Ondergrond - BRO; Basisregistratie Waarde Onroerende Zaken - WOZ; Handelsregister - HR; Basisregistratie personen - BRP; Basisregistratie Kadaster - BRK|
+|Mogelijke waarden|Basisregistratie Ondergrond - BRO; Basisregistratie Kadaster - BRK; Basisregistratie Waarde Onroerende Zaken - WOZ; Handelsregister - HR; Basisregistratie Adressen en Gebouwen - BAG; Basisregistratie personen - BRP; Basisregistratie Inkomen - BRI; Basisregistratie Topografie - BRT; Basisregistratie Voertuigen - BRV; Basisregistratie Grootschalige Topografie - BGT|
 
 ### Bewaartermijn gegevens {#-ewaartermijn-gegevens}
 
@@ -401,7 +401,7 @@
 |-|-|
 |Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
 |Type|[classificatie bewaartermijn](#-classificatie-bewaartermijn)|
-|Mogelijke waarden|Jaar; Minder dan 1 maand; Minder dan 1 week; Minder dan 24 uur; Aantal jaren|
+|Mogelijke waarden|Minder dan 24 uur; Minder dan 1 week; Jaar; Aantal jaren; Minder dan 1 maand|
 
 ### Aantal betrokkenen in organisatorische activiteit {#-antal-betrokkenen-in-organisatorische-activiteit}
 

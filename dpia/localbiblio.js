@@ -79,7 +79,7 @@ var localBiblio = {
     href: "https://zoek.officielebekendmakingen.nl/stcrt-2019-64418.html",
   },
   "ModelDPIARijksdienst": {
-    title: "Model DPIA Rijksdienst, mei 2023",
+    title: "Model DPIA Rijksdienst v3.0, mei 2023",
     href: "https://www.kcbr.nl/beleid-en-regelgeving-ontwikkelen/beleidskompas/verplichte-kwaliteitseisen/data-protection-impact-assessment",
   },
   "NA": {
@@ -103,7 +103,7 @@ var localBiblio = {
     href: "https://www.cip-overheid.nl/producten-en-diensten/PS-PIA",
   },
   "RapportagemodelDPIARijksdienst": {
-    title: "Rapportagemodel DPIA Rijksdienst 3.0, 25 juli 2023",
+    title: "Rapportagemodel DPIA Rijksdienst v3.0, 25 juli 2023",
     href: "https://www.kcbr.nl/beleid-en-regelgeving-ontwikkelen/beleidskompas/verplichte-kwaliteitseisen/data-protection-impact-assessment",
   },
   "Richtlijn": {
