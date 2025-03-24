@@ -2,2466 +2,2617 @@
 
 ![](dpia.svg "Conceptueel informatiemodel dpia")
 
-- [Afdeling binnen partij](#-fdeling-binnen-partij)
-- [Akkoordverklaring](#-kkoordverklaring)
-- [Beleid](#-eleid)
-- [Beperking op recht van de betrokkene](#-eperking-op-recht-van-de-betrokkene)
-- [Betrokken partij bij DPIA](#-etrokken-partij-bij-)
-- [Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking)
-- [Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)
-- [Bewaartermijn van persoonsgegeven in gegevensverwerking](#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking)
-- [Categorie betrokkenen in DPIA](#-ategorie-betrokkenen-in-)
-- [Classificatie](#-lassificatie)
-  - [Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)
-    - [Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)
-      - [Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)
-- [Conclusie toelaatbaarheid hergebruik](#-onclusie-toelaatbaarheid-hergebruik)
-- [Conclusie verenigbaarheidstoets](#-onclusie-verenigbaarheidstoets)
-- [DPIA](#-)
-  - [DPIA met algoritme](#-met-algoritme)
-  - [DPIA met big data-verwerking](#-met-big-data-verwerking)
-  - [DPIA met cloudoplossing](#-met-cloudoplossing)
-  - [DPIA met geautomatiseerde besluitvorming](#-met-geautomatiseerde-besluitvorming)
-  - [DPIA met mogelijk sprake van discriminatie](#-met-mogelijk-sprake-van-discriminatie)
-  - [DPIA met profilering](#-met-profilering)
-  - [DPIA met resterende risico's](#-met-resterende-risico-s)
-- [DPIA beschrijft onderwerp](#-beschrijft-onderwerp)
-- [Document](#-ocument)
-- [Functie in afdeling](#-unctie-in-afdeling)
-- [Functie in organisatorische eenheid van Partij](#-unctie-in-organisatorische-eenheid-van-artij)
-- [Functionaris voor gegevensbescherming](#-unctionaris-voor-gegevensbescherming)
-- [Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens)
-  - [Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)
-    - [Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht](#-ergebruik-toelaatbaar-o-b-v-nie-of-lidstatelijk-recht)
-- [Gegevenstype](#-egevenstype)
-  - [Persoonsgegeven](#-ersoonsgegeven)
-    - [Bijzonder persoonsgegeven](#-ijzonder-persoonsgegeven)
-    - [Persoonsgegeven via betrokken partij](#-ersoonsgegeven-via-betrokken-partij)
-- [Gegevensverwerking](#-egevensverwerking)
-  - [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)
-    - [Gegevensverwerking nationale identificatienummers](#-egevensverwerking-nationale-identificatienummers)
-    - [Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang](#-egevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang)
-    - [Gegevensverwerking op basis van rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst](#-egevensverwerking-op-basis-van-rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst)
-    - [Gegevensverwerking op basis van rechtsgrond toestemming](#-egevensverwerking-op-basis-van-rechtsgrond-toestemming)
-    - [Gegevensverwerking op basis van rechtsgrond vitaal belang](#-egevensverwerking-op-basis-van-rechtsgrond-vitaal-belang)
-    - [Gegevensverwerking op basis van rechtsgrond wettelijke verplichting of taak van algemeen belang](#-egevensverwerking-op-basis-van-rechtsgrond-wettelijke-verplichting-of-taak-van-algemeen-belang)
-    - [Gegevensverwerking strafrechtelijke persoonsgegevens](#-egevensverwerking-strafrechtelijke-persoonsgegevens)
-- [Land](#-and)
-  - [Derde land](#-erde-land)
-- [Normenkader of voorschrift in DPIA](#-ormenkader-of-voorschrift-in-)
-- [Organisatorische activiteit](#-rganisatorische-activiteit)
-  - [Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)
-    - [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)
-- [Partij](#-artij)
-- [Partij bij gegevensverwerking met toegang tot persoonsgegeven](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)
-  - [Partij bij gegevensverwerking met functie/afdeling met toegang tot persoonsgegevens bekend](#-artij-bij-gegevensverwerking-met-functie-afdeling-met-toegang-tot-persoonsgegevens-bekend)
-- [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)
-- [Persoon](#-ersoon)
-- [Persoon in Functie](#-ersoon-in-unctie)
-- [Persoonsgegeven is onderdeel van DPIA](#-ersoonsgegeven-is-onderdeel-van-)
-- [Recht van de betrokkene](#-echt-van-de-betrokkene)
-- [Risico voor betrokkenen](#-isico-voor-betrokkenen)
-  - [Inherent risico voor betrokkenen](#-nherent-risico-voor-betrokkenen)
-    - [Risico op basis van doorgifte](#-isico-op-basis-van-doorgifte)
-    - [Risico op discriminatie](#-isico-op-discriminatie)
-  - [Resterend risico voor betrokkenen](#-esterend-risico-voor-betrokkenen)
-- [Type bijzonder persoonsgegeven in gegevensverwerking](#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking)
-- [Verwerkingslocatie buiten de EER](#-erwerkingslocatie-buiten-de-)
-- [Verwerkingsverantwoordelijke bij DPIA](#-erwerkingsverantwoordelijke-bij-)
-- [Verwerkingsverantwoordelijke die DPIA opstelt](#-erwerkingsverantwoordelijke-die-opstelt)
-- [Wet- en Regelgeving](#-et-en-egelgeving)
-  - [Wetsartikel over beperking op recht van de betrokkene](#-etsartikel-over-beperking-op-recht-van-de-betrokkene)
+- [Afdeling binnen partij](#TAfdeling-binnen-partij)
+- [Akkoordverklaring](#TAkkoordverklaring)
+- [Beleid](#TBeleid)
+- [Beperking op recht van de betrokkene](#TBeperking-op-recht-van-de-betrokkene)
+- [Betrokken partij bij DPIA](#TBetrokken-partij-bij-DPIA)
+- [Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)
+- [Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)
+- [Bewaartermijn van persoonsgegeven in gegevensverwerking](#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking)
+- [Categorie betrokkenen in DPIA](#TCategorie-betrokkenen-in-DPIA)
+- [Classificatie](#TClassificatie)
+  - [Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)
+    - [Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)
+      - [Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)
+- [Conclusie toelaatbaarheid hergebruik](#TConclusie-toelaatbaarheid-hergebruik)
+- [Conclusie verenigbaarheidstoets](#TConclusie-verenigbaarheidstoets)
+- [DPIA](#TDPIA)
+  - [DPIA met algoritme](#TDPIA-met-algoritme)
+  - [DPIA met big data-verwerking](#TDPIA-met-big-data-verwerking)
+  - [DPIA met cloudoplossing](#TDPIA-met-cloudoplossing)
+  - [DPIA met geautomatiseerde besluitvorming](#TDPIA-met-geautomatiseerde-besluitvorming)
+  - [DPIA met mogelijk sprake van discriminatie](#TDPIA-met-mogelijk-sprake-van-discriminatie)
+  - [DPIA met profilering](#TDPIA-met-profilering)
+  - [DPIA met resterende risico's](#TDPIA-met-resterende-risico-s)
+- [DPIA beschrijft onderwerp](#TDPIA-beschrijft-onderwerp)
+- [Document](#TDocument)
+- [Functie in afdeling](#TFunctie-in-afdeling)
+- [Functie in organisatorische eenheid van Partij](#TFunctie-in-organisatorische-eenheid-van-Partij)
+- [Functionaris voor gegevensbescherming](#TFunctionaris-voor-gegevensbescherming)
+- [Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens)
+  - [Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#TPersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)
+    - [Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht](#THergebruik-toelaatbaar-o-b-v-Unie-of-lidstatelijk-recht)
+- [Gegevenstype](#TGegevenstype)
+  - [Persoonsgegeven](#TPersoonsgegeven)
+    - [Bijzonder persoonsgegeven](#TBijzonder-persoonsgegeven)
+    - [Persoonsgegeven via betrokken partij](#TPersoonsgegeven-via-betrokken-partij)
+- [Gegevensverwerking](#TGegevensverwerking)
+  - [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)
+    - [Gegevensverwerking nationale identificatienummers](#TGegevensverwerking-nationale-identificatienummers)
+    - [Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang](#TGegevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang)
+    - [Gegevensverwerking op basis van rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst](#TGegevensverwerking-op-basis-van-rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst)
+    - [Gegevensverwerking op basis van rechtsgrond toestemming](#TGegevensverwerking-op-basis-van-rechtsgrond-toestemming)
+    - [Gegevensverwerking op basis van rechtsgrond vitaal belang](#TGegevensverwerking-op-basis-van-rechtsgrond-vitaal-belang)
+    - [Gegevensverwerking op basis van rechtsgrond wettelijke verplichting of taak van algemeen belang](#TGegevensverwerking-op-basis-van-rechtsgrond-wettelijke-verplichting-of-taak-van-algemeen-belang)
+    - [Gegevensverwerking strafrechtelijke persoonsgegevens](#TGegevensverwerking-strafrechtelijke-persoonsgegevens)
+- [Land](#TLand)
+  - [Derde land](#TDerde-land)
+- [Normenkader of voorschrift in DPIA](#TNormenkader-of-voorschrift-in-DPIA)
+- [Organisatorische activiteit](#TOrganisatorische-activiteit)
+  - [Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)
+    - [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)
+- [Partij](#TPartij)
+- [Partij bij gegevensverwerking met toegang tot persoonsgegeven](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)
+  - [Partij bij gegevensverwerking met functie/afdeling met toegang tot persoonsgegevens bekend](#TPartij-bij-gegevensverwerking-met-functie-afdeling-met-toegang-tot-persoonsgegevens-bekend)
+- [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)
+- [Persoon](#TPersoon)
+- [Persoon in Functie](#TPersoon-in-Functie)
+- [Persoonsgegeven is onderdeel van DPIA](#TPersoonsgegeven-is-onderdeel-van-DPIA)
+- [Recht van de betrokkene](#TRecht-van-de-betrokkene)
+- [Risico voor betrokkenen](#TRisico-voor-betrokkenen)
+  - [Inherent risico voor betrokkenen](#TInherent-risico-voor-betrokkenen)
+    - [Risico op basis van doorgifte](#TRisico-op-basis-van-doorgifte)
+    - [Risico op discriminatie](#TRisico-op-discriminatie)
+  - [Resterend risico voor betrokkenen](#TResterend-risico-voor-betrokkenen)
+- [Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)
+- [Verwerkingslocatie buiten de EER](#TVerwerkingslocatie-buiten-de-EER)
+- [Verwerkingsverantwoordelijke bij DPIA](#TVerwerkingsverantwoordelijke-bij-DPIA)
+- [Verwerkingsverantwoordelijke die DPIA opstelt](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt)
+- [Wet- en Regelgeving](#TWet-en-Regelgeving)
+  - [Wetsartikel over beperking op recht van de betrokkene](#TWetsartikel-over-beperking-op-recht-van-de-betrokkene)
 
-## Afdeling binnen partij {#-fdeling-binnen-partij}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[afdelingsnaam](#-fdeling-binnen-partij-afdelingsnaam)|
-|Rollen|[Afdeling binnen partij in relatie met Partij](#-fdeling-binnen-partij-artij), [Toezichthouder bewaartermijn](#-oezichthouder-bewaartermijn)|
-
-### afdelingsnaam {#-fdeling-binnen-partij-afdelingsnaam}
+## Afdeling binnen partij {#TAfdeling-binnen-partij}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Afdeling binnen partij](#-fdeling-binnen-partij)|
-|Type|[afdelingsnaam](#-afdelingsnaam)|
+|Kenmerken|[afdelingsnaam](#TAfdeling-binnen-partij-afdelingsnaam)|
+|Rollen|[Afdeling binnen partij in relatie met Partij](#TAfdeling-binnen-partij-Partij), [Toezichthouder bewaartermijn](#TToezichthouder-bewaartermijn)|
 
-### Afdeling binnen partij in relatie met Partij {#-fdeling-binnen-partij-artij}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Afdeling binnen partij](#-fdeling-binnen-partij)|
-|Met|1..1 [Partij](#-artij)|
-
-### Toezichthouder bewaartermijn {#-oezichthouder-bewaartermijn}
+### afdelingsnaam {#TAfdeling-binnen-partij-afdelingsnaam}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Afdeling binnen partij](#-fdeling-binnen-partij)|
-|Met|0..* [Bewaartermijn van persoonsgegeven in gegevensverwerking](#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking)|
-
-## Akkoordverklaring {#-kkoordverklaring}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Datum akkoordverklaring](#-atum-akkoordverklaring)|
-|Rollen|[Akkoordverklaring in relatie met Persoon in Functie](#-kkoordverklaring-ersoon-in-unctie), [Akkoordverklaring in relatie met Verwerkingsverantwoordelijke die DPIA opstelt](#-kkoordverklaring-erwerkingsverantwoordelijke-die-opstelt)|
-
-### Datum akkoordverklaring {#-atum-akkoordverklaring}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Akkoordverklaring](#-kkoordverklaring)|
-|Type|[datum](#-datum)|
-
-### Akkoordverklaring in relatie met Verwerkingsverantwoordelijke die DPIA opstelt {#-kkoordverklaring-erwerkingsverantwoordelijke-die-opstelt}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Akkoordverklaring](#-kkoordverklaring)|
-|Met|1..1 [Verwerkingsverantwoordelijke die DPIA opstelt](#-erwerkingsverantwoordelijke-die-opstelt)|
-
-### Akkoordverklaring in relatie met Persoon in Functie {#-kkoordverklaring-ersoon-in-unctie}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Akkoordverklaring](#-kkoordverklaring)|
-|Met|1..1 [Persoon in Functie](#-ersoon-in-unctie)|
-
-## Beleid {#-eleid}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[beleid naam](#-eleid-beleid-naam), [pagina](#-eleid-pagina), [paragraaf](#-eleid-paragraaf)|
-|Rollen|[Beleidsmatig kader](#-eleidsmatig-kader)|
-
-### pagina {#-eleid-pagina}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Beleid](#-eleid)|
+|Eigenschap van|[Afdeling binnen partij](#TAfdeling-binnen-partij)|
 |Type|CharacterString|
 
-### beleid naam {#-eleid-beleid-naam}
+### Afdeling binnen partij in relatie met Partij {#TAfdeling-binnen-partij-Partij}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Beleid](#-eleid)|
+|Rol van|0..* [Afdeling binnen partij](#TAfdeling-binnen-partij)|
+|Met|1..1 [Partij](#TPartij)|
+
+### Toezichthouder bewaartermijn {#TToezichthouder-bewaartermijn}
+
+|{: .def}||
+|-|-|
+|Begrip|[Toezichthouder bewaartermijn](#toezichthouder-bewaartermijn)|
+|Rol van|0..* [Afdeling binnen partij](#TAfdeling-binnen-partij)|
+|Met|0..* [Bewaartermijn van persoonsgegeven in gegevensverwerking](#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking)|
+
+## Akkoordverklaring {#TAkkoordverklaring}
+
+|{: .def}||
+|-|-|
+|Begrip|[Akkoordverklaring](#akkoordverklaring)|
+|Kenmerken|[Datum akkoordverklaring](#TDatum-akkoordverklaring)|
+|Rollen|[Akkoordverklaring in relatie met Persoon in Functie](#TAkkoordverklaring-Persoon-in-Functie), [Akkoordverklaring in relatie met Verwerkingsverantwoordelijke die DPIA opstelt](#TAkkoordverklaring-Verwerkingsverantwoordelijke-die-DPIA-opstelt)|
+
+### Datum akkoordverklaring {#TDatum-akkoordverklaring}
+
+|{: .def}||
+|-|-|
+|Begrip|[Datum akkoordverklaring](#datum-akkoordverklaring)|
+|Eigenschap van|[Akkoordverklaring](#TAkkoordverklaring)|
+|Type|[datum](#Tdatum)|
+
+### Akkoordverklaring in relatie met Verwerkingsverantwoordelijke die DPIA opstelt {#TAkkoordverklaring-Verwerkingsverantwoordelijke-die-DPIA-opstelt}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Akkoordverklaring](#TAkkoordverklaring)|
+|Met|1..1 [Verwerkingsverantwoordelijke die DPIA opstelt](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt)|
+
+### Akkoordverklaring in relatie met Persoon in Functie {#TAkkoordverklaring-Persoon-in-Functie}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Akkoordverklaring](#TAkkoordverklaring)|
+|Met|1..1 [Persoon in Functie](#TPersoon-in-Functie)|
+
+## Beleid {#TBeleid}
+
+|{: .def}||
+|-|-|
+|Begrip|[Beleid](#beleid)|
+|Kenmerken|[beleid naam](#TBeleid-beleid-naam), [pagina](#TBeleid-pagina), [paragraaf](#TBeleid-paragraaf)|
+|Rollen|[Beleidsmatig kader](#TBeleidsmatig-kader)|
+
+### pagina {#TBeleid-pagina}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Beleid](#TBeleid)|
 |Type|CharacterString|
 
-### paragraaf {#-eleid-paragraaf}
+### paragraaf {#TBeleid-paragraaf}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Beleid](#-eleid)|
+|Eigenschap van|[Beleid](#TBeleid)|
 |Type|CharacterString|
 
-### Beleidsmatig kader {#-eleidsmatig-kader}
+### beleid naam {#TBeleid-beleid-naam}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Beleid](#-eleid)|
-|Met|0..* [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
+|Eigenschap van|[Beleid](#TBeleid)|
+|Type|CharacterString|
 
-## Beperking op recht van de betrokkene {#-eperking-op-recht-van-de-betrokkene}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[beperking recht van de betrokkene](#-eperking-op-recht-van-de-betrokkene-beperking-recht-van-de-betrokkene)|
-|Rollen|[Beperking op recht van de betrokkene in relatie met Recht van de betrokkene](#-eperking-op-recht-van-de-betrokkene-echt-van-de-betrokkene), [Rechtsgrond voor beperking op recht van de betrokkene](#-echtsgrond-voor-beperking-op-recht-van-de-betrokkene)|
-
-### beperking recht van de betrokkene {#-eperking-op-recht-van-de-betrokkene-beperking-recht-van-de-betrokkene}
+### Beleidsmatig kader {#TBeleidsmatig-kader}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Beperking op recht van de betrokkene](#-eperking-op-recht-van-de-betrokkene)|
-|Type|[beperking recht van de betrokkene](#-beperking-recht-van-de-betrokkene)|
+|Begrip|[Beleidsmatig kader](#beleidsmatig-kader)|
+|Rol van|0..* [Beleid](#TBeleid)|
+|Met|0..* [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
 
-### Rechtsgrond voor beperking op recht van de betrokkene {#-echtsgrond-voor-beperking-op-recht-van-de-betrokkene}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Beperking op recht van de betrokkene](#-eperking-op-recht-van-de-betrokkene)|
-|Met|0..* [Wetsartikel over beperking op recht van de betrokkene](#-etsartikel-over-beperking-op-recht-van-de-betrokkene)|
-
-### Beperking op recht van de betrokkene in relatie met Recht van de betrokkene {#-eperking-op-recht-van-de-betrokkene-echt-van-de-betrokkene}
+## Beperking op recht van de betrokkene {#TBeperking-op-recht-van-de-betrokkene}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Beperking op recht van de betrokkene](#-eperking-op-recht-van-de-betrokkene)|
-|Met|1..1 [Recht van de betrokkene](#-echt-van-de-betrokkene)|
+|Begrip|[Beperking op recht van de betrokkene](#beperking-op-recht-van-de-betrokkene)|
+|Kenmerken|[beperking recht van de betrokkene](#TBeperking-op-recht-van-de-betrokkene-beperking-recht-van-de-betrokkene)|
+|Rollen|[Beperking op recht van de betrokkene in relatie met Recht van de betrokkene](#TBeperking-op-recht-van-de-betrokkene-Recht-van-de-betrokkene), [Rechtsgrond voor beperking op recht van de betrokkene](#TRechtsgrond-voor-beperking-op-recht-van-de-betrokkene)|
 
-## Betrokken partij bij DPIA {#-etrokken-partij-bij-}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Belang van betrokken partij](#-elang-van-betrokken-partij)|
-|Rollen|[Betrokken partij bij DPIA in relatie met DPIA](#-etrokken-partij-bij-), [Betrokken partij bij DPIA in relatie met Partij](#-etrokken-partij-bij-artij)|
-
-### Belang van betrokken partij {#-elang-van-betrokken-partij}
+### beperking recht van de betrokkene {#TBeperking-op-recht-van-de-betrokkene-beperking-recht-van-de-betrokkene}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Betrokken partij bij DPIA](#-etrokken-partij-bij-)|
-|Type|[belangbeschrijving](#-belangbeschrijving)|
+|Eigenschap van|[Beperking op recht van de betrokkene](#TBeperking-op-recht-van-de-betrokkene)|
+|Type|CharacterString|
 
-### Betrokken partij bij DPIA in relatie met DPIA {#-etrokken-partij-bij-}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Betrokken partij bij DPIA](#-etrokken-partij-bij-)|
-|Met|1..1 [DPIA](#-)|
-
-### Betrokken partij bij DPIA in relatie met Partij {#-etrokken-partij-bij-artij}
+### Beperking op recht van de betrokkene in relatie met Recht van de betrokkene {#TBeperking-op-recht-van-de-betrokkene-Recht-van-de-betrokkene}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Betrokken partij bij DPIA](#-etrokken-partij-bij-)|
-|Met|1..1 [Partij](#-artij)|
+|Rol van|0..* [Beperking op recht van de betrokkene](#TBeperking-op-recht-van-de-betrokkene)|
+|Met|1..1 [Recht van de betrokkene](#TRecht-van-de-betrokkene)|
 
-## Betrokken partij bij gegevensverwerking {#-etrokken-partij-bij-gegevensverwerking}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Betrokken partij bij gegevensverwerking is derde](#-etrokken-partij-bij-gegevensverwerking-is-derde), [Betrokken partij bij gegevensverwerking is ontvanger](#-etrokken-partij-bij-gegevensverwerking-is-ontvanger), [Betrokken partij bij gegevensverwerking is verwerker of sub-verwerker](#-etrokken-partij-bij-gegevensverwerking-is-verwerker-of-sub-verwerker), [Functie/afdeling met toegang tot persoonsgegevens bekend](#-unctie-afdeling-met-toegang-tot-persoonsgegevens-bekend)|
-|Rollen|[Betrokken partij bij gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#-etrokken-partij-bij-gegevensverwerking-egevensverwerking-persoonsgegevens), [Betrokken partij bij gegevensverwerking in relatie met Partij](#-etrokken-partij-bij-gegevensverwerking-artij)|
-|Relatie met|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke in relatie met Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-etrokken-partij-bij-gegevensverwerking)|
-
-### Functie/afdeling met toegang tot persoonsgegevens bekend {#-unctie-afdeling-met-toegang-tot-persoonsgegevens-bekend}
+### Rechtsgrond voor beperking op recht van de betrokkene {#TRechtsgrond-voor-beperking-op-recht-van-de-betrokkene}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking)|
-|Type|[bekend/onbekend](#-bekend-onbekend)|
+|Begrip|[Rechtsgrond voor beperking op recht van de betrokkene](#rechtsgrond-voor-beperking-op-recht-van-de-betrokkene)|
+|Rol van|0..* [Beperking op recht van de betrokkene](#TBeperking-op-recht-van-de-betrokkene)|
+|Met|0..* [Wetsartikel over beperking op recht van de betrokkene](#TWetsartikel-over-beperking-op-recht-van-de-betrokkene)|
+
+## Betrokken partij bij DPIA {#TBetrokken-partij-bij-DPIA}
+
+|{: .def}||
+|-|-|
+|Begrip|[Betrokken partij bij DPIA](#betrokken-partij-bij-dpia)|
+|Kenmerken|[Belang van betrokken partij](#TBelang-van-betrokken-partij)|
+|Rollen|[Betrokken partij bij DPIA in relatie met DPIA](#TBetrokken-partij-bij-DPIA-DPIA), [Betrokken partij bij DPIA in relatie met Partij](#TBetrokken-partij-bij-DPIA-Partij)|
+
+### Belang van betrokken partij {#TBelang-van-betrokken-partij}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Betrokken partij bij DPIA](#TBetrokken-partij-bij-DPIA)|
+|Type|[belangbeschrijving](#Tbelangbeschrijving)|
+
+### Betrokken partij bij DPIA in relatie met Partij {#TBetrokken-partij-bij-DPIA-Partij}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Betrokken partij bij DPIA](#TBetrokken-partij-bij-DPIA)|
+|Met|1..1 [Partij](#TPartij)|
+
+### Betrokken partij bij DPIA in relatie met DPIA {#TBetrokken-partij-bij-DPIA-DPIA}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Betrokken partij bij DPIA](#TBetrokken-partij-bij-DPIA)|
+|Met|1..1 [DPIA](#TDPIA)|
+
+## Betrokken partij bij gegevensverwerking {#TBetrokken-partij-bij-gegevensverwerking}
+
+|{: .def}||
+|-|-|
+|Begrip|[Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking)|
+|Kenmerken|[Betrokken partij bij gegevensverwerking is derde](#TBetrokken-partij-bij-gegevensverwerking-is-derde), [Betrokken partij bij gegevensverwerking is ontvanger](#TBetrokken-partij-bij-gegevensverwerking-is-ontvanger), [Betrokken partij bij gegevensverwerking is verwerker of sub-verwerker](#TBetrokken-partij-bij-gegevensverwerking-is-verwerker-of-sub-verwerker), [Functie/afdeling met toegang tot persoonsgegevens bekend](#TFunctie-afdeling-met-toegang-tot-persoonsgegevens-bekend)|
+|Rollen|[Betrokken partij bij gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TBetrokken-partij-bij-gegevensverwerking-Gegevensverwerking-persoonsgegevens), [Betrokken partij bij gegevensverwerking in relatie met Partij](#TBetrokken-partij-bij-gegevensverwerking-Partij)|
+|Relatie met|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke in relatie met Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-Betrokken-partij-bij-gegevensverwerking)|
+
+### Functie/afdeling met toegang tot persoonsgegevens bekend {#TFunctie-afdeling-met-toegang-tot-persoonsgegevens-bekend}
+
+|{: .def}||
+|-|-|
+|Begrip|[Functie/afdeling met toegang tot persoonsgegevens bekend](#functie-afdeling-met-toegang-tot-persoonsgegevens-bekend)|
+|Eigenschap van|[Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)|
+|Type|[bekend/onbekend](#Tbekend-onbekend)|
 |Mogelijke waarden|onbekend; bekend|
 
-### Betrokken partij bij gegevensverwerking is ontvanger {#-etrokken-partij-bij-gegevensverwerking-is-ontvanger}
+### Betrokken partij bij gegevensverwerking is ontvanger {#TBetrokken-partij-bij-gegevensverwerking-is-ontvanger}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking)|
-|Type|[ontvanger](#-ontvanger)|
+|Eigenschap van|[Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)|
+|Type|[ontvanger](#Tontvanger)|
 |Mogelijke waarden|ontvanger|
 
-### Betrokken partij bij gegevensverwerking is derde {#-etrokken-partij-bij-gegevensverwerking-is-derde}
+### Betrokken partij bij gegevensverwerking is derde {#TBetrokken-partij-bij-gegevensverwerking-is-derde}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking)|
-|Type|[derde](#-derde)|
+|Begrip|[Betrokken partij bij gegevensverwerking is derde](#betrokken-partij-bij-gegevensverwerking-is-derde)|
+|Eigenschap van|[Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)|
+|Type|[derde](#Tderde)|
 |Mogelijke waarden|derde|
 
-### Betrokken partij bij gegevensverwerking is verwerker of sub-verwerker {#-etrokken-partij-bij-gegevensverwerking-is-verwerker-of-sub-verwerker}
+### Betrokken partij bij gegevensverwerking is verwerker of sub-verwerker {#TBetrokken-partij-bij-gegevensverwerking-is-verwerker-of-sub-verwerker}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking)|
-|Type|[verwerker/sub-verwerker](#-verwerker-sub-verwerker)|
-|Mogelijke waarden|verwerker; sub-verwerker|
+|Begrip|[Betrokken partij bij gegevensverwerking is verwerker of sub-verwerker](#betrokken-partij-bij-gegevensverwerking-is-verwerker-of-sub-verwerker)|
+|Eigenschap van|[Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)|
+|Type|[verwerker/sub-verwerker](#Tverwerker-sub-verwerker)|
+|Mogelijke waarden|sub-verwerker; verwerker|
 
-### Betrokken partij bij gegevensverwerking in relatie met Partij {#-etrokken-partij-bij-gegevensverwerking-artij}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking)|
-|Met|1..1 [Partij](#-artij)|
-
-### Betrokken partij bij gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens {#-etrokken-partij-bij-gegevensverwerking-egevensverwerking-persoonsgegevens}
+### Betrokken partij bij gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens {#TBetrokken-partij-bij-gegevensverwerking-Gegevensverwerking-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking)|
-|Met|1..1 [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
+|Rol van|0..* [Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)|
+|Met|1..1 [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
 
-## Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke {#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Betrokken partij bij gegevensverwerking is gezamenlijke verwerkingsverantwoordelijke](#-etrokken-partij-bij-gegevensverwerking-is-gezamenlijke-verwerkingsverantwoordelijke), [Betrokken partij bij gegevensverwerking is verstrekker](#-etrokken-partij-bij-gegevensverwerking-is-verstrekker), [verwerkingsverantwoordelijke](#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-verwerkingsverantwoordelijke)|
-|Rollen|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke in relatie met Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-etrokken-partij-bij-gegevensverwerking)|
-
-### Betrokken partij bij gegevensverwerking is verstrekker {#-etrokken-partij-bij-gegevensverwerking-is-verstrekker}
+### Betrokken partij bij gegevensverwerking in relatie met Partij {#TBetrokken-partij-bij-gegevensverwerking-Partij}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)|
-|Type|[verstrekker](#-verstrekker)|
+|Rol van|0..* [Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)|
+|Met|1..1 [Partij](#TPartij)|
+
+## Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke {#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke}
+
+|{: .def}||
+|-|-|
+|Begrip|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#betrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)|
+|Kenmerken|[Betrokken partij bij gegevensverwerking is gezamenlijke verwerkingsverantwoordelijke](#TBetrokken-partij-bij-gegevensverwerking-is-gezamenlijke-verwerkingsverantwoordelijke), [Betrokken partij bij gegevensverwerking is verstrekker](#TBetrokken-partij-bij-gegevensverwerking-is-verstrekker), [verwerkingsverantwoordelijke](#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-verwerkingsverantwoordelijke)|
+|Rollen|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke in relatie met Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-Betrokken-partij-bij-gegevensverwerking)|
+
+### Betrokken partij bij gegevensverwerking is verstrekker {#TBetrokken-partij-bij-gegevensverwerking-is-verstrekker}
+
+|{: .def}||
+|-|-|
+|Begrip|[Betrokken partij bij gegevensverwerking is verstrekker](#betrokken-partij-bij-gegevensverwerking-is-verstrekker)|
+|Eigenschap van|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)|
+|Type|[verstrekker](#Tverstrekker)|
 |Mogelijke waarden|verstrekker|
 
-### verwerkingsverantwoordelijke {#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-verwerkingsverantwoordelijke}
+### verwerkingsverantwoordelijke {#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-verwerkingsverantwoordelijke}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)|
-|Type|[verwerkingsverantwoordelijke](#-verwerkingsverantwoordelijke)|
-|Mogelijke waarden|verwerkingsverantwoordelijke|
+|Begrip|[Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)|
+|Eigenschap van|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)|
+|Type|CharacterString|
 
-### Betrokken partij bij gegevensverwerking is gezamenlijke verwerkingsverantwoordelijke {#-etrokken-partij-bij-gegevensverwerking-is-gezamenlijke-verwerkingsverantwoordelijke}
+### Betrokken partij bij gegevensverwerking is gezamenlijke verwerkingsverantwoordelijke {#TBetrokken-partij-bij-gegevensverwerking-is-gezamenlijke-verwerkingsverantwoordelijke}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)|
-|Type|[gezamenlijke verwerkingsverantwoordelijke](#-gezamenlijke-verwerkingsverantwoordelijke)|
+|Begrip|[Betrokken partij bij gegevensverwerking is gezamenlijke verwerkingsverantwoordelijke](#betrokken-partij-bij-gegevensverwerking-is-gezamenlijke-verwerkingsverantwoordelijke)|
+|Eigenschap van|[Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)|
+|Type|[gezamenlijke verwerkingsverantwoordelijke](#Tgezamenlijke-verwerkingsverantwoordelijke)|
 |Mogelijke waarden|gezamenlijke verwerkingsverantwoordelijke|
 
-### Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke in relatie met Betrokken partij bij gegevensverwerking {#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-etrokken-partij-bij-gegevensverwerking}
+### Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke in relatie met Betrokken partij bij gegevensverwerking {#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke-Betrokken-partij-bij-gegevensverwerking}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#-etrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)|
-|Met|1..1 [Betrokken partij bij gegevensverwerking](#-etrokken-partij-bij-gegevensverwerking)|
+|Rol van|0..* [Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)|
+|Met|1..1 [Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)|
 
-## Bewaartermijn van persoonsgegeven in gegevensverwerking {#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Motivatie bewaartermijn persoonsgegeven in gegevensverwerking](#-otivatie-bewaartermijn-persoonsgegeven-in-gegevensverwerking), [bewaartermijn](#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking-bewaartermijn)|
-|Rollen|[Bewaartermijn van persoonsgegeven in gegevensverwerking in relatie met Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking-egevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
-|Relatie met|[Toezichthouder bewaartermijn](#-oezichthouder-bewaartermijn)|
-
-### bewaartermijn {#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking-bewaartermijn}
+## Bewaartermijn van persoonsgegeven in gegevensverwerking {#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Bewaartermijn van persoonsgegeven in gegevensverwerking](#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking)|
+|Kenmerken|[Motivatie bewaartermijn persoonsgegeven in gegevensverwerking](#TMotivatie-bewaartermijn-persoonsgegeven-in-gegevensverwerking), [bewaartermijn](#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking-bewaartermijn)|
+|Rollen|[Bewaartermijn van persoonsgegeven in gegevensverwerking in relatie met Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking-Gegevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
+|Relatie met|[Toezichthouder bewaartermijn](#TToezichthouder-bewaartermijn)|
+
+### bewaartermijn {#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking-bewaartermijn}
+
+|{: .def}||
+|-|-|
+|Begrip|[Bewaartermijn](#bewaartermijn)|
+|Eigenschap van|[Bewaartermijn van persoonsgegeven in gegevensverwerking](#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking)|
 |Type|CharacterString|
 
-### Motivatie bewaartermijn persoonsgegeven in gegevensverwerking {#-otivatie-bewaartermijn-persoonsgegeven-in-gegevensverwerking}
+### Motivatie bewaartermijn persoonsgegeven in gegevensverwerking {#TMotivatie-bewaartermijn-persoonsgegeven-in-gegevensverwerking}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Bewaartermijn van persoonsgegeven in gegevensverwerking](#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking)|
-|Type|[motivatie bewaartermijn](#-motivatie-bewaartermijn)|
+|Eigenschap van|[Bewaartermijn van persoonsgegeven in gegevensverwerking](#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking)|
+|Type|[motivatie bewaartermijn](#Tmotivatie-bewaartermijn)|
 
-### Bewaartermijn van persoonsgegeven in gegevensverwerking in relatie met Gegevenssetspecificatie gegevensverwerking persoonsgegevens {#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking-egevenssetspecificatie-gegevensverwerking-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Bewaartermijn van persoonsgegeven in gegevensverwerking](#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking)|
-|Met|1..1 [Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
-
-## Bijzonder persoonsgegeven {#-ijzonder-persoonsgegeven}
+### Bewaartermijn van persoonsgegeven in gegevensverwerking in relatie met Gegevenssetspecificatie gegevensverwerking persoonsgegevens {#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking-Gegevenssetspecificatie-gegevensverwerking-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Supertype|[Persoonsgegeven](#-ersoonsgegeven)|
-|Rollen|[Type bijzonder persoonsgegeven](#-ype-bijzonder-persoonsgegeven)|
+|Rol van|0..* [Bewaartermijn van persoonsgegeven in gegevensverwerking](#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking)|
+|Met|1..1 [Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
 
-### Type bijzonder persoonsgegeven {#-ype-bijzonder-persoonsgegeven}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Bijzonder persoonsgegeven](#-ijzonder-persoonsgegeven)|
-|Met|0..* [Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)|
-
-## Categorie betrokkenen in DPIA {#-ategorie-betrokkenen-in-}
+## Bijzonder persoonsgegeven {#TBijzonder-persoonsgegeven}
 
 |{: .def}||
 |-|-|
-|Kenmerken|[Kwetsbaarheid categorie betrokkenen](#-wetsbaarheid-categorie-betrokkenen), [categorie betrokkenen](#-ategorie-betrokkenen-in-categorie-betrokkenen)|
-|Rollen|[Categorie betrokkenen in DPIA in relatie met DPIA](#-ategorie-betrokkenen-in-)|
+|Begrip|[Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)|
+|Supertype|[Persoonsgegeven](#TPersoonsgegeven)|
+|Rollen|[Type bijzonder persoonsgegeven](#TType-bijzonder-persoonsgegeven)|
 
-### Kwetsbaarheid categorie betrokkenen {#-wetsbaarheid-categorie-betrokkenen}
+### Type bijzonder persoonsgegeven {#TType-bijzonder-persoonsgegeven}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Categorie betrokkenen in DPIA](#-ategorie-betrokkenen-in-)|
-|Type|[kwetsbaarheid](#-kwetsbaarheid)|
+|Rol van|0..* [Bijzonder persoonsgegeven](#TBijzonder-persoonsgegeven)|
+|Met|0..* [Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)|
+
+## Categorie betrokkenen in DPIA {#TCategorie-betrokkenen-in-DPIA}
+
+|{: .def}||
+|-|-|
+|Kenmerken|[Kwetsbaarheid categorie betrokkenen](#TKwetsbaarheid-categorie-betrokkenen), [categorie betrokkenen](#TCategorie-betrokkenen-in-DPIA-categorie-betrokkenen)|
+|Rollen|[Categorie betrokkenen in DPIA in relatie met DPIA](#TCategorie-betrokkenen-in-DPIA-DPIA)|
+
+### categorie betrokkenen {#TCategorie-betrokkenen-in-DPIA-categorie-betrokkenen}
+
+|{: .def}||
+|-|-|
+|Begrip|[Categorie betrokkenen](#categorie-betrokkenen)|
+|Eigenschap van|[Categorie betrokkenen in DPIA](#TCategorie-betrokkenen-in-DPIA)|
+|Type|CharacterString|
+
+### Kwetsbaarheid categorie betrokkenen {#TKwetsbaarheid-categorie-betrokkenen}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Categorie betrokkenen in DPIA](#TCategorie-betrokkenen-in-DPIA)|
+|Type|[kwetsbaarheid](#Tkwetsbaarheid)|
 |Mogelijke waarden|niet kwetsbaar; kwetsbaar|
 
-### categorie betrokkenen {#-ategorie-betrokkenen-in-categorie-betrokkenen}
+### Categorie betrokkenen in DPIA in relatie met DPIA {#TCategorie-betrokkenen-in-DPIA-DPIA}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Categorie betrokkenen in DPIA](#-ategorie-betrokkenen-in-)|
-|Type|[categorie betrokkenen](#-categorie-betrokkenen)|
+|Rol van|0..* [Categorie betrokkenen in DPIA](#TCategorie-betrokkenen-in-DPIA)|
+|Met|1..1 [DPIA](#TDPIA)|
 
-### Categorie betrokkenen in DPIA in relatie met DPIA {#-ategorie-betrokkenen-in-}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Categorie betrokkenen in DPIA](#-ategorie-betrokkenen-in-)|
-|Met|1..1 [DPIA](#-)|
-
-## Classificatie {#-lassificatie}
+## Classificatie {#TClassificatie}
 
 |{: .def}||
 |-|-|
-|Subtype(s)|[Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)|
-|Kenmerken|[classificatie id](#-lassificatie-classificatie-id)|
-|Relatie met|[Gegevenstype heeft Classificatie](#-egevenstype-heeft-lassificatie)|
+|Begrip|[Classificatie](#classificatie)|
+|Subtype(s)|[Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)|
+|Kenmerken|[classificatie id](#TClassificatie-classificatie-id)|
+|Relatie met|[Gegevenstype heeft Classificatie](#TGegevenstype-heeft-Classificatie)|
 
-### classificatie id {#-lassificatie-classificatie-id}
+### classificatie id {#TClassificatie-classificatie-id}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Classificatie](#-lassificatie)|
+|Eigenschap van|[Classificatie](#TClassificatie)|
 |Type|CharacterString|
 
-## Classificatie Persoonsgegevens {#-lassificatie-ersoonsgegevens}
+## Classificatie Persoonsgegevens {#TClassificatie-Persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Supertype|[Classificatie](#-lassificatie)|
-|Subtype(s)|[Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
-|Kenmerken|[Classificatie Persoonsgegevens Aanwezig](#-lassificatie-ersoonsgegevens-anwezig)|
+|Begrip|[Classificatie persoonsgegevens](#classificatie-persoonsgegevens)|
+|Supertype|[Classificatie](#TClassificatie)|
+|Subtype(s)|[Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
+|Kenmerken|[Classificatie Persoonsgegevens Aanwezig](#TClassificatie-Persoonsgegevens-Aanwezig)|
 
-### Classificatie Persoonsgegevens Aanwezig {#-lassificatie-ersoonsgegevens-anwezig}
+### Classificatie Persoonsgegevens Aanwezig {#TClassificatie-Persoonsgegevens-Aanwezig}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)|
-|Type|[classificatie_persoonsgegevens_aanwezig](#-classificatie-persoonsgegevens-aanwezig)|
+|Eigenschap van|[Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)|
+|Type|[classificatie_persoonsgegevens_aanwezig](#Tclassificatie-persoonsgegevens-aanwezig)|
 |Mogelijke waarden|bevat geen persoonsgegevens; bevat persoonsgegevens|
 
-## Classificatie Type Bijzondere Persoonsgegevens {#-lassificatie-ype-ijzondere-ersoonsgegevens}
+## Classificatie Type Bijzondere Persoonsgegevens {#TClassificatie-Type-Bijzondere-Persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Supertype|[Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
-|Kenmerken|[Classificatie Type Bijzondere Persoonsgegevens waarde](#-lassificatie-ype-ijzondere-ersoonsgegevens-waarde)|
-|Relatie met|[Type bijzonder persoonsgegeven](#-ype-bijzonder-persoonsgegeven)|
+|Supertype|[Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
+|Kenmerken|[Classificatie Type Bijzondere Persoonsgegevens waarde](#TClassificatie-Type-Bijzondere-Persoonsgegevens-waarde)|
+|Relatie met|[Type bijzonder persoonsgegeven](#TType-bijzonder-persoonsgegeven)|
 
-### Classificatie Type Bijzondere Persoonsgegevens waarde {#-lassificatie-ype-ijzondere-ersoonsgegevens-waarde}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)|
-|Type|[classificatie_type_bpg_waarde](#-classificatie-type-bpg-waarde)|
-|Mogelijke waarden|biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over ras of etnische afkomst; gegevens over politieke opvattingen; gegevens over lidmaatschap van een vakbond; gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over religieuze of levensbeschouwelijke overtuigingen; gegevens over gezondheid; genetische gegevens|
-
-## Classificatie Type Persoonsgegevens {#-lassificatie-ype-ersoonsgegevens}
+### Classificatie Type Bijzondere Persoonsgegevens waarde {#TClassificatie-Type-Bijzondere-Persoonsgegevens-waarde}
 
 |{: .def}||
 |-|-|
-|Supertype|[Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)|
-|Subtype(s)|[Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)|
-|Kenmerken|[Classificatie Type Persoonsgegevens Waarde](#-lassificatie-ype-ersoonsgegevens-aarde)|
-|Relatie met|[Type persoonsgegeven](#-ype-persoonsgegeven), [Type persoonsgegeven in context van DPIA](#-ype-persoonsgegeven-in-context-van-)|
+|Eigenschap van|[Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)|
+|Type|[classificatie_type_bpg_waarde](#Tclassificatie-type-bpg-waarde)|
+|Mogelijke waarden|gegevens over gezondheid; gegevens over lidmaatschap van een vakbond; gegevens over ras of etnische afkomst; gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over politieke opvattingen; biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over religieuze of levensbeschouwelijke overtuigingen; genetische gegevens|
 
-### Classificatie Type Persoonsgegevens Waarde {#-lassificatie-ype-ersoonsgegevens-aarde}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
-|Type|[classificatie_type_pg_waarde](#-classificatie-type-pg-waarde)|
-|Mogelijke waarden|bevat bijzondere persoonsgegevens; bevat nationale identificatienummers; bevat gewone persoonsgegevens; bevat strafrechtelijke persoonsgegevens; bevat gevoelige persoonsgegevens|
-
-## Conclusie toelaatbaarheid hergebruik {#-onclusie-toelaatbaarheid-hergebruik}
+## Classificatie Type Persoonsgegevens {#TClassificatie-Type-Persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Kenmerken|[Toelichting op conclusie toelaatbaarheid hergebruik](#-oelichting-op-conclusie-toelaatbaarheid-hergebruik), [toelaatbaarheid hergebruik](#-onclusie-toelaatbaarheid-hergebruik-toelaatbaarheid-hergebruik)|
-|Rollen|[Conclusie toelaatbaarheid hergebruik in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#-onclusie-toelaatbaarheid-hergebruik-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
+|Begrip|[Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens)|
+|Supertype|[Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)|
+|Subtype(s)|[Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)|
+|Kenmerken|[Classificatie Type Persoonsgegevens Waarde](#TClassificatie-Type-Persoonsgegevens-Waarde)|
+|Relatie met|[Type persoonsgegeven](#TType-persoonsgegeven), [Type persoonsgegeven in context van DPIA](#TType-persoonsgegeven-in-context-van-DPIA)|
 
-### Toelichting op conclusie toelaatbaarheid hergebruik {#-oelichting-op-conclusie-toelaatbaarheid-hergebruik}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Conclusie toelaatbaarheid hergebruik](#-onclusie-toelaatbaarheid-hergebruik)|
-|Type|[toelichting toelaatbaarheid](#-toelichting-toelaatbaarheid)|
-
-### toelaatbaarheid hergebruik {#-onclusie-toelaatbaarheid-hergebruik-toelaatbaarheid-hergebruik}
+### Classificatie Type Persoonsgegevens Waarde {#TClassificatie-Type-Persoonsgegevens-Waarde}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Conclusie toelaatbaarheid hergebruik](#-onclusie-toelaatbaarheid-hergebruik)|
+|Eigenschap van|[Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
+|Type|[classificatie_type_pg_waarde](#Tclassificatie-type-pg-waarde)|
+|Mogelijke waarden|bevat gevoelige persoonsgegevens; bevat strafrechtelijke persoonsgegevens; bevat gewone persoonsgegevens; bevat nationale identificatienummers; bevat bijzondere persoonsgegevens|
+
+## Conclusie toelaatbaarheid hergebruik {#TConclusie-toelaatbaarheid-hergebruik}
+
+|{: .def}||
+|-|-|
+|Begrip|[Conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-hergebruik)|
+|Kenmerken|[Toelichting op conclusie toelaatbaarheid hergebruik](#TToelichting-op-conclusie-toelaatbaarheid-hergebruik), [toelaatbaarheid hergebruik](#TConclusie-toelaatbaarheid-hergebruik-toelaatbaarheid-hergebruik)|
+|Rollen|[Conclusie toelaatbaarheid hergebruik in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#TConclusie-toelaatbaarheid-hergebruik-Persoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
+
+### Toelichting op conclusie toelaatbaarheid hergebruik {#TToelichting-op-conclusie-toelaatbaarheid-hergebruik}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Conclusie toelaatbaarheid hergebruik](#TConclusie-toelaatbaarheid-hergebruik)|
+|Type|[toelichting toelaatbaarheid](#Ttoelichting-toelaatbaarheid)|
+
+### toelaatbaarheid hergebruik {#TConclusie-toelaatbaarheid-hergebruik-toelaatbaarheid-hergebruik}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Conclusie toelaatbaarheid hergebruik](#TConclusie-toelaatbaarheid-hergebruik)|
 |Type|CharacterString|
 
-### Conclusie toelaatbaarheid hergebruik in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde {#-onclusie-toelaatbaarheid-hergebruik-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde}
+### Conclusie toelaatbaarheid hergebruik in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde {#TConclusie-toelaatbaarheid-hergebruik-Persoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Conclusie toelaatbaarheid hergebruik](#-onclusie-toelaatbaarheid-hergebruik)|
-|Met|1..1 [Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
+|Rol van|0..* [Conclusie toelaatbaarheid hergebruik](#TConclusie-toelaatbaarheid-hergebruik)|
+|Met|1..1 [Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#TPersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
 
-## Conclusie verenigbaarheidstoets {#-onclusie-verenigbaarheidstoets}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Toelichting op conclusie verenigbaarheidstoets](#-oelichting-op-conclusie-verenigbaarheidstoets), [verenigbaarheid](#-onclusie-verenigbaarheidstoets-verenigbaarheid)|
-|Rollen|[Conclusie verenigbaarheidstoets in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#-onclusie-verenigbaarheidstoets-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
-
-### Toelichting op conclusie verenigbaarheidstoets {#-oelichting-op-conclusie-verenigbaarheidstoets}
+## Conclusie verenigbaarheidstoets {#TConclusie-verenigbaarheidstoets}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Conclusie verenigbaarheidstoets](#-onclusie-verenigbaarheidstoets)|
-|Type|[toelichting verenigbaarheidstoets](#-toelichting-verenigbaarheidstoets)|
+|Begrip|[Conclusie verenigbaarheidstoets](#conclusie-verenigbaarheidstoets)|
+|Kenmerken|[Toelichting op conclusie verenigbaarheidstoets](#TToelichting-op-conclusie-verenigbaarheidstoets), [verenigbaarheid](#TConclusie-verenigbaarheidstoets-verenigbaarheid)|
+|Rollen|[Conclusie verenigbaarheidstoets in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#TConclusie-verenigbaarheidstoets-Persoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
 
-### verenigbaarheid {#-onclusie-verenigbaarheidstoets-verenigbaarheid}
+### Toelichting op conclusie verenigbaarheidstoets {#TToelichting-op-conclusie-verenigbaarheidstoets}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Conclusie verenigbaarheidstoets](#-onclusie-verenigbaarheidstoets)|
+|Eigenschap van|[Conclusie verenigbaarheidstoets](#TConclusie-verenigbaarheidstoets)|
+|Type|[toelichting verenigbaarheidstoets](#Ttoelichting-verenigbaarheidstoets)|
+
+### verenigbaarheid {#TConclusie-verenigbaarheidstoets-verenigbaarheid}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Conclusie verenigbaarheidstoets](#TConclusie-verenigbaarheidstoets)|
 |Type|CharacterString|
 
-### Conclusie verenigbaarheidstoets in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde {#-onclusie-verenigbaarheidstoets-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde}
+### Conclusie verenigbaarheidstoets in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde {#TConclusie-verenigbaarheidstoets-Persoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Conclusie verenigbaarheidstoets](#-onclusie-verenigbaarheidstoets)|
-|Met|1..1 [Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
+|Rol van|0..* [Conclusie verenigbaarheidstoets](#TConclusie-verenigbaarheidstoets)|
+|Met|1..1 [Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#TPersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
 
-## DPIA {#-}
-
-|{: .def}||
-|-|-|
-|Subtype(s)|[DPIA met geautomatiseerde besluitvorming](#-met-geautomatiseerde-besluitvorming), [DPIA met mogelijk sprake van discriminatie](#-met-mogelijk-sprake-van-discriminatie), [DPIA met resterende risico's](#-met-resterende-risico-s), [DPIA met algoritme](#-met-algoritme), [DPIA met cloudoplossing](#-met-cloudoplossing), [DPIA met big data-verwerking](#-met-big-data-verwerking), [DPIA met profilering](#-met-profilering)|
-|Kenmerken|[Algoritme](#-lgoritme), [Betrokken functies bij opstellen DPIA](#-etrokken-functies-bij-opstellen-), [Big data-verwerking](#-ig-data-verwerking), [Cloudoplossing](#-loudoplossing), [DPIA inleiding](#-inleiding), [DPIA managementsamenvatting](#-managementsamenvatting), [DPIA status](#-status), [DPIA versie](#-versie), [DPIA ziet toe op voorstel](#-ziet-toe-op-voorstel), [Mogelijk sprake van discriminatie](#-ogelijk-sprake-van-discriminatie), [Profilering](#-rofilering), [Proportionaliteit](#-roportionaliteit), [Stroomschema gegevensverwerkingen](#-troomschema-gegevensverwerkingen), [Subsidiariteit](#-ubsidiariteit), [Technieken en methoden van gegevensverwerking](#-echnieken-en-methoden-van-gegevensverwerking), [Toelichting consultatie betrokkenen DPIA](#-oelichting-consultatie-betrokkenen-), [Voorafgaande raadpleging AP](#-oorafgaande-raadpleging-), [dpia code](#-dpia-code), [geautomatiseerde besluitvorming](#-geautomatiseerde-besluitvorming)|
-|Rollen|[DPIA heeft betrekking op Gegevensverwerking](#-heeft-betrekking-op-egevensverwerking), [DPIA voor organisatorische activiteit](#-voor-organisatorische-activiteit)|
-|Relatie met|[Betrokken partij bij DPIA in relatie met DPIA](#-etrokken-partij-bij-), [Categorie betrokkenen in DPIA in relatie met DPIA](#-ategorie-betrokkenen-in-), [DPIA beschrijft onderwerp in relatie met DPIA](#-beschrijft-onderwerp-), [DPIA dossier](#-dossier), [Locatie monitoring en evaluatie van maatregelen bij DPIA](#-ocatie-monitoring-en-evaluatie-van-maatregelen-bij-), [Normenkader of voorschrift in DPIA in relatie met DPIA](#-ormenkader-of-voorschrift-in-), [Persoonsgegeven is onderdeel van DPIA in relatie met DPIA](#-ersoonsgegeven-is-onderdeel-van-), [Recht van de betrokkene in relatie met DPIA](#-echt-van-de-betrokkene-), [Risico voor betrokkenen in relatie met DPIA](#-isico-voor-betrokkenen-), [Verwerkingslocatie buiten de EER in relatie met DPIA](#-erwerkingslocatie-buiten-de-), [Verwerkingsverantwoordelijke bij DPIA in relatie met DPIA](#-erwerkingsverantwoordelijke-bij-), [Verwerkingsverantwoordelijke die DPIA opstelt in relatie met DPIA](#-erwerkingsverantwoordelijke-die-opstelt-)|
-
-### DPIA versie {#-versie}
+## DPIA {#TDPIA}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[versienummer](#-versienummer)|
+|Begrip|[DPIA](#dpia)|
+|Subtype(s)|[DPIA met geautomatiseerde besluitvorming](#TDPIA-met-geautomatiseerde-besluitvorming), [DPIA met mogelijk sprake van discriminatie](#TDPIA-met-mogelijk-sprake-van-discriminatie), [DPIA met algoritme](#TDPIA-met-algoritme), [DPIA met cloudoplossing](#TDPIA-met-cloudoplossing), [DPIA met big data-verwerking](#TDPIA-met-big-data-verwerking), [DPIA met profilering](#TDPIA-met-profilering), [DPIA met resterende risico's](#TDPIA-met-resterende-risico-s)|
+|Kenmerken|[Algoritme](#TAlgoritme), [Betrokken functies bij opstellen DPIA](#TBetrokken-functies-bij-opstellen-DPIA), [Big data-verwerking](#TBig-data-verwerking), [Cloudoplossing](#TCloudoplossing), [DPIA inleiding](#TDPIA-inleiding), [DPIA managementsamenvatting](#TDPIA-managementsamenvatting), [DPIA status](#TDPIA-status), [DPIA versie](#TDPIA-versie), [DPIA ziet toe op voorstel](#TDPIA-ziet-toe-op-voorstel), [Mogelijk sprake van discriminatie](#TMogelijk-sprake-van-discriminatie), [Profilering](#TProfilering), [Proportionaliteit](#TProportionaliteit), [Stroomschema gegevensverwerkingen](#TStroomschema-gegevensverwerkingen), [Subsidiariteit](#TSubsidiariteit), [Technieken en methoden van gegevensverwerking](#TTechnieken-en-methoden-van-gegevensverwerking), [Toelichting consultatie betrokkenen DPIA](#TToelichting-consultatie-betrokkenen-DPIA), [Voorafgaande raadpleging AP](#TVoorafgaande-raadpleging-AP), [dpia code](#TDPIA-dpia-code), [geautomatiseerde besluitvorming](#Tgeautomatiseerde-besluitvorming)|
+|Rollen|[DPIA heeft betrekking op Gegevensverwerking](#TDPIA-heeft-betrekking-op-Gegevensverwerking), [DPIA voor organisatorische activiteit](#TDPIA-voor-organisatorische-activiteit)|
+|Relatie met|[Betrokken partij bij DPIA in relatie met DPIA](#TBetrokken-partij-bij-DPIA-DPIA), [Categorie betrokkenen in DPIA in relatie met DPIA](#TCategorie-betrokkenen-in-DPIA-DPIA), [DPIA beschrijft onderwerp in relatie met DPIA](#TDPIA-beschrijft-onderwerp-DPIA), [DPIA dossier](#TDPIA-dossier), [Locatie monitoring en evaluatie van maatregelen bij DPIA](#TLocatie-monitoring-en-evaluatie-van-maatregelen-bij-DPIA), [Normenkader of voorschrift in DPIA in relatie met DPIA](#TNormenkader-of-voorschrift-in-DPIA-DPIA), [Persoonsgegeven is onderdeel van DPIA in relatie met DPIA](#TPersoonsgegeven-is-onderdeel-van-DPIA-DPIA), [Recht van de betrokkene in relatie met DPIA](#TRecht-van-de-betrokkene-DPIA), [Risico voor betrokkenen in relatie met DPIA](#TRisico-voor-betrokkenen-DPIA), [Verwerkingslocatie buiten de EER in relatie met DPIA](#TVerwerkingslocatie-buiten-de-EER-DPIA), [Verwerkingsverantwoordelijke bij DPIA in relatie met DPIA](#TVerwerkingsverantwoordelijke-bij-DPIA-DPIA), [Verwerkingsverantwoordelijke die DPIA opstelt in relatie met DPIA](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt-DPIA)|
 
-### DPIA ziet toe op voorstel {#-ziet-toe-op-voorstel}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[voorstel](#-voorstel)|
-
-### DPIA inleiding {#-inleiding}
+### DPIA ziet toe op voorstel {#TDPIA-ziet-toe-op-voorstel}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[inleiding](#-inleiding)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[voorstel](#Tvoorstel)|
 
-### Betrokken functies bij opstellen DPIA {#-etrokken-functies-bij-opstellen-}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[functie](#-functie)|
-
-### geautomatiseerde besluitvorming {#-geautomatiseerde-besluitvorming}
+### DPIA inleiding {#TDPIA-inleiding}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[wel/geen sprake van geautomatiseerde besluitvorming](#-wel-geen-sprake-van-geautomatiseerde-besluitvorming)|
-|Mogelijke waarden|sprake van geautomatiseerde besluitvorming; geen sprake van geautomatiseerde besluitvorming|
+|Begrip|[DPIA inleiding](#dpia-inleiding)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[inleiding](#Tinleiding)|
 
-### Algoritme {#-lgoritme}
+### Algoritme {#TAlgoritme}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[wel/geen sprake van een algoritme](#-wel-geen-sprake-van-een-algoritme)|
+|Begrip|[Algoritme](#algoritme)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[wel/geen sprake van een algoritme](#Twel-geen-sprake-van-een-algoritme)|
 |Mogelijke waarden|sprake van een algoritme; geen sprake van een algoritme|
 
-### Mogelijk sprake van discriminatie {#-ogelijk-sprake-van-discriminatie}
+### dpia code {#TDPIA-dpia-code}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[sprake van discriminatie](#-sprake-van-discriminatie)|
-|Mogelijke waarden|zou sprake kunnen zijn van discriminatie; zou geen sprake kunnen zijn van discriminatie|
-
-### Stroomschema gegevensverwerkingen {#-troomschema-gegevensverwerkingen}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[afbeelding](#-afbeelding)|
-
-### DPIA status {#-status}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[dpiastatuscode](#-dpiastatuscode)|
-|Mogelijke waarden|niet akkoord; akkoord|
-
-### Proportionaliteit {#-roportionaliteit}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[proportionaliteitsbeoordeling](#-proportionaliteitsbeoordeling)|
-
-### Toelichting consultatie betrokkenen DPIA {#-oelichting-consultatie-betrokkenen-}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[toelichting consultatie betrokkenen](#-toelichting-consultatie-betrokkenen)|
-
-### DPIA managementsamenvatting {#-managementsamenvatting}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[managementsamenvatting](#-managementsamenvatting)|
-
-### Subsidiariteit {#-ubsidiariteit}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[subsidiariteitsbeoordeling](#-subsidiariteitsbeoordeling)|
-
-### Big data-verwerking {#-ig-data-verwerking}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[wel/geen sprake van een big data-verwerking](#-wel-geen-sprake-van-een-big-data-verwerking)|
-|Mogelijke waarden|geen sprake van een big data-verwerking; sprake van een big data-verwerking|
-
-### dpia code {#-dpia-code}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA](#-)|
+|Eigenschap van|[DPIA](#TDPIA)|
 |Type|CharacterString|
 
-### Voorafgaande raadpleging AP {#-oorafgaande-raadpleging-}
+### Voorafgaande raadpleging AP {#TVoorafgaande-raadpleging-AP}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[advies AP](#-advies-)|
+|Begrip|[Voorafgaande raadpleging AP](#voorafgaande-raadpleging-ap)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[advies AP](#Tadvies-AP)|
 
-### Cloudoplossing {#-loudoplossing}
+### Cloudoplossing {#TCloudoplossing}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[wel/geen sprake van een cloudoplossing](#-wel-geen-sprake-van-een-cloudoplossing)|
+|Begrip|[Cloudoplossing](#cloudoplossing)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[wel/geen sprake van een cloudoplossing](#Twel-geen-sprake-van-een-cloudoplossing)|
 |Mogelijke waarden|sprake van een cloudoplossing; geen sprake van een cloudoplossing|
 
-### Technieken en methoden van gegevensverwerking {#-echnieken-en-methoden-van-gegevensverwerking}
+### DPIA versie {#TDPIA-versie}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[toelichting technieken en methoden](#-toelichting-technieken-en-methoden)|
+|Begrip|[DPIA versie](#dpia-versie)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[versienummer](#Tversienummer)|
 
-### Profilering {#-rofilering}
+### Betrokken functies bij opstellen DPIA {#TBetrokken-functies-bij-opstellen-DPIA}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA](#-)|
-|Type|[wel/geen sprake van profilering](#-wel-geen-sprake-van-profilering)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[functie](#Tfunctie)|
+
+### geautomatiseerde besluitvorming {#Tgeautomatiseerde-besluitvorming}
+
+|{: .def}||
+|-|-|
+|Begrip|[Geautomatiseerde besluitvorming](#geautomatiseerde-besluitvorming)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[wel/geen sprake van geautomatiseerde besluitvorming](#Twel-geen-sprake-van-geautomatiseerde-besluitvorming)|
+|Mogelijke waarden|geen sprake van geautomatiseerde besluitvorming; sprake van geautomatiseerde besluitvorming|
+
+### Mogelijk sprake van discriminatie {#TMogelijk-sprake-van-discriminatie}
+
+|{: .def}||
+|-|-|
+|Begrip|[Mogelijk sprake van discriminatie](#mogelijk-sprake-van-discriminatie)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[sprake van discriminatie](#Tsprake-van-discriminatie)|
+|Mogelijke waarden|zou sprake kunnen zijn van discriminatie; zou geen sprake kunnen zijn van discriminatie|
+
+### Stroomschema gegevensverwerkingen {#TStroomschema-gegevensverwerkingen}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[afbeelding](#Tafbeelding)|
+
+### DPIA status {#TDPIA-status}
+
+|{: .def}||
+|-|-|
+|Begrip|[DPIA status](#dpia-status)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[dpiastatuscode](#Tdpiastatuscode)|
+|Mogelijke waarden|niet akkoord; akkoord|
+
+### Proportionaliteit {#TProportionaliteit}
+
+|{: .def}||
+|-|-|
+|Begrip|[Proportionaliteit](#proportionaliteit)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[proportionaliteitsbeoordeling](#Tproportionaliteitsbeoordeling)|
+
+### Toelichting consultatie betrokkenen DPIA {#TToelichting-consultatie-betrokkenen-DPIA}
+
+|{: .def}||
+|-|-|
+|Begrip|[Toelichting consultatie betrokkenen DPIA](#toelichting-consultatie-betrokkenen-dpia)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[toelichting consultatie betrokkenen](#Ttoelichting-consultatie-betrokkenen)|
+
+### DPIA managementsamenvatting {#TDPIA-managementsamenvatting}
+
+|{: .def}||
+|-|-|
+|Begrip|[DPIA managementsamenvatting](#dpia-managementsamenvatting)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[managementsamenvatting](#Tmanagementsamenvatting)|
+
+### Subsidiariteit {#TSubsidiariteit}
+
+|{: .def}||
+|-|-|
+|Begrip|[Subsidiariteit](#subsidiariteit)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[subsidiariteitsbeoordeling](#Tsubsidiariteitsbeoordeling)|
+
+### Big data-verwerking {#TBig-data-verwerking}
+
+|{: .def}||
+|-|-|
+|Begrip|[Big data-verwerking](#big-data-verwerking)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[wel/geen sprake van een big data-verwerking](#Twel-geen-sprake-van-een-big-data-verwerking)|
+|Mogelijke waarden|sprake van een big data-verwerking; geen sprake van een big data-verwerking|
+
+### Technieken en methoden van gegevensverwerking {#TTechnieken-en-methoden-van-gegevensverwerking}
+
+|{: .def}||
+|-|-|
+|Begrip|[Technieken en methoden van gegevensverwerking](#technieken-en-methoden-van-gegevensverwerking)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[toelichting technieken en methoden](#Ttoelichting-technieken-en-methoden)|
+
+### Profilering {#TProfilering}
+
+|{: .def}||
+|-|-|
+|Begrip|[Profilering](#profilering)|
+|Eigenschap van|[DPIA](#TDPIA)|
+|Type|[wel/geen sprake van profilering](#Twel-geen-sprake-van-profilering)|
 |Mogelijke waarden|geen sprake van profilering; sprake van profilering|
 
-### DPIA heeft betrekking op Gegevensverwerking {#-heeft-betrekking-op-egevensverwerking}
+### DPIA heeft betrekking op Gegevensverwerking {#TDPIA-heeft-betrekking-op-Gegevensverwerking}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [DPIA](#-)|
-|Met|0..* [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
+|Rol van|0..* [DPIA](#TDPIA)|
+|Met|0..* [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
 
-### DPIA voor organisatorische activiteit {#-voor-organisatorische-activiteit}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [DPIA](#-)|
-|Met|0..* [Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-
-## DPIA beschrijft onderwerp {#-beschrijft-onderwerp}
+### DPIA voor organisatorische activiteit {#TDPIA-voor-organisatorische-activiteit}
 
 |{: .def}||
 |-|-|
-|Kenmerken|[DPIA heeft aanvullende informatie over onderwerp](#-heeft-aanvullende-informatie-over-onderwerp), [DPIA onderwerp](#-beschrijft-onderwerp-onderwerp)|
-|Rollen|[DPIA beschrijft onderwerp in relatie met DPIA](#-beschrijft-onderwerp-)|
+|Rol van|0..* [DPIA](#TDPIA)|
+|Met|0..* [Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
 
-### DPIA onderwerp {#-beschrijft-onderwerp-onderwerp}
+## DPIA beschrijft onderwerp {#TDPIA-beschrijft-onderwerp}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA beschrijft onderwerp](#-beschrijft-onderwerp)|
+|Kenmerken|[DPIA heeft aanvullende informatie over onderwerp](#TDPIA-heeft-aanvullende-informatie-over-onderwerp), [DPIA onderwerp](#TDPIA-beschrijft-onderwerp-DPIA-onderwerp)|
+|Rollen|[DPIA beschrijft onderwerp in relatie met DPIA](#TDPIA-beschrijft-onderwerp-DPIA)|
+
+### DPIA onderwerp {#TDPIA-beschrijft-onderwerp-DPIA-onderwerp}
+
+|{: .def}||
+|-|-|
+|Begrip|[DPIA onderwerp](#dpia-onderwerp)|
+|Eigenschap van|[DPIA beschrijft onderwerp](#TDPIA-beschrijft-onderwerp)|
 |Type|CharacterString|
 
-### DPIA heeft aanvullende informatie over onderwerp {#-heeft-aanvullende-informatie-over-onderwerp}
+### DPIA heeft aanvullende informatie over onderwerp {#TDPIA-heeft-aanvullende-informatie-over-onderwerp}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA beschrijft onderwerp](#-beschrijft-onderwerp)|
-|Type|[aanvullende informatie](#-aanvullende-informatie)|
+|Eigenschap van|[DPIA beschrijft onderwerp](#TDPIA-beschrijft-onderwerp)|
+|Type|[aanvullende informatie](#Taanvullende-informatie)|
 
-### DPIA beschrijft onderwerp in relatie met DPIA {#-beschrijft-onderwerp-}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [DPIA beschrijft onderwerp](#-beschrijft-onderwerp)|
-|Met|1..1 [DPIA](#-)|
-
-## DPIA met algoritme {#-met-algoritme}
+### DPIA beschrijft onderwerp in relatie met DPIA {#TDPIA-beschrijft-onderwerp-DPIA}
 
 |{: .def}||
 |-|-|
-|Supertype|[DPIA](#-)|
-|Kenmerken|[AI-systeem](#-systeem), [Algoritme toelichting](#-lgoritme-toelichting)|
+|Rol van|0..* [DPIA beschrijft onderwerp](#TDPIA-beschrijft-onderwerp)|
+|Met|1..1 [DPIA](#TDPIA)|
 
-### Algoritme toelichting {#-lgoritme-toelichting}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA met algoritme](#-met-algoritme)|
-|Type|[toelichting algoritme(s)](#-toelichting-algoritme-s-)|
-
-### AI-systeem {#-systeem}
+## DPIA met algoritme {#TDPIA-met-algoritme}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA met algoritme](#-met-algoritme)|
-|Type|[wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem](#-wel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-systeem)|
-|Mogelijke waarden|sprake van een algoritme dat kwalificeert als een AI-systeem; geen sprake van een algoritme dat kwalificeert als een AI-systeem|
+|Supertype|[DPIA](#TDPIA)|
+|Kenmerken|[AI-systeem](#TAI-systeem), [Algoritme toelichting](#TAlgoritme-toelichting)|
 
-## DPIA met big data-verwerking {#-met-big-data-verwerking}
-
-|{: .def}||
-|-|-|
-|Supertype|[DPIA](#-)|
-|Kenmerken|[Big data-verwerking toelichting](#-ig-data-verwerking-toelichting)|
-
-### Big data-verwerking toelichting {#-ig-data-verwerking-toelichting}
+### Algoritme toelichting {#TAlgoritme-toelichting}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA met big data-verwerking](#-met-big-data-verwerking)|
-|Type|[toelichting big data-verwerking(en)](#-toelichting-big-data-verwerking-en-)|
+|Begrip|[Algoritme toelichting](#algoritme-toelichting)|
+|Eigenschap van|[DPIA met algoritme](#TDPIA-met-algoritme)|
+|Type|[toelichting algoritme(s)](#Ttoelichting-algoritme-s-)|
 
-## DPIA met cloudoplossing {#-met-cloudoplossing}
-
-|{: .def}||
-|-|-|
-|Supertype|[DPIA](#-)|
-|Kenmerken|[Cloudoplossing toelichting](#-loudoplossing-toelichting)|
-
-### Cloudoplossing toelichting {#-loudoplossing-toelichting}
+### AI-systeem {#TAI-systeem}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA met cloudoplossing](#-met-cloudoplossing)|
-|Type|[toelichting cloudoplossing(en)](#-toelichting-cloudoplossing-en-)|
+|Begrip|[AI-systeem](#ai-systeem)|
+|Eigenschap van|[DPIA met algoritme](#TDPIA-met-algoritme)|
+|Type|[wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem](#Twel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-AI-systeem)|
+|Mogelijke waarden|geen sprake van een algoritme dat kwalificeert als een AI-systeem; sprake van een algoritme dat kwalificeert als een AI-systeem|
 
-## DPIA met geautomatiseerde besluitvorming {#-met-geautomatiseerde-besluitvorming}
-
-|{: .def}||
-|-|-|
-|Supertype|[DPIA](#-)|
-|Kenmerken|[geautomatiseerde besluitvorming toelichting](#-geautomatiseerde-besluitvorming-toelichting)|
-
-### geautomatiseerde besluitvorming toelichting {#-geautomatiseerde-besluitvorming-toelichting}
+## DPIA met big data-verwerking {#TDPIA-met-big-data-verwerking}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA met geautomatiseerde besluitvorming](#-met-geautomatiseerde-besluitvorming)|
-|Type|[toelichting geautomatiseerde besluitvorming](#-toelichting-geautomatiseerde-besluitvorming)|
+|Supertype|[DPIA](#TDPIA)|
+|Kenmerken|[Big data-verwerking toelichting](#TBig-data-verwerking-toelichting)|
 
-## DPIA met mogelijk sprake van discriminatie {#-met-mogelijk-sprake-van-discriminatie}
-
-|{: .def}||
-|-|-|
-|Supertype|[DPIA](#-)|
-|Kenmerken|[Anti-discriminatietoets bij DPIA](#-nti-discriminatietoets-bij-)|
-
-### Anti-discriminatietoets bij DPIA {#-nti-discriminatietoets-bij-}
+### Big data-verwerking toelichting {#TBig-data-verwerking-toelichting}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA met mogelijk sprake van discriminatie](#-met-mogelijk-sprake-van-discriminatie)|
-|Type|[anti-discriminatietoets](#-anti-discriminatietoets)|
+|Begrip|[Big data-verwerking toelichting](#big-data-verwerking-toelichting)|
+|Eigenschap van|[DPIA met big data-verwerking](#TDPIA-met-big-data-verwerking)|
+|Type|[toelichting big data-verwerking(en)](#Ttoelichting-big-data-verwerking-en-)|
 
-## DPIA met profilering {#-met-profilering}
-
-|{: .def}||
-|-|-|
-|Supertype|[DPIA](#-)|
-|Kenmerken|[Profilering toelichting](#-rofilering-toelichting)|
-
-### Profilering toelichting {#-rofilering-toelichting}
+## DPIA met cloudoplossing {#TDPIA-met-cloudoplossing}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[DPIA met profilering](#-met-profilering)|
-|Type|[toelichting profilering](#-toelichting-profilering)|
+|Supertype|[DPIA](#TDPIA)|
+|Kenmerken|[Cloudoplossing toelichting](#TCloudoplossing-toelichting)|
 
-## DPIA met resterende risico's {#-met-resterende-risico-s}
+### Cloudoplossing toelichting {#TCloudoplossing-toelichting}
 
 |{: .def}||
 |-|-|
-|Supertype|[DPIA](#-)|
+|Begrip|[Cloudoplossing toelichting](#cloudoplossing-toelichting)|
+|Eigenschap van|[DPIA met cloudoplossing](#TDPIA-met-cloudoplossing)|
+|Type|[toelichting cloudoplossing(en)](#Ttoelichting-cloudoplossing-en-)|
+
+## DPIA met geautomatiseerde besluitvorming {#TDPIA-met-geautomatiseerde-besluitvorming}
+
+|{: .def}||
+|-|-|
+|Supertype|[DPIA](#TDPIA)|
+|Kenmerken|[geautomatiseerde besluitvorming toelichting](#Tgeautomatiseerde-besluitvorming-toelichting)|
+
+### geautomatiseerde besluitvorming toelichting {#Tgeautomatiseerde-besluitvorming-toelichting}
+
+|{: .def}||
+|-|-|
+|Begrip|[Geautomatiseerde besluitvorming toelichting](#geautomatiseerde-besluitvorming-toelichting)|
+|Eigenschap van|[DPIA met geautomatiseerde besluitvorming](#TDPIA-met-geautomatiseerde-besluitvorming)|
+|Type|[toelichting geautomatiseerde besluitvorming](#Ttoelichting-geautomatiseerde-besluitvorming)|
+
+## DPIA met mogelijk sprake van discriminatie {#TDPIA-met-mogelijk-sprake-van-discriminatie}
+
+|{: .def}||
+|-|-|
+|Supertype|[DPIA](#TDPIA)|
+|Kenmerken|[Anti-discriminatietoets bij DPIA](#TAnti-discriminatietoets-bij-DPIA)|
+
+### Anti-discriminatietoets bij DPIA {#TAnti-discriminatietoets-bij-DPIA}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[DPIA met mogelijk sprake van discriminatie](#TDPIA-met-mogelijk-sprake-van-discriminatie)|
+|Type|[anti-discriminatietoets](#Tanti-discriminatietoets)|
+
+## DPIA met profilering {#TDPIA-met-profilering}
+
+|{: .def}||
+|-|-|
+|Supertype|[DPIA](#TDPIA)|
+|Kenmerken|[Profilering toelichting](#TProfilering-toelichting)|
+
+### Profilering toelichting {#TProfilering-toelichting}
+
+|{: .def}||
+|-|-|
+|Begrip|[Profilering toelichting](#profilering-toelichting)|
+|Eigenschap van|[DPIA met profilering](#TDPIA-met-profilering)|
+|Type|[toelichting profilering](#Ttoelichting-profilering)|
+
+## DPIA met resterende risico's {#TDPIA-met-resterende-risico-s}
+
+|{: .def}||
+|-|-|
+|Begrip|[DPIA met resterende risico's](#dpia-met-resterende-risico-s)|
+|Supertype|[DPIA](#TDPIA)|
 |Subtype(s)||
-|Kenmerken|[Onderbouwing acceptatie resterende risico's](#-nderbouwing-acceptatie-resterende-risico-s)|
+|Kenmerken|[Onderbouwing acceptatie resterende risico's](#TOnderbouwing-acceptatie-resterende-risico-s)|
 
-### Onderbouwing acceptatie resterende risico's {#-nderbouwing-acceptatie-resterende-risico-s}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[DPIA met resterende risico's](#-met-resterende-risico-s)|
-|Type|[onderbouwing risico-acceptatie](#-onderbouwing-risico-acceptatie)|
-
-## Derde land {#-erde-land}
+### Onderbouwing acceptatie resterende risico's {#TOnderbouwing-acceptatie-resterende-risico-s}
 
 |{: .def}||
 |-|-|
-|Supertype|[Land](#-and)|
-|Relatie met|[Verwerkingslocatie buiten de EER in relatie met Derde land](#-erwerkingslocatie-buiten-de-erde-land)|
+|Begrip|[Onderbouwing acceptatie resterende risico's](#onderbouwing-acceptatie-resterende-risico-s)|
+|Eigenschap van|[DPIA met resterende risico's](#TDPIA-met-resterende-risico-s)|
+|Type|[onderbouwing risico-acceptatie](#Tonderbouwing-risico-acceptatie)|
 
-## Document {#-ocument}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Document Locatie](#-ocument-ocatie), [Document Naam](#-ocument-aam), [Document Soort](#-ocument-oort), [Document Versie](#-ocument-ersie), [documentcode](#-ocument-documentcode)|
-|Rollen|[DPIA dossier](#-dossier)|
-
-### documentcode {#-ocument-documentcode}
+## Derde land {#TDerde-land}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Document](#-ocument)|
+|Begrip|[Derde land](#derde-land)|
+|Supertype|[Land](#TLand)|
+|Relatie met|[Verwerkingslocatie buiten de EER in relatie met Derde land](#TVerwerkingslocatie-buiten-de-EER-Derde-land)|
+
+## Document {#TDocument}
+
+|{: .def}||
+|-|-|
+|Begrip|[Document](#document)|
+|Kenmerken|[Document Locatie](#TDocument-Locatie), [Document Naam](#TDocument-Naam), [Document Soort](#TDocument-Soort), [Document Versie](#TDocument-Versie), [documentcode](#TDocument-documentcode)|
+|Rollen|[DPIA dossier](#TDPIA-dossier)|
+
+### Document Locatie {#TDocument-Locatie}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Document](#TDocument)|
+|Type|[locatie](#Tlocatie)|
+
+### Document Soort {#TDocument-Soort}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Document](#TDocument)|
+|Type|[documentsoort](#Tdocumentsoort)|
+
+### documentcode {#TDocument-documentcode}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Document](#TDocument)|
 |Type|CharacterString|
 
-### Document Locatie {#-ocument-ocatie}
+### Document Versie {#TDocument-Versie}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Document](#-ocument)|
-|Type|[locatie](#-locatie)|
+|Eigenschap van|[Document](#TDocument)|
+|Type|[versienummer](#Tversienummer)|
 
-### Document Soort {#-ocument-oort}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Document](#-ocument)|
-|Type|[documentsoort](#-documentsoort)|
-
-### Document Versie {#-ocument-ersie}
+### Document Naam {#TDocument-Naam}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Document](#-ocument)|
-|Type|[versienummer](#-versienummer)|
+|Eigenschap van|[Document](#TDocument)|
+|Type|[naam](#Tnaam)|
 
-### Document Naam {#-ocument-aam}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Document](#-ocument)|
-|Type|[naam](#-naam)|
-
-### DPIA dossier {#-dossier}
+### DPIA dossier {#TDPIA-dossier}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Document](#-ocument)|
-|Met|0..* [DPIA](#-)|
+|Begrip|[DPIA dossier](#dpia-dossier)|
+|Rol van|0..* [Document](#TDocument)|
+|Met|0..* [DPIA](#TDPIA)|
 
-## Functie in afdeling {#-unctie-in-afdeling}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[afdelingsnaam](#-unctie-in-afdeling-afdelingsnaam), [functie](#-unctie-in-afdeling-functie)|
-|Rollen|[Functie/afdeling met toegang tot persoonsgegeven in gegevensverwerking](#-unctie-afdeling-met-toegang-tot-persoonsgegeven-in-gegevensverwerking)|
-
-### functie {#-unctie-in-afdeling-functie}
+## Functie in afdeling {#TFunctie-in-afdeling}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Functie in afdeling](#-unctie-in-afdeling)|
+|Kenmerken|[afdelingsnaam](#TFunctie-in-afdeling-afdelingsnaam), [functie](#TFunctie-in-afdeling-functie)|
+|Rollen|[Functie/afdeling met toegang tot persoonsgegeven in gegevensverwerking](#TFunctie-afdeling-met-toegang-tot-persoonsgegeven-in-gegevensverwerking)|
+
+### functie {#TFunctie-in-afdeling-functie}
+
+|{: .def}||
+|-|-|
+|Begrip|[Functie](#functie)|
+|Eigenschap van|[Functie in afdeling](#TFunctie-in-afdeling)|
 |Type|CharacterString|
 
-### afdelingsnaam {#-unctie-in-afdeling-afdelingsnaam}
+### afdelingsnaam {#TFunctie-in-afdeling-afdelingsnaam}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Functie in afdeling](#-unctie-in-afdeling)|
-|Type|[afdelingsnaam](#-afdelingsnaam)|
-
-### Functie/afdeling met toegang tot persoonsgegeven in gegevensverwerking {#-unctie-afdeling-met-toegang-tot-persoonsgegeven-in-gegevensverwerking}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Functie in afdeling](#-unctie-in-afdeling)|
-|Met|0..* [Partij bij gegevensverwerking met functie/afdeling met toegang tot persoonsgegevens bekend](#-artij-bij-gegevensverwerking-met-functie-afdeling-met-toegang-tot-persoonsgegevens-bekend)|
-
-## Functie in organisatorische eenheid van Partij {#-unctie-in-organisatorische-eenheid-van-artij}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[functie](#-unctie-in-organisatorische-eenheid-van-artij-functie), [organisatorische eenheid](#-unctie-in-organisatorische-eenheid-van-artij-organisatorische-eenheid)|
-|Rollen|[Functie in organisatorische eenheid van Partij in relatie met Partij](#-unctie-in-organisatorische-eenheid-van-artij-artij)|
-|Relatie met|[Beheerder van maatregelen](#-eheerder-van-maatregelen), [Persoon in Functie in relatie met Functie in organisatorische eenheid van Partij](#-ersoon-in-unctie-unctie-in-organisatorische-eenheid-van-artij)|
-
-### organisatorische eenheid {#-unctie-in-organisatorische-eenheid-van-artij-organisatorische-eenheid}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Functie in organisatorische eenheid van Partij](#-unctie-in-organisatorische-eenheid-van-artij)|
+|Eigenschap van|[Functie in afdeling](#TFunctie-in-afdeling)|
 |Type|CharacterString|
 
-### functie {#-unctie-in-organisatorische-eenheid-van-artij-functie}
+### Functie/afdeling met toegang tot persoonsgegeven in gegevensverwerking {#TFunctie-afdeling-met-toegang-tot-persoonsgegeven-in-gegevensverwerking}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Functie in organisatorische eenheid van Partij](#-unctie-in-organisatorische-eenheid-van-artij)|
+|Rol van|0..* [Functie in afdeling](#TFunctie-in-afdeling)|
+|Met|0..* [Partij bij gegevensverwerking met functie/afdeling met toegang tot persoonsgegevens bekend](#TPartij-bij-gegevensverwerking-met-functie-afdeling-met-toegang-tot-persoonsgegevens-bekend)|
+
+## Functie in organisatorische eenheid van Partij {#TFunctie-in-organisatorische-eenheid-van-Partij}
+
+|{: .def}||
+|-|-|
+|Kenmerken|[functie](#TFunctie-in-organisatorische-eenheid-van-Partij-functie), [organisatorische eenheid](#TFunctie-in-organisatorische-eenheid-van-Partij-organisatorische-eenheid)|
+|Rollen|[Functie in organisatorische eenheid van Partij in relatie met Partij](#TFunctie-in-organisatorische-eenheid-van-Partij-Partij)|
+|Relatie met|[Beheerder van maatregelen](#TBeheerder-van-maatregelen), [Persoon in Functie in relatie met Functie in organisatorische eenheid van Partij](#TPersoon-in-Functie-Functie-in-organisatorische-eenheid-van-Partij)|
+
+### organisatorische eenheid {#TFunctie-in-organisatorische-eenheid-van-Partij-organisatorische-eenheid}
+
+|{: .def}||
+|-|-|
+|Begrip|[Organisatorische eenheid](#organisatorische-eenheid)|
+|Eigenschap van|[Functie in organisatorische eenheid van Partij](#TFunctie-in-organisatorische-eenheid-van-Partij)|
 |Type|CharacterString|
 
-### Functie in organisatorische eenheid van Partij in relatie met Partij {#-unctie-in-organisatorische-eenheid-van-artij-artij}
+### functie {#TFunctie-in-organisatorische-eenheid-van-Partij-functie}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Functie in organisatorische eenheid van Partij](#-unctie-in-organisatorische-eenheid-van-artij)|
-|Met|1..1 [Partij](#-artij)|
-
-## Functionaris voor gegevensbescherming {#-unctionaris-voor-gegevensbescherming}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[organisatorische eenheid](#-unctionaris-voor-gegevensbescherming-organisatorische-eenheid)|
-|Rollen|[FG geeft advies](#-geeft-advies), [Functionaris voor gegevensbescherming in relatie met Partij](#-unctionaris-voor-gegevensbescherming-artij), [Functionaris voor gegevensbescherming in relatie met Persoon](#-unctionaris-voor-gegevensbescherming-ersoon)|
-
-### organisatorische eenheid {#-unctionaris-voor-gegevensbescherming-organisatorische-eenheid}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Functionaris voor gegevensbescherming](#-unctionaris-voor-gegevensbescherming)|
+|Begrip|[Functie](#functie)|
+|Eigenschap van|[Functie in organisatorische eenheid van Partij](#TFunctie-in-organisatorische-eenheid-van-Partij)|
 |Type|CharacterString|
 
-### Functionaris voor gegevensbescherming in relatie met Partij {#-unctionaris-voor-gegevensbescherming-artij}
+### Functie in organisatorische eenheid van Partij in relatie met Partij {#TFunctie-in-organisatorische-eenheid-van-Partij-Partij}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Functionaris voor gegevensbescherming](#-unctionaris-voor-gegevensbescherming)|
-|Met|1..1 [Partij](#-artij)|
+|Rol van|0..* [Functie in organisatorische eenheid van Partij](#TFunctie-in-organisatorische-eenheid-van-Partij)|
+|Met|1..1 [Partij](#TPartij)|
 
-### FG geeft advies {#-geeft-advies}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Functionaris voor gegevensbescherming](#-unctionaris-voor-gegevensbescherming)|
-|Met|0..* [Verwerkingsverantwoordelijke die DPIA opstelt](#-erwerkingsverantwoordelijke-die-opstelt)|
-
-### Functionaris voor gegevensbescherming in relatie met Persoon {#-unctionaris-voor-gegevensbescherming-ersoon}
+## Functionaris voor gegevensbescherming {#TFunctionaris-voor-gegevensbescherming}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Functionaris voor gegevensbescherming](#-unctionaris-voor-gegevensbescherming)|
-|Met|1..1 [Persoon](#-ersoon)|
+|Begrip|[Functionaris voor gegevensbescherming](#functionaris-voor-gegevensbescherming)|
+|Kenmerken|[organisatorische eenheid](#TFunctionaris-voor-gegevensbescherming-organisatorische-eenheid)|
+|Rollen|[FG geeft advies](#TFG-geeft-advies), [Functionaris voor gegevensbescherming in relatie met Partij](#TFunctionaris-voor-gegevensbescherming-Partij), [Functionaris voor gegevensbescherming in relatie met Persoon](#TFunctionaris-voor-gegevensbescherming-Persoon)|
 
-## Gegevenssetspecificatie gegevensverwerking persoonsgegevens {#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Subtype(s)|[Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
-|Rollen|[Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Gegevensverwerking persoonsgegevens](#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens-egevensverwerking-persoonsgegevens), [Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Persoonsgegeven](#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens-ersoonsgegeven)|
-|Relatie met|[Bewaartermijn van persoonsgegeven in gegevensverwerking in relatie met Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#-ewaartermijn-van-persoonsgegeven-in-gegevensverwerking-egevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
-
-### Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Gegevensverwerking persoonsgegevens {#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens-egevensverwerking-persoonsgegevens}
+### organisatorische eenheid {#TFunctionaris-voor-gegevensbescherming-organisatorische-eenheid}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
-|Met|1..1 [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-
-### Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Persoonsgegeven {#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens-ersoonsgegeven}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
-|Met|1..1 [Persoonsgegeven](#-ersoonsgegeven)|
-
-## Gegevenstype {#-egevenstype}
-
-|{: .def}||
-|-|-|
-|Subtype(s)|[Persoonsgegeven](#-ersoonsgegeven)|
-|Kenmerken|[Naam gegevenstype](#-aam-gegevenstype), [gegevenstype code](#-egevenstype-gegevenstype-code)|
-|Rollen|[Gegevenstype heeft Classificatie](#-egevenstype-heeft-lassificatie)|
-|Relatie met|[Gegevenssetspecificatie](#-egevenssetspecificatie)|
-
-### gegevenstype code {#-egevenstype-gegevenstype-code}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevenstype](#-egevenstype)|
+|Begrip|[Organisatorische eenheid](#organisatorische-eenheid)|
+|Eigenschap van|[Functionaris voor gegevensbescherming](#TFunctionaris-voor-gegevensbescherming)|
 |Type|CharacterString|
 
-### Naam gegevenstype {#-aam-gegevenstype}
+### Functionaris voor gegevensbescherming in relatie met Persoon {#TFunctionaris-voor-gegevensbescherming-Persoon}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Gegevenstype](#-egevenstype)|
-|Type|[gegevenstypenaam](#-gegevenstypenaam)|
+|Rol van|0..* [Functionaris voor gegevensbescherming](#TFunctionaris-voor-gegevensbescherming)|
+|Met|1..1 [Persoon](#TPersoon)|
 
-### Gegevenstype heeft Classificatie {#-egevenstype-heeft-lassificatie}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Gegevenstype](#-egevenstype)|
-|Met|0..* [Classificatie](#-lassificatie)|
-
-## Gegevensverwerking {#-egevensverwerking}
+### Functionaris voor gegevensbescherming in relatie met Partij {#TFunctionaris-voor-gegevensbescherming-Partij}
 
 |{: .def}||
 |-|-|
-|Subtype(s)|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Kenmerken|[Gegevensverwerking heeft beschrijving](#-egevensverwerking-heeft-beschrijving), [Gegevensverwerking heeft naam](#-egevensverwerking-heeft-naam), [gegevensverwerking code](#-egevensverwerking-gegevensverwerking-code)|
-|Rollen|[Gegevenssetspecificatie](#-egevenssetspecificatie)|
-|Relatie met|[Organisatorische activiteit heeft Gegevensverwerking](#-rganisatorische-activiteit-heeft-egevensverwerking)|
+|Rol van|0..* [Functionaris voor gegevensbescherming](#TFunctionaris-voor-gegevensbescherming)|
+|Met|1..1 [Partij](#TPartij)|
 
-### gegevensverwerking code {#-egevensverwerking-gegevensverwerking-code}
+### FG geeft advies {#TFG-geeft-advies}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Gegevensverwerking](#-egevensverwerking)|
+|Rol van|0..* [Functionaris voor gegevensbescherming](#TFunctionaris-voor-gegevensbescherming)|
+|Met|0..* [Verwerkingsverantwoordelijke die DPIA opstelt](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt)|
+
+## Gegevenssetspecificatie gegevensverwerking persoonsgegevens {#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Subtype(s)|[Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#TPersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
+|Rollen|[Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Gegevensverwerking persoonsgegevens](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens-Gegevensverwerking-persoonsgegevens), [Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Persoonsgegeven](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens-Persoonsgegeven)|
+|Relatie met|[Bewaartermijn van persoonsgegeven in gegevensverwerking in relatie met Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking-Gegevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
+
+### Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Persoonsgegeven {#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens-Persoonsgegeven}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
+|Met|1..1 [Persoonsgegeven](#TPersoonsgegeven)|
+
+### Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Gegevensverwerking persoonsgegevens {#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens-Gegevensverwerking-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
+|Met|1..1 [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+
+## Gegevenstype {#TGegevenstype}
+
+|{: .def}||
+|-|-|
+|Begrip|[Gegevenstype](#gegevenstype)|
+|Subtype(s)|[Persoonsgegeven](#TPersoonsgegeven)|
+|Kenmerken|[Naam gegevenstype](#TNaam-gegevenstype), [gegevenstype code](#TGegevenstype-gegevenstype-code)|
+|Rollen|[Gegevenstype heeft Classificatie](#TGegevenstype-heeft-Classificatie)|
+|Relatie met|[Gegevenssetspecificatie](#TGegevenssetspecificatie)|
+
+### gegevenstype code {#TGegevenstype-gegevenstype-code}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevenstype](#TGegevenstype)|
 |Type|CharacterString|
 
-### Gegevensverwerking heeft naam {#-egevensverwerking-heeft-naam}
+### Naam gegevenstype {#TNaam-gegevenstype}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Gegevensverwerking](#-egevensverwerking)|
-|Type|[gegevensverwerking naam](#-gegevensverwerking-naam)|
+|Eigenschap van|[Gegevenstype](#TGegevenstype)|
+|Type|[gegevenstypenaam](#Tgegevenstypenaam)|
 
-### Gegevensverwerking heeft beschrijving {#-egevensverwerking-heeft-beschrijving}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking](#-egevensverwerking)|
-|Type|[gegevensverwerking beschrijving](#-gegevensverwerking-beschrijving)|
-
-### Gegevenssetspecificatie {#-egevenssetspecificatie}
+### Gegevenstype heeft Classificatie {#TGegevenstype-heeft-Classificatie}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Gegevensverwerking](#-egevensverwerking)|
-|Met|0..* [Gegevenstype](#-egevenstype)|
+|Rol van|0..* [Gegevenstype](#TGegevenstype)|
+|Met|0..* [Classificatie](#TClassificatie)|
 
-## Gegevensverwerking nationale identificatienummers {#-egevensverwerking-nationale-identificatienummers}
-
-|{: .def}||
-|-|-|
-|Supertype|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Kenmerken|[Uitzonderingsgrond nationaal identificatienummer](#-itzonderingsgrond-nationaal-identificatienummer)|
-|Rollen|[Wet- of regelgeving uitzonderingsgrond identificatienummer](#-et-of-regelgeving-uitzonderingsgrond-identificatienummer)|
-
-### Uitzonderingsgrond nationaal identificatienummer {#-itzonderingsgrond-nationaal-identificatienummer}
+## Gegevensverwerking {#TGegevensverwerking}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Gegevensverwerking nationale identificatienummers](#-egevensverwerking-nationale-identificatienummers)|
-|Type|[uitzonderingsgrond nationale identificatienummers](#-uitzonderingsgrond-nationale-identificatienummers)|
+|Begrip|[Gegevensverwerking](#gegevensverwerking)|
+|Subtype(s)|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Kenmerken|[Gegevensverwerking heeft beschrijving](#TGegevensverwerking-heeft-beschrijving), [Gegevensverwerking heeft naam](#TGegevensverwerking-heeft-naam), [gegevensverwerking code](#TGegevensverwerking-gegevensverwerking-code)|
+|Rollen|[Gegevenssetspecificatie](#TGegevenssetspecificatie)|
+|Relatie met|[Organisatorische activiteit heeft Gegevensverwerking](#TOrganisatorische-activiteit-heeft-Gegevensverwerking)|
 
-### Wet- of regelgeving uitzonderingsgrond identificatienummer {#-et-of-regelgeving-uitzonderingsgrond-identificatienummer}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Gegevensverwerking nationale identificatienummers](#-egevensverwerking-nationale-identificatienummers)|
-|Met|0..* [Wet- en Regelgeving](#-et-en-egelgeving)|
-
-## Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang {#-egevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang}
+### Gegevensverwerking heeft naam {#TGegevensverwerking-heeft-naam}
 
 |{: .def}||
 |-|-|
-|Supertype|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Kenmerken|[Rechtsgrond gerechtvaardigd belang belangenafweging](#-echtsgrond-gerechtvaardigd-belang-belangenafweging)|
-|Rollen|[Verwerkingsverantwoordelijke of derde met gerechtvaardigd belang](#-erwerkingsverantwoordelijke-of-derde-met-gerechtvaardigd-belang)|
+|Eigenschap van|[Gegevensverwerking](#TGegevensverwerking)|
+|Type|[gegevensverwerking naam](#Tgegevensverwerking-naam)|
 
-### Rechtsgrond gerechtvaardigd belang belangenafweging {#-echtsgrond-gerechtvaardigd-belang-belangenafweging}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang](#-egevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang)|
-|Type|[belangenafweging](#-belangenafweging)|
-
-### Verwerkingsverantwoordelijke of derde met gerechtvaardigd belang {#-erwerkingsverantwoordelijke-of-derde-met-gerechtvaardigd-belang}
+### Gegevensverwerking heeft beschrijving {#TGegevensverwerking-heeft-beschrijving}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang](#-egevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang)|
-|Met|0..* [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)|
+|Eigenschap van|[Gegevensverwerking](#TGegevensverwerking)|
+|Type|[gegevensverwerking beschrijving](#Tgegevensverwerking-beschrijving)|
 
-## Gegevensverwerking op basis van rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst {#-egevensverwerking-op-basis-van-rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst}
-
-|{: .def}||
-|-|-|
-|Supertype|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Kenmerken|[Overeenkomst als basis voor rechtsgrond](#-vereenkomst-als-basis-voor-rechtsgrond)|
-
-### Overeenkomst als basis voor rechtsgrond {#-vereenkomst-als-basis-voor-rechtsgrond}
+### gegevensverwerking code {#TGegevensverwerking-gegevensverwerking-code}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst](#-egevensverwerking-op-basis-van-rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst)|
-|Type|[overeenkomst naam](#-overeenkomst-naam)|
-
-## Gegevensverwerking op basis van rechtsgrond toestemming {#-egevensverwerking-op-basis-van-rechtsgrond-toestemming}
-
-|{: .def}||
-|-|-|
-|Supertype|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Kenmerken|[Rechtsgrond toestemming toelichting](#-echtsgrond-toestemming-toelichting), [Toestemming ondubbelzinnig](#-oestemming-ondubbelzinnig), [Toestemming specifiek en geïnformeerd](#-oestemming-specifiek-en-ge-nformeerd), [Toestemming vrij gegeven](#-oestemming-vrij-gegeven)|
-
-### Rechtsgrond toestemming toelichting {#-echtsgrond-toestemming-toelichting}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond toestemming](#-egevensverwerking-op-basis-van-rechtsgrond-toestemming)|
-|Type|[toestemming toelichting](#-toestemming-toelichting)|
-
-### Toestemming vrij gegeven {#-oestemming-vrij-gegeven}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond toestemming](#-egevensverwerking-op-basis-van-rechtsgrond-toestemming)|
-|Type|[toelichting vrij gegeven toestemming](#-toelichting-vrij-gegeven-toestemming)|
-
-### Toestemming specifiek en geïnformeerd {#-oestemming-specifiek-en-ge-nformeerd}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond toestemming](#-egevensverwerking-op-basis-van-rechtsgrond-toestemming)|
-|Type|[toelichting specifieke en geinformeerde toestemming](#-toelichting-specifieke-en-geinformeerde-toestemming)|
-
-### Toestemming ondubbelzinnig {#-oestemming-ondubbelzinnig}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond toestemming](#-egevensverwerking-op-basis-van-rechtsgrond-toestemming)|
-|Type|[toelichting ondubbelzinnige toestemming](#-toelichting-ondubbelzinnige-toestemming)|
-
-## Gegevensverwerking op basis van rechtsgrond vitaal belang {#-egevensverwerking-op-basis-van-rechtsgrond-vitaal-belang}
-
-|{: .def}||
-|-|-|
-|Supertype|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Kenmerken|[Rechtsgrond vitaal belang toelichting](#-echtsgrond-vitaal-belang-toelichting)|
-
-### Rechtsgrond vitaal belang toelichting {#-echtsgrond-vitaal-belang-toelichting}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond vitaal belang](#-egevensverwerking-op-basis-van-rechtsgrond-vitaal-belang)|
-|Type|[vitaal belang toelichting](#-vitaal-belang-toelichting)|
-
-## Gegevensverwerking op basis van rechtsgrond wettelijke verplichting of taak van algemeen belang {#-egevensverwerking-op-basis-van-rechtsgrond-wettelijke-verplichting-of-taak-van-algemeen-belang}
-
-|{: .def}||
-|-|-|
-|Supertype|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Relatie met|[Rechtsgrond wettelijke plicht of taak van algemeen belang wet-/regelgeving](#-echtsgrond-wettelijke-plicht-of-taak-van-algemeen-belang-wet-regelgeving)|
-
-## Gegevensverwerking persoonsgegevens {#-egevensverwerking-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Supertype|[Gegevensverwerking](#-egevensverwerking)|
-|Subtype(s)|[Gegevensverwerking op basis van rechtsgrond toestemming](#-egevensverwerking-op-basis-van-rechtsgrond-toestemming), [Gegevensverwerking nationale identificatienummers](#-egevensverwerking-nationale-identificatienummers), [Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang](#-egevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang), [Gegevensverwerking op basis van rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst](#-egevensverwerking-op-basis-van-rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst), [Gegevensverwerking op basis van rechtsgrond vitaal belang](#-egevensverwerking-op-basis-van-rechtsgrond-vitaal-belang), [Gegevensverwerking op basis van rechtsgrond wettelijke verplichting of taak van algemeen belang](#-egevensverwerking-op-basis-van-rechtsgrond-wettelijke-verplichting-of-taak-van-algemeen-belang), [Gegevensverwerking strafrechtelijke persoonsgegevens](#-egevensverwerking-strafrechtelijke-persoonsgegevens)|
-|Kenmerken|[Rechtsgrond bij gegevensverwerking](#-echtsgrond-bij-gegevensverwerking), [Verwerkingsdoeleinde gegevensverwerking](#-erwerkingsdoeleinde-gegevensverwerking)|
-|Rollen|[Organisatorische activiteit persoonsgegevens heeft Gegevensverwerking persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens-heeft-egevensverwerking-persoonsgegevens), [Verwerkingslocatie van gegevensverwerking](#-erwerkingslocatie-van-gegevensverwerking)|
-|Relatie met|[Beleidsmatig kader](#-eleidsmatig-kader), [Betrokken partij bij gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#-etrokken-partij-bij-gegevensverwerking-egevensverwerking-persoonsgegevens), [DPIA heeft betrekking op Gegevensverwerking](#-heeft-betrekking-op-egevensverwerking), [Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Gegevensverwerking persoonsgegevens](#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens-egevensverwerking-persoonsgegevens), [Juridisch kader](#-uridisch-kader), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Gegevensverwerking persoonsgegevens](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-egevensverwerking-persoonsgegevens), [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Gegevensverwerking persoonsgegevens](#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-egevensverwerking-persoonsgegevens), [Sub-verwerker bij gegevensverwerking](#-ub-verwerker-bij-gegevensverwerking), [Type bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking-egevensverwerking-persoonsgegevens), [Verwerker bij gegevensverwerking](#-erwerker-bij-gegevensverwerking), [Verwerkingsverantwoordelijke bij gegevensverwerking](#-erwerkingsverantwoordelijke-bij-gegevensverwerking)|
-
-### Verwerkingsdoeleinde gegevensverwerking {#-erwerkingsdoeleinde-gegevensverwerking}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Type|[verwerkingsdoeleinde](#-verwerkingsdoeleinde)|
-
-### Rechtsgrond bij gegevensverwerking {#-echtsgrond-bij-gegevensverwerking}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Type|[rechtsgrond](#-rechtsgrond)|
-|Mogelijke waarden|Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond taak van algemeen belang; Rechtsgrond gerechtvaardigd belang; Rechtsgrond toestemming; Rechtsgrond wettelijke verplichting|
-
-### Organisatorische activiteit persoonsgegevens heeft Gegevensverwerking persoonsgegevens {#-rganisatorische-activiteit-persoonsgegevens-heeft-egevensverwerking-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Met|0..* [Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-
-### Verwerkingslocatie van gegevensverwerking {#-erwerkingslocatie-van-gegevensverwerking}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Met|0..* [Land](#-and)|
-
-## Gegevensverwerking strafrechtelijke persoonsgegevens {#-egevensverwerking-strafrechtelijke-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Supertype|[Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-|Kenmerken|[Uitzonderingsgrond strafrechtelijk persoonsgegeven](#-itzonderingsgrond-strafrechtelijk-persoonsgegeven)|
-|Rollen|[Wet- of regelgeving uitzonderingsgrond strafrechtelijk](#-et-of-regelgeving-uitzonderingsgrond-strafrechtelijk)|
-
-### Uitzonderingsgrond strafrechtelijk persoonsgegeven {#-itzonderingsgrond-strafrechtelijk-persoonsgegeven}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevensverwerking strafrechtelijke persoonsgegevens](#-egevensverwerking-strafrechtelijke-persoonsgegevens)|
-|Type|[uitzonderingsgrond strafrechtelijke persoonsgegevens](#-uitzonderingsgrond-strafrechtelijke-persoonsgegevens)|
-
-### Wet- of regelgeving uitzonderingsgrond strafrechtelijk {#-et-of-regelgeving-uitzonderingsgrond-strafrechtelijk}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Gegevensverwerking strafrechtelijke persoonsgegevens](#-egevensverwerking-strafrechtelijke-persoonsgegevens)|
-|Met|0..* [Wet- en Regelgeving](#-et-en-egelgeving)|
-
-## Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht {#-ergebruik-toelaatbaar-o-b-v-nie-of-lidstatelijk-recht}
-
-|{: .def}||
-|-|-|
-|Supertype|[Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
-|Relatie met|[Hergebruik toelaatbaar o.b.v. wet- en regelgeving](#-ergebruik-toelaatbaar-o-b-v-wet-en-regelgeving)|
-
-## Inherent risico voor betrokkenen {#-nherent-risico-voor-betrokkenen}
-
-|{: .def}||
-|-|-|
-|Supertype|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Subtype(s)|[Risico op basis van doorgifte](#-isico-op-basis-van-doorgifte), [Risico op discriminatie](#-isico-op-discriminatie)|
-|Kenmerken|[Effect van maatregelen op risico](#-ffect-van-maatregelen-op-risico), [Maatregel risico voor betrokkenen](#-aatregel-risico-voor-betrokkenen), [Oorsprong risico voor betrokkenen](#-orsprong-risico-voor-betrokkenen)|
-|Rollen|[Beheerder van maatregelen](#-eheerder-van-maatregelen), [Resterend risico bij initieel risico](#-esterend-risico-bij-initieel-risico)|
-
-### Maatregel risico voor betrokkenen {#-aatregel-risico-voor-betrokkenen}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Inherent risico voor betrokkenen](#-nherent-risico-voor-betrokkenen)|
-|Type|[maatregel](#-maatregel)|
-
-### Oorsprong risico voor betrokkenen {#-orsprong-risico-voor-betrokkenen}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Inherent risico voor betrokkenen](#-nherent-risico-voor-betrokkenen)|
-|Type|[oorsprong](#-oorsprong)|
-
-### Effect van maatregelen op risico {#-ffect-van-maatregelen-op-risico}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Inherent risico voor betrokkenen](#-nherent-risico-voor-betrokkenen)|
-|Type|[effect maatregelen](#-effect-maatregelen)|
-
-### Resterend risico bij initieel risico {#-esterend-risico-bij-initieel-risico}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Inherent risico voor betrokkenen](#-nherent-risico-voor-betrokkenen)|
-|Met|0..* [Resterend risico voor betrokkenen](#-esterend-risico-voor-betrokkenen)|
-
-### Beheerder van maatregelen {#-eheerder-van-maatregelen}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Inherent risico voor betrokkenen](#-nherent-risico-voor-betrokkenen)|
-|Met|0..* [Functie in organisatorische eenheid van Partij](#-unctie-in-organisatorische-eenheid-van-artij)|
-
-## Land {#-and}
-
-|{: .def}||
-|-|-|
-|Subtype(s)|[Derde land](#-erde-land)|
-|Kenmerken|[land naam](#-and-land-naam)|
-|Rollen|[Locatie monitoring en evaluatie van maatregelen bij DPIA](#-ocatie-monitoring-en-evaluatie-van-maatregelen-bij-)|
-|Relatie met|[Verwerkingslocatie van gegevensverwerking](#-erwerkingslocatie-van-gegevensverwerking)|
-
-### land naam {#-and-land-naam}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Land](#-and)|
+|Eigenschap van|[Gegevensverwerking](#TGegevensverwerking)|
 |Type|CharacterString|
 
-### Locatie monitoring en evaluatie van maatregelen bij DPIA {#-ocatie-monitoring-en-evaluatie-van-maatregelen-bij-}
+### Gegevenssetspecificatie {#TGegevenssetspecificatie}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Land](#-and)|
-|Met|0..* [DPIA](#-)|
+|Begrip|[Gegevenssetspecificatie](#gegevenssetspecificatie)|
+|Rol van|0..* [Gegevensverwerking](#TGegevensverwerking)|
+|Met|0..* [Gegevenstype](#TGegevenstype)|
 
-## Normenkader of voorschrift in DPIA {#-ormenkader-of-voorschrift-in-}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Invulling normenkader of voorschrift in DPIA](#-nvulling-normenkader-of-voorschrift-in-), [normenkader/voorschrift naam](#-ormenkader-of-voorschrift-in-normenkader-voorschrift-naam)|
-|Rollen|[Normenkader of voorschrift in DPIA in relatie met DPIA](#-ormenkader-of-voorschrift-in-)|
-
-### normenkader/voorschrift naam {#-ormenkader-of-voorschrift-in-normenkader-voorschrift-naam}
+## Gegevensverwerking nationale identificatienummers {#TGegevensverwerking-nationale-identificatienummers}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Normenkader of voorschrift in DPIA](#-ormenkader-of-voorschrift-in-)|
-|Type|[normenkader/voorschrift naam](#-normenkader-voorschrift-naam)|
+|Supertype|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Kenmerken|[Uitzonderingsgrond nationaal identificatienummer](#TUitzonderingsgrond-nationaal-identificatienummer)|
+|Rollen|[Wet- of regelgeving uitzonderingsgrond identificatienummer](#TWet-of-regelgeving-uitzonderingsgrond-identificatienummer)|
 
-### Invulling normenkader of voorschrift in DPIA {#-nvulling-normenkader-of-voorschrift-in-}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Normenkader of voorschrift in DPIA](#-ormenkader-of-voorschrift-in-)|
-|Type|[invulling normenkader of voorschrift](#-invulling-normenkader-of-voorschrift)|
-
-### Normenkader of voorschrift in DPIA in relatie met DPIA {#-ormenkader-of-voorschrift-in-}
+### Uitzonderingsgrond nationaal identificatienummer {#TUitzonderingsgrond-nationaal-identificatienummer}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Normenkader of voorschrift in DPIA](#-ormenkader-of-voorschrift-in-)|
-|Met|1..1 [DPIA](#-)|
+|Eigenschap van|[Gegevensverwerking nationale identificatienummers](#TGegevensverwerking-nationale-identificatienummers)|
+|Type|[uitzonderingsgrond nationale identificatienummers](#Tuitzonderingsgrond-nationale-identificatienummers)|
 
-## Organisatorische activiteit {#-rganisatorische-activiteit}
-
-|{: .def}||
-|-|-|
-|Subtype(s)|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Kenmerken|[organisatorische activiteit code](#-rganisatorische-activiteit-organisatorische-activiteit-code)|
-|Rollen|[Organisatorische activiteit heeft Gegevensverwerking](#-rganisatorische-activiteit-heeft-egevensverwerking)|
-
-### organisatorische activiteit code {#-rganisatorische-activiteit-organisatorische-activiteit-code}
+### Wet- of regelgeving uitzonderingsgrond identificatienummer {#TWet-of-regelgeving-uitzonderingsgrond-identificatienummer}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit](#-rganisatorische-activiteit)|
+|Rol van|0..* [Gegevensverwerking nationale identificatienummers](#TGegevensverwerking-nationale-identificatienummers)|
+|Met|0..* [Wet- en Regelgeving](#TWet-en-Regelgeving)|
+
+## Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang {#TGegevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang}
+
+|{: .def}||
+|-|-|
+|Supertype|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Kenmerken|[Rechtsgrond gerechtvaardigd belang belangenafweging](#TRechtsgrond-gerechtvaardigd-belang-belangenafweging)|
+|Rollen|[Verwerkingsverantwoordelijke of derde met gerechtvaardigd belang](#TVerwerkingsverantwoordelijke-of-derde-met-gerechtvaardigd-belang)|
+
+### Rechtsgrond gerechtvaardigd belang belangenafweging {#TRechtsgrond-gerechtvaardigd-belang-belangenafweging}
+
+|{: .def}||
+|-|-|
+|Begrip|[Rechtsgrond gerechtvaardigd belang belangenafweging](#rechtsgrond-gerechtvaardigd-belang-belangenafweging)|
+|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang](#TGegevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang)|
+|Type|[belangenafweging](#Tbelangenafweging)|
+
+### Verwerkingsverantwoordelijke of derde met gerechtvaardigd belang {#TVerwerkingsverantwoordelijke-of-derde-met-gerechtvaardigd-belang}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang](#TGegevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang)|
+|Met|0..* [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)|
+
+## Gegevensverwerking op basis van rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst {#TGegevensverwerking-op-basis-van-rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst}
+
+|{: .def}||
+|-|-|
+|Supertype|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Kenmerken|[Overeenkomst als basis voor rechtsgrond](#TOvereenkomst-als-basis-voor-rechtsgrond)|
+
+### Overeenkomst als basis voor rechtsgrond {#TOvereenkomst-als-basis-voor-rechtsgrond}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst](#TGegevensverwerking-op-basis-van-rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst)|
+|Type|[overeenkomst naam](#Tovereenkomst-naam)|
+
+## Gegevensverwerking op basis van rechtsgrond toestemming {#TGegevensverwerking-op-basis-van-rechtsgrond-toestemming}
+
+|{: .def}||
+|-|-|
+|Supertype|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Kenmerken|[Rechtsgrond toestemming toelichting](#TRechtsgrond-toestemming-toelichting), [Toestemming ondubbelzinnig](#TToestemming-ondubbelzinnig), [Toestemming specifiek en geïnformeerd](#TToestemming-specifiek-en-ge-nformeerd), [Toestemming vrij gegeven](#TToestemming-vrij-gegeven)|
+
+### Rechtsgrond toestemming toelichting {#TRechtsgrond-toestemming-toelichting}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond toestemming](#TGegevensverwerking-op-basis-van-rechtsgrond-toestemming)|
+|Type|[toestemming toelichting](#Ttoestemming-toelichting)|
+
+### Toestemming vrij gegeven {#TToestemming-vrij-gegeven}
+
+|{: .def}||
+|-|-|
+|Begrip|[Toestemming vrij gegeven](#toestemming-vrij-gegeven)|
+|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond toestemming](#TGegevensverwerking-op-basis-van-rechtsgrond-toestemming)|
+|Type|[toelichting vrij gegeven toestemming](#Ttoelichting-vrij-gegeven-toestemming)|
+
+### Toestemming specifiek en geïnformeerd {#TToestemming-specifiek-en-ge-nformeerd}
+
+|{: .def}||
+|-|-|
+|Begrip|[Toestemming specifiek en geïnformeerd](#toestemming-specifiek-en-ge-nformeerd)|
+|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond toestemming](#TGegevensverwerking-op-basis-van-rechtsgrond-toestemming)|
+|Type|[toelichting specifieke en geinformeerde toestemming](#Ttoelichting-specifieke-en-geinformeerde-toestemming)|
+
+### Toestemming ondubbelzinnig {#TToestemming-ondubbelzinnig}
+
+|{: .def}||
+|-|-|
+|Begrip|[Toestemming ondubbelzinnig](#toestemming-ondubbelzinnig)|
+|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond toestemming](#TGegevensverwerking-op-basis-van-rechtsgrond-toestemming)|
+|Type|[toelichting ondubbelzinnige toestemming](#Ttoelichting-ondubbelzinnige-toestemming)|
+
+## Gegevensverwerking op basis van rechtsgrond vitaal belang {#TGegevensverwerking-op-basis-van-rechtsgrond-vitaal-belang}
+
+|{: .def}||
+|-|-|
+|Supertype|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Kenmerken|[Rechtsgrond vitaal belang toelichting](#TRechtsgrond-vitaal-belang-toelichting)|
+
+### Rechtsgrond vitaal belang toelichting {#TRechtsgrond-vitaal-belang-toelichting}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevensverwerking op basis van rechtsgrond vitaal belang](#TGegevensverwerking-op-basis-van-rechtsgrond-vitaal-belang)|
+|Type|[vitaal belang toelichting](#Tvitaal-belang-toelichting)|
+
+## Gegevensverwerking op basis van rechtsgrond wettelijke verplichting of taak van algemeen belang {#TGegevensverwerking-op-basis-van-rechtsgrond-wettelijke-verplichting-of-taak-van-algemeen-belang}
+
+|{: .def}||
+|-|-|
+|Supertype|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Relatie met|[Rechtsgrond wettelijke plicht of taak van algemeen belang wet-/regelgeving](#TRechtsgrond-wettelijke-plicht-of-taak-van-algemeen-belang-wet-regelgeving)|
+
+## Gegevensverwerking persoonsgegevens {#TGegevensverwerking-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Begrip|[Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)|
+|Supertype|[Gegevensverwerking](#TGegevensverwerking)|
+|Subtype(s)|[Gegevensverwerking nationale identificatienummers](#TGegevensverwerking-nationale-identificatienummers), [Gegevensverwerking op basis van rechtsgrond wettelijke verplichting of taak van algemeen belang](#TGegevensverwerking-op-basis-van-rechtsgrond-wettelijke-verplichting-of-taak-van-algemeen-belang), [Gegevensverwerking strafrechtelijke persoonsgegevens](#TGegevensverwerking-strafrechtelijke-persoonsgegevens), [Gegevensverwerking op basis van rechtsgrond toestemming](#TGegevensverwerking-op-basis-van-rechtsgrond-toestemming), [Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang](#TGegevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang), [Gegevensverwerking op basis van rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst](#TGegevensverwerking-op-basis-van-rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst), [Gegevensverwerking op basis van rechtsgrond vitaal belang](#TGegevensverwerking-op-basis-van-rechtsgrond-vitaal-belang)|
+|Kenmerken|[Rechtsgrond bij gegevensverwerking](#TRechtsgrond-bij-gegevensverwerking), [Verwerkingsdoeleinde gegevensverwerking](#TVerwerkingsdoeleinde-gegevensverwerking)|
+|Rollen|[Organisatorische activiteit persoonsgegevens heeft Gegevensverwerking persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens-heeft-Gegevensverwerking-persoonsgegevens), [Verwerkingslocatie van gegevensverwerking](#TVerwerkingslocatie-van-gegevensverwerking)|
+|Relatie met|[Beleidsmatig kader](#TBeleidsmatig-kader), [Betrokken partij bij gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TBetrokken-partij-bij-gegevensverwerking-Gegevensverwerking-persoonsgegevens), [DPIA heeft betrekking op Gegevensverwerking](#TDPIA-heeft-betrekking-op-Gegevensverwerking), [Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Gegevensverwerking persoonsgegevens](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens-Gegevensverwerking-persoonsgegevens), [Juridisch kader](#TJuridisch-kader), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Gegevensverwerking persoonsgegevens](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Gegevensverwerking-persoonsgegevens), [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Gegevensverwerking persoonsgegevens](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-Gegevensverwerking-persoonsgegevens), [Sub-verwerker bij gegevensverwerking](#TSub-verwerker-bij-gegevensverwerking), [Type bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-Gegevensverwerking-persoonsgegevens), [Verwerker bij gegevensverwerking](#TVerwerker-bij-gegevensverwerking), [Verwerkingsverantwoordelijke bij gegevensverwerking](#TVerwerkingsverantwoordelijke-bij-gegevensverwerking)|
+
+### Rechtsgrond bij gegevensverwerking {#TRechtsgrond-bij-gegevensverwerking}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Type|[rechtsgrond](#Trechtsgrond)|
+|Mogelijke waarden|Rechtsgrond toestemming; Rechtsgrond taak van algemeen belang; Rechtsgrond wettelijke verplichting; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond gerechtvaardigd belang|
+
+### Verwerkingsdoeleinde gegevensverwerking {#TVerwerkingsdoeleinde-gegevensverwerking}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Type|[verwerkingsdoeleinde](#Tverwerkingsdoeleinde)|
+
+### Organisatorische activiteit persoonsgegevens heeft Gegevensverwerking persoonsgegevens {#TOrganisatorische-activiteit-persoonsgegevens-heeft-Gegevensverwerking-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Met|0..* [Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+
+### Verwerkingslocatie van gegevensverwerking {#TVerwerkingslocatie-van-gegevensverwerking}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Met|0..* [Land](#TLand)|
+
+## Gegevensverwerking strafrechtelijke persoonsgegevens {#TGegevensverwerking-strafrechtelijke-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Supertype|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+|Kenmerken|[Uitzonderingsgrond strafrechtelijk persoonsgegeven](#TUitzonderingsgrond-strafrechtelijk-persoonsgegeven)|
+|Rollen|[Wet- of regelgeving uitzonderingsgrond strafrechtelijk](#TWet-of-regelgeving-uitzonderingsgrond-strafrechtelijk)|
+
+### Uitzonderingsgrond strafrechtelijk persoonsgegeven {#TUitzonderingsgrond-strafrechtelijk-persoonsgegeven}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevensverwerking strafrechtelijke persoonsgegevens](#TGegevensverwerking-strafrechtelijke-persoonsgegevens)|
+|Type|[uitzonderingsgrond strafrechtelijke persoonsgegevens](#Tuitzonderingsgrond-strafrechtelijke-persoonsgegevens)|
+
+### Wet- of regelgeving uitzonderingsgrond strafrechtelijk {#TWet-of-regelgeving-uitzonderingsgrond-strafrechtelijk}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Gegevensverwerking strafrechtelijke persoonsgegevens](#TGegevensverwerking-strafrechtelijke-persoonsgegevens)|
+|Met|0..* [Wet- en Regelgeving](#TWet-en-Regelgeving)|
+
+## Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht {#THergebruik-toelaatbaar-o-b-v-Unie-of-lidstatelijk-recht}
+
+|{: .def}||
+|-|-|
+|Begrip|[Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht](#hergebruik-toelaatbaar-o-b-v-unie-of-lidstatelijk-recht)|
+|Supertype|[Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#TPersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
+|Relatie met|[Hergebruik toelaatbaar o.b.v. wet- en regelgeving](#THergebruik-toelaatbaar-o-b-v-wet-en-regelgeving)|
+
+## Inherent risico voor betrokkenen {#TInherent-risico-voor-betrokkenen}
+
+|{: .def}||
+|-|-|
+|Begrip|[Inherent risico voor betrokkenen](#inherent-risico-voor-betrokkenen)|
+|Supertype|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
+|Subtype(s)|[Risico op basis van doorgifte](#TRisico-op-basis-van-doorgifte), [Risico op discriminatie](#TRisico-op-discriminatie)|
+|Kenmerken|[Effect van maatregelen op risico](#TEffect-van-maatregelen-op-risico), [Maatregel risico voor betrokkenen](#TMaatregel-risico-voor-betrokkenen), [Oorsprong risico voor betrokkenen](#TOorsprong-risico-voor-betrokkenen)|
+|Rollen|[Beheerder van maatregelen](#TBeheerder-van-maatregelen), [Resterend risico bij initieel risico](#TResterend-risico-bij-initieel-risico)|
+
+### Maatregel risico voor betrokkenen {#TMaatregel-risico-voor-betrokkenen}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Inherent risico voor betrokkenen](#TInherent-risico-voor-betrokkenen)|
+|Type|[maatregel](#Tmaatregel)|
+
+### Oorsprong risico voor betrokkenen {#TOorsprong-risico-voor-betrokkenen}
+
+|{: .def}||
+|-|-|
+|Begrip|[Oorsprong risico voor betrokkenen](#oorsprong-risico-voor-betrokkenen)|
+|Eigenschap van|[Inherent risico voor betrokkenen](#TInherent-risico-voor-betrokkenen)|
+|Type|[oorsprong](#Toorsprong)|
+
+### Effect van maatregelen op risico {#TEffect-van-maatregelen-op-risico}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Inherent risico voor betrokkenen](#TInherent-risico-voor-betrokkenen)|
+|Type|[effect maatregelen](#Teffect-maatregelen)|
+
+### Resterend risico bij initieel risico {#TResterend-risico-bij-initieel-risico}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Inherent risico voor betrokkenen](#TInherent-risico-voor-betrokkenen)|
+|Met|0..* [Resterend risico voor betrokkenen](#TResterend-risico-voor-betrokkenen)|
+
+### Beheerder van maatregelen {#TBeheerder-van-maatregelen}
+
+|{: .def}||
+|-|-|
+|Begrip|[Beheerder van maatregelen](#beheerder-van-maatregelen)|
+|Rol van|0..* [Inherent risico voor betrokkenen](#TInherent-risico-voor-betrokkenen)|
+|Met|0..* [Functie in organisatorische eenheid van Partij](#TFunctie-in-organisatorische-eenheid-van-Partij)|
+
+## Land {#TLand}
+
+|{: .def}||
+|-|-|
+|Subtype(s)|[Derde land](#TDerde-land)|
+|Kenmerken|[land naam](#TLand-land-naam)|
+|Rollen|[Locatie monitoring en evaluatie van maatregelen bij DPIA](#TLocatie-monitoring-en-evaluatie-van-maatregelen-bij-DPIA)|
+|Relatie met|[Verwerkingslocatie van gegevensverwerking](#TVerwerkingslocatie-van-gegevensverwerking)|
+
+### land naam {#TLand-land-naam}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Land](#TLand)|
 |Type|CharacterString|
 
-### Organisatorische activiteit heeft Gegevensverwerking {#-rganisatorische-activiteit-heeft-egevensverwerking}
+### Locatie monitoring en evaluatie van maatregelen bij DPIA {#TLocatie-monitoring-en-evaluatie-van-maatregelen-bij-DPIA}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Organisatorische activiteit](#-rganisatorische-activiteit)|
-|Met|0..* [Gegevensverwerking](#-egevensverwerking)|
+|Rol van|0..* [Land](#TLand)|
+|Met|0..* [DPIA](#TDPIA)|
 
-## Organisatorische activiteit persoonsgegevens {#-rganisatorische-activiteit-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Supertype|[Organisatorische activiteit](#-rganisatorische-activiteit)|
-|Subtype(s)|, [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Relatie met|[DPIA voor organisatorische activiteit](#-voor-organisatorische-activiteit), [Organisatorische activiteit persoonsgegevens heeft Gegevensverwerking persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens-heeft-egevensverwerking-persoonsgegevens)|
-
-## Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB {#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-}
+## Normenkader of voorschrift in DPIA {#TNormenkader-of-voorschrift-in-DPIA}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
+|Kenmerken|[Invulling normenkader of voorschrift in DPIA](#TInvulling-normenkader-of-voorschrift-in-DPIA), [normenkader/voorschrift naam](#TNormenkader-of-voorschrift-in-DPIA-normenkader-voorschrift-naam)|
+|Rollen|[Normenkader of voorschrift in DPIA in relatie met DPIA](#TNormenkader-of-voorschrift-in-DPIA-DPIA)|
 
-## Partij {#-artij}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Partij naam](#-artij-naam), [partij id](#-artij-partij-id)|
-|Rollen|[Sub-verwerker bij gegevensverwerking](#-ub-verwerker-bij-gegevensverwerking), [Verwerker bij gegevensverwerking](#-erwerker-bij-gegevensverwerking), [Verwerkingsverantwoordelijke bij gegevensverwerking](#-erwerkingsverantwoordelijke-bij-gegevensverwerking)|
-|Relatie met|[Afdeling binnen partij in relatie met Partij](#-fdeling-binnen-partij-artij), [Betrokken partij bij DPIA in relatie met Partij](#-etrokken-partij-bij-artij), [Betrokken partij bij gegevensverwerking in relatie met Partij](#-etrokken-partij-bij-gegevensverwerking-artij), [Functie in organisatorische eenheid van Partij in relatie met Partij](#-unctie-in-organisatorische-eenheid-van-artij-artij), [Functionaris voor gegevensbescherming in relatie met Partij](#-unctionaris-voor-gegevensbescherming-artij), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Partij](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-artij), [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Partij](#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-artij), [Partij verstrekt persoonsgegeven](#-artij-verstrekt-persoonsgegeven), [Verwerkingsverantwoordelijke bij DPIA in relatie met Partij](#-erwerkingsverantwoordelijke-bij-artij), [Verwerkingsverantwoordelijke die DPIA opstelt in relatie met Partij](#-erwerkingsverantwoordelijke-die-opstelt-artij)|
-
-### Partij naam {#-artij-naam}
+### Invulling normenkader of voorschrift in DPIA {#TInvulling-normenkader-of-voorschrift-in-DPIA}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Partij](#-artij)|
-|Type|[naam](#-naam)|
+|Eigenschap van|[Normenkader of voorschrift in DPIA](#TNormenkader-of-voorschrift-in-DPIA)|
+|Type|[invulling normenkader of voorschrift](#Tinvulling-normenkader-of-voorschrift)|
 
-### partij id {#-artij-partij-id}
+### normenkader/voorschrift naam {#TNormenkader-of-voorschrift-in-DPIA-normenkader-voorschrift-naam}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Partij](#-artij)|
+|Eigenschap van|[Normenkader of voorschrift in DPIA](#TNormenkader-of-voorschrift-in-DPIA)|
 |Type|CharacterString|
 
-### Verwerker bij gegevensverwerking {#-erwerker-bij-gegevensverwerking}
+### Normenkader of voorschrift in DPIA in relatie met DPIA {#TNormenkader-of-voorschrift-in-DPIA-DPIA}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Partij](#-artij)|
-|Met|0..* [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
+|Rol van|0..* [Normenkader of voorschrift in DPIA](#TNormenkader-of-voorschrift-in-DPIA)|
+|Met|1..1 [DPIA](#TDPIA)|
 
-### Sub-verwerker bij gegevensverwerking {#-ub-verwerker-bij-gegevensverwerking}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Partij](#-artij)|
-|Met|0..* [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-
-### Verwerkingsverantwoordelijke bij gegevensverwerking {#-erwerkingsverantwoordelijke-bij-gegevensverwerking}
+## Organisatorische activiteit {#TOrganisatorische-activiteit}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Partij](#-artij)|
-|Met|0..* [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
+|Begrip|[Organisatorische activiteit](#organisatorische-activiteit)|
+|Subtype(s)|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Kenmerken|[organisatorische activiteit code](#TOrganisatorische-activiteit-organisatorische-activiteit-code)|
+|Rollen|[Organisatorische activiteit heeft Gegevensverwerking](#TOrganisatorische-activiteit-heeft-Gegevensverwerking)|
 
-## Partij bij gegevensverwerking met functie/afdeling met toegang tot persoonsgegevens bekend {#-artij-bij-gegevensverwerking-met-functie-afdeling-met-toegang-tot-persoonsgegevens-bekend}
-
-|{: .def}||
-|-|-|
-|Supertype|[Partij bij gegevensverwerking met toegang tot persoonsgegeven](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)|
-|Relatie met|[Functie/afdeling met toegang tot persoonsgegeven in gegevensverwerking](#-unctie-afdeling-met-toegang-tot-persoonsgegeven-in-gegevensverwerking)|
-
-## Partij bij gegevensverwerking met toegang tot persoonsgegeven {#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven}
+### organisatorische activiteit code {#TOrganisatorische-activiteit-organisatorische-activiteit-code}
 
 |{: .def}||
 |-|-|
-|Subtype(s)|[Partij bij gegevensverwerking met functie/afdeling met toegang tot persoonsgegevens bekend](#-artij-bij-gegevensverwerking-met-functie-afdeling-met-toegang-tot-persoonsgegevens-bekend)|
-|Rollen|[Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Gegevensverwerking persoonsgegevens](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-egevensverwerking-persoonsgegevens), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Partij](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-artij), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Persoonsgegeven](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-ersoonsgegeven)|
+|Eigenschap van|[Organisatorische activiteit](#TOrganisatorische-activiteit)|
+|Type|CharacterString|
 
-### Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Partij {#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-artij}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Partij bij gegevensverwerking met toegang tot persoonsgegeven](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)|
-|Met|1..1 [Partij](#-artij)|
-
-### Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Gegevensverwerking persoonsgegevens {#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-egevensverwerking-persoonsgegevens}
+### Organisatorische activiteit heeft Gegevensverwerking {#TOrganisatorische-activiteit-heeft-Gegevensverwerking}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Partij bij gegevensverwerking met toegang tot persoonsgegeven](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)|
-|Met|1..1 [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
+|Rol van|0..* [Organisatorische activiteit](#TOrganisatorische-activiteit)|
+|Met|0..* [Gegevensverwerking](#TGegevensverwerking)|
 
-### Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Persoonsgegeven {#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-ersoonsgegeven}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Partij bij gegevensverwerking met toegang tot persoonsgegeven](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)|
-|Met|1..1 [Persoonsgegeven](#-ersoonsgegeven)|
-
-## Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde {#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde}
+## Organisatorische activiteit persoonsgegevens {#TOrganisatorische-activiteit-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Kenmerken|[Betrokken partij bij gegevensverwerking is derde/verwerkingsverantwoordelijke](#-etrokken-partij-bij-gegevensverwerking-is-derde-verwerkingsverantwoordelijke)|
-|Rollen|[Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Gegevensverwerking persoonsgegevens](#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-egevensverwerking-persoonsgegevens), [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Partij](#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-artij)|
-|Relatie met|[Verwerkingsverantwoordelijke of derde met gerechtvaardigd belang](#-erwerkingsverantwoordelijke-of-derde-met-gerechtvaardigd-belang)|
+|Begrip|[Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens)|
+|Supertype|[Organisatorische activiteit](#TOrganisatorische-activiteit)|
+|Subtype(s)|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB), |
+|Relatie met|[DPIA voor organisatorische activiteit](#TDPIA-voor-organisatorische-activiteit), [Organisatorische activiteit persoonsgegevens heeft Gegevensverwerking persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens-heeft-Gegevensverwerking-persoonsgegevens)|
 
-### Betrokken partij bij gegevensverwerking is derde/verwerkingsverantwoordelijke {#-etrokken-partij-bij-gegevensverwerking-is-derde-verwerkingsverantwoordelijke}
+## Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB {#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)|
-|Type|[derde/verwerkingsverantwoordelijke](#-derde-verwerkingsverantwoordelijke)|
+|Begrip|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. lijst AP of EDPB](#organisatorische-activiteit-zonder-dpia-verplichting-o-b-v-lijst-ap-of-edpb)|
+|Supertype|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+
+## Partij {#TPartij}
+
+|{: .def}||
+|-|-|
+|Begrip|[Partij](#partij)|
+|Kenmerken|[Partij naam](#TPartij-naam), [partij id](#TPartij-partij-id)|
+|Rollen|[Sub-verwerker bij gegevensverwerking](#TSub-verwerker-bij-gegevensverwerking), [Verwerker bij gegevensverwerking](#TVerwerker-bij-gegevensverwerking), [Verwerkingsverantwoordelijke bij gegevensverwerking](#TVerwerkingsverantwoordelijke-bij-gegevensverwerking)|
+|Relatie met|[Afdeling binnen partij in relatie met Partij](#TAfdeling-binnen-partij-Partij), [Betrokken partij bij DPIA in relatie met Partij](#TBetrokken-partij-bij-DPIA-Partij), [Betrokken partij bij gegevensverwerking in relatie met Partij](#TBetrokken-partij-bij-gegevensverwerking-Partij), [Functie in organisatorische eenheid van Partij in relatie met Partij](#TFunctie-in-organisatorische-eenheid-van-Partij-Partij), [Functionaris voor gegevensbescherming in relatie met Partij](#TFunctionaris-voor-gegevensbescherming-Partij), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Partij](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Partij), [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Partij](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-Partij), [Partij verstrekt persoonsgegeven](#TPartij-verstrekt-persoonsgegeven), [Verwerkingsverantwoordelijke bij DPIA in relatie met Partij](#TVerwerkingsverantwoordelijke-bij-DPIA-Partij), [Verwerkingsverantwoordelijke die DPIA opstelt in relatie met Partij](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt-Partij)|
+
+### Partij naam {#TPartij-naam}
+
+|{: .def}||
+|-|-|
+|Begrip|[Partij naam](#partij-naam)|
+|Eigenschap van|[Partij](#TPartij)|
+|Type|[naam](#Tnaam)|
+
+### partij id {#TPartij-partij-id}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Partij](#TPartij)|
+|Type|CharacterString|
+
+### Verwerker bij gegevensverwerking {#TVerwerker-bij-gegevensverwerking}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Partij](#TPartij)|
+|Met|0..* [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+
+### Sub-verwerker bij gegevensverwerking {#TSub-verwerker-bij-gegevensverwerking}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Partij](#TPartij)|
+|Met|0..* [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+
+### Verwerkingsverantwoordelijke bij gegevensverwerking {#TVerwerkingsverantwoordelijke-bij-gegevensverwerking}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Partij](#TPartij)|
+|Met|0..* [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+
+## Partij bij gegevensverwerking met functie/afdeling met toegang tot persoonsgegevens bekend {#TPartij-bij-gegevensverwerking-met-functie-afdeling-met-toegang-tot-persoonsgegevens-bekend}
+
+|{: .def}||
+|-|-|
+|Supertype|[Partij bij gegevensverwerking met toegang tot persoonsgegeven](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)|
+|Relatie met|[Functie/afdeling met toegang tot persoonsgegeven in gegevensverwerking](#TFunctie-afdeling-met-toegang-tot-persoonsgegeven-in-gegevensverwerking)|
+
+## Partij bij gegevensverwerking met toegang tot persoonsgegeven {#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven}
+
+|{: .def}||
+|-|-|
+|Subtype(s)|[Partij bij gegevensverwerking met functie/afdeling met toegang tot persoonsgegevens bekend](#TPartij-bij-gegevensverwerking-met-functie-afdeling-met-toegang-tot-persoonsgegevens-bekend)|
+|Rollen|[Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Gegevensverwerking persoonsgegevens](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Gegevensverwerking-persoonsgegevens), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Partij](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Partij), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Persoonsgegeven](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Persoonsgegeven)|
+
+### Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Partij {#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Partij}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Partij bij gegevensverwerking met toegang tot persoonsgegeven](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)|
+|Met|1..1 [Partij](#TPartij)|
+
+### Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Persoonsgegeven {#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Persoonsgegeven}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Partij bij gegevensverwerking met toegang tot persoonsgegeven](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)|
+|Met|1..1 [Persoonsgegeven](#TPersoonsgegeven)|
+
+### Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Gegevensverwerking persoonsgegevens {#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Gegevensverwerking-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Partij bij gegevensverwerking met toegang tot persoonsgegeven](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven)|
+|Met|1..1 [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+
+## Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde {#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde}
+
+|{: .def}||
+|-|-|
+|Kenmerken|[Betrokken partij bij gegevensverwerking is derde/verwerkingsverantwoordelijke](#TBetrokken-partij-bij-gegevensverwerking-is-derde-verwerkingsverantwoordelijke)|
+|Rollen|[Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Gegevensverwerking persoonsgegevens](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-Gegevensverwerking-persoonsgegevens), [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Partij](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-Partij)|
+|Relatie met|[Verwerkingsverantwoordelijke of derde met gerechtvaardigd belang](#TVerwerkingsverantwoordelijke-of-derde-met-gerechtvaardigd-belang)|
+
+### Betrokken partij bij gegevensverwerking is derde/verwerkingsverantwoordelijke {#TBetrokken-partij-bij-gegevensverwerking-is-derde-verwerkingsverantwoordelijke}
+
+|{: .def}||
+|-|-|
+|Begrip|[Betrokken partij bij gegevensverwerking is derde/verwerkingsverantwoordelijke](#betrokken-partij-bij-gegevensverwerking-is-derde-verwerkingsverantwoordelijke)|
+|Eigenschap van|[Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)|
+|Type|[derde/verwerkingsverantwoordelijke](#Tderde-verwerkingsverantwoordelijke)|
 |Mogelijke waarden|derde; verwerkingsverantwoordelijke|
 
-### Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Partij {#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-artij}
+### Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Partij {#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-Partij}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)|
-|Met|1..1 [Partij](#-artij)|
+|Rol van|0..* [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)|
+|Met|1..1 [Partij](#TPartij)|
 
-### Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Gegevensverwerking persoonsgegevens {#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-egevensverwerking-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#-artij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)|
-|Met|1..1 [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-
-## Persoon {#-ersoon}
+### Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Gegevensverwerking persoonsgegevens {#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-Gegevensverwerking-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Kenmerken|[persoon id](#-ersoon-persoon-id), [persoonsnaam](#-persoonsnaam)|
-|Relatie met|[Functionaris voor gegevensbescherming in relatie met Persoon](#-unctionaris-voor-gegevensbescherming-ersoon), [Persoon in Functie in relatie met Persoon](#-ersoon-in-unctie-ersoon)|
+|Rol van|0..* [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)|
+|Met|1..1 [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
 
-### persoon id {#-ersoon-persoon-id}
+## Persoon {#TPersoon}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Persoon](#-ersoon)|
+|Begrip|[Persoon](#persoon)|
+|Kenmerken|[persoon id](#TPersoon-persoon-id), [persoonsnaam](#Tpersoonsnaam)|
+|Relatie met|[Functionaris voor gegevensbescherming in relatie met Persoon](#TFunctionaris-voor-gegevensbescherming-Persoon), [Persoon in Functie in relatie met Persoon](#TPersoon-in-Functie-Persoon)|
+
+### persoonsnaam {#Tpersoonsnaam}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Persoon](#TPersoon)|
+|Type|[naam](#Tnaam)|
+
+### persoon id {#TPersoon-persoon-id}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Persoon](#TPersoon)|
 |Type|CharacterString|
 
-### persoonsnaam {#-persoonsnaam}
+## Persoon in Functie {#TPersoon-in-Functie}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Persoon](#-ersoon)|
-|Type|[naam](#-naam)|
+|Begrip|[Persoon in functie](#persoon-in-functie)|
+|Rollen|[Persoon in Functie in relatie met Functie in organisatorische eenheid van Partij](#TPersoon-in-Functie-Functie-in-organisatorische-eenheid-van-Partij), [Persoon in Functie in relatie met Persoon](#TPersoon-in-Functie-Persoon)|
+|Relatie met|[Akkoordverklaring in relatie met Persoon in Functie](#TAkkoordverklaring-Persoon-in-Functie), [Documentbeheerder](#TDocumentbeheerder)|
 
-## Persoon in Functie {#-ersoon-in-unctie}
-
-|{: .def}||
-|-|-|
-|Rollen|[Persoon in Functie in relatie met Functie in organisatorische eenheid van Partij](#-ersoon-in-unctie-unctie-in-organisatorische-eenheid-van-artij), [Persoon in Functie in relatie met Persoon](#-ersoon-in-unctie-ersoon)|
-|Relatie met|[Akkoordverklaring in relatie met Persoon in Functie](#-kkoordverklaring-ersoon-in-unctie), [Documentbeheerder](#-ocumentbeheerder)|
-
-### Persoon in Functie in relatie met Functie in organisatorische eenheid van Partij {#-ersoon-in-unctie-unctie-in-organisatorische-eenheid-van-artij}
+### Persoon in Functie in relatie met Persoon {#TPersoon-in-Functie-Persoon}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Persoon in Functie](#-ersoon-in-unctie)|
-|Met|1..1 [Functie in organisatorische eenheid van Partij](#-unctie-in-organisatorische-eenheid-van-artij)|
+|Rol van|0..* [Persoon in Functie](#TPersoon-in-Functie)|
+|Met|1..1 [Persoon](#TPersoon)|
 
-### Persoon in Functie in relatie met Persoon {#-ersoon-in-unctie-ersoon}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Persoon in Functie](#-ersoon-in-unctie)|
-|Met|1..1 [Persoon](#-ersoon)|
-
-## Persoonsgegeven {#-ersoonsgegeven}
+### Persoon in Functie in relatie met Functie in organisatorische eenheid van Partij {#TPersoon-in-Functie-Functie-in-organisatorische-eenheid-van-Partij}
 
 |{: .def}||
 |-|-|
-|Supertype|[Gegevenstype](#-egevenstype)|
-|Subtype(s)|[Persoonsgegeven via betrokken partij](#-ersoonsgegeven-via-betrokken-partij), [Bijzonder persoonsgegeven](#-ijzonder-persoonsgegeven)|
-|Kenmerken|[Bron persoonsgegevens](#-ron-persoonsgegevens), [Categorie van persoonsgegevens](#-ategorie-van-persoonsgegevens), [Naam persoonsgegeven](#-aam-persoonsgegeven), [Oorspronkelijk verwerkingsdoeleinde persoonsgegeven](#-orspronkelijk-verwerkingsdoeleinde-persoonsgegeven), [Persoonsgegeven van categorie betrokkenen](#-ersoonsgegeven-van-categorie-betrokkenen)|
-|Rollen|[Type persoonsgegeven](#-ype-persoonsgegeven)|
-|Relatie met|[Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Persoonsgegeven](#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens-ersoonsgegeven), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Persoonsgegeven](#-artij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-ersoonsgegeven), [Persoonsgegeven is onderdeel van DPIA in relatie met Persoonsgegeven](#-ersoonsgegeven-is-onderdeel-van-ersoonsgegeven)|
+|Rol van|0..* [Persoon in Functie](#TPersoon-in-Functie)|
+|Met|1..1 [Functie in organisatorische eenheid van Partij](#TFunctie-in-organisatorische-eenheid-van-Partij)|
 
-### Persoonsgegeven van categorie betrokkenen {#-ersoonsgegeven-van-categorie-betrokkenen}
+## Persoonsgegeven {#TPersoonsgegeven}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Persoonsgegeven](#-ersoonsgegeven)|
-|Type|[categorie betrokkenen](#-categorie-betrokkenen)|
+|Begrip|[Persoonsgegeven](#persoonsgegeven)|
+|Supertype|[Gegevenstype](#TGegevenstype)|
+|Subtype(s)|[Persoonsgegeven via betrokken partij](#TPersoonsgegeven-via-betrokken-partij), [Bijzonder persoonsgegeven](#TBijzonder-persoonsgegeven)|
+|Kenmerken|[Bron persoonsgegevens](#TBron-persoonsgegevens), [Categorie van persoonsgegevens](#TCategorie-van-persoonsgegevens), [Naam persoonsgegeven](#TNaam-persoonsgegeven), [Oorspronkelijk verwerkingsdoeleinde persoonsgegeven](#TOorspronkelijk-verwerkingsdoeleinde-persoonsgegeven), [Persoonsgegeven van categorie betrokkenen](#TPersoonsgegeven-van-categorie-betrokkenen)|
+|Rollen|[Type persoonsgegeven](#TType-persoonsgegeven)|
+|Relatie met|[Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Persoonsgegeven](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens-Persoonsgegeven), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Persoonsgegeven](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Persoonsgegeven), [Persoonsgegeven is onderdeel van DPIA in relatie met Persoonsgegeven](#TPersoonsgegeven-is-onderdeel-van-DPIA-Persoonsgegeven)|
 
-### Bron persoonsgegevens {#-ron-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Persoonsgegeven](#-ersoonsgegeven)|
-|Type|[waarde direct van de betrokkene](#-waarde-direct-van-de-betrokkene)|
-|Mogelijke waarden|via betrokken partij; rechtstreeks bij betrokkene|
-
-### Naam persoonsgegeven {#-aam-persoonsgegeven}
+### Persoonsgegeven van categorie betrokkenen {#TPersoonsgegeven-van-categorie-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Persoonsgegeven](#-ersoonsgegeven)|
-|Type|[persoonsgegeven naam](#-persoonsgegeven-naam)|
+|Eigenschap van|[Persoonsgegeven](#TPersoonsgegeven)|
+|Type|[categorie betrokkenen](#Tcategorie-betrokkenen)|
 
-### Oorspronkelijk verwerkingsdoeleinde persoonsgegeven {#-orspronkelijk-verwerkingsdoeleinde-persoonsgegeven}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Persoonsgegeven](#-ersoonsgegeven)|
-|Type|[verwerkingsdoeleinde](#-verwerkingsdoeleinde)|
-
-### Categorie van persoonsgegevens {#-ategorie-van-persoonsgegevens}
+### Bron persoonsgegevens {#TBron-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Persoonsgegeven](#-ersoonsgegeven)|
-|Type|[categorie persoonsgegevens](#-categorie-persoonsgegevens)|
+|Begrip|[Bron persoonsgegevens](#bron-persoonsgegevens)|
+|Eigenschap van|[Persoonsgegeven](#TPersoonsgegeven)|
+|Type|[waarde direct van de betrokkene](#Twaarde-direct-van-de-betrokkene)|
+|Mogelijke waarden|rechtstreeks bij betrokkene; via betrokken partij|
 
-### Type persoonsgegeven {#-ype-persoonsgegeven}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Persoonsgegeven](#-ersoonsgegeven)|
-|Met|0..* [Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
-
-## Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde {#-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde}
+### Categorie van persoonsgegevens {#TCategorie-van-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Supertype|[Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#-egevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
-|Subtype(s)|[Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht](#-ergebruik-toelaatbaar-o-b-v-nie-of-lidstatelijk-recht)|
-|Relatie met|[Conclusie toelaatbaarheid hergebruik in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#-onclusie-toelaatbaarheid-hergebruik-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde), [Conclusie verenigbaarheidstoets in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#-onclusie-verenigbaarheidstoets-ersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
+|Eigenschap van|[Persoonsgegeven](#TPersoonsgegeven)|
+|Type|[categorie persoonsgegevens](#Tcategorie-persoonsgegevens)|
 
-## Persoonsgegeven is onderdeel van DPIA {#-ersoonsgegeven-is-onderdeel-van-}
-
-|{: .def}||
-|-|-|
-|Rollen|[Persoonsgegeven is onderdeel van DPIA in relatie met DPIA](#-ersoonsgegeven-is-onderdeel-van-), [Persoonsgegeven is onderdeel van DPIA in relatie met Persoonsgegeven](#-ersoonsgegeven-is-onderdeel-van-ersoonsgegeven), [Type persoonsgegeven in context van DPIA](#-ype-persoonsgegeven-in-context-van-)|
-
-### Persoonsgegeven is onderdeel van DPIA in relatie met DPIA {#-ersoonsgegeven-is-onderdeel-van-}
+### Naam persoonsgegeven {#TNaam-persoonsgegeven}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Persoonsgegeven is onderdeel van DPIA](#-ersoonsgegeven-is-onderdeel-van-)|
-|Met|1..1 [DPIA](#-)|
+|Eigenschap van|[Persoonsgegeven](#TPersoonsgegeven)|
+|Type|[persoonsgegeven naam](#Tpersoonsgegeven-naam)|
 
-### Type persoonsgegeven in context van DPIA {#-ype-persoonsgegeven-in-context-van-}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Persoonsgegeven is onderdeel van DPIA](#-ersoonsgegeven-is-onderdeel-van-)|
-|Met|0..* [Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
-
-### Persoonsgegeven is onderdeel van DPIA in relatie met Persoonsgegeven {#-ersoonsgegeven-is-onderdeel-van-ersoonsgegeven}
+### Oorspronkelijk verwerkingsdoeleinde persoonsgegeven {#TOorspronkelijk-verwerkingsdoeleinde-persoonsgegeven}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Persoonsgegeven is onderdeel van DPIA](#-ersoonsgegeven-is-onderdeel-van-)|
-|Met|1..1 [Persoonsgegeven](#-ersoonsgegeven)|
+|Eigenschap van|[Persoonsgegeven](#TPersoonsgegeven)|
+|Type|[verwerkingsdoeleinde](#Tverwerkingsdoeleinde)|
 
-## Persoonsgegeven via betrokken partij {#-ersoonsgegeven-via-betrokken-partij}
-
-|{: .def}||
-|-|-|
-|Supertype|[Persoonsgegeven](#-ersoonsgegeven)|
-|Kenmerken|[Bron tool/platform](#-ron-tool-platform), [Rechtsgrond verstrekking](#-echtsgrond-verstrekking)|
-|Rollen|[Partij verstrekt persoonsgegeven](#-artij-verstrekt-persoonsgegeven)|
-
-### Bron tool/platform {#-ron-tool-platform}
+### Type persoonsgegeven {#TType-persoonsgegeven}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Persoonsgegeven via betrokken partij](#-ersoonsgegeven-via-betrokken-partij)|
-|Type|[tool/platform naam](#-tool-platform-naam)|
+|Begrip|[Type persoonsgegeven](#type-persoonsgegeven)|
+|Rol van|0..* [Persoonsgegeven](#TPersoonsgegeven)|
+|Met|0..* [Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
 
-### Rechtsgrond verstrekking {#-echtsgrond-verstrekking}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Persoonsgegeven via betrokken partij](#-ersoonsgegeven-via-betrokken-partij)|
-|Type|[rechtsgrond](#-rechtsgrond)|
-|Mogelijke waarden|Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond taak van algemeen belang; Rechtsgrond gerechtvaardigd belang; Rechtsgrond toestemming; Rechtsgrond wettelijke verplichting|
-
-### Partij verstrekt persoonsgegeven {#-artij-verstrekt-persoonsgegeven}
+## Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde {#TPersoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Persoonsgegeven via betrokken partij](#-ersoonsgegeven-via-betrokken-partij)|
-|Met|0..* [Partij](#-artij)|
+|Supertype|[Gegevenssetspecificatie gegevensverwerking persoonsgegevens](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens)|
+|Subtype(s)|[Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht](#THergebruik-toelaatbaar-o-b-v-Unie-of-lidstatelijk-recht)|
+|Relatie met|[Conclusie toelaatbaarheid hergebruik in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#TConclusie-toelaatbaarheid-hergebruik-Persoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde), [Conclusie verenigbaarheidstoets in relatie met Persoonsgegeven in gegevensverwerking met nieuw en oorspronkelijk verwerkingsdoeleinde](#TConclusie-verenigbaarheidstoets-Persoonsgegeven-in-gegevensverwerking-met-nieuw-en-oorspronkelijk-verwerkingsdoeleinde)|
 
-## Recht van de betrokkene {#-echt-van-de-betrokkene}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Procedure ter invulling van het recht van de betrokkene](#-rocedure-ter-invulling-van-het-recht-van-de-betrokkene), [naam recht van de betrokkene](#-echt-van-de-betrokkene-naam-recht-van-de-betrokkene)|
-|Rollen|[Recht van de betrokkene in relatie met DPIA](#-echt-van-de-betrokkene-)|
-|Relatie met|[Beperking op recht van de betrokkene in relatie met Recht van de betrokkene](#-eperking-op-recht-van-de-betrokkene-echt-van-de-betrokkene)|
-
-### naam recht van de betrokkene {#-echt-van-de-betrokkene-naam-recht-van-de-betrokkene}
+## Persoonsgegeven is onderdeel van DPIA {#TPersoonsgegeven-is-onderdeel-van-DPIA}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Recht van de betrokkene](#-echt-van-de-betrokkene)|
+|Rollen|[Persoonsgegeven is onderdeel van DPIA in relatie met DPIA](#TPersoonsgegeven-is-onderdeel-van-DPIA-DPIA), [Persoonsgegeven is onderdeel van DPIA in relatie met Persoonsgegeven](#TPersoonsgegeven-is-onderdeel-van-DPIA-Persoonsgegeven), [Type persoonsgegeven in context van DPIA](#TType-persoonsgegeven-in-context-van-DPIA)|
+
+### Persoonsgegeven is onderdeel van DPIA in relatie met DPIA {#TPersoonsgegeven-is-onderdeel-van-DPIA-DPIA}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Persoonsgegeven is onderdeel van DPIA](#TPersoonsgegeven-is-onderdeel-van-DPIA)|
+|Met|1..1 [DPIA](#TDPIA)|
+
+### Type persoonsgegeven in context van DPIA {#TType-persoonsgegeven-in-context-van-DPIA}
+
+|{: .def}||
+|-|-|
+|Begrip|[Type persoonsgegeven in context van DPIA](#type-persoonsgegeven-in-context-van-dpia)|
+|Rol van|0..* [Persoonsgegeven is onderdeel van DPIA](#TPersoonsgegeven-is-onderdeel-van-DPIA)|
+|Met|0..* [Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
+
+### Persoonsgegeven is onderdeel van DPIA in relatie met Persoonsgegeven {#TPersoonsgegeven-is-onderdeel-van-DPIA-Persoonsgegeven}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Persoonsgegeven is onderdeel van DPIA](#TPersoonsgegeven-is-onderdeel-van-DPIA)|
+|Met|1..1 [Persoonsgegeven](#TPersoonsgegeven)|
+
+## Persoonsgegeven via betrokken partij {#TPersoonsgegeven-via-betrokken-partij}
+
+|{: .def}||
+|-|-|
+|Supertype|[Persoonsgegeven](#TPersoonsgegeven)|
+|Kenmerken|[Bron tool/platform](#TBron-tool-platform), [Rechtsgrond verstrekking](#TRechtsgrond-verstrekking)|
+|Rollen|[Partij verstrekt persoonsgegeven](#TPartij-verstrekt-persoonsgegeven)|
+
+### Rechtsgrond verstrekking {#TRechtsgrond-verstrekking}
+
+|{: .def}||
+|-|-|
+|Begrip|[Rechtsgrond verstrekking](#rechtsgrond-verstrekking)|
+|Eigenschap van|[Persoonsgegeven via betrokken partij](#TPersoonsgegeven-via-betrokken-partij)|
+|Type|[rechtsgrond](#Trechtsgrond)|
+|Mogelijke waarden|Rechtsgrond toestemming; Rechtsgrond taak van algemeen belang; Rechtsgrond wettelijke verplichting; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond gerechtvaardigd belang|
+
+### Bron tool/platform {#TBron-tool-platform}
+
+|{: .def}||
+|-|-|
+|Begrip|[Bron tool/platform](#bron-tool-platform)|
+|Eigenschap van|[Persoonsgegeven via betrokken partij](#TPersoonsgegeven-via-betrokken-partij)|
+|Type|[tool/platform naam](#Ttool-platform-naam)|
+
+### Partij verstrekt persoonsgegeven {#TPartij-verstrekt-persoonsgegeven}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Persoonsgegeven via betrokken partij](#TPersoonsgegeven-via-betrokken-partij)|
+|Met|0..* [Partij](#TPartij)|
+
+## Recht van de betrokkene {#TRecht-van-de-betrokkene}
+
+|{: .def}||
+|-|-|
+|Begrip|[Recht van de betrokkene](#recht-van-de-betrokkene)|
+|Kenmerken|[Procedure ter invulling van het recht van de betrokkene](#TProcedure-ter-invulling-van-het-recht-van-de-betrokkene), [naam recht van de betrokkene](#TRecht-van-de-betrokkene-naam-recht-van-de-betrokkene)|
+|Rollen|[Recht van de betrokkene in relatie met DPIA](#TRecht-van-de-betrokkene-DPIA)|
+|Relatie met|[Beperking op recht van de betrokkene in relatie met Recht van de betrokkene](#TBeperking-op-recht-van-de-betrokkene-Recht-van-de-betrokkene)|
+
+### Procedure ter invulling van het recht van de betrokkene {#TProcedure-ter-invulling-van-het-recht-van-de-betrokkene}
+
+|{: .def}||
+|-|-|
+|Begrip|[Procedure ter invulling van het recht van de betrokkene](#procedure-ter-invulling-van-het-recht-van-de-betrokkene)|
+|Eigenschap van|[Recht van de betrokkene](#TRecht-van-de-betrokkene)|
+|Type|[procedure recht van de betrokkene](#Tprocedure-recht-van-de-betrokkene)|
+
+### naam recht van de betrokkene {#TRecht-van-de-betrokkene-naam-recht-van-de-betrokkene}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Recht van de betrokkene](#TRecht-van-de-betrokkene)|
 |Type|CharacterString|
 
-### Procedure ter invulling van het recht van de betrokkene {#-rocedure-ter-invulling-van-het-recht-van-de-betrokkene}
+### Recht van de betrokkene in relatie met DPIA {#TRecht-van-de-betrokkene-DPIA}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Recht van de betrokkene](#-echt-van-de-betrokkene)|
-|Type|[procedure recht van de betrokkene](#-procedure-recht-van-de-betrokkene)|
+|Rol van|0..* [Recht van de betrokkene](#TRecht-van-de-betrokkene)|
+|Met|1..1 [DPIA](#TDPIA)|
 
-### Recht van de betrokkene in relatie met DPIA {#-echt-van-de-betrokkene-}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Recht van de betrokkene](#-echt-van-de-betrokkene)|
-|Met|1..1 [DPIA](#-)|
-
-## Resterend risico voor betrokkenen {#-esterend-risico-voor-betrokkenen}
+## Resterend risico voor betrokkenen {#TResterend-risico-voor-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Supertype|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Relatie met|[Resterend risico bij initieel risico](#-esterend-risico-bij-initieel-risico)|
+|Begrip|[Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen)|
+|Supertype|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
+|Relatie met|[Resterend risico bij initieel risico](#TResterend-risico-bij-initieel-risico)|
 
-## Risico op basis van doorgifte {#-isico-op-basis-van-doorgifte}
-
-|{: .def}||
-|-|-|
-|Supertype|[Inherent risico voor betrokkenen](#-nherent-risico-voor-betrokkenen)|
-|Kenmerken|[Maatregel tegen risico op basis van doorgifte](#-aatregel-tegen-risico-op-basis-van-doorgifte)|
-
-### Maatregel tegen risico op basis van doorgifte {#-aatregel-tegen-risico-op-basis-van-doorgifte}
+## Risico op basis van doorgifte {#TRisico-op-basis-van-doorgifte}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Risico op basis van doorgifte](#-isico-op-basis-van-doorgifte)|
-|Type|[maatregel doorgifte](#-maatregel-doorgifte)|
+|Begrip|[Risico op basis van doorgifte](#risico-op-basis-van-doorgifte)|
+|Supertype|[Inherent risico voor betrokkenen](#TInherent-risico-voor-betrokkenen)|
+|Kenmerken|[Maatregel tegen risico op basis van doorgifte](#TMaatregel-tegen-risico-op-basis-van-doorgifte)|
 
-## Risico op discriminatie {#-isico-op-discriminatie}
-
-|{: .def}||
-|-|-|
-|Supertype|[Inherent risico voor betrokkenen](#-nherent-risico-voor-betrokkenen)|
-
-## Risico voor betrokkenen {#-isico-voor-betrokkenen}
+### Maatregel tegen risico op basis van doorgifte {#TMaatregel-tegen-risico-op-basis-van-doorgifte}
 
 |{: .def}||
 |-|-|
-|Subtype(s)|[Inherent risico voor betrokkenen](#-nherent-risico-voor-betrokkenen), [Resterend risico voor betrokkenen](#-esterend-risico-voor-betrokkenen)|
-|Kenmerken|[Impact van optreden risico voor betrokkenen](#-mpact-van-optreden-risico-voor-betrokkenen), [Kans op optreden risico voor betrokkenen](#-ans-op-optreden-risico-voor-betrokkenen), [Motivatie impact risico voor betrokkenen](#-otivatie-impact-risico-voor-betrokkenen), [Motivatie kans risico voor betrokkenen](#-otivatie-kans-risico-voor-betrokkenen), [Motivatie risiconiveau risico voor betrokkenen](#-otivatie-risiconiveau-risico-voor-betrokkenen), [Risiconiveau van risico voor betrokkenen](#-isiconiveau-van-risico-voor-betrokkenen), [risicobeschrijving](#-isico-voor-betrokkenen-risicobeschrijving)|
-|Rollen|[Risico voor betrokkenen in relatie met DPIA](#-isico-voor-betrokkenen-)|
+|Begrip|[Maatregel tegen risico op basis van doorgifte](#maatregel-tegen-risico-op-basis-van-doorgifte)|
+|Eigenschap van|[Risico op basis van doorgifte](#TRisico-op-basis-van-doorgifte)|
+|Type|[maatregel doorgifte](#Tmaatregel-doorgifte)|
 
-### risicobeschrijving {#-isico-voor-betrokkenen-risicobeschrijving}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Type|[risicobeschrijving](#-risicobeschrijving)|
-
-### Motivatie risiconiveau risico voor betrokkenen {#-otivatie-risiconiveau-risico-voor-betrokkenen}
+## Risico op discriminatie {#TRisico-op-discriminatie}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Type|[motivatie risiconiveau](#-motivatie-risiconiveau)|
+|Supertype|[Inherent risico voor betrokkenen](#TInherent-risico-voor-betrokkenen)|
 
-### Risiconiveau van risico voor betrokkenen {#-isiconiveau-van-risico-voor-betrokkenen}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Type|[risiconiveau](#-risiconiveau)|
-|Mogelijke waarden|hoog; laag; midden|
-
-### Motivatie kans risico voor betrokkenen {#-otivatie-kans-risico-voor-betrokkenen}
+## Risico voor betrokkenen {#TRisico-voor-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Type|[motivatie kans](#-motivatie-kans)|
+|Begrip|[Risico voor betrokkenen](#risico-voor-betrokkenen)|
+|Subtype(s)|[Inherent risico voor betrokkenen](#TInherent-risico-voor-betrokkenen), [Resterend risico voor betrokkenen](#TResterend-risico-voor-betrokkenen)|
+|Kenmerken|[Impact van optreden risico voor betrokkenen](#TImpact-van-optreden-risico-voor-betrokkenen), [Kans op optreden risico voor betrokkenen](#TKans-op-optreden-risico-voor-betrokkenen), [Motivatie impact risico voor betrokkenen](#TMotivatie-impact-risico-voor-betrokkenen), [Motivatie kans risico voor betrokkenen](#TMotivatie-kans-risico-voor-betrokkenen), [Motivatie risiconiveau risico voor betrokkenen](#TMotivatie-risiconiveau-risico-voor-betrokkenen), [Risiconiveau van risico voor betrokkenen](#TRisiconiveau-van-risico-voor-betrokkenen), [risicobeschrijving](#TRisico-voor-betrokkenen-risicobeschrijving)|
+|Rollen|[Risico voor betrokkenen in relatie met DPIA](#TRisico-voor-betrokkenen-DPIA)|
 
-### Motivatie impact risico voor betrokkenen {#-otivatie-impact-risico-voor-betrokkenen}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Type|[motivatie impact](#-motivatie-impact)|
-
-### Impact van optreden risico voor betrokkenen {#-mpact-van-optreden-risico-voor-betrokkenen}
+### Motivatie kans risico voor betrokkenen {#TMotivatie-kans-risico-voor-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Type|[impact](#-impact)|
-|Mogelijke waarden|hoog; midden; laag|
+|Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
+|Type|[motivatie kans](#Tmotivatie-kans)|
 
-### Kans op optreden risico voor betrokkenen {#-ans-op-optreden-risico-voor-betrokkenen}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Type|[kans](#-kans)|
-|Mogelijke waarden|midden; hoog; laag|
-
-### Risico voor betrokkenen in relatie met DPIA {#-isico-voor-betrokkenen-}
+### Impact van optreden risico voor betrokkenen {#TImpact-van-optreden-risico-voor-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Risico voor betrokkenen](#-isico-voor-betrokkenen)|
-|Met|1..1 [DPIA](#-)|
+|Begrip|[Impact van optreden risico voor betrokkenen](#impact-van-optreden-risico-voor-betrokkenen)|
+|Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
+|Type|[impact](#Timpact)|
+|Mogelijke waarden|midden; laag; hoog|
 
-## Type bijzonder persoonsgegeven in gegevensverwerking {#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Doorbrekingsgrond type bijzonder persoonsgegeven](#-oorbrekingsgrond-type-bijzonder-persoonsgegeven), [classificatie_type_bpg_waarde](#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking-classificatie-type-bpg-waarde)|
-|Rollen|[Type bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking-egevensverwerking-persoonsgegevens)|
-|Relatie met|[Wet- of regelgeving doorbrekingsgrond](#-et-of-regelgeving-doorbrekingsgrond)|
-
-### Doorbrekingsgrond type bijzonder persoonsgegeven {#-oorbrekingsgrond-type-bijzonder-persoonsgegeven}
+### risicobeschrijving {#TRisico-voor-betrokkenen-risicobeschrijving}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Type bijzonder persoonsgegeven in gegevensverwerking](#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking)|
-|Type|[doorbrekingsgrond](#-doorbrekingsgrond)|
-
-### classificatie_type_bpg_waarde {#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking-classificatie-type-bpg-waarde}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Type bijzonder persoonsgegeven in gegevensverwerking](#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking)|
+|Begrip|[Risicobeschrijving](#risicobeschrijving)|
+|Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
 |Type|CharacterString|
 
-### Type bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens {#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking-egevensverwerking-persoonsgegevens}
+### Motivatie risiconiveau risico voor betrokkenen {#TMotivatie-risiconiveau-risico-voor-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Type bijzonder persoonsgegeven in gegevensverwerking](#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking)|
-|Met|1..1 [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
+|Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
+|Type|[motivatie risiconiveau](#Tmotivatie-risiconiveau)|
 
-## Verwerkingslocatie buiten de EER {#-erwerkingslocatie-buiten-de-}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Doorgiftemechanisme verwerkingslocatie](#-oorgiftemechanisme-verwerkingslocatie)|
-|Rollen|[Verwerkingslocatie buiten de EER in relatie met DPIA](#-erwerkingslocatie-buiten-de-), [Verwerkingslocatie buiten de EER in relatie met Derde land](#-erwerkingslocatie-buiten-de-erde-land)|
-
-### Doorgiftemechanisme verwerkingslocatie {#-oorgiftemechanisme-verwerkingslocatie}
+### Risiconiveau van risico voor betrokkenen {#TRisiconiveau-van-risico-voor-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Verwerkingslocatie buiten de EER](#-erwerkingslocatie-buiten-de-)|
-|Type|[doorgiftemechanisme](#-doorgiftemechanisme)|
+|Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
+|Type|[risiconiveau](#Trisiconiveau)|
+|Mogelijke waarden|laag; hoog; midden|
 
-### Verwerkingslocatie buiten de EER in relatie met Derde land {#-erwerkingslocatie-buiten-de-erde-land}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Verwerkingslocatie buiten de EER](#-erwerkingslocatie-buiten-de-)|
-|Met|1..1 [Derde land](#-erde-land)|
-
-### Verwerkingslocatie buiten de EER in relatie met DPIA {#-erwerkingslocatie-buiten-de-}
+### Motivatie impact risico voor betrokkenen {#TMotivatie-impact-risico-voor-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Verwerkingslocatie buiten de EER](#-erwerkingslocatie-buiten-de-)|
-|Met|1..1 [DPIA](#-)|
+|Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
+|Type|[motivatie impact](#Tmotivatie-impact)|
 
-## Verwerkingsverantwoordelijke bij DPIA {#-erwerkingsverantwoordelijke-bij-}
-
-|{: .def}||
-|-|-|
-|Rollen|[Verwerkingsverantwoordelijke bij DPIA in relatie met DPIA](#-erwerkingsverantwoordelijke-bij-), [Verwerkingsverantwoordelijke bij DPIA in relatie met Partij](#-erwerkingsverantwoordelijke-bij-artij)|
-
-### Verwerkingsverantwoordelijke bij DPIA in relatie met DPIA {#-erwerkingsverantwoordelijke-bij-}
+### Kans op optreden risico voor betrokkenen {#TKans-op-optreden-risico-voor-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Verwerkingsverantwoordelijke bij DPIA](#-erwerkingsverantwoordelijke-bij-)|
-|Met|1..1 [DPIA](#-)|
+|Begrip|[Kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen)|
+|Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
+|Type|[kans](#Tkans)|
+|Mogelijke waarden|midden; laag; hoog|
 
-### Verwerkingsverantwoordelijke bij DPIA in relatie met Partij {#-erwerkingsverantwoordelijke-bij-artij}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Verwerkingsverantwoordelijke bij DPIA](#-erwerkingsverantwoordelijke-bij-)|
-|Met|1..1 [Partij](#-artij)|
-
-## Verwerkingsverantwoordelijke die DPIA opstelt {#-erwerkingsverantwoordelijke-die-opstelt}
+### Risico voor betrokkenen in relatie met DPIA {#TRisico-voor-betrokkenen-DPIA}
 
 |{: .def}||
 |-|-|
-|Kenmerken|[DPIA opslaglocatie](#-opslaglocatie)|
-|Rollen|[Documentbeheerder](#-ocumentbeheerder), [Verwerkingsverantwoordelijke die DPIA opstelt in relatie met DPIA](#-erwerkingsverantwoordelijke-die-opstelt-), [Verwerkingsverantwoordelijke die DPIA opstelt in relatie met Partij](#-erwerkingsverantwoordelijke-die-opstelt-artij)|
-|Relatie met|[Akkoordverklaring in relatie met Verwerkingsverantwoordelijke die DPIA opstelt](#-kkoordverklaring-erwerkingsverantwoordelijke-die-opstelt), [FG geeft advies](#-geeft-advies)|
+|Rol van|0..* [Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
+|Met|1..1 [DPIA](#TDPIA)|
 
-### DPIA opslaglocatie {#-opslaglocatie}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Verwerkingsverantwoordelijke die DPIA opstelt](#-erwerkingsverantwoordelijke-die-opstelt)|
-|Type|[locatie](#-locatie)|
-
-### Verwerkingsverantwoordelijke die DPIA opstelt in relatie met DPIA {#-erwerkingsverantwoordelijke-die-opstelt-}
+## Type bijzonder persoonsgegeven in gegevensverwerking {#TType-bijzonder-persoonsgegeven-in-gegevensverwerking}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Verwerkingsverantwoordelijke die DPIA opstelt](#-erwerkingsverantwoordelijke-die-opstelt)|
-|Met|1..1 [DPIA](#-)|
+|Kenmerken|[Doorbrekingsgrond type bijzonder persoonsgegeven](#TDoorbrekingsgrond-type-bijzonder-persoonsgegeven), [classificatie_type_bpg_waarde](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-classificatie-type-bpg-waarde)|
+|Rollen|[Type bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-Gegevensverwerking-persoonsgegevens)|
+|Relatie met|[Wet- of regelgeving doorbrekingsgrond](#TWet-of-regelgeving-doorbrekingsgrond)|
 
-### Verwerkingsverantwoordelijke die DPIA opstelt in relatie met Partij {#-erwerkingsverantwoordelijke-die-opstelt-artij}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Verwerkingsverantwoordelijke die DPIA opstelt](#-erwerkingsverantwoordelijke-die-opstelt)|
-|Met|1..1 [Partij](#-artij)|
-
-### Documentbeheerder {#-ocumentbeheerder}
+### Doorbrekingsgrond type bijzonder persoonsgegeven {#TDoorbrekingsgrond-type-bijzonder-persoonsgegeven}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Verwerkingsverantwoordelijke die DPIA opstelt](#-erwerkingsverantwoordelijke-die-opstelt)|
-|Met|0..* [Persoon in Functie](#-ersoon-in-unctie)|
+|Eigenschap van|[Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)|
+|Type|[doorbrekingsgrond](#Tdoorbrekingsgrond)|
 
-## Wet- en Regelgeving {#-et-en-egelgeving}
-
-|{: .def}||
-|-|-|
-|Subtype(s)|[Wetsartikel over beperking op recht van de betrokkene](#-etsartikel-over-beperking-op-recht-van-de-betrokkene)|
-|Kenmerken|[Wet- en Regelgeving over beperking op recht van de betrokkene](#-et-en-egelgeving-over-beperking-op-recht-van-de-betrokkene), [artikel](#-et-en-egelgeving-artikel), [lid](#-et-en-egelgeving-lid), [sub](#-et-en-egelgeving-sub), [wet- en regelgeving naam](#-et-en-egelgeving-wet-en-regelgeving-naam)|
-|Rollen|[Hergebruik toelaatbaar o.b.v. wet- en regelgeving](#-ergebruik-toelaatbaar-o-b-v-wet-en-regelgeving), [Juridisch kader](#-uridisch-kader), [Rechtsgrond wettelijke plicht of taak van algemeen belang wet-/regelgeving](#-echtsgrond-wettelijke-plicht-of-taak-van-algemeen-belang-wet-regelgeving), [Wet- of regelgeving doorbrekingsgrond](#-et-of-regelgeving-doorbrekingsgrond)|
-|Relatie met|[Wet- of regelgeving uitzonderingsgrond identificatienummer](#-et-of-regelgeving-uitzonderingsgrond-identificatienummer), [Wet- of regelgeving uitzonderingsgrond strafrechtelijk](#-et-of-regelgeving-uitzonderingsgrond-strafrechtelijk)|
-
-### artikel {#-et-en-egelgeving-artikel}
+### classificatie_type_bpg_waarde {#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-classificatie-type-bpg-waarde}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Wet- en Regelgeving](#-et-en-egelgeving)|
+|Eigenschap van|[Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)|
 |Type|CharacterString|
 
-### sub {#-et-en-egelgeving-sub}
+### Type bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens {#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-Gegevensverwerking-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Wet- en Regelgeving](#-et-en-egelgeving)|
-|Type|CharacterString|
+|Rol van|0..* [Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)|
+|Met|1..1 [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
 
-### Wet- en Regelgeving over beperking op recht van de betrokkene {#-et-en-egelgeving-over-beperking-op-recht-van-de-betrokkene}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Wet- en Regelgeving](#-et-en-egelgeving)|
-|Type|[wetsoort](#-wetsoort)|
-|Mogelijke waarden|Wetsartikel over beperking op recht van de betrokkene|
-
-### lid {#-et-en-egelgeving-lid}
+## Verwerkingslocatie buiten de EER {#TVerwerkingslocatie-buiten-de-EER}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Wet- en Regelgeving](#-et-en-egelgeving)|
+|Begrip|[Verwerkingslocatie buiten de EER](#verwerkingslocatie-buiten-de-eer)|
+|Kenmerken|[Doorgiftemechanisme verwerkingslocatie](#TDoorgiftemechanisme-verwerkingslocatie)|
+|Rollen|[Verwerkingslocatie buiten de EER in relatie met DPIA](#TVerwerkingslocatie-buiten-de-EER-DPIA), [Verwerkingslocatie buiten de EER in relatie met Derde land](#TVerwerkingslocatie-buiten-de-EER-Derde-land)|
+
+### Doorgiftemechanisme verwerkingslocatie {#TDoorgiftemechanisme-verwerkingslocatie}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Verwerkingslocatie buiten de EER](#TVerwerkingslocatie-buiten-de-EER)|
+|Type|[doorgiftemechanisme](#Tdoorgiftemechanisme)|
+
+### Verwerkingslocatie buiten de EER in relatie met Derde land {#TVerwerkingslocatie-buiten-de-EER-Derde-land}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Verwerkingslocatie buiten de EER](#TVerwerkingslocatie-buiten-de-EER)|
+|Met|1..1 [Derde land](#TDerde-land)|
+
+### Verwerkingslocatie buiten de EER in relatie met DPIA {#TVerwerkingslocatie-buiten-de-EER-DPIA}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Verwerkingslocatie buiten de EER](#TVerwerkingslocatie-buiten-de-EER)|
+|Met|1..1 [DPIA](#TDPIA)|
+
+## Verwerkingsverantwoordelijke bij DPIA {#TVerwerkingsverantwoordelijke-bij-DPIA}
+
+|{: .def}||
+|-|-|
+|Begrip|[Verwerkingsverantwoordelijke bij DPIA](#verwerkingsverantwoordelijke-bij-dpia)|
+|Rollen|[Verwerkingsverantwoordelijke bij DPIA in relatie met DPIA](#TVerwerkingsverantwoordelijke-bij-DPIA-DPIA), [Verwerkingsverantwoordelijke bij DPIA in relatie met Partij](#TVerwerkingsverantwoordelijke-bij-DPIA-Partij)|
+
+### Verwerkingsverantwoordelijke bij DPIA in relatie met DPIA {#TVerwerkingsverantwoordelijke-bij-DPIA-DPIA}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Verwerkingsverantwoordelijke bij DPIA](#TVerwerkingsverantwoordelijke-bij-DPIA)|
+|Met|1..1 [DPIA](#TDPIA)|
+
+### Verwerkingsverantwoordelijke bij DPIA in relatie met Partij {#TVerwerkingsverantwoordelijke-bij-DPIA-Partij}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Verwerkingsverantwoordelijke bij DPIA](#TVerwerkingsverantwoordelijke-bij-DPIA)|
+|Met|1..1 [Partij](#TPartij)|
+
+## Verwerkingsverantwoordelijke die DPIA opstelt {#TVerwerkingsverantwoordelijke-die-DPIA-opstelt}
+
+|{: .def}||
+|-|-|
+|Kenmerken|[DPIA opslaglocatie](#TDPIA-opslaglocatie)|
+|Rollen|[Documentbeheerder](#TDocumentbeheerder), [Verwerkingsverantwoordelijke die DPIA opstelt in relatie met DPIA](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt-DPIA), [Verwerkingsverantwoordelijke die DPIA opstelt in relatie met Partij](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt-Partij)|
+|Relatie met|[Akkoordverklaring in relatie met Verwerkingsverantwoordelijke die DPIA opstelt](#TAkkoordverklaring-Verwerkingsverantwoordelijke-die-DPIA-opstelt), [FG geeft advies](#TFG-geeft-advies)|
+
+### DPIA opslaglocatie {#TDPIA-opslaglocatie}
+
+|{: .def}||
+|-|-|
+|Begrip|[DPIA opslaglocatie](#dpia-opslaglocatie)|
+|Eigenschap van|[Verwerkingsverantwoordelijke die DPIA opstelt](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt)|
+|Type|[locatie](#Tlocatie)|
+
+### Verwerkingsverantwoordelijke die DPIA opstelt in relatie met Partij {#TVerwerkingsverantwoordelijke-die-DPIA-opstelt-Partij}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Verwerkingsverantwoordelijke die DPIA opstelt](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt)|
+|Met|1..1 [Partij](#TPartij)|
+
+### Documentbeheerder {#TDocumentbeheerder}
+
+|{: .def}||
+|-|-|
+|Begrip|[Documentbeheerder](#documentbeheerder)|
+|Rol van|0..* [Verwerkingsverantwoordelijke die DPIA opstelt](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt)|
+|Met|0..* [Persoon in Functie](#TPersoon-in-Functie)|
+
+### Verwerkingsverantwoordelijke die DPIA opstelt in relatie met DPIA {#TVerwerkingsverantwoordelijke-die-DPIA-opstelt-DPIA}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Verwerkingsverantwoordelijke die DPIA opstelt](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt)|
+|Met|1..1 [DPIA](#TDPIA)|
+
+## Wet- en Regelgeving {#TWet-en-Regelgeving}
+
+|{: .def}||
+|-|-|
+|Begrip|[Wet- en regelgeving](#wet-en-regelgeving)|
+|Subtype(s)|[Wetsartikel over beperking op recht van de betrokkene](#TWetsartikel-over-beperking-op-recht-van-de-betrokkene)|
+|Kenmerken|[Wet- en Regelgeving over beperking op recht van de betrokkene](#TWet-en-Regelgeving-over-beperking-op-recht-van-de-betrokkene), [artikel](#TWet-en-Regelgeving-artikel), [lid](#TWet-en-Regelgeving-lid), [sub](#TWet-en-Regelgeving-sub), [wet- en regelgeving naam](#TWet-en-Regelgeving-wet-en-regelgeving-naam)|
+|Rollen|[Hergebruik toelaatbaar o.b.v. wet- en regelgeving](#THergebruik-toelaatbaar-o-b-v-wet-en-regelgeving), [Juridisch kader](#TJuridisch-kader), [Rechtsgrond wettelijke plicht of taak van algemeen belang wet-/regelgeving](#TRechtsgrond-wettelijke-plicht-of-taak-van-algemeen-belang-wet-regelgeving), [Wet- of regelgeving doorbrekingsgrond](#TWet-of-regelgeving-doorbrekingsgrond)|
+|Relatie met|[Wet- of regelgeving uitzonderingsgrond identificatienummer](#TWet-of-regelgeving-uitzonderingsgrond-identificatienummer), [Wet- of regelgeving uitzonderingsgrond strafrechtelijk](#TWet-of-regelgeving-uitzonderingsgrond-strafrechtelijk)|
+
+### lid {#TWet-en-Regelgeving-lid}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Wet- en Regelgeving](#TWet-en-Regelgeving)|
 |Type|Integer|
 
-### wet- en regelgeving naam {#-et-en-egelgeving-wet-en-regelgeving-naam}
+### artikel {#TWet-en-Regelgeving-artikel}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Wet- en Regelgeving](#-et-en-egelgeving)|
+|Eigenschap van|[Wet- en Regelgeving](#TWet-en-Regelgeving)|
 |Type|CharacterString|
 
-### Hergebruik toelaatbaar o.b.v. wet- en regelgeving {#-ergebruik-toelaatbaar-o-b-v-wet-en-regelgeving}
+### sub {#TWet-en-Regelgeving-sub}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Wet- en Regelgeving](#-et-en-egelgeving)|
-|Met|0..* [Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht](#-ergebruik-toelaatbaar-o-b-v-nie-of-lidstatelijk-recht)|
+|Eigenschap van|[Wet- en Regelgeving](#TWet-en-Regelgeving)|
+|Type|CharacterString|
 
-### Rechtsgrond wettelijke plicht of taak van algemeen belang wet-/regelgeving {#-echtsgrond-wettelijke-plicht-of-taak-van-algemeen-belang-wet-regelgeving}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Wet- en Regelgeving](#-et-en-egelgeving)|
-|Met|0..* [Gegevensverwerking op basis van rechtsgrond wettelijke verplichting of taak van algemeen belang](#-egevensverwerking-op-basis-van-rechtsgrond-wettelijke-verplichting-of-taak-van-algemeen-belang)|
-
-### Wet- of regelgeving doorbrekingsgrond {#-et-of-regelgeving-doorbrekingsgrond}
+### Wet- en Regelgeving over beperking op recht van de betrokkene {#TWet-en-Regelgeving-over-beperking-op-recht-van-de-betrokkene}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Wet- en Regelgeving](#-et-en-egelgeving)|
-|Met|0..* [Type bijzonder persoonsgegeven in gegevensverwerking](#-ype-bijzonder-persoonsgegeven-in-gegevensverwerking)|
+|Begrip|[Wet- en regelgeving over beperking op recht van de betrokkene](#wet-en-regelgeving-over-beperking-op-recht-van-de-betrokkene)|
+|Eigenschap van|[Wet- en Regelgeving](#TWet-en-Regelgeving)|
+|Type|[wetsoort](#Twetsoort)|
+|Mogelijke waarden|Wetsartikel over beperking op recht van de betrokkene|
 
-### Juridisch kader {#-uridisch-kader}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Wet- en Regelgeving](#-et-en-egelgeving)|
-|Met|0..* [Gegevensverwerking persoonsgegevens](#-egevensverwerking-persoonsgegevens)|
-
-## Wetsartikel over beperking op recht van de betrokkene {#-etsartikel-over-beperking-op-recht-van-de-betrokkene}
+### wet- en regelgeving naam {#TWet-en-Regelgeving-wet-en-regelgeving-naam}
 
 |{: .def}||
 |-|-|
-|Supertype|[Wet- en Regelgeving](#-et-en-egelgeving)|
-|Relatie met|[Rechtsgrond voor beperking op recht van de betrokkene](#-echtsgrond-voor-beperking-op-recht-van-de-betrokkene)|
+|Eigenschap van|[Wet- en Regelgeving](#TWet-en-Regelgeving)|
+|Type|CharacterString|
+
+### Rechtsgrond wettelijke plicht of taak van algemeen belang wet-/regelgeving {#TRechtsgrond-wettelijke-plicht-of-taak-van-algemeen-belang-wet-regelgeving}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Wet- en Regelgeving](#TWet-en-Regelgeving)|
+|Met|0..* [Gegevensverwerking op basis van rechtsgrond wettelijke verplichting of taak van algemeen belang](#TGegevensverwerking-op-basis-van-rechtsgrond-wettelijke-verplichting-of-taak-van-algemeen-belang)|
+
+### Wet- of regelgeving doorbrekingsgrond {#TWet-of-regelgeving-doorbrekingsgrond}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Wet- en Regelgeving](#TWet-en-Regelgeving)|
+|Met|0..* [Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)|
+
+### Juridisch kader {#TJuridisch-kader}
+
+|{: .def}||
+|-|-|
+|Begrip|[Juridisch kader](#juridisch-kader)|
+|Rol van|0..* [Wet- en Regelgeving](#TWet-en-Regelgeving)|
+|Met|0..* [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
+
+### Hergebruik toelaatbaar o.b.v. wet- en regelgeving {#THergebruik-toelaatbaar-o-b-v-wet-en-regelgeving}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Wet- en Regelgeving](#TWet-en-Regelgeving)|
+|Met|0..* [Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht](#THergebruik-toelaatbaar-o-b-v-Unie-of-lidstatelijk-recht)|
+
+## Wetsartikel over beperking op recht van de betrokkene {#TWetsartikel-over-beperking-op-recht-van-de-betrokkene}
+
+|{: .def}||
+|-|-|
+|Begrip|[Wetsartikel over beperking op recht van de betrokkene](#wetsartikel-over-beperking-op-recht-van-de-betrokkene)|
+|Supertype|[Wet- en Regelgeving](#TWet-en-Regelgeving)|
+|Relatie met|[Rechtsgrond voor beperking op recht van de betrokkene](#TRechtsgrond-voor-beperking-op-recht-van-de-betrokkene)|
 
 ## Waardetypering en referentielijsten
 
-### aanvullende informatie {#-aanvullende-informatie}
+### aanvullende informatie {#Taanvullende-informatie}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### advies AP {#-advies-}
-
-|{: .def}||
-|-|-|
-
-### afbeelding {#-afbeelding}
+### advies AP {#Tadvies-AP}
 
 |{: .def}||
 |-|-|
-|Gebaseerd op|CharacterString|
+|Begrip|[Advies AP](#advies-ap)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### afdelingsnaam {#-afdelingsnaam}
-
-|{: .def}||
-|-|-|
-
-### anti-discriminatietoets {#-anti-discriminatietoets}
-
-|{: .def}||
-|-|-|
-
-### belangbeschrijving {#-belangbeschrijving}
-
-|{: .def}||
-|-|-|
-
-### belangenafweging {#-belangenafweging}
-
-|{: .def}||
-|-|-|
-
-### beperking recht van de betrokkene {#-beperking-recht-van-de-betrokkene}
-
-|{: .def}||
-|-|-|
-
-### categorie betrokkenen {#-categorie-betrokkenen}
-
-|{: .def}||
-|-|-|
-
-### categorie persoonsgegevens {#-categorie-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-
-### datum {#-datum}
-
-|{: .def}||
-|-|-|
-
-### documentsoort {#-documentsoort}
+### afbeelding {#Tafbeelding}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### doorbrekingsgrond {#-doorbrekingsgrond}
+### anti-discriminatietoets {#Tanti-discriminatietoets}
+
+|{: .def}||
+|-|-|
+|Begrip|[Anti-discriminatietoets](#anti-discriminatietoets)|
+
+### belangbeschrijving {#Tbelangbeschrijving}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### belangenafweging {#Tbelangenafweging}
+
+|{: .def}||
+|-|-|
+|Begrip|[Belangenafweging](#belangenafweging)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### beschrijving {#Tbeschrijving}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### doorgiftemechanisme {#-doorgiftemechanisme}
+### categorie betrokkenen {#Tcategorie-betrokkenen}
+
+|{: .def}||
+|-|-|
+|Begrip|[Categorie betrokkenen](#categorie-betrokkenen)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### categorie persoonsgegevens {#Tcategorie-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Begrip|[Categorie persoonsgegevens](#categorie-persoonsgegevens)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### datum {#Tdatum}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|Date|
+
+### documentsoort {#Tdocumentsoort}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### effect maatregelen {#-effect-maatregelen}
+### doorbrekingsgrond {#Tdoorbrekingsgrond}
 
 |{: .def}||
 |-|-|
+|Begrip|[Doorbrekingsgrond](#doorbrekingsgrond)|
+|Gebaseerd op|CharacterString|
 
-### functie {#-functie}
+### doorgiftemechanisme {#Tdoorgiftemechanisme}
+
+|{: .def}||
+|-|-|
+|Begrip|[Doorgiftemechanisme](#doorgiftemechanisme)|
+|Gebaseerd op|CharacterString|
+
+### effect maatregelen {#Teffect-maatregelen}
+
+|{: .def}||
+|-|-|
+|Begrip|[Effect maatregelen](#effect-maatregelen)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### functie {#Tfunctie}
+
+|{: .def}||
+|-|-|
+|Begrip|[Functie](#functie)|
+|Gebaseerd op|CharacterString|
+
+### gegevenstypenaam {#Tgegevenstypenaam}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### gegevenstypenaam {#-gegevenstypenaam}
+### gegevensverwerking beschrijving {#Tgegevensverwerking-beschrijving}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### gegevensverwerking naam {#Tgegevensverwerking-naam}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[naam](#Tnaam)|
+
+### inleiding {#Tinleiding}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### invulling normenkader of voorschrift {#Tinvulling-normenkader-of-voorschrift}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### locatie {#Tlocatie}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### gegevensverwerking beschrijving {#-gegevensverwerking-beschrijving}
+### maatregel {#Tmaatregel}
 
 |{: .def}||
 |-|-|
+|Begrip|[Maatregel](#maatregel)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### gegevensverwerking naam {#-gegevensverwerking-naam}
-
-|{: .def}||
-|-|-|
-
-### inleiding {#-inleiding}
+### maatregel doorgifte {#Tmaatregel-doorgifte}
 
 |{: .def}||
 |-|-|
+|Begrip|[Maatregel doorgifte](#maatregel-doorgifte)|
+|Gebaseerd op|[maatregel](#Tmaatregel)|
 
-### invulling normenkader of voorschrift {#-invulling-normenkader-of-voorschrift}
-
-|{: .def}||
-|-|-|
-
-### locatie {#-locatie}
+### managementsamenvatting {#Tmanagementsamenvatting}
 
 |{: .def}||
 |-|-|
-|Gebaseerd op|CharacterString|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### maatregel {#-maatregel}
-
-|{: .def}||
-|-|-|
-
-### maatregel doorgifte {#-maatregel-doorgifte}
+### motivatie bewaartermijn {#Tmotivatie-bewaartermijn}
 
 |{: .def}||
 |-|-|
+|Begrip|[Motivatie bewaartermijn](#motivatie-bewaartermijn)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### managementsamenvatting {#-managementsamenvatting}
-
-|{: .def}||
-|-|-|
-
-### motivatie bewaartermijn {#-motivatie-bewaartermijn}
+### motivatie impact {#Tmotivatie-impact}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### motivatie impact {#-motivatie-impact}
-
-|{: .def}||
-|-|-|
-
-### motivatie kans {#-motivatie-kans}
+### motivatie kans {#Tmotivatie-kans}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### motivatie risiconiveau {#-motivatie-risiconiveau}
+### motivatie risiconiveau {#Tmotivatie-risiconiveau}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### naam {#-naam}
+### naam {#Tnaam}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### normenkader/voorschrift naam {#-normenkader-voorschrift-naam}
+### onderbouwing risico-acceptatie {#Tonderbouwing-risico-acceptatie}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### onderbouwing risico-acceptatie {#-onderbouwing-risico-acceptatie}
-
-|{: .def}||
-|-|-|
-
-### oorsprong {#-oorsprong}
+### oorsprong {#Toorsprong}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### overeenkomst naam {#-overeenkomst-naam}
+### organisatorische eenheid {#Torganisatorische-eenheid}
 
 |{: .def}||
 |-|-|
+|Begrip|[Organisatorische eenheid](#organisatorische-eenheid)|
+|Gebaseerd op|CharacterString|
 
-### persoonsgegeven naam {#-persoonsgegeven-naam}
+### overeenkomst naam {#Tovereenkomst-naam}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[naam](#Tnaam)|
+
+### persoonsgegeven naam {#Tpersoonsgegeven-naam}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### procedure recht van de betrokkene {#-procedure-recht-van-de-betrokkene}
+### procedure recht van de betrokkene {#Tprocedure-recht-van-de-betrokkene}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### proportionaliteitsbeoordeling {#-proportionaliteitsbeoordeling}
-
-|{: .def}||
-|-|-|
-
-### risicobeschrijving {#-risicobeschrijving}
+### proportionaliteitsbeoordeling {#Tproportionaliteitsbeoordeling}
 
 |{: .def}||
 |-|-|
+|Begrip|[Proportionaliteitsbeoordeling](#proportionaliteitsbeoordeling)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### subsidiariteitsbeoordeling {#-subsidiariteitsbeoordeling}
-
-|{: .def}||
-|-|-|
-
-### toelichting algoritme(s) {#-toelichting-algoritme-s-}
+### subsidiariteitsbeoordeling {#Tsubsidiariteitsbeoordeling}
 
 |{: .def}||
 |-|-|
+|Begrip|[Subsidiariteitsbeoordeling](#subsidiariteitsbeoordeling)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### toelichting big data-verwerking(en) {#-toelichting-big-data-verwerking-en-}
-
-|{: .def}||
-|-|-|
-
-### toelichting cloudoplossing(en) {#-toelichting-cloudoplossing-en-}
+### toelichting algoritme(s) {#Ttoelichting-algoritme-s-}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### toelichting consultatie betrokkenen {#-toelichting-consultatie-betrokkenen}
-
-|{: .def}||
-|-|-|
-
-### toelichting geautomatiseerde besluitvorming {#-toelichting-geautomatiseerde-besluitvorming}
+### toelichting big data-verwerking(en) {#Ttoelichting-big-data-verwerking-en-}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### toelichting ondubbelzinnige toestemming {#-toelichting-ondubbelzinnige-toestemming}
-
-|{: .def}||
-|-|-|
-
-### toelichting profilering {#-toelichting-profilering}
+### toelichting cloudoplossing(en) {#Ttoelichting-cloudoplossing-en-}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### toelichting specifieke en geinformeerde toestemming {#-toelichting-specifieke-en-geinformeerde-toestemming}
-
-|{: .def}||
-|-|-|
-
-### toelichting technieken en methoden {#-toelichting-technieken-en-methoden}
+### toelichting consultatie betrokkenen {#Ttoelichting-consultatie-betrokkenen}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### toelichting toelaatbaarheid {#-toelichting-toelaatbaarheid}
-
-|{: .def}||
-|-|-|
-
-### toelichting verenigbaarheidstoets {#-toelichting-verenigbaarheidstoets}
+### toelichting geautomatiseerde besluitvorming {#Ttoelichting-geautomatiseerde-besluitvorming}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### toelichting vrij gegeven toestemming {#-toelichting-vrij-gegeven-toestemming}
-
-|{: .def}||
-|-|-|
-
-### toestemming toelichting {#-toestemming-toelichting}
+### toelichting ondubbelzinnige toestemming {#Ttoelichting-ondubbelzinnige-toestemming}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### tool/platform naam {#-tool-platform-naam}
-
-|{: .def}||
-|-|-|
-
-### uitzonderingsgrond nationale identificatienummers {#-uitzonderingsgrond-nationale-identificatienummers}
+### toelichting profilering {#Ttoelichting-profilering}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### uitzonderingsgrond strafrechtelijke persoonsgegevens {#-uitzonderingsgrond-strafrechtelijke-persoonsgegevens}
+### toelichting specifieke en geinformeerde toestemming {#Ttoelichting-specifieke-en-geinformeerde-toestemming}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### versienummer {#-versienummer}
+### toelichting technieken en methoden {#Ttoelichting-technieken-en-methoden}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### toelichting toelaatbaarheid {#Ttoelichting-toelaatbaarheid}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### toelichting verenigbaarheidstoets {#Ttoelichting-verenigbaarheidstoets}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### toelichting vrij gegeven toestemming {#Ttoelichting-vrij-gegeven-toestemming}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### toestemming toelichting {#Ttoestemming-toelichting}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### tool/platform naam {#Ttool-platform-naam}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[naam](#Tnaam)|
+
+### uitzonderingsgrond nationale identificatienummers {#Tuitzonderingsgrond-nationale-identificatienummers}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### verwerkingsdoeleinde {#-verwerkingsdoeleinde}
+### uitzonderingsgrond strafrechtelijke persoonsgegevens {#Tuitzonderingsgrond-strafrechtelijke-persoonsgegevens}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|CharacterString|
 
-### vitaal belang toelichting {#-vitaal-belang-toelichting}
-
-|{: .def}||
-|-|-|
-
-### voorstel {#-voorstel}
+### versienummer {#Tversienummer}
 
 |{: .def}||
 |-|-|
+|Gebaseerd op|CharacterString|
 
-### AVG-rol {#-rol}
+### verwerkingsdoeleinde {#Tverwerkingsdoeleinde}
+
+|{: .def}||
+|-|-|
+|Begrip|[Verwerkingsdoeleinde](#verwerkingsdoeleinde)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### vitaal belang toelichting {#Tvitaal-belang-toelichting}
+
+|{: .def}||
+|-|-|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### voorstel {#Tvoorstel}
+
+|{: .def}||
+|-|-|
+|Begrip|[Voorstel](#voorstel)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
+
+### AVG-rol {#TAVG-rol}
 
 De volgende waarden zijn mogelijk:
-- derde
-- gezamenlijke verwerkingsverantwoordelijke
-- ontvanger
-- sub-verwerker
-- verstrekker
-- verwerker
-- verwerkingsverantwoordelijke
+- [derde](#derde)
+- [gezamenlijke verwerkingsverantwoordelijke](#gezamenlijke-verwerkingsverantwoordelijke)
+- [ontvanger](#ontvanger)
+- [sub-verwerker](#sub-verwerker)
+- [verstrekker](#verstrekker)
+- [verwerker](#verwerker)
+- [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
 
-### DPIA onderwerp {#-onderwerp}
+### DPIA onderwerp {#TDPIA-onderwerp}
 
 De volgende waarden zijn mogelijk:
-- belangen
-- betrokken partijen
-- bewaartermijnen
-- bijzondere persoonsgegevens, strafrechtelijke persoonsgegevens en nationale
-- doelbinding
-- gegevensverwerkingen
-- identificatienummers
-- juridisch en beleidsmatig kader
-- maatregelen
-- noodzaak en evenredigheid
-- persoonsgegevens
-- rechten van de betrokkene
-- rechtsgronden
-- risico's voor betrokkenen
-- technieken en methoden
-- verwerkingsdoeleinden
-- verwerkingslocaties
+- [belangen](#dpia-onderwerp-belangen)
+- [betrokken partijen](#dpia-onderwerp-betrokken-partijen)
+- [bewaartermijnen](#dpia-onderwerp-bewaartermijnen)
+- [bijzondere persoonsgegevens, strafrechtelijke persoonsgegevens en nationale identificatienummers](#dpia-onderwerp-bijzondere-persoonsgegevens-strafrechtelijke-persoonsgegevens-en-nationale-identificatienummers)
+- [doelbinding](#doelbindingdpia-onderwerp-doelbinding)
+- [gegevensverwerkingen](#dpia-onderwerp-gegevensverwerkingen)
+- [juridisch en beleidsmatig kader](#dpia-onderwerp-juridisch-en-beleidsmatig-kader)
+- [maatregelen](#dpia-onderwerp-maatregelen)
+- [noodzaak en evenredigheid](#dpia-onderwerp-noodzaak-en-evenredigheid)
+- [persoonsgegevens](#dpia-onderwerp-persoonsgegevens)
+- [rechten van de betrokkene](#dpia-onderwerp-rechten-van-de-betrokkene)
+- [rechtsgronden](#dpia-onderwerp-rechtsgronden)
+- [risico's voor betrokkenen](#dpia-onderwerp-risico-s-voor-betrokkenen)
+- [technieken en methoden](#dpia-onderwerp-technieken-en-methoden-van-gegevensverwerking)
+- [verwerkingsdoeleinden](#dpia-onderwerp-verwerkingsdoeleinden)
+- [verwerkingslocaties](#dpia-onderwerp-verwerkingslocaties)
 
-### bekend/onbekend {#-bekend-onbekend}
+### bekend/onbekend {#Tbekend-onbekend}
 
 De volgende waarden zijn mogelijk:
 - bekend
 - onbekend
 
-### classificatie_persoonsgegevens_aanwezig {#-classificatie-persoonsgegevens-aanwezig}
+### classificatie_persoonsgegevens_aanwezig {#Tclassificatie-persoonsgegevens-aanwezig}
 
 De volgende waarden zijn mogelijk:
-- bevat geen persoonsgegevens
-- bevat persoonsgegevens
+- [bevat geen persoonsgegevens](#classificatie-persoonsgegevens-bevat-geen-persoonsgegevens)
+- [bevat persoonsgegevens](#classificatie-persoonsgegevens-bevat-persoonsgegevens)
 
-### classificatie_type_bpg_waarde {#-classificatie-type-bpg-waarde}
-
-De volgende waarden zijn mogelijk:
-- biometrische gegevens met het oog op de unieke identificatie van een persoon
-- gegevens over gezondheid
-- gegevens over iemands seksueel gedrag of seksuele gerichtheid
-- gegevens over lidmaatschap van een vakbond
-- gegevens over politieke opvattingen
-- gegevens over ras of etnische afkomst
-- gegevens over religieuze of levensbeschouwelijke overtuigingen
-- genetische gegevens
-
-### classificatie_type_pg_waarde {#-classificatie-type-pg-waarde}
+### classificatie_type_bpg_waarde {#Tclassificatie-type-bpg-waarde}
 
 De volgende waarden zijn mogelijk:
-- bevat bijzondere persoonsgegevens
-- bevat gevoelige persoonsgegevens
-- bevat gewone persoonsgegevens
-- bevat nationale identificatienummers
-- bevat strafrechtelijke persoonsgegevens
+- [biometrische gegevens met het oog op de unieke identificatie van een persoon](#type-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon)
+- [gegevens over gezondheid](#type-bijzondere-persoonsgegevens-gegevens-over-gezondheid)
+- [gegevens over iemands seksueel gedrag of seksuele gerichtheid](#type-bijzondere-persoonsgegevens-gegevens-met-betrekking-tot-iemands-seksueel-gedrag-of-seksuele-gerichtheid)
+- [gegevens over lidmaatschap van een vakbond](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-het-lidmaatschap-van-een-vakbond-blijkt)
+- [gegevens over politieke opvattingen](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-politieke-opvattingen-blijken)
+- [gegevens over ras of etnische afkomst](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-ras-of-etnische-afkomst-blijkt)
+- [gegevens over religieuze of levensbeschouwelijke overtuigingen](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-religieuze-of-levensbeschouwelijke-overtuigingen-blijken)
+- [genetische gegevens](#type-bijzondere-persoonsgegevens-genetische-gegevens)
 
-### derde {#-derde}
-
-De volgende waarden zijn mogelijk:
-- derde
-
-### derde/verwerkingsverantwoordelijke {#-derde-verwerkingsverantwoordelijke}
+### classificatie_type_pg_waarde {#Tclassificatie-type-pg-waarde}
 
 De volgende waarden zijn mogelijk:
-- derde
-- verwerkingsverantwoordelijke
+- [bevat bijzondere persoonsgegevens](#classificatie-type-persoonsgegevens-bijzonder)
+- [bevat gevoelige persoonsgegevens](#classificatie-type-persoonsgegevens-gevoelig)
+- [bevat gewone persoonsgegevens](#classificatie-type-persoonsgegevens-gewoon)
+- [bevat nationale identificatienummers](#classificatie-type-persoonsgegevens-nationaal-identificatienummer)
+- [bevat strafrechtelijke persoonsgegevens](#classificatie-type-persoonsgegevens-strafrechtelijk)
 
-### dpiastatuscode {#-dpiastatuscode}
-
-De volgende waarden zijn mogelijk:
-- akkoord
-- niet akkoord
-
-### gezamenlijke verwerkingsverantwoordelijke {#-gezamenlijke-verwerkingsverantwoordelijke}
+### derde {#Tderde}
 
 De volgende waarden zijn mogelijk:
-- gezamenlijke verwerkingsverantwoordelijke
+- [derde](#derde)
 
-### impact {#-impact}
-
-De volgende waarden zijn mogelijk:
-- hoog
-- laag
-- midden
-
-### kans {#-kans}
+### derde/verwerkingsverantwoordelijke {#Tderde-verwerkingsverantwoordelijke}
 
 De volgende waarden zijn mogelijk:
-- hoog
-- laag
-- midden
+- [derde](#derde)
+- [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
 
-### kwetsbaarheid {#-kwetsbaarheid}
-
-De volgende waarden zijn mogelijk:
-- kwetsbaar
-- niet kwetsbaar
-
-### naam recht van de betrokkene {#-naam-recht-van-de-betrokkene}
+### dpiastatuscode {#Tdpiastatuscode}
 
 De volgende waarden zijn mogelijk:
-- Recht om niet onderworpen te worden aan een uitsluitend op geautomatiseerde verwerking gebaseerd besluit
-- Recht op beperking van de verwerking
-- Recht op gegevenswissing
-- Recht op informatie
-- Recht op overdraagbaarheid van gegevens
+- [akkoord](#dpia-status-akkoord)
+- [niet akkoord](#dpia-status-niet-akkoord)
+
+### gezamenlijke verwerkingsverantwoordelijke {#Tgezamenlijke-verwerkingsverantwoordelijke}
+
+De volgende waarden zijn mogelijk:
+- [gezamenlijke verwerkingsverantwoordelijke](#gezamenlijke-verwerkingsverantwoordelijke)
+
+### impact {#Timpact}
+
+De volgende waarden zijn mogelijk:
+- [hoog](#hoge-impact)
+- [laag](#lage-impact)
+- [midden](#gemiddelde-impact)
+
+### kans {#Tkans}
+
+De volgende waarden zijn mogelijk:
+- [hoog](#hoge-kans)
+- [laag](#lage-kans)
+- [midden](#gemiddelde-kans)
+
+### kwetsbaarheid {#Tkwetsbaarheid}
+
+De volgende waarden zijn mogelijk:
+- [kwetsbaar](#kwetsbaarheid-kwetsbaar)
+- [niet kwetsbaar](#kwetsbaarheid-niet-kwetsbaar)
+
+### naam recht van de betrokkene {#Tnaam-recht-van-de-betrokkene}
+
+De volgende waarden zijn mogelijk:
+- [Recht om niet onderworpen te worden aan een uitsluitend op geautomatiseerde verwerking gebaseerd besluit](#recht-om-niet-onderworpen-te-worden-aan-een-uitsluitend-op-geautomatiseerde-verwerking-gebaseerd-besluit)
+- [Recht op beperking van de verwerking](#recht-op-beperking-van-de-verwerking)
+- [Recht op gegevenswissing](#recht-op-gegevenswissing)
+- [Recht op informatie](#recht-op-informatie)
+- [Recht op overdraagbaarheid van gegevens](#recht-op-overdraagbaarheid-van-gegevens)
 - Recht op rectificatie
-- Recht van bezwaar
-- Recht van inzage
+- [Recht van bezwaar](#recht-van-bezwaar)
+- [Recht van inzage](#recht-van-inzage)
 
-### ontvanger {#-ontvanger}
-
-De volgende waarden zijn mogelijk:
-- ontvanger
-
-### rechtsgrond {#-rechtsgrond}
+### ontvanger {#Tontvanger}
 
 De volgende waarden zijn mogelijk:
-- Rechtsgrond gerechtvaardigd belang
-- Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst
-- Rechtsgrond taak van algemeen belang
-- Rechtsgrond toestemming
-- Rechtsgrond vitaal belang
-- Rechtsgrond wettelijke verplichting
+- [ontvanger](#ontvanger)
 
-### risiconiveau {#-risiconiveau}
+### rechtsgrond {#Trechtsgrond}
 
 De volgende waarden zijn mogelijk:
-- hoog
-- laag
-- midden
+- [Rechtsgrond gerechtvaardigd belang](#rechtsgrond-gerechtvaardigd-belangrechtsgrond-gerechtvaardigd-belang-belangenafweging)
+- [Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst](#rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst)
+- [Rechtsgrond taak van algemeen belang](#rechtsgrond-taak-van-algemeen-belang)
+- [Rechtsgrond toestemming](#rechtsgrond-toestemming)
+- [Rechtsgrond vitaal belang](#rechtsgrond-vitaal-belang)
+- [Rechtsgrond wettelijke verplichting](#rechtsgrond-wettelijke-verplichting)
 
-### sprake van discriminatie {#-sprake-van-discriminatie}
-
-De volgende waarden zijn mogelijk:
-- zou geen sprake kunnen zijn van discriminatie
-- zou sprake kunnen zijn van discriminatie
-
-### toelaatbaarheid hergebruik {#-toelaatbaarheid-hergebruik}
+### risiconiveau {#Trisiconiveau}
 
 De volgende waarden zijn mogelijk:
-- niet toelaatbaar
-- toelaatbaar o.b.v. Unie- of lidstaatrechtelijk recht
-- toelaatbaar o.b.v. toestemming
+- [hoog](#hoog-risico)
+- [laag](#laag-risico)
+- [midden](#gemiddeld-risico)
 
-### verenigbaarheid {#-verenigbaarheid}
-
-De volgende waarden zijn mogelijk:
-- niet verenigbaar
-- verenigbaar
-
-### verstrekker {#-verstrekker}
+### sprake van discriminatie {#Tsprake-van-discriminatie}
 
 De volgende waarden zijn mogelijk:
-- verstrekker
+- [zou geen sprake kunnen zijn van discriminatie](#mogelijk-sprake-van-discriminatie-zou-geen-sprake-kunnen-zijn-van-discriminatie)
+- [zou sprake kunnen zijn van discriminatie](#mogelijk-sprake-van-discriminatie-zou-sprake-kunnen-zijn-van-discriminatie)
 
-### verwerker/sub-verwerker {#-verwerker-sub-verwerker}
-
-De volgende waarden zijn mogelijk:
-- sub-verwerker
-- verwerker
-
-### verwerkingsverantwoordelijke {#-verwerkingsverantwoordelijke}
+### toelaatbaarheid hergebruik {#Ttoelaatbaarheid-hergebruik}
 
 De volgende waarden zijn mogelijk:
-- verwerkingsverantwoordelijke
+- [niet toelaatbaar](#conclusie-toelaatbaarheid-hergebruik-niet-toelaatbaar)
+- [toelaatbaar o.b.v. Unie- of lidstatelijk recht](#toelaatbaarheid-hergebruik-toelaatbaar-o-b-v-unie-of-lidstatelijk-recht)
+- [toelaatbaar o.b.v. toestemming](#conclusie-toelaatbaarheid-hergebruik-toelaatbaar-o-b-v-toestemming)
 
-### waarde direct van de betrokkene {#-waarde-direct-van-de-betrokkene}
-
-De volgende waarden zijn mogelijk:
-- rechtstreeks bij betrokkene
-- via betrokken partij
-
-### wel/geen sprake van een algoritme {#-wel-geen-sprake-van-een-algoritme}
+### verenigbaarheid {#Tverenigbaarheid}
 
 De volgende waarden zijn mogelijk:
-- geen sprake van een algoritme
-- sprake van een algoritme
+- [niet verenigbaar](#conclusie-verenigbaarheidstoets-niet-verenigbaar)
+- [verenigbaar](#conclusie-verenigbaarheidstoets-verenigbaarverenigbaar)
 
-### wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem {#-wel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-systeem}
+### verstrekker {#Tverstrekker}
 
 De volgende waarden zijn mogelijk:
-- geen sprake van een algoritme dat kwalificeert als een AI-systeem
-- sprake van een algoritme dat kwalificeert als een AI-systeem
+- [verstrekker](#verstrekker)
 
-### wel/geen sprake van een big data-verwerking {#-wel-geen-sprake-van-een-big-data-verwerking}
+### verwerker/sub-verwerker {#Tverwerker-sub-verwerker}
+
+De volgende waarden zijn mogelijk:
+- [sub-verwerker](#sub-verwerker)
+- [verwerker](#verwerker)
+
+### verwerkingsverantwoordelijke {#Tverwerkingsverantwoordelijke}
+
+De volgende waarden zijn mogelijk:
+- [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
+
+### waarde direct van de betrokkene {#Twaarde-direct-van-de-betrokkene}
+
+De volgende waarden zijn mogelijk:
+- [rechtstreeks bij betrokkene](#bron-persoonsgegevens-rechtstreeks-bij-betrokkene)
+- [via betrokken partij](#bron-persoonsgegevens-via-betrokken-partij)
+
+### wel/geen sprake van een algoritme {#Twel-geen-sprake-van-een-algoritme}
+
+De volgende waarden zijn mogelijk:
+- [geen sprake van een algoritme](#algoritme-geen-sprake-van-een-algoritme)
+- [sprake van een algoritme](#algoritme-sprake-van-een-algoritme)
+
+### wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem {#Twel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-AI-systeem}
+
+De volgende waarden zijn mogelijk:
+- [geen sprake van een algoritme dat kwalificeert als een AI-systeem](#ai-systeem-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-ai-systeem)
+- [sprake van een algoritme dat kwalificeert als een AI-systeem](#ai-systeem-sprake-van-een-algoritme-dat-kwalificeert-als-een-ai-systeem)
+
+### wel/geen sprake van een big data-verwerking {#Twel-geen-sprake-van-een-big-data-verwerking}
 
 De volgende waarden zijn mogelijk:
 - geen sprake van een big data-verwerking
 - sprake van een big data-verwerking
 
-### wel/geen sprake van een cloudoplossing {#-wel-geen-sprake-van-een-cloudoplossing}
+### wel/geen sprake van een cloudoplossing {#Twel-geen-sprake-van-een-cloudoplossing}
 
 De volgende waarden zijn mogelijk:
 - geen sprake van een cloudoplossing
 - sprake van een cloudoplossing
 
-### wel/geen sprake van geautomatiseerde besluitvorming {#-wel-geen-sprake-van-geautomatiseerde-besluitvorming}
+### wel/geen sprake van geautomatiseerde besluitvorming {#Twel-geen-sprake-van-geautomatiseerde-besluitvorming}
 
 De volgende waarden zijn mogelijk:
 - geen sprake van geautomatiseerde besluitvorming
 - sprake van geautomatiseerde besluitvorming
 
-### wel/geen sprake van profilering {#-wel-geen-sprake-van-profilering}
+### wel/geen sprake van profilering {#Twel-geen-sprake-van-profilering}
 
 De volgende waarden zijn mogelijk:
 - geen sprake van profilering
 - sprake van profilering
 
-### wetsoort {#-wetsoort}
+### wetsoort {#Twetsoort}
 
 De volgende waarden zijn mogelijk:
-- Wetsartikel over beperking op recht van de betrokkene
+- [Wetsartikel over beperking op recht van de betrokkene](#wetsartikel-over-beperking-op-recht-van-de-betrokkene)
 
