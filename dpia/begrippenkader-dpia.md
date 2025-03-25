@@ -653,7 +653,7 @@ Bron: paragraaf 3.2, pagina 22, [[ModelDPIARijksdienst]]
 
 ### Oorspronkelijk verwerkingsdoeleinde
 
-Alternatieve aanduiding: *Oorspronkelijk doeleinde, oorspronkelijke doel*
+Alternatieve aanduiding: *Oorspronkelijk doeleinde, oorspronkelijke doel, oorspronkelijk verwerkingsdoeleinde persoonsgegeven*
 
 > Het oorspronkelijk verwerkingsdoeleinde is het [verwerkingsdoeleinde](#verwerkingsdoeleinde) waarvoor de [persoonsgegevens](#persoonsgegeven) in een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) initieel zijn verzameld.
 
@@ -2267,7 +2267,7 @@ Gerelateerd: [Impact](#impact), [Risico voor betrokkenen](#risico-voor-betrokken
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [kans](#kans), [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [kans](#kans)
 
 ### Hoge impact
 
@@ -2469,7 +2469,7 @@ Toelichting: Het risiconiveau wordt bepaald aan de hand van de formule kans x im
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]], overweging 90, preambule, [[AVG]]
 
-Gerelateerd: [kans](#kans), [Impact](#impact), [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: [Impact](#impact), [kans](#kans), [Risico voor betrokkenen](#risico-voor-betrokkenen)
 
 ## DPIA - 17. Maatregelen
 
@@ -2514,7 +2514,7 @@ Gerelateerd: [Functie](#functie), [Maatregel](#maatregel), [Organisatorische een
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Hoog risico](#hoog-risico), [DPIA met resterende risico's](#dpia-met-resterende-risico's), [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen), [risiconiveau risico voor betrokkenen](#risiconiveau-risico-voor-betrokkenen)
+Gerelateerd: [risiconiveau risico voor betrokkenen](#risiconiveau-risico-voor-betrokkenen), [Hoog risico](#hoog-risico), [DPIA met resterende risico's](#dpia-met-resterende-risico's), [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen)
 
 ### DPIA met resterende risico's
 

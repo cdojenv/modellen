@@ -269,7 +269,7 @@
 |Begrip|[Betrokken partij bij gegevensverwerking is verwerker of sub-verwerker](#betrokken-partij-bij-gegevensverwerking-is-verwerker-of-sub-verwerker)|
 |Eigenschap van|[Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)|
 |Type|[verwerker/sub-verwerker](#Tverwerker-sub-verwerker)|
-|Mogelijke waarden|sub-verwerker; verwerker|
+|Mogelijke waarden|verwerker; sub-verwerker|
 
 ### Betrokken partij bij gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens {#TBetrokken-partij-bij-gegevensverwerking-Gegevensverwerking-persoonsgegevens}
 
@@ -448,7 +448,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)|
 |Type|[classificatie_type_bpg_waarde](#Tclassificatie-type-bpg-waarde)|
-|Mogelijke waarden|gegevens over gezondheid; gegevens over lidmaatschap van een vakbond; gegevens over ras of etnische afkomst; gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over politieke opvattingen; biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over religieuze of levensbeschouwelijke overtuigingen; genetische gegevens|
+|Mogelijke waarden|gegevens over lidmaatschap van een vakbond; genetische gegevens; gegevens over politieke opvattingen; gegevens over religieuze of levensbeschouwelijke overtuigingen; biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over ras of etnische afkomst; gegevens over gezondheid; gegevens over iemands seksueel gedrag of seksuele gerichtheid|
 
 ## Classificatie Type Persoonsgegevens {#TClassificatie-Type-Persoonsgegevens}
 
@@ -466,7 +466,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
 |Type|[classificatie_type_pg_waarde](#Tclassificatie-type-pg-waarde)|
-|Mogelijke waarden|bevat gevoelige persoonsgegevens; bevat strafrechtelijke persoonsgegevens; bevat gewone persoonsgegevens; bevat nationale identificatienummers; bevat bijzondere persoonsgegevens|
+|Mogelijke waarden|bevat bijzondere persoonsgegevens; bevat strafrechtelijke persoonsgegevens; bevat nationale identificatienummers; bevat gevoelige persoonsgegevens; bevat gewone persoonsgegevens|
 
 ## Conclusie toelaatbaarheid hergebruik {#TConclusie-toelaatbaarheid-hergebruik}
 
@@ -615,7 +615,7 @@
 |Begrip|[Mogelijk sprake van discriminatie](#mogelijk-sprake-van-discriminatie)|
 |Eigenschap van|[DPIA](#TDPIA)|
 |Type|[sprake van discriminatie](#Tsprake-van-discriminatie)|
-|Mogelijke waarden|zou sprake kunnen zijn van discriminatie; zou geen sprake kunnen zijn van discriminatie|
+|Mogelijke waarden|zou geen sprake kunnen zijn van discriminatie; zou sprake kunnen zijn van discriminatie|
 
 ### Stroomschema gegevensverwerkingen {#TStroomschema-gegevensverwerkingen}
 
@@ -631,7 +631,7 @@
 |Begrip|[DPIA status](#dpia-status)|
 |Eigenschap van|[DPIA](#TDPIA)|
 |Type|[dpiastatuscode](#Tdpiastatuscode)|
-|Mogelijke waarden|niet akkoord; akkoord|
+|Mogelijke waarden|akkoord; niet akkoord|
 
 ### Proportionaliteit {#TProportionaliteit}
 
@@ -756,7 +756,7 @@
 |Begrip|[AI-systeem](#ai-systeem)|
 |Eigenschap van|[DPIA met algoritme](#TDPIA-met-algoritme)|
 |Type|[wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem](#Twel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-AI-systeem)|
-|Mogelijke waarden|geen sprake van een algoritme dat kwalificeert als een AI-systeem; sprake van een algoritme dat kwalificeert als een AI-systeem|
+|Mogelijke waarden|sprake van een algoritme dat kwalificeert als een AI-systeem; geen sprake van een algoritme dat kwalificeert als een AI-systeem|
 
 ## DPIA met big data-verwerking {#TDPIA-met-big-data-verwerking}
 
@@ -1232,7 +1232,7 @@
 |-|-|
 |Eigenschap van|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
 |Type|[rechtsgrond](#Trechtsgrond)|
-|Mogelijke waarden|Rechtsgrond toestemming; Rechtsgrond taak van algemeen belang; Rechtsgrond wettelijke verplichting; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond gerechtvaardigd belang|
+|Mogelijke waarden|Rechtsgrond taak van algemeen belang; Rechtsgrond wettelijke verplichting; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond toestemming; Rechtsgrond gerechtvaardigd belang|
 
 ### Verwerkingsdoeleinde gegevensverwerking {#TVerwerkingsdoeleinde-gegevensverwerking}
 
@@ -1602,7 +1602,7 @@
 |Begrip|[Bron persoonsgegevens](#bron-persoonsgegevens)|
 |Eigenschap van|[Persoonsgegeven](#TPersoonsgegeven)|
 |Type|[waarde direct van de betrokkene](#Twaarde-direct-van-de-betrokkene)|
-|Mogelijke waarden|rechtstreeks bij betrokkene; via betrokken partij|
+|Mogelijke waarden|via betrokken partij; rechtstreeks bij betrokkene|
 
 ### Categorie van persoonsgegevens {#TCategorie-van-persoonsgegevens}
 
@@ -1684,7 +1684,7 @@
 |Begrip|[Rechtsgrond verstrekking](#rechtsgrond-verstrekking)|
 |Eigenschap van|[Persoonsgegeven via betrokken partij](#TPersoonsgegeven-via-betrokken-partij)|
 |Type|[rechtsgrond](#Trechtsgrond)|
-|Mogelijke waarden|Rechtsgrond toestemming; Rechtsgrond taak van algemeen belang; Rechtsgrond wettelijke verplichting; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond gerechtvaardigd belang|
+|Mogelijke waarden|Rechtsgrond taak van algemeen belang; Rechtsgrond wettelijke verplichting; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond toestemming; Rechtsgrond gerechtvaardigd belang|
 
 ### Bron tool/platform {#TBron-tool-platform}
 
@@ -1785,7 +1785,7 @@
 |Begrip|[Impact van optreden risico voor betrokkenen](#impact-van-optreden-risico-voor-betrokkenen)|
 |Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
 |Type|[impact](#Timpact)|
-|Mogelijke waarden|midden; laag; hoog|
+|Mogelijke waarden|hoog; midden; laag|
 
 ### risicobeschrijving {#TRisico-voor-betrokkenen-risicobeschrijving}
 
@@ -1808,7 +1808,7 @@
 |-|-|
 |Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
 |Type|[risiconiveau](#Trisiconiveau)|
-|Mogelijke waarden|laag; hoog; midden|
+|Mogelijke waarden|hoog; laag; midden|
 
 ### Motivatie impact risico voor betrokkenen {#TMotivatie-impact-risico-voor-betrokkenen}
 
