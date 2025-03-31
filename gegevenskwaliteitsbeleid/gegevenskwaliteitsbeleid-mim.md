@@ -406,7 +406,7 @@
 |-|-|
 |Eigenschap van|[Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem)|
 |Type|[gegevenskwaliteitsprobleemoorsprong](#Tgegevenskwaliteitsprobleemoorsprong)|
-|Mogelijke waarden|interne meting; externe melding; externe meting; interne melding|
+|Mogelijke waarden|interne meting; externe melding; interne melding; externe meting|
 
 ### Gegevenskwaliteitsprobleem Omschrijving {#TGegevenskwaliteitsprobleem-Omschrijving}
 

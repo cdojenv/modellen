@@ -126,7 +126,7 @@ Toelichting: Het gaat hier om het kiezen van de dimensies, de bijbehorende meetw
 
 Bron: Kerndepartement J&V [[KDJV]], NORA [[NORA]]
 
-Gerelateerd: [gegevenskwaliteitsdimensies](#gegevenskwaliteitsdimensies), [gegevenskwaliteitsattributen](#gegevenskwaliteitsattributen), [gegevenskwaliteitseisen](#gegevenskwaliteitseisen), [gegevenskwaliteitsnormen](#gegevenskwaliteitsnormen), [gegevenskwaliteitsmeetwaarden](#gegevenskwaliteitsmeetwaarden)
+Gerelateerd: [gegevenskwaliteitsnormen](#gegevenskwaliteitsnormen), [gegevenskwaliteitsdimensies](#gegevenskwaliteitsdimensies), [gegevenskwaliteitseisen](#gegevenskwaliteitseisen), [gegevenskwaliteitsmeetwaarden](#gegevenskwaliteitsmeetwaarden), [gegevenskwaliteitsattributen](#gegevenskwaliteitsattributen)
 
 ### Gegevenskwaliteitsdimensie
 
@@ -223,7 +223,7 @@ Toelichting: Een effectief gegevenskwaliteitsrapport is helder over hoe dit tot 
 
 Bron: JAGA Gegevenskwaliteitsbeleid [[Gegevenskwaliteitsbeleid]]
 
-Gerelateerd: [gegevenskwaliteitsproblemen](#gegevenskwaliteitsproblemen), [gegevensbronnen](#gegevensbronnen)
+Gerelateerd: [gegevensbronnen](#gegevensbronnen), [gegevenskwaliteitsproblemen](#gegevenskwaliteitsproblemen)
 
 ### Gegevensverwerking
 
@@ -325,8 +325,10 @@ Toelichting: Dit kan bijvoorbeeld door de gegevenskwaliteitseisen vooraf vast te
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Voorbeeld(en): Voorbeelden van maatregelen die geegevenskwaliteitsproblemen kunnen voorkomen zijn bijvoorbeeld:
-- Een verplicht veld, of een gegeven van een bepaald gegevenstype, kan bij de invoer al worden gevalideerd. - Ingevoerde gegevens kunnen worden opgehaald bij autoritatieve bronnen en niet door de gebruiker van het systeem moeten worden overgetypt. - In plaats van het overnemen van gegevens nemen we alleen de verwijzing over, en laten we de gegevens in de bron staan.
+Voorbeeld(en): Maatregelen die gegevenskwaliteitsproblemen kunnen voorkomen zijn bijvoorbeeld:
+- Een verplicht veld, of een gegeven van een bepaald gegevenstype, kan bij de invoer al worden gevalideerd. 
+- Ingevoerde gegevens kunnen worden opgehaald bij autoritatieve bronnen en niet door de gebruiker van het systeem moeten worden overgetypt. 
+- In plaats van het overnemen van gegevens nemen we alleen de verwijzing over, en laten we de gegevens in de bron staan.
 
 ### Secundaire gegevensbron
 
@@ -398,7 +400,9 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 > Gegevenskwaliteitscontroleur is een rol binnen [gegevensmanagement](#gegevensmanagement). De gegevenskwaliteitscontroleur is verantwoordelijk voor het opstellen van het [gegevenskwaliteitsrapport](#gegevenskwaliteitsrapport).
 
-Toelichting: Een gegevenskwaliteitscontroleur heeft als primair doel het monitoren, analyseren en verbeteren van de algehele kwaliteit van gegevens binnen een JenV-organisatie over gegevensgebieden heen. De gegevenskwaliteitscontroleur is verantwoordelijk voor de gegevenskwaliteitsmetingen, dus zowel de definitie, de uitvoering van en de rapportage over de metingen. De gegevenskwaliteitsrapporten over die metingen worden beschikbaar gesteld aan de data stewards, gegevensmanagers en gegevensverantwoordelijken.
+Toelichting: Een gegevenskwaliteitscontroleur heeft als primair doel het monitoren, analyseren en verbeteren van de algehele kwaliteit van gegevens binnen een JenV-organisatie over gegevensgebieden heen. 
+
+De gegevenskwaliteitscontroleur is verantwoordelijk voor de gegevenskwaliteitsmetingen, dus zowel de definitie, de uitvoering van en de rapportage over de metingen. De gegevenskwaliteitsrapporten over die metingen worden beschikbaar gesteld aan de data stewards, gegevensmanagers en gegevensverantwoordelijken.
 
 Bron: JAGA Handreiking Organisatieinrichting Gegevensmanagement [[JAGA_OIGM]]
 
@@ -454,7 +458,7 @@ Gerelateerd: [Gegevenskwaliteit Rol](#gegevenskwaliteit-rol)
 
 Alternatieve aanduiding: *Thesaurus*
 
-> Een talig model van begrippen dat helpt om een beter inzicht te krijgen wat er wordt bedoeld met de [termen]() in het begrippenkader.
+> Een taalgebaseerd model van begrippen gericht op dat helpt om een beter inzicht te krijgen wat er wordt bedoeld met de [termen]() in het begrippenkader.
 
 Toelichting: We beschrijven begrippenkaders conform de NL-SBB standaard.
 

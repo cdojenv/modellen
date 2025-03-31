@@ -2,624 +2,658 @@
 
 ![](pre-scan-dpia.svg "Conceptueel informatiemodel pre-scan_dpia")
 
-- [Categorie betrokkenen in organisatorische activiteit](#-ategorie-betrokkenen-in-organisatorische-activiteit)
-- [Classificatie](#-lassificatie)
-  - [Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)
-    - [Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)
-      - [Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)
-- [Organisatorische activiteit](#-rganisatorische-activiteit)
-  - [Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)
-    - [Organisatorische activiteit met DPIA-verplichting](#-rganisatorische-activiteit-met-verplichting)
-    - [Organisatorische activiteit met DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-met-verplichting-o-b-v-ijst-of-)
-    - [Organisatorische activiteit met KIA verplichting](#-rganisatorische-activiteit-met-verplichting)
-    - [Organisatorische activiteit met algoritme](#-rganisatorische-activiteit-met-algoritme)
-      - [Organisatorische activiteit met IAMA verplichting](#-rganisatorische-activiteit-met-verplichting)
-    - [Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte)
-      - [Organisatorische activiteit met DTIA-verplichting](#-rganisatorische-activiteit-met-verplichting)
-        - [Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme](#-rganisatorische-activiteit-met-verplichting-en-overig-doorgiftemechanisme)
-      - [Organisatorische activiteit met internationale doorgifte bijzondere persoonsgegevens](#-rganisatorische-activiteit-met-internationale-doorgifte-bijzondere-persoonsgegevens)
-    - [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)
-      - [Organisatorische activiteit bijzondere persoonsgegevens](#-rganisatorische-activiteit-bijzondere-persoonsgegevens)
-      - [Organisatorische activiteit gevoelige persoonsgegevens](#-rganisatorische-activiteit-gevoelige-persoonsgegevens)
-      - [Organisatorische activiteit gewone persoonsgegevens](#-rganisatorische-activiteit-gewone-persoonsgegevens)
-        - [Organisatorische activiteit overige gewone persoonsgegevens](#-rganisatorische-activiteit-overige-gewone-persoonsgegevens)
-      - [Organisatorische activiteit met specificatie categorie betrokkenen](#-rganisatorische-activiteit-met-specificatie-categorie-betrokkenen)
-- [Pre-scan DPIA](#-re-scan-)
+- [Categorie betrokkenen in organisatorische activiteit](#TCategorie-betrokkenen-in-organisatorische-activiteit)
+- [Classificatie](#TClassificatie)
+  - [Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)
+    - [Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)
+      - [Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)
+- [Organisatorische activiteit](#TOrganisatorische-activiteit)
+  - [Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)
+    - [Organisatorische activiteit met DPIA-verplichting](#TOrganisatorische-activiteit-met-DPIA-verplichting)
+    - [Organisatorische activiteit met DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-met-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)
+    - [Organisatorische activiteit met KIA verplichting](#TOrganisatorische-activiteit-met-KIA-verplichting)
+    - [Organisatorische activiteit met algoritme](#TOrganisatorische-activiteit-met-algoritme)
+      - [Organisatorische activiteit met IAMA verplichting](#TOrganisatorische-activiteit-met-IAMA-verplichting)
+    - [Organisatorische activiteit met internationale doorgifte](#TOrganisatorische-activiteit-met-internationale-doorgifte)
+      - [Organisatorische activiteit met DTIA-verplichting](#TOrganisatorische-activiteit-met-DTIA-verplichting)
+        - [Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme](#TOrganisatorische-activiteit-met-DTIA-verplichting-en-overig-doorgiftemechanisme)
+      - [Organisatorische activiteit met internationale doorgifte bijzondere persoonsgegevens](#TOrganisatorische-activiteit-met-internationale-doorgifte-bijzondere-persoonsgegevens)
+    - [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)
+      - [Organisatorische activiteit bijzondere persoonsgegevens](#TOrganisatorische-activiteit-bijzondere-persoonsgegevens)
+      - [Organisatorische activiteit gevoelige persoonsgegevens](#TOrganisatorische-activiteit-gevoelige-persoonsgegevens)
+      - [Organisatorische activiteit gewone persoonsgegevens](#TOrganisatorische-activiteit-gewone-persoonsgegevens)
+        - [Organisatorische activiteit overige gewone persoonsgegevens](#TOrganisatorische-activiteit-overige-gewone-persoonsgegevens)
+      - [Organisatorische activiteit met specificatie categorie betrokkenen](#TOrganisatorische-activiteit-met-specificatie-categorie-betrokkenen)
+- [Pre-scan DPIA](#TPre-scan-DPIA)
 
-## Categorie betrokkenen in organisatorische activiteit {#-ategorie-betrokkenen-in-organisatorische-activiteit}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Aantal betrokkenen van categorie](#-antal-betrokkenen-van-categorie), [categorie betrokkenen pre-scan DPIA](#-ategorie-betrokkenen-in-organisatorische-activiteit-categorie-betrokkenen-pre-scan-)|
-|Rollen|[Categorie betrokkenen in organisatorische activiteit in relatie met Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-ategorie-betrokkenen-in-organisatorische-activiteit-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-
-### categorie betrokkenen pre-scan DPIA {#-ategorie-betrokkenen-in-organisatorische-activiteit-categorie-betrokkenen-pre-scan-}
+## Categorie betrokkenen in organisatorische activiteit {#TCategorie-betrokkenen-in-organisatorische-activiteit}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Categorie betrokkenen in organisatorische activiteit](#-ategorie-betrokkenen-in-organisatorische-activiteit)|
-|Type|[categorie betrokkenen pre-scan DPIA](#-categorie-betrokkenen-pre-scan-)|
-|Mogelijke waarden|Burgers; Andere kwetsbare groepen; Kinderen jonger dan 16 jaar; Medewerkers/bewindspersonen; Specificatie categorie betrokkenen|
+|Begrip|[Categorie betrokkenen in organisatorische activiteit](#categorie-betrokkenen-in-organisatorische-activiteit)|
+|Kenmerken|[Aantal betrokkenen van categorie](#TAantal-betrokkenen-van-categorie), [categorie betrokkenen pre-scan DPIA](#TCategorie-betrokkenen-in-organisatorische-activiteit-categorie-betrokkenen-pre-scan-DPIA)|
+|Rollen|[Categorie betrokkenen in organisatorische activiteit in relatie met Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TCategorie-betrokkenen-in-organisatorische-activiteit-Organisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
 
-### Aantal betrokkenen van categorie {#-antal-betrokkenen-van-categorie}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Categorie betrokkenen in organisatorische activiteit](#-ategorie-betrokkenen-in-organisatorische-activiteit)|
-|Type|[aantal betrokkenen](#-aantal-betrokkenen)|
-
-### Categorie betrokkenen in organisatorische activiteit in relatie met Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB {#-ategorie-betrokkenen-in-organisatorische-activiteit-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-}
+### categorie betrokkenen pre-scan DPIA {#TCategorie-betrokkenen-in-organisatorische-activiteit-categorie-betrokkenen-pre-scan-DPIA}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Categorie betrokkenen in organisatorische activiteit](#-ategorie-betrokkenen-in-organisatorische-activiteit)|
-|Met|1..1 [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-
-## Classificatie {#-lassificatie}
-
-|{: .def}||
-|-|-|
-|Subtype(s)|[Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)|
-|Kenmerken|[classificatie id](#-lassificatie-classificatie-id)|
-
-### classificatie id {#-lassificatie-classificatie-id}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Classificatie](#-lassificatie)|
+|Eigenschap van|[Categorie betrokkenen in organisatorische activiteit](#TCategorie-betrokkenen-in-organisatorische-activiteit)|
 |Type|CharacterString|
 
-## Classificatie Persoonsgegevens {#-lassificatie-ersoonsgegevens}
+### Aantal betrokkenen van categorie {#TAantal-betrokkenen-van-categorie}
 
 |{: .def}||
 |-|-|
-|Supertype|[Classificatie](#-lassificatie)|
-|Subtype(s)|[Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
-|Kenmerken|[Classificatie Persoonsgegevens Aanwezig](#-lassificatie-ersoonsgegevens-anwezig)|
-|Relatie met|[Organisatorische activiteit heeft classificatie](#-rganisatorische-activiteit-heeft-classificatie)|
+|Eigenschap van|[Categorie betrokkenen in organisatorische activiteit](#TCategorie-betrokkenen-in-organisatorische-activiteit)|
+|Type|[aantal betrokkenen](#Taantal-betrokkenen)|
 
-### Classificatie Persoonsgegevens Aanwezig {#-lassificatie-ersoonsgegevens-anwezig}
+### Categorie betrokkenen in organisatorische activiteit in relatie met Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB {#TCategorie-betrokkenen-in-organisatorische-activiteit-Organisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)|
-|Type|[classificatie_persoonsgegevens_aanwezig](#-classificatie-persoonsgegevens-aanwezig)|
+|Rol van|0..* [Categorie betrokkenen in organisatorische activiteit](#TCategorie-betrokkenen-in-organisatorische-activiteit)|
+|Met|1..1 [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+
+## Classificatie {#TClassificatie}
+
+|{: .def}||
+|-|-|
+|Begrip|[Classificatie](#classificatie)|
+|Subtype(s)|[Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)|
+|Kenmerken|[classificatie id](#TClassificatie-classificatie-id)|
+
+### classificatie id {#TClassificatie-classificatie-id}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Classificatie](#TClassificatie)|
+|Type|CharacterString|
+
+## Classificatie Persoonsgegevens {#TClassificatie-Persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Begrip|[Classificatie persoonsgegevens](#classificatie-persoonsgegevens)|
+|Supertype|[Classificatie](#TClassificatie)|
+|Subtype(s)|[Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
+|Kenmerken|[Classificatie Persoonsgegevens Aanwezig](#TClassificatie-Persoonsgegevens-Aanwezig)|
+|Relatie met|[Organisatorische activiteit heeft classificatie](#TOrganisatorische-activiteit-heeft-classificatie)|
+
+### Classificatie Persoonsgegevens Aanwezig {#TClassificatie-Persoonsgegevens-Aanwezig}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)|
+|Type|[classificatie_persoonsgegevens_aanwezig](#Tclassificatie-persoonsgegevens-aanwezig)|
 |Mogelijke waarden|bevat geen persoonsgegevens; bevat persoonsgegevens|
 
-## Classificatie Type Bijzondere Persoonsgegevens {#-lassificatie-ype-ijzondere-ersoonsgegevens}
+## Classificatie Type Bijzondere Persoonsgegevens {#TClassificatie-Type-Bijzondere-Persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Supertype|[Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
-|Kenmerken|[Classificatie Type Bijzondere Persoonsgegevens waarde](#-lassificatie-ype-ijzondere-ersoonsgegevens-waarde)|
-|Relatie met|[Organisatorische activiteit heeft classificatie type bijzondere persoonsgegevens](#-rganisatorische-activiteit-heeft-classificatie-type-bijzondere-persoonsgegevens)|
+|Supertype|[Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
+|Kenmerken|[Classificatie Type Bijzondere Persoonsgegevens waarde](#TClassificatie-Type-Bijzondere-Persoonsgegevens-waarde)|
+|Relatie met|[Organisatorische activiteit heeft classificatie type bijzondere persoonsgegevens](#TOrganisatorische-activiteit-heeft-classificatie-type-bijzondere-persoonsgegevens)|
 
-### Classificatie Type Bijzondere Persoonsgegevens waarde {#-lassificatie-ype-ijzondere-ersoonsgegevens-waarde}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)|
-|Type|[classificatie_type_bpg_waarde](#-classificatie-type-bpg-waarde)|
-|Mogelijke waarden|biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over lidmaatschap van een vakbond; gegevens over ras of etnische afkomst; genetische gegevens; gegevens over gezondheid; gegevens over religieuze of levensbeschouwelijke overtuigingen; gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over politieke opvattingen|
-
-## Classificatie Type Persoonsgegevens {#-lassificatie-ype-ersoonsgegevens}
+### Classificatie Type Bijzondere Persoonsgegevens waarde {#TClassificatie-Type-Bijzondere-Persoonsgegevens-waarde}
 
 |{: .def}||
 |-|-|
-|Supertype|[Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)|
-|Subtype(s)|[Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)|
-|Kenmerken|[Classificatie Type Persoonsgegevens Waarde](#-lassificatie-ype-ersoonsgegevens-aarde)|
-|Relatie met|[Organisatorische activiteit heeft classificatie type persoonsgegevens](#-rganisatorische-activiteit-heeft-classificatie-type-persoonsgegevens)|
+|Eigenschap van|[Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)|
+|Type|[classificatie_type_bpg_waarde](#Tclassificatie-type-bpg-waarde)|
+|Mogelijke waarden|gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over politieke opvattingen; gegevens over ras of etnische afkomst; biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over lidmaatschap van een vakbond; gegevens over gezondheid; genetische gegevens; gegevens over religieuze of levensbeschouwelijke overtuigingen|
 
-### Classificatie Type Persoonsgegevens Waarde {#-lassificatie-ype-ersoonsgegevens-aarde}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
-|Type|[classificatie_type_pg_waarde](#-classificatie-type-pg-waarde)|
-|Mogelijke waarden|bevat gewone persoonsgegevens; bevat strafrechtelijke persoonsgegevens; bevat nationale identificatienummers; bevat bijzondere persoonsgegevens; bevat gevoelige persoonsgegevens|
-
-## Organisatorische activiteit {#-rganisatorische-activiteit}
+## Classificatie Type Persoonsgegevens {#TClassificatie-Type-Persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Subtype(s)|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Kenmerken|[organisatorische activiteit code](#-rganisatorische-activiteit-organisatorische-activiteit-code)|
-|Rollen|[Organisatorische activiteit heeft classificatie](#-rganisatorische-activiteit-heeft-classificatie)|
+|Begrip|[Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens)|
+|Supertype|[Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)|
+|Subtype(s)|[Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)|
+|Kenmerken|[Classificatie Type Persoonsgegevens Waarde](#TClassificatie-Type-Persoonsgegevens-Waarde)|
+|Relatie met|[Organisatorische activiteit heeft classificatie type persoonsgegevens](#TOrganisatorische-activiteit-heeft-classificatie-type-persoonsgegevens)|
 
-### organisatorische activiteit code {#-rganisatorische-activiteit-organisatorische-activiteit-code}
+### Classificatie Type Persoonsgegevens Waarde {#TClassificatie-Type-Persoonsgegevens-Waarde}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit](#-rganisatorische-activiteit)|
+|Eigenschap van|[Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
+|Type|[classificatie_type_pg_waarde](#Tclassificatie-type-pg-waarde)|
+|Mogelijke waarden|bevat bijzondere persoonsgegevens; bevat nationale identificatienummers; bevat gewone persoonsgegevens; bevat strafrechtelijke persoonsgegevens; bevat gevoelige persoonsgegevens|
+
+## Organisatorische activiteit {#TOrganisatorische-activiteit}
+
+|{: .def}||
+|-|-|
+|Begrip|[Organisatorische activiteit](#organisatorische-activiteit)|
+|Subtype(s)|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Kenmerken|[organisatorische activiteit code](#TOrganisatorische-activiteit-organisatorische-activiteit-code)|
+|Rollen|[Organisatorische activiteit heeft classificatie](#TOrganisatorische-activiteit-heeft-classificatie)|
+
+### organisatorische activiteit code {#TOrganisatorische-activiteit-organisatorische-activiteit-code}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Organisatorische activiteit](#TOrganisatorische-activiteit)|
 |Type|CharacterString|
 
-### Organisatorische activiteit heeft classificatie {#-rganisatorische-activiteit-heeft-classificatie}
+### Organisatorische activiteit heeft classificatie {#TOrganisatorische-activiteit-heeft-classificatie}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Organisatorische activiteit](#-rganisatorische-activiteit)|
-|Met|0..* [Classificatie Persoonsgegevens](#-lassificatie-ersoonsgegevens)|
+|Rol van|0..* [Organisatorische activiteit](#TOrganisatorische-activiteit)|
+|Met|0..* [Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)|
 
-## Organisatorische activiteit bijzondere persoonsgegevens {#-rganisatorische-activiteit-bijzondere-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Supertype|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Rollen|[Organisatorische activiteit heeft classificatie type bijzondere persoonsgegevens](#-rganisatorische-activiteit-heeft-classificatie-type-bijzondere-persoonsgegevens)|
-
-### Organisatorische activiteit heeft classificatie type bijzondere persoonsgegevens {#-rganisatorische-activiteit-heeft-classificatie-type-bijzondere-persoonsgegevens}
+## Organisatorische activiteit bijzondere persoonsgegevens {#TOrganisatorische-activiteit-bijzondere-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Organisatorische activiteit bijzondere persoonsgegevens](#-rganisatorische-activiteit-bijzondere-persoonsgegevens)|
-|Met|0..* [Classificatie Type Bijzondere Persoonsgegevens](#-lassificatie-ype-ijzondere-ersoonsgegevens)|
+|Begrip|[Organisatorische activiteit bijzondere persoonsgegevens](#organisatorische-activiteit-bijzondere-persoonsgegevens)|
+|Supertype|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+|Rollen|[Organisatorische activiteit heeft classificatie type bijzondere persoonsgegevens](#TOrganisatorische-activiteit-heeft-classificatie-type-bijzondere-persoonsgegevens)|
 
-## Organisatorische activiteit gevoelige persoonsgegevens {#-rganisatorische-activiteit-gevoelige-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Supertype|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Kenmerken|[Categorie gevoelige persoonsgegevens in organisatorische activiteit](#-ategorie-gevoelige-persoonsgegevens-in-organisatorische-activiteit)|
-
-### Categorie gevoelige persoonsgegevens in organisatorische activiteit {#-ategorie-gevoelige-persoonsgegevens-in-organisatorische-activiteit}
+### Organisatorische activiteit heeft classificatie type bijzondere persoonsgegevens {#TOrganisatorische-activiteit-heeft-classificatie-type-bijzondere-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit gevoelige persoonsgegevens](#-rganisatorische-activiteit-gevoelige-persoonsgegevens)|
-|Type|[categorie gevoelige persoonsgegevens](#-categorie-gevoelige-persoonsgegevens)|
-|Mogelijke waarden|Gebruikersnamen, wachtwoorden en andere inloggegevens; Gegevens die betrekking hebben op kwetsbare groepen; Gegevens die kunnen worden gebruikt voor fraude; Surfgedrag; Andere gegevens die kunnen leiden tot stigmatisering of uitsluiting van de betrokkene; Communicatie- en locatiegegevens; Gegevens over de financiële situatie van de betrokkene|
+|Rol van|0..* [Organisatorische activiteit bijzondere persoonsgegevens](#TOrganisatorische-activiteit-bijzondere-persoonsgegevens)|
+|Met|0..* [Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)|
 
-## Organisatorische activiteit gewone persoonsgegevens {#-rganisatorische-activiteit-gewone-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Supertype|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Subtype(s)|[Organisatorische activiteit overige gewone persoonsgegevens](#-rganisatorische-activiteit-overige-gewone-persoonsgegevens)|
-|Kenmerken|[Categorie gewone persoonsgegevens in organisatorische activiteit](#-ategorie-gewone-persoonsgegevens-in-organisatorische-activiteit)|
-
-### Categorie gewone persoonsgegevens in organisatorische activiteit {#-ategorie-gewone-persoonsgegevens-in-organisatorische-activiteit}
+## Organisatorische activiteit gevoelige persoonsgegevens {#TOrganisatorische-activiteit-gevoelige-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit gewone persoonsgegevens](#-rganisatorische-activiteit-gewone-persoonsgegevens)|
-|Type|[categorie gewone persoonsgegevens](#-categorie-gewone-persoonsgegevens)|
-|Mogelijke waarden|Overige; Naam, contactgegevens; Demografische gegevens; Content; Helpdeskgegevens; Logging; Apparaat- en internetgegevens; Gegevens verzameld via een website; Diagnostische gegevens of telemetrie|
+|Begrip|[Organisatorische activiteit gevoelige persoonsgegevens](#organisatorische-activiteit-gevoelige-persoonsgegevens)|
+|Supertype|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+|Kenmerken|[Categorie gevoelige persoonsgegevens in organisatorische activiteit](#TCategorie-gevoelige-persoonsgegevens-in-organisatorische-activiteit)|
 
-## Organisatorische activiteit met DPIA-verplichting {#-rganisatorische-activiteit-met-verplichting}
-
-|{: .def}||
-|-|-|
-|Supertype|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-
-## Organisatorische activiteit met DPIA-verplichting o.b.v. Lijst AP of EDPB {#-rganisatorische-activiteit-met-verplichting-o-b-v-ijst-of-}
+### Categorie gevoelige persoonsgegevens in organisatorische activiteit {#TCategorie-gevoelige-persoonsgegevens-in-organisatorische-activiteit}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
+|Eigenschap van|[Organisatorische activiteit gevoelige persoonsgegevens](#TOrganisatorische-activiteit-gevoelige-persoonsgegevens)|
+|Type|[categorie gevoelige persoonsgegevens](#Tcategorie-gevoelige-persoonsgegevens)|
+|Mogelijke waarden|Communicatie- en locatiegegevens; Gegevens over de financiële situatie van de betrokkene; Surfgedrag; Gegevens die betrekking hebben op kwetsbare groepen; Gegevens die kunnen worden gebruikt voor fraude; Andere gegevens die kunnen leiden tot stigmatisering of uitsluiting van de betrokkene; Gebruikersnamen, wachtwoorden en andere inloggegevens|
 
-## Organisatorische activiteit met DTIA-verplichting {#-rganisatorische-activiteit-met-verplichting}
-
-|{: .def}||
-|-|-|
-|Supertype|[Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte)|
-|Subtype(s)|[Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme](#-rganisatorische-activiteit-met-verplichting-en-overig-doorgiftemechanisme)|
-
-## Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme {#-rganisatorische-activiteit-met-verplichting-en-overig-doorgiftemechanisme}
+## Organisatorische activiteit gewone persoonsgegevens {#TOrganisatorische-activiteit-gewone-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit met DTIA-verplichting](#-rganisatorische-activiteit-met-verplichting)|
-|Kenmerken|[Specificatie doorgiftemechanisme organisatorische activiteit](#-pecificatie-doorgiftemechanisme-organisatorische-activiteit)|
+|Begrip|[Organisatorische activiteit gewone persoonsgegevens](#organisatorische-activiteit-gewone-persoonsgegevens)|
+|Supertype|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+|Subtype(s)|[Organisatorische activiteit overige gewone persoonsgegevens](#TOrganisatorische-activiteit-overige-gewone-persoonsgegevens)|
+|Kenmerken|[Categorie gewone persoonsgegevens in organisatorische activiteit](#TCategorie-gewone-persoonsgegevens-in-organisatorische-activiteit)|
 
-### Specificatie doorgiftemechanisme organisatorische activiteit {#-pecificatie-doorgiftemechanisme-organisatorische-activiteit}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme](#-rganisatorische-activiteit-met-verplichting-en-overig-doorgiftemechanisme)|
-|Type|[specificatie doorgiftemechanisme](#-specificatie-doorgiftemechanisme)|
-
-## Organisatorische activiteit met IAMA verplichting {#-rganisatorische-activiteit-met-verplichting}
+### Categorie gewone persoonsgegevens in organisatorische activiteit {#TCategorie-gewone-persoonsgegevens-in-organisatorische-activiteit}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit met algoritme](#-rganisatorische-activiteit-met-algoritme)|
+|Eigenschap van|[Organisatorische activiteit gewone persoonsgegevens](#TOrganisatorische-activiteit-gewone-persoonsgegevens)|
+|Type|[categorie gewone persoonsgegevens](#Tcategorie-gewone-persoonsgegevens)|
+|Mogelijke waarden|Helpdeskgegevens; Demografische gegevens; Gegevens verzameld via een website; Diagnostische gegevens of telemetrie; Logging; Overige; Apparaat- en internetgegevens; Content; Naam, contactgegevens|
 
-## Organisatorische activiteit met KIA verplichting {#-rganisatorische-activiteit-met-verplichting}
-
-|{: .def}||
-|-|-|
-|Supertype|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-
-## Organisatorische activiteit met algoritme {#-rganisatorische-activiteit-met-algoritme}
+## Organisatorische activiteit met DPIA-verplichting {#TOrganisatorische-activiteit-met-DPIA-verplichting}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Subtype(s)|[Organisatorische activiteit met IAMA verplichting](#-rganisatorische-activiteit-met-verplichting)|
-|Kenmerken|[AI-systeem](#-systeem)|
+|Begrip|[Organisatorische activiteit met DPIA-verplichting](#organisatorische-activiteit-met-dpia-verplichting)|
+|Supertype|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
 
-### AI-systeem {#-systeem}
+## Organisatorische activiteit met DPIA-verplichting o.b.v. Lijst AP of EDPB {#TOrganisatorische-activiteit-met-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit met algoritme](#-rganisatorische-activiteit-met-algoritme)|
-|Type|[wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem](#-wel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-systeem)|
+|Begrip|[Organisatorische activiteit met DPIA-verplichting o.b.v. lijst AP of EDPB](#organisatorische-activiteit-met-dpia-verplichting-o-b-v-lijst-ap-of-edpb)|
+|Supertype|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+
+## Organisatorische activiteit met DTIA-verplichting {#TOrganisatorische-activiteit-met-DTIA-verplichting}
+
+|{: .def}||
+|-|-|
+|Begrip|[Organisatorische activiteit met DTIA-verplichting](#organisatorische-activiteit-met-dtia-verplichting)|
+|Supertype|[Organisatorische activiteit met internationale doorgifte](#TOrganisatorische-activiteit-met-internationale-doorgifte)|
+|Subtype(s)|[Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme](#TOrganisatorische-activiteit-met-DTIA-verplichting-en-overig-doorgiftemechanisme)|
+
+## Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme {#TOrganisatorische-activiteit-met-DTIA-verplichting-en-overig-doorgiftemechanisme}
+
+|{: .def}||
+|-|-|
+|Begrip|[Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme](#organisatorische-activiteit-met-dtia-verplichting-en-overig-doorgiftemechanisme)|
+|Supertype|[Organisatorische activiteit met DTIA-verplichting](#TOrganisatorische-activiteit-met-DTIA-verplichting)|
+|Kenmerken|[Specificatie doorgiftemechanisme organisatorische activiteit](#TSpecificatie-doorgiftemechanisme-organisatorische-activiteit)|
+
+### Specificatie doorgiftemechanisme organisatorische activiteit {#TSpecificatie-doorgiftemechanisme-organisatorische-activiteit}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme](#TOrganisatorische-activiteit-met-DTIA-verplichting-en-overig-doorgiftemechanisme)|
+|Type|[specificatie doorgiftemechanisme](#Tspecificatie-doorgiftemechanisme)|
+
+## Organisatorische activiteit met IAMA verplichting {#TOrganisatorische-activiteit-met-IAMA-verplichting}
+
+|{: .def}||
+|-|-|
+|Supertype|[Organisatorische activiteit met algoritme](#TOrganisatorische-activiteit-met-algoritme)|
+
+## Organisatorische activiteit met KIA verplichting {#TOrganisatorische-activiteit-met-KIA-verplichting}
+
+|{: .def}||
+|-|-|
+|Supertype|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+
+## Organisatorische activiteit met algoritme {#TOrganisatorische-activiteit-met-algoritme}
+
+|{: .def}||
+|-|-|
+|Begrip|[Organisatorische activiteit met algoritme](#organisatorische-activiteit-met-algoritme)|
+|Supertype|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Subtype(s)|[Organisatorische activiteit met IAMA verplichting](#TOrganisatorische-activiteit-met-IAMA-verplichting)|
+|Kenmerken|[AI-systeem](#TAI-systeem)|
+
+### AI-systeem {#TAI-systeem}
+
+|{: .def}||
+|-|-|
+|Begrip|[AI-systeem](#ai-systeem)|
+|Eigenschap van|[Organisatorische activiteit met algoritme](#TOrganisatorische-activiteit-met-algoritme)|
+|Type|[wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem](#Twel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-AI-systeem)|
 |Mogelijke waarden|geen sprake van een algoritme dat kwalificeert als een AI-systeem; sprake van een algoritme dat kwalificeert als een AI-systeem|
 
-## Organisatorische activiteit met internationale doorgifte {#-rganisatorische-activiteit-met-internationale-doorgifte}
+## Organisatorische activiteit met internationale doorgifte {#TOrganisatorische-activiteit-met-internationale-doorgifte}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Subtype(s)|[Organisatorische activiteit met internationale doorgifte bijzondere persoonsgegevens](#-rganisatorische-activiteit-met-internationale-doorgifte-bijzondere-persoonsgegevens), [Organisatorische activiteit met DTIA-verplichting](#-rganisatorische-activiteit-met-verplichting)|
-|Kenmerken|[Doorgiftemechanisme organisatorische activiteit](#-oorgiftemechanisme-organisatorische-activiteit), [Internationale doorgifte bijzondere persoonsgegevens](#-nternationale-doorgifte-bijzondere-persoonsgegevens), [Opslag van gegevens](#-pslag-van-gegevens)|
+|Begrip|[Organisatorische activiteit met internationale doorgifte](#organisatorische-activiteit-met-internationale-doorgifte)|
+|Supertype|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Subtype(s)|[Organisatorische activiteit met internationale doorgifte bijzondere persoonsgegevens](#TOrganisatorische-activiteit-met-internationale-doorgifte-bijzondere-persoonsgegevens), [Organisatorische activiteit met DTIA-verplichting](#TOrganisatorische-activiteit-met-DTIA-verplichting)|
+|Kenmerken|[Doorgiftemechanisme organisatorische activiteit](#TDoorgiftemechanisme-organisatorische-activiteit), [Internationale doorgifte bijzondere persoonsgegevens](#TInternationale-doorgifte-bijzondere-persoonsgegevens), [Opslag van gegevens](#TOpslag-van-gegevens)|
 
-### Opslag van gegevens {#-pslag-van-gegevens}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte)|
-|Type|[on premise/datacenter EER/buiten EER](#-on-premise-datacenter-buiten-)|
-|Mogelijke waarden|buiten EER; on premise; datacenter EER|
-
-### Internationale doorgifte bijzondere persoonsgegevens {#-nternationale-doorgifte-bijzondere-persoonsgegevens}
+### Internationale doorgifte bijzondere persoonsgegevens {#TInternationale-doorgifte-bijzondere-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte)|
-|Type|[wel/geen bijzondere persoonsgegevens](#-wel-geen-bijzondere-persoonsgegevens)|
+|Eigenschap van|[Organisatorische activiteit met internationale doorgifte](#TOrganisatorische-activiteit-met-internationale-doorgifte)|
+|Type|[wel/geen bijzondere persoonsgegevens](#Twel-geen-bijzondere-persoonsgegevens)|
 |Mogelijke waarden|bijzondere persoonsgegevens; geen bijzondere persoonsgegevens|
 
-### Doorgiftemechanisme organisatorische activiteit {#-oorgiftemechanisme-organisatorische-activiteit}
+### Opslag van gegevens {#TOpslag-van-gegevens}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte)|
-|Type|[doorgiftemechanisme pre-scan DPIA](#-doorgiftemechanisme-pre-scan-)|
-|Mogelijke waarden|overig mechanisme; Binding Corporate Rules (BCR); standaard contractsbepalingen (SCC); uitzondering artikel 49 AVG; goedgekeurde gedragscode; juridisch bindend en afdwingbaar instrument; adequaatheidsbesluit; goedgekeurd certificeringsmechanisme|
+|Begrip|[Opslag van gegevens](#opslag-van-gegevens)|
+|Eigenschap van|[Organisatorische activiteit met internationale doorgifte](#TOrganisatorische-activiteit-met-internationale-doorgifte)|
+|Type|[on premise/datacenter EER/buiten EER](#Ton-premise-datacenter-EER-buiten-EER)|
+|Mogelijke waarden|buiten EER; datacenter EER; on premise|
 
-## Organisatorische activiteit met internationale doorgifte bijzondere persoonsgegevens {#-rganisatorische-activiteit-met-internationale-doorgifte-bijzondere-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Supertype|[Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte)|
-
-## Organisatorische activiteit met specificatie categorie betrokkenen {#-rganisatorische-activiteit-met-specificatie-categorie-betrokkenen}
+### Doorgiftemechanisme organisatorische activiteit {#TDoorgiftemechanisme-organisatorische-activiteit}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Kenmerken|[Specificatie categorie betrokkenen](#-pecificatie-categorie-betrokkenen)|
+|Eigenschap van|[Organisatorische activiteit met internationale doorgifte](#TOrganisatorische-activiteit-met-internationale-doorgifte)|
+|Type|[doorgiftemechanisme pre-scan DPIA](#Tdoorgiftemechanisme-pre-scan-DPIA)|
+|Mogelijke waarden|standaard contractsbepalingen (SCC); uitzondering artikel 49 AVG; Binding Corporate Rules (BCR); goedgekeurd certificeringsmechanisme; overig mechanisme; goedgekeurde gedragscode; juridisch bindend en afdwingbaar instrument; adequaatheidsbesluit|
 
-### Specificatie categorie betrokkenen {#-pecificatie-categorie-betrokkenen}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Organisatorische activiteit met specificatie categorie betrokkenen](#-rganisatorische-activiteit-met-specificatie-categorie-betrokkenen)|
-|Type|[categorie betrokkenen](#-categorie-betrokkenen)|
-
-## Organisatorische activiteit overige gewone persoonsgegevens {#-rganisatorische-activiteit-overige-gewone-persoonsgegevens}
+## Organisatorische activiteit met internationale doorgifte bijzondere persoonsgegevens {#TOrganisatorische-activiteit-met-internationale-doorgifte-bijzondere-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit gewone persoonsgegevens](#-rganisatorische-activiteit-gewone-persoonsgegevens)|
-|Kenmerken|[Categorie overige gewone persoonsgegevens in organisatorische activiteit](#-ategorie-overige-gewone-persoonsgegevens-in-organisatorische-activiteit)|
+|Begrip|[Organisatorische activiteit met internationale doorgifte bijzondere persoonsgegevens](#organisatorische-activiteit-met-internationale-doorgifte-bijzondere-persoonsgegevens)|
+|Supertype|[Organisatorische activiteit met internationale doorgifte](#TOrganisatorische-activiteit-met-internationale-doorgifte)|
 
-### Categorie overige gewone persoonsgegevens in organisatorische activiteit {#-ategorie-overige-gewone-persoonsgegevens-in-organisatorische-activiteit}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Organisatorische activiteit overige gewone persoonsgegevens](#-rganisatorische-activiteit-overige-gewone-persoonsgegevens)|
-|Type|[categorie persoonsgegevens](#-categorie-persoonsgegevens)|
-
-## Organisatorische activiteit persoonsgegevens {#-rganisatorische-activiteit-persoonsgegevens}
+## Organisatorische activiteit met specificatie categorie betrokkenen {#TOrganisatorische-activiteit-met-specificatie-categorie-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit](#-rganisatorische-activiteit)|
-|Subtype(s)|[Organisatorische activiteit met DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-met-verplichting-o-b-v-ijst-of-), [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-), [Organisatorische activiteit met algoritme](#-rganisatorische-activiteit-met-algoritme), [Organisatorische activiteit met DPIA-verplichting](#-rganisatorische-activiteit-met-verplichting), [Organisatorische activiteit met internationale doorgifte](#-rganisatorische-activiteit-met-internationale-doorgifte), [Organisatorische activiteit met KIA verplichting](#-rganisatorische-activiteit-met-verplichting)|
-|Kenmerken|[Algoritme](#-lgoritme), [Digitale dienst voor personen jonger dan 18](#-igitale-dienst-voor-personen-jonger-dan-18), [Internationale doorgifte](#-nternationale-doorgifte), [Lijst AP](#-ijst-), [Lijst EDPB](#-ijst-), [Organisatorische activiteit beschrijving](#-rganisatorische-activiteit-beschrijving)|
-|Relatie met|[Pre-scan DPIA voor organisatorische activiteit](#-re-scan-voor-organisatorische-activiteit)|
+|Begrip|[Organisatorische activiteit met specificatie categorie betrokkenen](#organisatorische-activiteit-met-specificatie-categorie-betrokkenen)|
+|Supertype|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+|Kenmerken|[Specificatie categorie betrokkenen](#TSpecificatie-categorie-betrokkenen)|
 
-### Digitale dienst voor personen jonger dan 18 {#-igitale-dienst-voor-personen-jonger-dan-18}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Type|[wel/geen digitale dienst primair bedoeld voor gebruik door personen jonger dan 18](#-wel-geen-digitale-dienst-primair-bedoeld-voor-gebruik-door-personen-jonger-dan-18)|
-|Mogelijke waarden|jonger dan 18 jaar; een digitale dienst aangeboden die primair bedoeld is voor gebruik door personen; personen jonger dan 18 jaar; geen digitale dienst aangeboden die primair bedoeld is voor gebruik door|
-
-### Algoritme {#-lgoritme}
+### Specificatie categorie betrokkenen {#TSpecificatie-categorie-betrokkenen}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Type|[wel/geen sprake van een algoritme](#-wel-geen-sprake-van-een-algoritme)|
+|Begrip|[Specificatie categorie betrokkenen](#specificatie-categorie-betrokkenen)|
+|Eigenschap van|[Organisatorische activiteit met specificatie categorie betrokkenen](#TOrganisatorische-activiteit-met-specificatie-categorie-betrokkenen)|
+|Type|[categorie betrokkenen](#Tcategorie-betrokkenen)|
+
+## Organisatorische activiteit overige gewone persoonsgegevens {#TOrganisatorische-activiteit-overige-gewone-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Begrip|[Organisatorische activiteit overige gewone persoonsgegevens](#organisatorische-activiteit-overige-gewone-persoonsgegevens)|
+|Supertype|[Organisatorische activiteit gewone persoonsgegevens](#TOrganisatorische-activiteit-gewone-persoonsgegevens)|
+|Kenmerken|[Categorie overige gewone persoonsgegevens in organisatorische activiteit](#TCategorie-overige-gewone-persoonsgegevens-in-organisatorische-activiteit)|
+
+### Categorie overige gewone persoonsgegevens in organisatorische activiteit {#TCategorie-overige-gewone-persoonsgegevens-in-organisatorische-activiteit}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Organisatorische activiteit overige gewone persoonsgegevens](#TOrganisatorische-activiteit-overige-gewone-persoonsgegevens)|
+|Type|[categorie persoonsgegevens](#Tcategorie-persoonsgegevens)|
+
+## Organisatorische activiteit persoonsgegevens {#TOrganisatorische-activiteit-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Begrip|[Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens)|
+|Supertype|[Organisatorische activiteit](#TOrganisatorische-activiteit)|
+|Subtype(s)|[Organisatorische activiteit met DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-met-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB), [Organisatorische activiteit met DPIA-verplichting](#TOrganisatorische-activiteit-met-DPIA-verplichting), [Organisatorische activiteit met internationale doorgifte](#TOrganisatorische-activiteit-met-internationale-doorgifte), [Organisatorische activiteit met KIA verplichting](#TOrganisatorische-activiteit-met-KIA-verplichting), [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB), [Organisatorische activiteit met algoritme](#TOrganisatorische-activiteit-met-algoritme)|
+|Kenmerken|[Algoritme](#TAlgoritme), [Digitale dienst voor personen jonger dan 18](#TDigitale-dienst-voor-personen-jonger-dan-18), [Internationale doorgifte](#TInternationale-doorgifte), [Lijst AP](#TLijst-AP), [Lijst EDPB](#TLijst-EDPB), [Organisatorische activiteit beschrijving](#TOrganisatorische-activiteit-beschrijving)|
+|Relatie met|[Pre-scan DPIA voor organisatorische activiteit](#TPre-scan-DPIA-voor-organisatorische-activiteit)|
+
+### Digitale dienst voor personen jonger dan 18 {#TDigitale-dienst-voor-personen-jonger-dan-18}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Type|[wel/geen digitale dienst primair bedoeld voor gebruik door personen jonger dan 18](#Twel-geen-digitale-dienst-primair-bedoeld-voor-gebruik-door-personen-jonger-dan-18)|
+|Mogelijke waarden|een digitale dienst aangeboden die primair bedoeld is voor gebruik door personen; personen jonger dan 18 jaar; jonger dan 18 jaar; geen digitale dienst aangeboden die primair bedoeld is voor gebruik door|
+
+### Lijst AP {#TLijst-AP}
+
+|{: .def}||
+|-|-|
+|Begrip|[Lijst AP](#lijst-ap)|
+|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Type|[gegevensverwerking lijst AP](#Tgegevensverwerking-lijst-AP)|
+|Mogelijke waarden|Communicatiegegevens; Observatie en beïnvloeding van gedrag; Zwarte lijsten; Biometrische gegevens; Gezondheidsgegevens; Locatiegegevens; Heimelijk onderzoek; Profilering; Financiële situatie; Controle werknemers; Creditscores; Internet of things; Genetische persoonsgegevens; Cameratoezicht; Fraudebestrijding; Samenwerkingsverbanden; Flexibel cameratoezicht|
+
+### Algoritme {#TAlgoritme}
+
+|{: .def}||
+|-|-|
+|Begrip|[Algoritme](#algoritme)|
+|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Type|[wel/geen sprake van een algoritme](#Twel-geen-sprake-van-een-algoritme)|
 |Mogelijke waarden|sprake van een algoritme; geen sprake van een algoritme|
 
-### Lijst EDPB {#-ijst-}
+### Lijst EDPB {#TLijst-EDPB}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Type|[criteria lijst EDPB](#-criteria-lijst-)|
-|Mogelijke waarden|Gebruik van nieuwe technologieën; Stelselmatige en grootschalige monitoring; Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens; Geautomatiseerde besluitvorming; Koppelen van datasets; Blokkering van een dienst, recht of contract; Grootschalige gegevensverwerkingen; Mensen beoordelen met persoonskenmerken (evaluatie of scoring); Verwerking van persoonsgegevens over kwetsbare groepen of personen|
+|Begrip|[Lijst EDPB](#lijst-edpb)|
+|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Type|[criteria lijst EDPB](#Tcriteria-lijst-EDPB)|
+|Mogelijke waarden|Stelselmatige en grootschalige monitoring; Geautomatiseerde besluitvorming; Grootschalige gegevensverwerkingen; Mensen beoordelen met persoonskenmerken (evaluatie of scoring); Blokkering van een dienst, recht of contract; Koppelen van datasets; Verwerking van persoonsgegevens over kwetsbare groepen of personen; Gebruik van nieuwe technologieën; Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens|
 
-### Organisatorische activiteit beschrijving {#-rganisatorische-activiteit-beschrijving}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Type|[beschrijving](#-beschrijving)|
-
-### Lijst AP {#-ijst-}
+### Organisatorische activiteit beschrijving {#TOrganisatorische-activiteit-beschrijving}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Type|[gegevensverwerking lijst AP](#-gegevensverwerking-lijst-)|
-|Mogelijke waarden|Flexibel cameratoezicht; Samenwerkingsverbanden; Heimelijk onderzoek; Observatie en beïnvloeding van gedrag; Internet of things; Gezondheidsgegevens; Locatiegegevens; Biometrische gegevens; Cameratoezicht; Financiële situatie; Communicatiegegevens; Creditscores; Zwarte lijsten; Controle werknemers; Profilering; Fraudebestrijding; Genetische persoonsgegevens|
+|Begrip|[Organisatorische activiteit beschrijving](#organisatorische-activiteit-beschrijving)|
+|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Type|[beschrijving](#Tbeschrijving)|
 
-### Internationale doorgifte {#-nternationale-doorgifte}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Type|[wel/geen persoonsgegevens](#-wel-geen-persoonsgegevens)|
-|Mogelijke waarden|geen persoonsgegevens; persoonsgegevens|
-
-## Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB {#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-}
+### Internationale doorgifte {#TInternationale-doorgifte}
 
 |{: .def}||
 |-|-|
-|Supertype|[Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
-|Subtype(s)|[Organisatorische activiteit gewone persoonsgegevens](#-rganisatorische-activiteit-gewone-persoonsgegevens), [Organisatorische activiteit gevoelige persoonsgegevens](#-rganisatorische-activiteit-gevoelige-persoonsgegevens), [Organisatorische activiteit bijzondere persoonsgegevens](#-rganisatorische-activiteit-bijzondere-persoonsgegevens), [Organisatorische activiteit met specificatie categorie betrokkenen](#-rganisatorische-activiteit-met-specificatie-categorie-betrokkenen)|
-|Kenmerken|[Aantal betrokkenen in organisatorische activiteit](#-antal-betrokkenen-in-organisatorische-activiteit), [Basisregistratie bij organisatorische activiteit](#-asisregistratie-bij-organisatorische-activiteit), [Bewaartermijn gegevens](#-ewaartermijn-gegevens), [Frequentie van verwerking](#-requentie-van-verwerking)|
-|Rollen|[Organisatorische activiteit heeft classificatie type persoonsgegevens](#-rganisatorische-activiteit-heeft-classificatie-type-persoonsgegevens)|
-|Relatie met|[Categorie betrokkenen in organisatorische activiteit in relatie met Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-ategorie-betrokkenen-in-organisatorische-activiteit-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
+|Begrip|[Internationale doorgifte](#internationale-doorgifte)|
+|Eigenschap van|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Type|[wel/geen persoonsgegevens](#Twel-geen-persoonsgegevens)|
+|Mogelijke waarden|persoonsgegevens; geen persoonsgegevens|
 
-### Frequentie van verwerking {#-requentie-van-verwerking}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Type|[gegevensverwerkingsfrequentie](#-gegevensverwerkingsfrequentie)|
-|Mogelijke waarden|Continu; Minstens maandelijks; Vaker dan maandelijks; Onregelmatig; Minstens jaarlijks; Eenmalig|
-
-### Basisregistratie bij organisatorische activiteit {#-asisregistratie-bij-organisatorische-activiteit}
+## Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB {#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Type|[basisregistratie](#-basisregistratie)|
-|Mogelijke waarden|Basisregistratie Ondergrond - BRO; Basisregistratie Kadaster - BRK; Basisregistratie Waarde Onroerende Zaken - WOZ; Handelsregister - HR; Basisregistratie Adressen en Gebouwen - BAG; Basisregistratie personen - BRP; Basisregistratie Inkomen - BRI; Basisregistratie Topografie - BRT; Basisregistratie Voertuigen - BRV; Basisregistratie Grootschalige Topografie - BGT|
+|Begrip|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. lijst AP of EDPB](#organisatorische-activiteit-zonder-dpia-verplichting-o-b-v-lijst-ap-of-edpb)|
+|Supertype|[Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
+|Subtype(s)|[Organisatorische activiteit met specificatie categorie betrokkenen](#TOrganisatorische-activiteit-met-specificatie-categorie-betrokkenen), [Organisatorische activiteit gewone persoonsgegevens](#TOrganisatorische-activiteit-gewone-persoonsgegevens), [Organisatorische activiteit gevoelige persoonsgegevens](#TOrganisatorische-activiteit-gevoelige-persoonsgegevens), [Organisatorische activiteit bijzondere persoonsgegevens](#TOrganisatorische-activiteit-bijzondere-persoonsgegevens)|
+|Kenmerken|[Aantal betrokkenen in organisatorische activiteit](#TAantal-betrokkenen-in-organisatorische-activiteit), [Basisregistratie bij organisatorische activiteit](#TBasisregistratie-bij-organisatorische-activiteit), [Bewaartermijn gegevens](#TBewaartermijn-gegevens), [Frequentie van verwerking](#TFrequentie-van-verwerking)|
+|Rollen|[Organisatorische activiteit heeft classificatie type persoonsgegevens](#TOrganisatorische-activiteit-heeft-classificatie-type-persoonsgegevens)|
+|Relatie met|[Categorie betrokkenen in organisatorische activiteit in relatie met Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TCategorie-betrokkenen-in-organisatorische-activiteit-Organisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
 
-### Bewaartermijn gegevens {#-ewaartermijn-gegevens}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Type|[classificatie bewaartermijn](#-classificatie-bewaartermijn)|
-|Mogelijke waarden|Minder dan 24 uur; Minder dan 1 week; Jaar; Aantal jaren; Minder dan 1 maand|
-
-### Aantal betrokkenen in organisatorische activiteit {#-antal-betrokkenen-in-organisatorische-activiteit}
+### Frequentie van verwerking {#TFrequentie-van-verwerking}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Type|[aantal betrokkenen](#-aantal-betrokkenen)|
+|Begrip|[Frequentie van verwerking](#frequentie-van-verwerking)|
+|Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+|Type|[gegevensverwerkingsfrequentie](#Tgegevensverwerkingsfrequentie)|
+|Mogelijke waarden|Onregelmatig; Minstens maandelijks; Continu; Minstens jaarlijks; Eenmalig; Vaker dan maandelijks|
 
-### Organisatorische activiteit heeft classificatie type persoonsgegevens {#-rganisatorische-activiteit-heeft-classificatie-type-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#-rganisatorische-activiteit-zonder-verplichting-o-b-v-ijst-of-)|
-|Met|0..* [Classificatie Type Persoonsgegevens](#-lassificatie-ype-ersoonsgegevens)|
-
-## Pre-scan DPIA {#-re-scan-}
+### Basisregistratie bij organisatorische activiteit {#TBasisregistratie-bij-organisatorische-activiteit}
 
 |{: .def}||
 |-|-|
-|Kenmerken|[pre-scan DPIA code](#-re-scan-pre-scan-code)|
-|Rollen|[Pre-scan DPIA voor organisatorische activiteit](#-re-scan-voor-organisatorische-activiteit)|
+|Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+|Type|[basisregistratie](#Tbasisregistratie)|
+|Mogelijke waarden|Basisregistratie Voertuigen - BRV; Basisregistratie personen - BRP; Basisregistratie Kadaster - BRK; Basisregistratie Inkomen - BRI; Handelsregister - HR; Basisregistratie Grootschalige Topografie - BGT; Basisregistratie Ondergrond - BRO; Basisregistratie Waarde Onroerende Zaken - WOZ; Basisregistratie Adressen en Gebouwen - BAG; Basisregistratie Topografie - BRT|
 
-### pre-scan DPIA code {#-re-scan-pre-scan-code}
+### Bewaartermijn gegevens {#TBewaartermijn-gegevens}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Pre-scan DPIA](#-re-scan-)|
+|Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+|Type|[classificatie bewaartermijn](#Tclassificatie-bewaartermijn)|
+|Mogelijke waarden|Minder dan 24 uur; Minder dan 1 week; Minder dan 1 maand; Aantal jaren; Jaar|
+
+### Aantal betrokkenen in organisatorische activiteit {#TAantal-betrokkenen-in-organisatorische-activiteit}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+|Type|[aantal betrokkenen](#Taantal-betrokkenen)|
+
+### Organisatorische activiteit heeft classificatie type persoonsgegevens {#TOrganisatorische-activiteit-heeft-classificatie-type-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Organisatorische activiteit zonder DPIA-verplichting o.b.v. Lijst AP of EDPB](#TOrganisatorische-activiteit-zonder-DPIA-verplichting-o-b-v-Lijst-AP-of-EDPB)|
+|Met|0..* [Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
+
+## Pre-scan DPIA {#TPre-scan-DPIA}
+
+|{: .def}||
+|-|-|
+|Begrip|[Pre-scan DPIA](#pre-scan-dpia)|
+|Kenmerken|[pre-scan DPIA code](#TPre-scan-DPIA-pre-scan-DPIA-code)|
+|Rollen|[Pre-scan DPIA voor organisatorische activiteit](#TPre-scan-DPIA-voor-organisatorische-activiteit)|
+
+### pre-scan DPIA code {#TPre-scan-DPIA-pre-scan-DPIA-code}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Pre-scan DPIA](#TPre-scan-DPIA)|
 |Type|CharacterString|
 
-### Pre-scan DPIA voor organisatorische activiteit {#-re-scan-voor-organisatorische-activiteit}
+### Pre-scan DPIA voor organisatorische activiteit {#TPre-scan-DPIA-voor-organisatorische-activiteit}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Pre-scan DPIA](#-re-scan-)|
-|Met|0..* [Organisatorische activiteit persoonsgegevens](#-rganisatorische-activiteit-persoonsgegevens)|
+|Rol van|0..* [Pre-scan DPIA](#TPre-scan-DPIA)|
+|Met|0..* [Organisatorische activiteit persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens)|
 
 ## Waardetypering en referentielijsten
 
-### aantal betrokkenen {#-aantal-betrokkenen}
+### aantal betrokkenen {#Taantal-betrokkenen}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### beschrijving {#-beschrijving}
+### beschrijving {#Tbeschrijving}
 
 |{: .def}||
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### categorie betrokkenen {#-categorie-betrokkenen}
+### categorie betrokkenen {#Tcategorie-betrokkenen}
 
 |{: .def}||
 |-|-|
+|Begrip|[Categorie betrokkenen](#categorie-betrokkenen)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### categorie persoonsgegevens {#-categorie-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-
-### specificatie doorgiftemechanisme {#-specificatie-doorgiftemechanisme}
+### categorie persoonsgegevens {#Tcategorie-persoonsgegevens}
 
 |{: .def}||
 |-|-|
+|Begrip|[Categorie persoonsgegevens](#categorie-persoonsgegevens)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### basisregistratie {#-basisregistratie}
+### specificatie doorgiftemechanisme {#Tspecificatie-doorgiftemechanisme}
 
-De volgende waarden zijn mogelijk:
-- Basisregistratie Adressen en Gebouwen - BAG
-- Basisregistratie Grootschalige Topografie - BGT
-- Basisregistratie Inkomen - BRI
-- Basisregistratie Kadaster - BRK
-- Basisregistratie Ondergrond - BRO
-- Basisregistratie Topografie - BRT
-- Basisregistratie Voertuigen - BRV
-- Basisregistratie Waarde Onroerende Zaken - WOZ
-- Basisregistratie personen - BRP
-- Handelsregister - HR
+|{: .def}||
+|-|-|
+|Begrip|[Specificatie doorgiftemechanisme](#specificatie-doorgiftemechanisme)|
+|Gebaseerd op|[beschrijving](#Tbeschrijving)|
 
-### categorie betrokkenen pre-scan DPIA {#-categorie-betrokkenen-pre-scan-}
+### basisregistratie {#Tbasisregistratie}
 
 De volgende waarden zijn mogelijk:
-- Andere kwetsbare groepen
-- Burgers
-- Kinderen jonger dan 16 jaar
-- Medewerkers/bewindspersonen
-- Specificatie categorie betrokkenen
+- [Basisregistratie Adressen en Gebouwen - BAG](#basisregistratie-basisregistratie-adressen-en-gebouwen)
+- [Basisregistratie Grootschalige Topografie - BGT](#basisregistratie-basisregistratie-grootschalige-topografie)
+- [Basisregistratie Inkomen - BRI](#basisregistratie-basisregistratie-inkomen)
+- [Basisregistratie Kadaster - BRK](#basisregistratie-basisregistratie-kadaster)
+- [Basisregistratie Ondergrond - BRO](#basisregistratie-basisregistratie-ondergrond)
+- [Basisregistratie Topografie - BRT](#basisregistratie-basisregistratie-topografie)
+- [Basisregistratie Voertuigen - BRV](#basisregistratie-basisregistratie-voertuigen)
+- [Basisregistratie Waarde Onroerende Zaken - WOZ](#basisregistratie-basisregistratie-waarde-onroerende-zaken)
+- [Basisregistratie personen - BRP](#basisregistratie-basisregistratie-personen)
+- [Handelsregister - HR](#basisregistratie-handelsregister)
 
-### categorie gevoelige persoonsgegevens {#-categorie-gevoelige-persoonsgegevens}
-
-De volgende waarden zijn mogelijk:
-- Andere gegevens die kunnen leiden tot stigmatisering of uitsluiting van de betrokkene
-- Communicatie- en locatiegegevens
-- Gebruikersnamen, wachtwoorden en andere inloggegevens
-- Gegevens die betrekking hebben op kwetsbare groepen
-- Gegevens die kunnen worden gebruikt voor fraude
-- Gegevens over de financiële situatie van de betrokkene
-- Surfgedrag
-
-### categorie gewone persoonsgegevens {#-categorie-gewone-persoonsgegevens}
+### categorie betrokkenen pre-scan DPIA {#Tcategorie-betrokkenen-pre-scan-DPIA}
 
 De volgende waarden zijn mogelijk:
-- Apparaat- en internetgegevens
-- Content
-- Demografische gegevens
-- Diagnostische gegevens of telemetrie
-- Gegevens verzameld via een website
-- Helpdeskgegevens
-- Logging
-- Naam, contactgegevens
+- [Andere kwetsbare groepen](#categorie-betrokkenen-andere-kwetsbare-groepen)
+- [Burgers](#categorie-betrokkenen-burgers)
+- [Kinderen jonger dan 16 jaar](#categorie-betrokkenen-kinderen-jonger-dan-16-jaar)
+- [Medewerkers/bewindspersonen](#categorie-betrokkenen-medewerkers-bewindspersonen)
+- [Specificatie categorie betrokkenen](#categorie-betrokkenen-specificatie-categorie-betrokkenenspecificatie-categorie-betrokkenen)
+
+### categorie gevoelige persoonsgegevens {#Tcategorie-gevoelige-persoonsgegevens}
+
+De volgende waarden zijn mogelijk:
+- [Andere gegevens die kunnen leiden tot stigmatisering of uitsluiting van de betrokkene](#categorie-gevoelige-persoonsgegevens-andere-gegevens-die-kunnen-leiden-tot-stigmatisering-of-uitsluiting-van-de-betrokkene)
+- [Communicatie- en locatiegegevens](#categorie-gevoelige-persoonsgegevens-communicatie-en-locatiegegevens)
+- [Gebruikersnamen, wachtwoorden en andere inloggegevens](#categorie-gevoelige-persoonsgegevens-gebruikersnamen-wachtwoorden-en-andere-inloggegevens)
+- [Gegevens die betrekking hebben op kwetsbare groepen](#categorie-gevoelige-persoonsgegevens-gegevens-die-betrekking-hebben-op-kwetsbare-groepen)
+- [Gegevens die kunnen worden gebruikt voor fraude](#categorie-gevoelige-persoonsgegevens-gegevens-die-kunnen-worden-gebruikt-voor-fraude)
+- [Gegevens over de financiële situatie van de betrokkene](#categorie-gevoelige-persoonsgegevens-gegevens-over-de-financi-le-situatie-van-de-betrokkene)
+- [Surfgedrag](#categorie-gevoelige-persoonsgegevens-surfgedrag)
+
+### categorie gewone persoonsgegevens {#Tcategorie-gewone-persoonsgegevens}
+
+De volgende waarden zijn mogelijk:
+- [Apparaat- en internetgegevens](#categorie-gewone-persoonsgegevens-apparaat-en-internetgegevens)
+- [Content](#categorie-gewone-persoonsgegevens-content)
+- [Demografische gegevens](#categorie-gewone-persoonsgegevens-demografische-gegevens)
+- [Diagnostische gegevens of telemetrie](#categorie-gewone-persoonsgegevens-diagnostische-gegevens-of-telemetrie)
+- [Gegevens verzameld via een website](#categorie-gewone-persoonsgegevens-gegevens-verzameld-via-een-website)
+- [Helpdeskgegevens](#categorie-gewone-persoonsgegevens-helpdeskgegevens)
+- [Logging](#categorie-gewone-persoonsgegevens-logging)
+- [Naam, contactgegevens](#categorie-gewone-persoonsgegevens-naam-contactgegevens)
 - Overige
 
-### classificatie bewaartermijn {#-classificatie-bewaartermijn}
+### classificatie bewaartermijn {#Tclassificatie-bewaartermijn}
 
 De volgende waarden zijn mogelijk:
-- Aantal jaren
-- Jaar
-- Minder dan 1 maand
-- Minder dan 1 week
-- Minder dan 24 uur
+- [Aantal jaren](#bewaartermijn-aantal-jaren)
+- [Jaar](#bewaartermijn-jaar)
+- [Minder dan 1 maand](#bewaartermijn-minder-dan-1-maand)
+- [Minder dan 1 week](#bewaartermijn-minder-dan-1-week)
+- [Minder dan 24 uur](#bewaartermijn-minder-dan-24-uur)
 
-### classificatie_persoonsgegevens_aanwezig {#-classificatie-persoonsgegevens-aanwezig}
-
-De volgende waarden zijn mogelijk:
-- bevat geen persoonsgegevens
-- bevat persoonsgegevens
-
-### classificatie_type_bpg_waarde {#-classificatie-type-bpg-waarde}
+### classificatie_persoonsgegevens_aanwezig {#Tclassificatie-persoonsgegevens-aanwezig}
 
 De volgende waarden zijn mogelijk:
-- biometrische gegevens met het oog op de unieke identificatie van een persoon
-- gegevens over gezondheid
-- gegevens over iemands seksueel gedrag of seksuele gerichtheid
-- gegevens over lidmaatschap van een vakbond
-- gegevens over politieke opvattingen
-- gegevens over ras of etnische afkomst
-- gegevens over religieuze of levensbeschouwelijke overtuigingen
-- genetische gegevens
+- [bevat geen persoonsgegevens](#classificatie-persoonsgegevens-bevat-geen-persoonsgegevens)
+- [bevat persoonsgegevens](#classificatie-persoonsgegevens-bevat-persoonsgegevens)
 
-### classificatie_type_pg_waarde {#-classificatie-type-pg-waarde}
+### classificatie_type_bpg_waarde {#Tclassificatie-type-bpg-waarde}
 
 De volgende waarden zijn mogelijk:
-- bevat bijzondere persoonsgegevens
-- bevat gevoelige persoonsgegevens
-- bevat gewone persoonsgegevens
-- bevat nationale identificatienummers
-- bevat strafrechtelijke persoonsgegevens
+- [biometrische gegevens met het oog op de unieke identificatie van een persoon](#type-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon)
+- [gegevens over gezondheid](#type-bijzondere-persoonsgegevens-gegevens-over-gezondheid)
+- [gegevens over iemands seksueel gedrag of seksuele gerichtheid](#type-bijzondere-persoonsgegevens-gegevens-met-betrekking-tot-iemands-seksueel-gedrag-of-seksuele-gerichtheid)
+- [gegevens over lidmaatschap van een vakbond](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-het-lidmaatschap-van-een-vakbond-blijkt)
+- [gegevens over politieke opvattingen](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-politieke-opvattingen-blijken)
+- [gegevens over ras of etnische afkomst](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-ras-of-etnische-afkomst-blijkt)
+- [gegevens over religieuze of levensbeschouwelijke overtuigingen](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-religieuze-of-levensbeschouwelijke-overtuigingen-blijken)
+- [genetische gegevens](#type-bijzondere-persoonsgegevens-genetische-gegevens)
 
-### criteria lijst EDPB {#-criteria-lijst-}
-
-De volgende waarden zijn mogelijk:
-- Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens
-- Blokkering van een dienst, recht of contract
-- Geautomatiseerde besluitvorming
-- Gebruik van nieuwe technologieën
-- Grootschalige gegevensverwerkingen
-- Koppelen van datasets
-- Mensen beoordelen met persoonskenmerken (evaluatie of scoring)
-- Stelselmatige en grootschalige monitoring
-- Verwerking van persoonsgegevens over kwetsbare groepen of personen
-
-### doorgiftemechanisme pre-scan DPIA {#-doorgiftemechanisme-pre-scan-}
+### classificatie_type_pg_waarde {#Tclassificatie-type-pg-waarde}
 
 De volgende waarden zijn mogelijk:
-- Binding Corporate Rules (BCR)
-- adequaatheidsbesluit
-- goedgekeurd certificeringsmechanisme
-- goedgekeurde gedragscode
-- juridisch bindend en afdwingbaar instrument
-- overig mechanisme
-- standaard contractsbepalingen (SCC)
-- uitzondering artikel 49 AVG
+- [bevat bijzondere persoonsgegevens](#classificatie-type-persoonsgegevens-bijzonder)
+- [bevat gevoelige persoonsgegevens](#classificatie-type-persoonsgegevens-gevoelig)
+- [bevat gewone persoonsgegevens](#classificatie-type-persoonsgegevens-gewoon)
+- [bevat nationale identificatienummers](#classificatie-type-persoonsgegevens-nationaal-identificatienummer)
+- [bevat strafrechtelijke persoonsgegevens](#classificatie-type-persoonsgegevens-strafrechtelijk)
 
-### gegevensverwerking lijst AP {#-gegevensverwerking-lijst-}
+### criteria lijst EDPB {#Tcriteria-lijst-EDPB}
 
 De volgende waarden zijn mogelijk:
-- Biometrische gegevens
-- Cameratoezicht
-- Communicatiegegevens
-- Controle werknemers
-- Creditscores
-- Financiële situatie
-- Flexibel cameratoezicht
-- Fraudebestrijding
-- Genetische persoonsgegevens
-- Gezondheidsgegevens
-- Heimelijk onderzoek
-- Internet of things
-- Locatiegegevens
-- Observatie en beïnvloeding van gedrag
-- Profilering
-- Samenwerkingsverbanden
-- Zwarte lijsten
+- [Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens](#lijst-edpb-bijzondere-persoonsgegevens-of-zeer-gevoelige-persoonsgegevens)
+- [Blokkering van een dienst, recht of contract](#lijst-edpb-blokkering-van-een-dienst-recht-of-contract)
+- [Geautomatiseerde besluitvorming](#geautomatiseerde-besluitvorminglijst-edpb-geautomatiseerde-besluitvorming)
+- [Gebruik van nieuwe technologieën](#lijst-edpb-gebruik-van-nieuwe-technologie-n)
+- [Grootschalige gegevensverwerkingen](#lijst-edpb-grootschalige-gegevensverwerkingen)
+- [Koppelen van datasets](#lijst-edpb-koppelen-van-datasets)
+- [Mensen beoordelen met persoonskenmerken (evaluatie of scoring)](#lijst-edpb-mensen-beoordelen-met-persoonskenmerken-evaluatie-of-scoring-)
+- [Stelselmatige en grootschalige monitoring](#lijst-edpb-stelselmatige-en-grootschalige-monitoring)
+- [Verwerking van persoonsgegevens over kwetsbare groepen of personen](#lijst-edpb-verwerking-van-persoonsgegevens-over-kwetsbare-groepen-of-personen)
 
-### gegevensverwerkingsfrequentie {#-gegevensverwerkingsfrequentie}
+### doorgiftemechanisme pre-scan DPIA {#Tdoorgiftemechanisme-pre-scan-DPIA}
 
 De volgende waarden zijn mogelijk:
-- Continu
-- Eenmalig
-- Minstens jaarlijks
-- Minstens maandelijks
-- Onregelmatig
-- Vaker dan maandelijks
+- [Binding Corporate Rules (BCR)](#doorgiftemechanisme-bindend-bedrijfsvoorschrift)
+- [adequaatheidsbesluit](#doorgiftemechanisme-adequaatheidsbesluit)
+- [goedgekeurd certificeringsmechanisme](#doorgiftemechanisme-goedgekeurd-certificeringsmechanisme)
+- [goedgekeurde gedragscode](#doorgiftemechanisme-goedgekeurde-gedragscode)
+- [juridisch bindend en afdwingbaar instrument](#doorgiftemechanisme-juridisch-bindend-en-afdwingbaar-instrument)
+- [overig mechanisme](#doorgiftemechanisme-overig-mechanisme)
+- [standaard contractsbepalingen (SCC)](#doorgiftemechanisme-standaard-contractsbepaling)
+- [uitzondering artikel 49 AVG](#doorgiftemechanisme-uitzondering-artikel-49-avg)
 
-### on premise/datacenter EER/buiten EER {#-on-premise-datacenter-buiten-}
+### gegevensverwerking lijst AP {#Tgegevensverwerking-lijst-AP}
+
+De volgende waarden zijn mogelijk:
+- [Biometrische gegevens](#lijst-ap-biometrische-gegevens)
+- [Cameratoezicht](#lijst-ap-cameratoezicht)
+- [Communicatiegegevens](#lijst-ap-communicatiegegevens)
+- [Controle werknemers](#lijst-ap-controle-werknemers)
+- [Creditscores](#lijst-ap-creditscores)
+- [Financiële situatie](#lijst-ap-financi-le-situatie)
+- [Flexibel cameratoezicht](#lijst-ap-flexibel-cameratoezicht)
+- [Fraudebestrijding](#lijst-ap-fraudebestrijding)
+- [Genetische persoonsgegevens](#lijst-ap-genetische-persoonsgegevens)
+- [Gezondheidsgegevens](#lijst-ap-gezondheidsgegevens)
+- [Heimelijk onderzoek](#lijst-ap-heimelijk-onderzoek)
+- [Internet of things](#lijst-ap-internet-of-things)
+- [Locatiegegevens](#lijst-ap-locatiegegevens)
+- [Observatie en beïnvloeding van gedrag](#lijst-ap-observatie-en-be-nvloeding-van-gedrag)
+- [Profilering](#profileringlijst-ap-profilering)
+- [Samenwerkingsverbanden](#lijst-ap-samenwerkingsverbanden)
+- [Zwarte lijsten](#lijst-ap-zwarte-lijsten)
+
+### gegevensverwerkingsfrequentie {#Tgegevensverwerkingsfrequentie}
+
+De volgende waarden zijn mogelijk:
+- [Continu](#frequentie-van-verwerking-continu)
+- [Eenmalig](#frequentie-van-verwerking-eenmalig)
+- [Minstens jaarlijks](#frequentie-van-verwerking-minstens-jaarlijks)
+- [Minstens maandelijks](#frequentie-van-verwerking-minstens-maandelijks)
+- [Onregelmatig](#frequentie-van-verwerking-onregelmatig)
+- [Vaker dan maandelijks](#frequentie-van-verwerking-vaker-dan-maandelijks)
+
+### on premise/datacenter EER/buiten EER {#Ton-premise-datacenter-EER-buiten-EER}
 
 De volgende waarden zijn mogelijk:
 - buiten EER
 - datacenter EER
 - on premise
 
-### wel/geen bijzondere persoonsgegevens {#-wel-geen-bijzondere-persoonsgegevens}
+### wel/geen bijzondere persoonsgegevens {#Twel-geen-bijzondere-persoonsgegevens}
 
 De volgende waarden zijn mogelijk:
 - bijzondere persoonsgegevens
 - geen bijzondere persoonsgegevens
 
-### wel/geen digitale dienst primair bedoeld voor gebruik door personen jonger dan 18 {#-wel-geen-digitale-dienst-primair-bedoeld-voor-gebruik-door-personen-jonger-dan-18}
+### wel/geen digitale dienst primair bedoeld voor gebruik door personen jonger dan 18 {#Twel-geen-digitale-dienst-primair-bedoeld-voor-gebruik-door-personen-jonger-dan-18}
 
 De volgende waarden zijn mogelijk:
 - een digitale dienst aangeboden die primair bedoeld is voor gebruik door personen
@@ -627,21 +661,21 @@ De volgende waarden zijn mogelijk:
 - jonger dan 18 jaar
 - personen jonger dan 18 jaar
 
-### wel/geen persoonsgegevens {#-wel-geen-persoonsgegevens}
+### wel/geen persoonsgegevens {#Twel-geen-persoonsgegevens}
 
 De volgende waarden zijn mogelijk:
 - geen persoonsgegevens
 - persoonsgegevens
 
-### wel/geen sprake van een algoritme {#-wel-geen-sprake-van-een-algoritme}
+### wel/geen sprake van een algoritme {#Twel-geen-sprake-van-een-algoritme}
 
 De volgende waarden zijn mogelijk:
-- geen sprake van een algoritme
-- sprake van een algoritme
+- [geen sprake van een algoritme](#algoritme-geen-sprake-van-een-algoritme)
+- [sprake van een algoritme](#algoritme-sprake-van-een-algoritme)
 
-### wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem {#-wel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-systeem}
+### wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem {#Twel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-AI-systeem}
 
 De volgende waarden zijn mogelijk:
-- geen sprake van een algoritme dat kwalificeert als een AI-systeem
-- sprake van een algoritme dat kwalificeert als een AI-systeem
+- [geen sprake van een algoritme dat kwalificeert als een AI-systeem](#ai-systeem-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-ai-systeem)
+- [sprake van een algoritme dat kwalificeert als een AI-systeem](#ai-systeem-sprake-van-een-algoritme-dat-kwalificeert-als-een-ai-systeem)
 
