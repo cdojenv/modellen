@@ -11,6 +11,7 @@
 - [Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke](#TBetrokken-partij-bij-gegevensverwerking-is-verwerkingsverantwoordelijke)
 - [Bewaartermijn van persoonsgegeven in gegevensverwerking](#TBewaartermijn-van-persoonsgegeven-in-gegevensverwerking)
 - [Categorie betrokkenen in DPIA](#TCategorie-betrokkenen-in-DPIA)
+- [Categorie bijzonder persoonsgegeven in gegevensverwerking](#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking)
 - [Classificatie](#TClassificatie)
   - [Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)
     - [Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)
@@ -65,7 +66,6 @@
     - [Risico op basis van doorgifte](#TRisico-op-basis-van-doorgifte)
     - [Risico op discriminatie](#TRisico-op-discriminatie)
   - [Resterend risico voor betrokkenen](#TResterend-risico-voor-betrokkenen)
-- [Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)
 - [Verwerkingslocatie buiten de EER](#TVerwerkingslocatie-buiten-de-EER)
 - [Verwerkingsverantwoordelijke bij DPIA](#TVerwerkingsverantwoordelijke-bij-DPIA)
 - [Verwerkingsverantwoordelijke die DPIA opstelt](#TVerwerkingsverantwoordelijke-die-DPIA-opstelt)
@@ -210,6 +210,7 @@
 
 |{: .def}||
 |-|-|
+|Begrip|[Belang van betrokken partij](#belang-van-betrokken-partij)|
 |Eigenschap van|[Betrokken partij bij DPIA](#TBetrokken-partij-bij-DPIA)|
 |Type|[belangbeschrijving](#Tbelangbeschrijving)|
 
@@ -243,7 +244,7 @@
 |Begrip|[Functie/afdeling met toegang tot persoonsgegevens bekend](#functie-afdeling-met-toegang-tot-persoonsgegevens-bekend)|
 |Eigenschap van|[Betrokken partij bij gegevensverwerking](#TBetrokken-partij-bij-gegevensverwerking)|
 |Type|[bekend/onbekend](#Tbekend-onbekend)|
-|Mogelijke waarden|bekend; onbekend|
+|Mogelijke waarden|onbekend; bekend|
 
 ### Betrokken partij bij gegevensverwerking is ontvanger {#TBetrokken-partij-bij-gegevensverwerking-is-ontvanger}
 
@@ -392,7 +393,7 @@
 |-|-|
 |Eigenschap van|[Categorie betrokkenen in DPIA](#TCategorie-betrokkenen-in-DPIA)|
 |Type|[kwetsbaarheid](#Tkwetsbaarheid)|
-|Mogelijke waarden|niet kwetsbaar; kwetsbaar|
+|Mogelijke waarden|kwetsbaar; niet kwetsbaar|
 
 ### Categorie betrokkenen in DPIA in relatie met DPIA {#TCategorie-betrokkenen-in-DPIA-DPIA}
 
@@ -400,6 +401,36 @@
 |-|-|
 |Rol van|0..* [Categorie betrokkenen in DPIA](#TCategorie-betrokkenen-in-DPIA)|
 |Met|1..1 [DPIA](#TDPIA)|
+
+## Categorie bijzonder persoonsgegeven in gegevensverwerking {#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking}
+
+|{: .def}||
+|-|-|
+|Kenmerken|[Doorbrekingsgrond](#TDoorbrekingsgrond), [classificatie_type_bpg_waarde](#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking-classificatie-type-bpg-waarde)|
+|Rollen|[Categorie bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking-Gegevensverwerking-persoonsgegevens)|
+|Relatie met|[Wet- of regelgeving doorbrekingsgrond](#TWet-of-regelgeving-doorbrekingsgrond)|
+
+### classificatie_type_bpg_waarde {#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking-classificatie-type-bpg-waarde}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Categorie bijzonder persoonsgegeven in gegevensverwerking](#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking)|
+|Type|CharacterString|
+
+### Doorbrekingsgrond {#TDoorbrekingsgrond}
+
+|{: .def}||
+|-|-|
+|Begrip|[Doorbrekingsgrond](#doorbrekingsgrond)|
+|Eigenschap van|[Categorie bijzonder persoonsgegeven in gegevensverwerking](#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking)|
+|Type|[doorbrekingsgrond bijzondere persoonsgegevens](#Tdoorbrekingsgrond-bijzondere-persoonsgegevens)|
+
+### Categorie bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens {#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking-Gegevensverwerking-persoonsgegevens}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Categorie bijzonder persoonsgegeven in gegevensverwerking](#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking)|
+|Met|1..1 [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
 
 ## Classificatie {#TClassificatie}
 
@@ -432,7 +463,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Persoonsgegevens](#TClassificatie-Persoonsgegevens)|
 |Type|[classificatie_persoonsgegevens_aanwezig](#Tclassificatie-persoonsgegevens-aanwezig)|
-|Mogelijke waarden|bevat persoonsgegevens; bevat geen persoonsgegevens|
+|Mogelijke waarden|bevat geen persoonsgegevens; bevat persoonsgegevens|
 
 ## Classificatie Type Bijzondere Persoonsgegevens {#TClassificatie-Type-Bijzondere-Persoonsgegevens}
 
@@ -448,7 +479,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Type Bijzondere Persoonsgegevens](#TClassificatie-Type-Bijzondere-Persoonsgegevens)|
 |Type|[classificatie_type_bpg_waarde](#Tclassificatie-type-bpg-waarde)|
-|Mogelijke waarden|gegevens over lidmaatschap van een vakbond; gegevens over gezondheid; gegevens over iemands seksueel gedrag of seksuele gerichtheid; gegevens over religieuze of levensbeschouwelijke overtuigingen; gegevens over politieke opvattingen; gegevens over ras of etnische afkomst; genetische gegevens; biometrische gegevens met het oog op de unieke identificatie van een persoon|
+|Mogelijke waarden|gegevens over ras of etnische afkomst; gegevens over gezondheid; biometrische gegevens met het oog op de unieke identificatie van een persoon; gegevens over religieuze of levensbeschouwelijke overtuigingen; gegevens over politieke opvattingen; gegevens over lidmaatschap van een vakbond; gegevens over iemands seksueel gedrag of seksuele gerichtheid; genetische gegevens|
 
 ## Classificatie Type Persoonsgegevens {#TClassificatie-Type-Persoonsgegevens}
 
@@ -466,7 +497,7 @@
 |-|-|
 |Eigenschap van|[Classificatie Type Persoonsgegevens](#TClassificatie-Type-Persoonsgegevens)|
 |Type|[classificatie_type_pg_waarde](#Tclassificatie-type-pg-waarde)|
-|Mogelijke waarden|bevat gewone persoonsgegevens; bevat gevoelige persoonsgegevens; bevat strafrechtelijke persoonsgegevens; bevat nationale identificatienummers; bevat bijzondere persoonsgegevens|
+|Mogelijke waarden|bevat strafrechtelijke persoonsgegevens; bevat nationale identificatienummers; bevat bijzondere persoonsgegevens; bevat gevoelige persoonsgegevens; bevat gewone persoonsgegevens|
 
 ## Conclusie toelaatbaarheid hergebruik {#TConclusie-toelaatbaarheid-hergebruik}
 
@@ -672,7 +703,7 @@
 |Begrip|[Big data-verwerking](#big-data-verwerking)|
 |Eigenschap van|[DPIA](#TDPIA)|
 |Type|[wel/geen sprake van een big data-verwerking](#Twel-geen-sprake-van-een-big-data-verwerking)|
-|Mogelijke waarden|geen sprake van een big data-verwerking; sprake van een big data-verwerking|
+|Mogelijke waarden|sprake van een big data-verwerking; geen sprake van een big data-verwerking|
 
 ### Technieken en methoden van gegevensverwerking {#TTechnieken-en-methoden-van-gegevensverwerking}
 
@@ -756,7 +787,7 @@
 |Begrip|[AI-systeem](#ai-systeem)|
 |Eigenschap van|[DPIA met algoritme](#TDPIA-met-algoritme)|
 |Type|[wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem](#Twel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-AI-systeem)|
-|Mogelijke waarden|geen sprake van een algoritme dat kwalificeert als een AI-systeem; sprake van een algoritme dat kwalificeert als een AI-systeem|
+|Mogelijke waarden|sprake van een algoritme dat kwalificeert als een AI-systeem; geen sprake van een algoritme dat kwalificeert als een AI-systeem|
 
 ## DPIA met big data-verwerking {#TDPIA-met-big-data-verwerking}
 
@@ -1224,7 +1255,7 @@
 |Subtype(s)|[Gegevensverwerking nationale identificatienummers](#TGegevensverwerking-nationale-identificatienummers), [Gegevensverwerking op basis van rechtsgrond wettelijke verplichting of taak van algemeen belang](#TGegevensverwerking-op-basis-van-rechtsgrond-wettelijke-verplichting-of-taak-van-algemeen-belang), [Gegevensverwerking strafrechtelijke persoonsgegevens](#TGegevensverwerking-strafrechtelijke-persoonsgegevens), [Gegevensverwerking op basis van rechtsgrond toestemming](#TGegevensverwerking-op-basis-van-rechtsgrond-toestemming), [Gegevensverwerking op basis van rechtsgrond gerechtvaardigd belang](#TGegevensverwerking-op-basis-van-rechtsgrond-gerechtvaardigd-belang), [Gegevensverwerking op basis van rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst](#TGegevensverwerking-op-basis-van-rechtsgrond-noodzakelijk-voor-de-uitvoering-van-een-overeenkomst), [Gegevensverwerking op basis van rechtsgrond vitaal belang](#TGegevensverwerking-op-basis-van-rechtsgrond-vitaal-belang)|
 |Kenmerken|[Rechtsgrond bij gegevensverwerking](#TRechtsgrond-bij-gegevensverwerking), [Verwerkingsdoeleinde gegevensverwerking](#TVerwerkingsdoeleinde-gegevensverwerking)|
 |Rollen|[Organisatorische activiteit persoonsgegevens heeft Gegevensverwerking persoonsgegevens](#TOrganisatorische-activiteit-persoonsgegevens-heeft-Gegevensverwerking-persoonsgegevens), [Verwerkingslocatie van gegevensverwerking](#TVerwerkingslocatie-van-gegevensverwerking)|
-|Relatie met|[Beleidsmatig kader](#TBeleidsmatig-kader), [Betrokken partij bij gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TBetrokken-partij-bij-gegevensverwerking-Gegevensverwerking-persoonsgegevens), [DPIA heeft betrekking op Gegevensverwerking](#TDPIA-heeft-betrekking-op-Gegevensverwerking), [Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Gegevensverwerking persoonsgegevens](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens-Gegevensverwerking-persoonsgegevens), [Juridisch kader](#TJuridisch-kader), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Gegevensverwerking persoonsgegevens](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Gegevensverwerking-persoonsgegevens), [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Gegevensverwerking persoonsgegevens](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-Gegevensverwerking-persoonsgegevens), [Sub-verwerker bij gegevensverwerking](#TSub-verwerker-bij-gegevensverwerking), [Type bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-Gegevensverwerking-persoonsgegevens), [Verwerker bij gegevensverwerking](#TVerwerker-bij-gegevensverwerking), [Verwerkingsverantwoordelijke bij gegevensverwerking](#TVerwerkingsverantwoordelijke-bij-gegevensverwerking)|
+|Relatie met|[Beleidsmatig kader](#TBeleidsmatig-kader), [Betrokken partij bij gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TBetrokken-partij-bij-gegevensverwerking-Gegevensverwerking-persoonsgegevens), [Categorie bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking-Gegevensverwerking-persoonsgegevens), [DPIA heeft betrekking op Gegevensverwerking](#TDPIA-heeft-betrekking-op-Gegevensverwerking), [Gegevenssetspecificatie gegevensverwerking persoonsgegevens in relatie met Gegevensverwerking persoonsgegevens](#TGegevenssetspecificatie-gegevensverwerking-persoonsgegevens-Gegevensverwerking-persoonsgegevens), [Juridisch kader](#TJuridisch-kader), [Partij bij gegevensverwerking met toegang tot persoonsgegeven in relatie met Gegevensverwerking persoonsgegevens](#TPartij-bij-gegevensverwerking-met-toegang-tot-persoonsgegeven-Gegevensverwerking-persoonsgegevens), [Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Gegevensverwerking persoonsgegevens](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-Gegevensverwerking-persoonsgegevens), [Sub-verwerker bij gegevensverwerking](#TSub-verwerker-bij-gegevensverwerking), [Verwerker bij gegevensverwerking](#TVerwerker-bij-gegevensverwerking), [Verwerkingsverantwoordelijke bij gegevensverwerking](#TVerwerkingsverantwoordelijke-bij-gegevensverwerking)|
 
 ### Rechtsgrond bij gegevensverwerking {#TRechtsgrond-bij-gegevensverwerking}
 
@@ -1232,7 +1263,7 @@
 |-|-|
 |Eigenschap van|[Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
 |Type|[rechtsgrond](#Trechtsgrond)|
-|Mogelijke waarden|Rechtsgrond taak van algemeen belang; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond gerechtvaardigd belang; Rechtsgrond wettelijke verplichting; Rechtsgrond toestemming|
+|Mogelijke waarden|Rechtsgrond toestemming; Rechtsgrond taak van algemeen belang; Rechtsgrond vitaal belang; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond gerechtvaardigd belang; Rechtsgrond wettelijke verplichting|
 
 ### Verwerkingsdoeleinde gegevensverwerking {#TVerwerkingsdoeleinde-gegevensverwerking}
 
@@ -1517,7 +1548,7 @@
 |Begrip|[Betrokken partij bij gegevensverwerking is derde/verwerkingsverantwoordelijke](#betrokken-partij-bij-gegevensverwerking-is-derde-verwerkingsverantwoordelijke)|
 |Eigenschap van|[Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde](#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde)|
 |Type|[derde/verwerkingsverantwoordelijke](#Tderde-verwerkingsverantwoordelijke)|
-|Mogelijke waarden|derde; verwerkingsverantwoordelijke|
+|Mogelijke waarden|verwerkingsverantwoordelijke; derde|
 
 ### Partij is betrokken bij gegevensverwerking als verwerkingsverantwoordelijke of derde in relatie met Partij {#TPartij-is-betrokken-bij-gegevensverwerking-als-verwerkingsverantwoordelijke-of-derde-Partij}
 
@@ -1602,7 +1633,7 @@
 |Begrip|[Bron persoonsgegevens](#bron-persoonsgegevens)|
 |Eigenschap van|[Persoonsgegeven](#TPersoonsgegeven)|
 |Type|[waarde direct van de betrokkene](#Twaarde-direct-van-de-betrokkene)|
-|Mogelijke waarden|rechtstreeks bij betrokkene; via betrokken partij|
+|Mogelijke waarden|via betrokken partij; rechtstreeks bij betrokkene|
 
 ### Categorie van persoonsgegevens {#TCategorie-van-persoonsgegevens}
 
@@ -1684,7 +1715,7 @@
 |Begrip|[Rechtsgrond verstrekking](#rechtsgrond-verstrekking)|
 |Eigenschap van|[Persoonsgegeven via betrokken partij](#TPersoonsgegeven-via-betrokken-partij)|
 |Type|[rechtsgrond](#Trechtsgrond)|
-|Mogelijke waarden|Rechtsgrond taak van algemeen belang; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond vitaal belang; Rechtsgrond gerechtvaardigd belang; Rechtsgrond wettelijke verplichting; Rechtsgrond toestemming|
+|Mogelijke waarden|Rechtsgrond toestemming; Rechtsgrond taak van algemeen belang; Rechtsgrond vitaal belang; Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst; Rechtsgrond gerechtvaardigd belang; Rechtsgrond wettelijke verplichting|
 
 ### Bron tool/platform {#TBron-tool-platform}
 
@@ -1785,7 +1816,7 @@
 |Begrip|[Impact van optreden risico voor betrokkenen](#impact-van-optreden-risico-voor-betrokkenen)|
 |Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
 |Type|[impact](#Timpact)|
-|Mogelijke waarden|laag; midden; hoog|
+|Mogelijke waarden|hoog; midden; laag|
 
 ### risicobeschrijving {#TRisico-voor-betrokkenen-risicobeschrijving}
 
@@ -1808,7 +1839,7 @@
 |-|-|
 |Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
 |Type|[risiconiveau](#Trisiconiveau)|
-|Mogelijke waarden|laag; hoog; midden|
+|Mogelijke waarden|hoog; midden; laag|
 
 ### Motivatie impact risico voor betrokkenen {#TMotivatie-impact-risico-voor-betrokkenen}
 
@@ -1824,7 +1855,7 @@
 |Begrip|[Kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen)|
 |Eigenschap van|[Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
 |Type|[kans](#Tkans)|
-|Mogelijke waarden|midden; hoog; laag|
+|Mogelijke waarden|laag; midden; hoog|
 
 ### Risico voor betrokkenen in relatie met DPIA {#TRisico-voor-betrokkenen-DPIA}
 
@@ -1832,35 +1863,6 @@
 |-|-|
 |Rol van|0..* [Risico voor betrokkenen](#TRisico-voor-betrokkenen)|
 |Met|1..1 [DPIA](#TDPIA)|
-
-## Type bijzonder persoonsgegeven in gegevensverwerking {#TType-bijzonder-persoonsgegeven-in-gegevensverwerking}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[Doorbrekingsgrond type bijzonder persoonsgegeven](#TDoorbrekingsgrond-type-bijzonder-persoonsgegeven), [classificatie_type_bpg_waarde](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-classificatie-type-bpg-waarde)|
-|Rollen|[Type bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-Gegevensverwerking-persoonsgegevens)|
-|Relatie met|[Wet- of regelgeving doorbrekingsgrond](#TWet-of-regelgeving-doorbrekingsgrond)|
-
-### Doorbrekingsgrond type bijzonder persoonsgegeven {#TDoorbrekingsgrond-type-bijzonder-persoonsgegeven}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)|
-|Type|[doorbrekingsgrond](#Tdoorbrekingsgrond)|
-
-### classificatie_type_bpg_waarde {#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-classificatie-type-bpg-waarde}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)|
-|Type|CharacterString|
-
-### Type bijzonder persoonsgegeven in gegevensverwerking in relatie met Gegevensverwerking persoonsgegevens {#TType-bijzonder-persoonsgegeven-in-gegevensverwerking-Gegevensverwerking-persoonsgegevens}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)|
-|Met|1..1 [Gegevensverwerking persoonsgegevens](#TGegevensverwerking-persoonsgegevens)|
 
 ## Verwerkingslocatie buiten de EER {#TVerwerkingslocatie-buiten-de-EER}
 
@@ -2009,7 +2011,7 @@
 |{: .def}||
 |-|-|
 |Rol van|0..* [Wet- en Regelgeving](#TWet-en-Regelgeving)|
-|Met|0..* [Type bijzonder persoonsgegeven in gegevensverwerking](#TType-bijzonder-persoonsgegeven-in-gegevensverwerking)|
+|Met|0..* [Categorie bijzonder persoonsgegeven in gegevensverwerking](#TCategorie-bijzonder-persoonsgegeven-in-gegevensverwerking)|
 
 ### Juridisch kader {#TJuridisch-kader}
 
@@ -2106,11 +2108,10 @@
 |-|-|
 |Gebaseerd op|CharacterString|
 
-### doorbrekingsgrond {#Tdoorbrekingsgrond}
+### doorbrekingsgrond bijzondere persoonsgegevens {#Tdoorbrekingsgrond-bijzondere-persoonsgegevens}
 
 |{: .def}||
 |-|-|
-|Begrip|[Doorbrekingsgrond](#doorbrekingsgrond)|
 |Gebaseerd op|CharacterString|
 
 ### doorgiftemechanisme {#Tdoorgiftemechanisme}
@@ -2440,14 +2441,14 @@ De volgende waarden zijn mogelijk:
 ### classificatie_type_bpg_waarde {#Tclassificatie-type-bpg-waarde}
 
 De volgende waarden zijn mogelijk:
-- [biometrische gegevens met het oog op de unieke identificatie van een persoon](#type-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon)
-- [gegevens over gezondheid](#type-bijzondere-persoonsgegevens-gegevens-over-gezondheid)
-- [gegevens over iemands seksueel gedrag of seksuele gerichtheid](#type-bijzondere-persoonsgegevens-gegevens-met-betrekking-tot-iemands-seksueel-gedrag-of-seksuele-gerichtheid)
-- [gegevens over lidmaatschap van een vakbond](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-het-lidmaatschap-van-een-vakbond-blijkt)
-- [gegevens over politieke opvattingen](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-politieke-opvattingen-blijken)
-- [gegevens over ras of etnische afkomst](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-ras-of-etnische-afkomst-blijkt)
-- [gegevens over religieuze of levensbeschouwelijke overtuigingen](#type-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-religieuze-of-levensbeschouwelijke-overtuigingen-blijken)
-- [genetische gegevens](#type-bijzondere-persoonsgegevens-genetische-gegevens)
+- [biometrische gegevens met het oog op de unieke identificatie van een persoon](#categorie-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon)
+- [gegevens over gezondheid](#categorie-bijzondere-persoonsgegevens-gegevens-over-gezondheid)
+- [gegevens over iemands seksueel gedrag of seksuele gerichtheid](#categorie-bijzondere-persoonsgegevens-gegevens-met-betrekking-tot-iemands-seksueel-gedrag-of-seksuele-gerichtheid)
+- [gegevens over lidmaatschap van een vakbond](#categorie-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-het-lidmaatschap-van-een-vakbond-blijkt)
+- [gegevens over politieke opvattingen](#categorie-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-politieke-opvattingen-blijken)
+- [gegevens over ras of etnische afkomst](#categorie-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-ras-of-etnische-afkomst-blijkt)
+- [gegevens over religieuze of levensbeschouwelijke overtuigingen](#categorie-bijzondere-persoonsgegevens-persoonsgegevens-waaruit-religieuze-of-levensbeschouwelijke-overtuigingen-blijken)
+- [genetische gegevens](#categorie-bijzondere-persoonsgegevens-genetische-gegevens)
 
 ### classificatie_type_pg_waarde {#Tclassificatie-type-pg-waarde}
 
@@ -2551,7 +2552,7 @@ De volgende waarden zijn mogelijk:
 
 De volgende waarden zijn mogelijk:
 - [niet verenigbaar](#conclusie-verenigbaarheidstoets-niet-verenigbaar)
-- [verenigbaar](#conclusie-verenigbaarheidstoets-verenigbaarverenigbaar)
+- [verenigbaar](#verenigbaarconclusie-verenigbaarheidstoets-verenigbaar)
 
 ### verstrekker {#Tverstrekker}
 

@@ -14,11 +14,11 @@ Toelichting: Op grond van de AVG is het verplicht om advies in te winnen bij de 
 
 Bron: paragraaf 1.6, pagina 10-11, [[ModelDPIARijksdienst]], Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Functionaris voor gegevensbescherming](#functionaris-voor-gegevensbescherming), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [DPIA](#dpia)
+Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Functionaris voor gegevensbescherming](#functionaris-voor-gegevensbescherming), [DPIA](#dpia)
 
 ### Afdeling
 
-> Een afdeling is een [organisatorische eenheid](#organisatorische-eenheid) als onderdeel van de afdelingshiërarchie van een organisatie.
+> Een afdeling is een [organisatorische eenheid](#organisatorische-eenheid) die een onderdeel vormt van de afdelingshiërarchie van een organisatie.
 
 Bron: Themapatroon identity & access management, [[Nora]]
 
@@ -97,7 +97,7 @@ Om te bepalen of een DPIA verplicht is kan gebruik gemaakt wordt van de Pre-scan
 
 Bron: paragraaf 1.1, pagina 4, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Maatregel](#maatregel), [Risico voor betrokkenen](#risico-voor-betrokkenen), [Persoonsgegeven](#persoonsgegeven), [Organisatorische activiteit](#organisatorische-activiteit)
+Gerelateerd: [Organisatorische activiteit](#organisatorische-activiteit), [Risico voor betrokkenen](#risico-voor-betrokkenen), [Maatregel](#maatregel), [Persoonsgegeven](#persoonsgegeven)
 
 ### DPIA dossier
 
@@ -153,7 +153,7 @@ Gerelateerd: [DPIA](#dpia)
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Documentbeheerder](#documentbeheerder), [Document](#document), [DPIA](#dpia)
+Gerelateerd: [DPIA](#dpia), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Document](#document), [Documentbeheerder](#documentbeheerder)
 
 ### DPIA status
 
@@ -179,7 +179,7 @@ Gerelateerd: [DPIA](#dpia)
 
 Bron: Ondertekening, pagina 23, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [DPIA status](#dpia-status), [DPIA](#dpia)
+Gerelateerd: [DPIA](#dpia), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [DPIA status](#dpia-status)
 
 ### DPIA status: Niet akkoord
 
@@ -189,7 +189,7 @@ Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [DPI
 
 Bron: Ondertekening, pagina 23, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [DPIA status](#dpia-status), [DPIA](#dpia)
+Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [DPIA](#dpia), [DPIA status](#dpia-status)
 
 ### DPIA versie
 
@@ -225,7 +225,7 @@ Gerelateerd: [Informatieobject](#informatieobject)
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [DPIA](#dpia), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Functie](#functie), [Document](#document)
+Gerelateerd: [Functie](#functie), [DPIA](#dpia), [Document](#document), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
 
 ### Functie
 
@@ -245,7 +245,7 @@ Toelichting: Voor vragen over wanneer een DPIA verplicht of wenselijk is, kan co
 
 Bron: Autoriteit Persoonsgegevens [[AP]]
 
-Gerelateerd: [Persoon](#persoon), [Functie](#functie)
+Gerelateerd: [Functie](#functie), [Persoon](#persoon)
 
 ### Informatieobject
 
@@ -300,7 +300,7 @@ Toelichting: Organisatorische eenheid is een verzamelnaam voor directie, divisie
 
 *De definitie van deze term is gebaseerd op de definitie gebruikt in Encyclo, waarbij 'organisatie' is vervangen door 'partij'. De daarbij nodige uitzondering voor natuurlijke personen is door het analyse team toegevoegd.*
 
-Bron: Encyclo [[Encyclo]], Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
+Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]], Encyclo [[Encyclo]]
 
 Gerelateerd: [Partij](#partij), [Natuurlijk persoon](#natuurlijk-persoon)
 
@@ -416,7 +416,7 @@ Toelichting: Het is van belang dat bekend is wat de herkomst is van de persoonsg
 
 Bron: paragraaf 3.2, pagina 26, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [Classificatie](#classificatie), [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Classificatie](#classificatie), [Betrokkene](#betrokkene), [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking)
 
 Voorbeeld(en): De persoonsgegevens worden verkregen via een interne database. De database is opgenomen in een Microsoft Excel-bestand. De database is in beheer van organisatie x. Organisatie x verwerkt deze persoonsgegevens met doeleinde y.
 
@@ -428,7 +428,7 @@ Voorbeeld(en): De persoonsgegevens worden verkregen via een interne database. De
 
 Bron: paragraaf 3.2, pagina 26, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Betrokkene](#betrokkene), [Bron persoonsgegevens](#bron-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Bron persoonsgegevens](#bron-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Betrokkene](#betrokkene)
 
 ### Bron persoonsgegevens: via betrokken partij
 
@@ -438,7 +438,7 @@ Gerelateerd: [Betrokkene](#betrokkene), [Bron persoonsgegevens](#bron-persoonsge
 
 Bron: paragraaf 3.2, pagina 26, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [Persoonsgegeven](#persoonsgegeven), [Betrokkene](#betrokkene), [Bron persoonsgegevens](#bron-persoonsgegevens)
+Gerelateerd: [Betrokkene](#betrokkene), [Bron persoonsgegevens](#bron-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking)
 
 ### Bron tool/platform
 
@@ -462,7 +462,7 @@ Bron: paragraaf 3.2, pagina 26, [[ModelDPIARijksdienst]]
 
 Gerelateerd: [Betrokkene](#betrokkene)
 
-Voorbeeld(en): Medewerker.
+Voorbeeld(en): Medewerker, onderwerp van de gegevens, iedereen die geraakt wordt door bekendmaking van de gegevens.
 
 ### Categorie persoonsgegevens
 
@@ -522,7 +522,7 @@ Toelichting: De classificatie type persoonsgegeven doet dus een uitspraak over w
 
 Bron: paragraaf 3.2, pagina 26, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Gegevenstype](#gegevenstype), [Classificatie](#classificatie), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Classificatie](#classificatie), [Persoonsgegeven](#persoonsgegeven), [Gegevenstype](#gegevenstype)
 
 ### Classificatie type persoonsgegevens: Bijzonder
 
@@ -532,7 +532,7 @@ Gerelateerd: [Gegevenstype](#gegevenstype), [Classificatie](#classificatie), [Pe
 
 Bron: paragraaf 3.2, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens)
 
 ### Classificatie type persoonsgegevens: Gevoelig
 
@@ -542,7 +542,7 @@ Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Classific
 
 Bron: paragraaf 3.2, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Gevoelig persoonsgegeven](#gevoelig-persoonsgegeven), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens), [Gevoelig persoonsgegeven](#gevoelig-persoonsgegeven)
 
 ### Classificatie type persoonsgegevens: Gewoon
 
@@ -562,7 +562,7 @@ Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Classificatie type persoonsge
 
 Bron: paragraaf 3.2, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Nationaal identificatienummer](#nationaal-identificatienummer), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Nationaal identificatienummer](#nationaal-identificatienummer), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens)
 
 ### Classificatie type persoonsgegevens: Strafrechtelijk
 
@@ -572,7 +572,7 @@ Gerelateerd: [Nationaal identificatienummer](#nationaal-identificatienummer), [C
 
 Bron: paragraaf 3.2, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens), [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven)
+Gerelateerd: [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
 
 ### DPIA onderwerp: persoonsgegevens
 
@@ -580,7 +580,7 @@ Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Classificatie type persoonsge
 
 Bron: paragraaf 3.2, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [Persoonsgegeven](#persoonsgegeven), [DPIA](#dpia)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [DPIA](#dpia), [DPIA onderwerp](#dpia-onderwerp)
 
 ### Gegevenstype
 
@@ -608,9 +608,9 @@ Overigens is in de AVG wel expliciet ruimte opgenomen voor de lidstaten om deze 
 
 *De definitie is opgesteld op basis van informatie van de EDPB en AP. De toelichting komt uit het Model DPIA Rijksdienst.*
 
-Bron: paragraaf 3.2, pagina 23, [[ModelDPIARijksdienst]], Wat zijn persoonsgegevens?, [[AP]], preambule, overweging 10, [[AVG]], punt 4, sectie III, Richtsnoeren punt 4, sectie III, [[RichtsnoerenEDPB]] [[EDPB]]
+Bron: preambule, overweging 10, [[AVG]], paragraaf 3.2, pagina 23, [[ModelDPIARijksdienst]], punt 4, sectie III, Richtsnoeren punt 4, sectie III, [[RichtsnoerenEDPB]] [[EDPB]], Wat zijn persoonsgegevens?, [[AP]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Gewoon persoonsgegeven](#gewoon-persoonsgegeven)
+Gerelateerd: [Gewoon persoonsgegeven](#gewoon-persoonsgegeven), [Persoonsgegeven](#persoonsgegeven)
 
 Voorbeeld(en): Gegevens over de financiële situatie van de betrokkene, (andere) gegevens die kunnen leiden tot stigmatisering of uitsluiting van de betrokkene, gegevens die betrekking hebben op kwetsbare groepen, gebruikersnamen, wachtwoorden en andere inloggegevens, gegevens die kunnen worden misbruikt voor (identiteits)fraude, communicatie- en locatiegegevens.
 
@@ -620,7 +620,7 @@ Voorbeeld(en): Gegevens over de financiële situatie van de betrokkene, (andere)
 
 *De definitie is opgesteld op basis van de definitie van 'Gevoelig persoonsgegeven'.*
 
-Bron: Wat zijn persoonsgegevens?, [[AP]], paragraaf 3.2, pagina 23, [[ModelDPIARijksdienst]]
+Bron: paragraaf 3.2, pagina 23, [[ModelDPIARijksdienst]], Wat zijn persoonsgegevens?, [[AP]]
 
 Gerelateerd: [Persoonsgegeven](#persoonsgegeven)
 
@@ -654,7 +654,7 @@ Gerelateerd: [Natuurlijk persoon](#natuurlijk-persoon)
 
 Bron: paragraaf 3.2, pagina 21, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Classificatie](#classificatie), [Kwetsbare groep](#kwetsbare-groep), [Categorie betrokkenen](#categorie-betrokkenen)
+Gerelateerd: [Categorie betrokkenen](#categorie-betrokkenen), [Classificatie](#classificatie), [Kwetsbare groep](#kwetsbare-groep)
 
 ### Kwetsbaarheid: kwetsbaar
 
@@ -664,7 +664,7 @@ Gerelateerd: [Classificatie](#classificatie), [Kwetsbare groep](#kwetsbare-groep
 
 Bron: paragraaf 3.2, pagina 21, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Categorie betrokkenen](#categorie-betrokkenen), [Kwetsbaarheid](#kwetsbaarheid), [Kwetsbare groep](#kwetsbare-groep)
+Gerelateerd: [Categorie betrokkenen](#categorie-betrokkenen), [Kwetsbare groep](#kwetsbare-groep), [Kwetsbaarheid](#kwetsbaarheid)
 
 ### Kwetsbaarheid: niet kwetsbaar
 
@@ -674,7 +674,7 @@ Gerelateerd: [Categorie betrokkenen](#categorie-betrokkenen), [Kwetsbaarheid](#k
 
 Bron: paragraaf 3.2, pagina 21, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Kwetsbaarheid](#kwetsbaarheid), [Categorie betrokkenen](#categorie-betrokkenen), [Kwetsbare groep](#kwetsbare-groep)
+Gerelateerd: [Kwetsbare groep](#kwetsbare-groep), [Kwetsbaarheid](#kwetsbaarheid), [Categorie betrokkenen](#categorie-betrokkenen)
 
 ### Kwetsbare groep
 
@@ -686,7 +686,7 @@ Toelichting: Kwetsbare betrokkenen zijn bijvoorbeeld kinderen, werknemers, kwets
 
 Bron: punt 7, deel III, Richtsnoeren punt 7, deel III, [[RichtsnoerenEDPB]] [[EDPB]], paragraaf 3.2, pagina 21, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Betrokkene](#betrokkene)
+Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Betrokkene](#betrokkene), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 Voorbeeld(en): Gehandicapten, minderheden, kinderen, werknemers, vluchtelingen, asielzoekers, statushouders, patiënten, et cetera.
 
@@ -702,7 +702,7 @@ Het kan hier gaan om nationale identificatienummers of enige andere identificato
 
 *De definitie volgt uit de UAVG. Vanuit de AVG volgt dat wanneer wordt gesproken over 'nationale identificatienummers', niet alléén 'nationale identificatienummers' worden bedoeld.*
 
-Bron: artikel 46, lid 1, U artikel 46, lid 1, [[UAVG]] [[AVG]], artikel 87, [[AVG]]
+Bron: artikel 87, [[AVG]], artikel 46, lid 1, U artikel 46, lid 1, [[UAVG]] [[AVG]]
 
 Voorbeeld(en): Burgerservicenummer (BSN), BIG-nummer (beroepen in de individuele gezondheidszorg), Vreemdelingennummer, Onderwijsnummer, Strafrechtketennummer.
 
@@ -740,7 +740,7 @@ Toelichting: De natuurlijk persoon in kwestie is de Betrokkene. Als identificeer
 
 Bron: artikel 4, lid 1, [[AVG]]
 
-Gerelateerd: [Geïdentificeerde natuurlijk persoon](#geïdentificeerde-natuurlijk-persoon), [Identificeerbare natuurlijk persoon](#identificeerbare-natuurlijk-persoon)
+Gerelateerd: [Identificeerbare natuurlijk persoon](#identificeerbare-natuurlijk-persoon), [Geïdentificeerde natuurlijk persoon](#geïdentificeerde-natuurlijk-persoon)
 
 Voorbeeld(en): Voornaam, achternaam, voorvoegsel, initialen, huisadres, telefoonnummer, e-mailadres, leeftijd, geboortedatum en -plaats, geslacht, nationaliteit, IQ, IP-adres, MAC-adres, metadata, locatie-informatie, geografische informatie, loggegevens, bankrekeningnummer en -saldo, inkomens- en vermogensgegevens, loonschaal, kredietwaardigheid, winst eenmanszaak, KvK-nummer, zakelijk e-mailadres, verslag van een functioneringsgesprek, documentatie over negatief gedrag op de werkvloer, klant- of personeelsnummer, gestelde vraag, opname gesprek, voertuigidentificatienummer, persoonlijke voorkeuren.
 
@@ -763,7 +763,7 @@ De mogelijke typen persoonsgegevens zijn: [gewoon persoonsgegeven](#gewoon-perso
 
 Bron: paragraaf 3.2, pagina 26, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven), [Nationaal identificatienummer](#nationaal-identificatienummer), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Persoonsgegeven](#persoonsgegeven), [Gevoelig persoonsgegeven](#gevoelig-persoonsgegeven), [Gewoon persoonsgegeven](#gewoon-persoonsgegeven), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens)
+Gerelateerd: [Nationaal identificatienummer](#nationaal-identificatienummer), [Classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Gevoelig persoonsgegeven](#gevoelig-persoonsgegeven), [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven), [Gewoon persoonsgegeven](#gewoon-persoonsgegeven), [Persoonsgegeven](#persoonsgegeven)
 
 ### Type persoonsgegeven in context van DPIA
 
@@ -859,7 +859,7 @@ AI is software die is ontwikkeld aan de hand van een of meer technieken en benad
 
 *De definitie is afkomstig uit de AI Act. De toelichting komt voor een groot gedeelte uit het Model DPIA Rijksdienst.*
 
-Bron: paragraaf 3.4, pagina 29, [[ModelDPIARijksdienst]], artikel 3, lid 1, [[AIAct]]
+Bron: artikel 3, lid 1, [[AIAct]], paragraaf 3.4, pagina 29, [[ModelDPIARijksdienst]]
 
 ### AI-systeem: geen sprake van een algoritme dat kwalificeert als een AI-systeem
 
@@ -879,7 +879,7 @@ Gerelateerd: [Classificatie](#classificatie), [Algoritme](#algoritme), [AI-syste
 
 Bron: paragraaf 3.4, pagina 29, [[ModelDPIARijksdienst]], Vragenlijst, paragraaf G, [[Pre-scanDPIA]]
 
-Gerelateerd: [Algoritme](#algoritme), [Classificatie](#classificatie), [AI-systeem](#ai-systeem)
+Gerelateerd: [Classificatie](#classificatie), [AI-systeem](#ai-systeem), [Algoritme](#algoritme)
 
 ### Algoritme
 
@@ -905,7 +905,7 @@ Gerelateerd: [DPIA met algoritme](#dpia-met-algoritme)
 
 Bron: paragraaf 3.4, pagina 29, [[ModelDPIARijksdienst]], Vragenlijst, paragraaf G, [[Pre-scanDPIA]]
 
-Gerelateerd: [Algoritme](#algoritme), [Classificatie](#classificatie)
+Gerelateerd: [Classificatie](#classificatie), [Algoritme](#algoritme)
 
 ### Algoritme: sprake van een algoritme
 
@@ -965,9 +965,19 @@ Toelichting: Het gaat hier om de technische middelen en methoden waarmee de pers
 
 Bron: paragraaf 3.4, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA onderwerp](#dpia-onderwerp)
 
 Voorbeeld(en): geautomatiseerde besluitvorming, profilering, een cloudoplossing, of big data-verwerking.
+
+### Fundamental Rights Impact Assessment
+
+> Een Fundamental Rights Impact Assessment (FRIA) is een verplicht instrument om bij AI-systemen met een hoog risico voorafgaand aan de ingebruikname de risico's voor fundamentele rechten van personen in kaart te brengen.
+
+Toelichting: De fundamentele rechten kunnen worden ondergebracht in een aantal categorieën, zoals Privacy, Vrijheid, Gelijkheid, Solidariteit, Burgerschap en Rechtspleging. Binnen elke categorie zijn er meerdere fundamentele rechten die kunnen worden geschonden door implementatie van een algoritme met hoog risico. Denk hierbij aan het recht op onderwijs, het recht op non-discriminatie, het kiesrecht, recht op geheime communicatie, toegang tot sociale zekerheid of het vermoeden van onschuld.
+
+*Omdat een FRIA nog niet naar voren komt in de huidige pre-scan DPIA is deze nog niet meegenomen in het gegevensmodel. Dit instrument wordt verplicht met ingang van 2 augustus 2026.*
+
+Bron: Verordening (EU) 2024/1689 van het Europees parlement en de raad van 13 juni 2024, verordening artificiële intelligentie [[AIAct]]
 
 ### Geautomatiseerde besluitvorming
 
@@ -979,9 +989,7 @@ Toelichting: We maken hier geen verschil tussen geautomatiseerde verwerking zond
 
 Indien geautomatiseerde besluitvorming voor betrokkenen tot rechtsgevolgen leidt of hen anderszins in aanmerkelijke mate treft, dan is dat in beginsel verboden.
 
-*Deze definitie is afgeleid uit de definitie van 'Uitsluitend geautomatiseerde besluitvorming' in de Richtsnoeren.
-
-In overleg met het PAR-team is hier semi-geautomatiseerde besluitvorming aan toegevoegd.*
+*Deze definitie is afgeleid uit de definitie van 'Uitsluitend geautomatiseerde besluitvorming' in de Richtsnoeren. In overleg met het PAR-team is hier semi-geautomatiseerde besluitvorming aan toegevoegd.*
 
 Bron: paragraaf 2B, pagina 9, [[Richtsnoerengeautomatiseerdebesluitvorming]]
 
@@ -1004,8 +1012,8 @@ Bron: artikel 4, lid 4, [[AVG]]
 Gerelateerd: [Natuurlijk persoon](#natuurlijk-persoon), [Persoonsgegeven](#persoonsgegeven)
 
 Voorbeeld(en): Er kan sprake zijn van profilering wanneer:
-• Op basis van een combinatie van persoonsgegevens, zoals het automerk in combinatie met de leeftijd van de betrokkene wordt besloten iemand extra te controleren;
-• Gebruik wordt gemaakt van de gegevens die websitebezoekers achterlaten om de doelgroep van de website mee vast te stellen.
+* Op basis van een combinatie van persoonsgegevens, zoals het automerk in combinatie met de leeftijd van de betrokkene wordt besloten iemand extra te controleren;
+* Gebruik wordt gemaakt van de gegevens die websitebezoekers achterlaten om de doelgroep van de website mee vast te stellen.
 
 Denk bijvoorbeeld aan een overheidsorganisatie die persoonsgegevens gebruikt om risicoprofielen op te stellen van burgers om daar conclusies aan te verbinden.
 
@@ -1039,7 +1047,7 @@ Voorbeeld(en): Denk hierbij aan inzet van big-data technieken en methoden, algor
 
 Bron: paragraaf 3.5, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA onderwerp](#dpia-onderwerp)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [DPIA](#dpia), [DPIA onderwerp](#dpia-onderwerp)
 
 ### Verwerkingsdoeleinde
 
@@ -1051,7 +1059,7 @@ Toelichting: Per gegevensverwerking is er één verwerkingsdoeleinde van toepass
 
 *Deze definitie is afgeleid uit de beschrijving in de AVG en het gebruik van de term in het Model DPIA Rijksdienst. Als een gegevensverzameling voor meerdere doeleinden wordt verwerkt en er dus ook meerdere rechtsgronden zijn, dan beschouwen we dit als verschillende gegevensverwerkingen.*
 
-Bron: paragraaf 3.5, [[ModelDPIARijksdienst]], artikel 5, lid 1, onder b, [[AVG]]
+Bron: artikel 5, lid 1, onder b, [[AVG]], paragraaf 3.5, [[ModelDPIARijksdienst]]
 
 Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
@@ -1073,7 +1081,7 @@ De rollen van verstrekker en ontvanger zijn geen formeel in de AVG vastgelegde r
 
 Bron: paragraaf 3.6, pagina 33, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Partij](#partij), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Partij](#partij)
 
 ### Betrokken partij bij DPIA
 
@@ -1085,7 +1093,7 @@ Toelichting: Het gaat hier dus niet om de betrokkenen die onderwerp zijn van de 
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Partij](#partij), [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Partij](#partij)
 
 ### Betrokken partij bij gegevensverwerking
 
@@ -1097,7 +1105,7 @@ Alternatieve aanduiding: *Betrokken partij*
 
 Bron: paragraaf 3.6, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [AVG-rol](#avg-rol), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Partij](#partij)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Partij](#partij), [AVG-rol](#avg-rol)
 
 ### Betrokken partij bij gegevensverwerking is derde
 
@@ -1115,7 +1123,7 @@ Toelichting: Dit is een afgeleide rol.
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Partij](#partij), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Derde](#derde)
+Gerelateerd: [Derde](#derde), [Partij](#partij), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Betrokken partij bij gegevensverwerking is gezamenlijke verwerkingsverantwoordelijke
 
@@ -1125,7 +1133,7 @@ Toelichting: Een verwerkingsverantwoordelijke wordt een gezamenlijke verwerkings
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Partij](#partij), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Gezamenlijke verwerkingsverantwoordelijke](#gezamenlijke-verwerkingsverantwoordelijke), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gezamenlijke verwerkingsverantwoordelijke](#gezamenlijke-verwerkingsverantwoordelijke), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Partij](#partij)
 
 ### Betrokken partij bij gegevensverwerking is verstrekker
 
@@ -1135,7 +1143,7 @@ Toelichting: Alleen een verwerkingsverantwoordelijke mag een verstrekking doen v
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Verstrekker](#verstrekker), [Partij](#partij)
+Gerelateerd: [Verstrekker](#verstrekker), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Partij](#partij), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
 
 ### Betrokken partij bij gegevensverwerking is verwerker of sub-verwerker
 
@@ -1145,7 +1153,7 @@ Toelichting: Een verwerker kan niet tegelijkertijd een sub-verwerker zijn.
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Sub-verwerker](#sub-verwerker), [Partij](#partij), [Verwerker](#verwerker)
+Gerelateerd: [Verwerker](#verwerker), [Partij](#partij), [Sub-verwerker](#sub-verwerker), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Betrokken partij bij gegevensverwerking is verwerkingsverantwoordelijke
 
@@ -1155,7 +1163,7 @@ Toelichting: Dit is een afgeleide rol.
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Partij](#partij)
+Gerelateerd: [Partij](#partij), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
 
 ### Betrokkene
 
@@ -1165,9 +1173,9 @@ Toelichting: Betrokkenen zijn dus de natuurlijke personen over wie de gegevens g
 
 *De definitie is overgenomen uit het Model DPIA Rijksdienst, die is gebaseerd op de AVG. De definitie is iets herschreven om naar andere begrippen te kunnen verwijzen.*
 
-Bron: artikel 4, lid 1, [[AVG]], paragraaf 3.2, pagina 20, [[ModelDPIARijksdienst]]
+Bron: paragraaf 3.2, pagina 20, [[ModelDPIARijksdienst]], artikel 4, lid 1, [[AVG]]
 
-Gerelateerd: [Geïdentificeerde natuurlijk persoon](#geïdentificeerde-natuurlijk-persoon), [Identificeerbare natuurlijk persoon](#identificeerbare-natuurlijk-persoon), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Identificeerbare natuurlijk persoon](#identificeerbare-natuurlijk-persoon), [Geïdentificeerde natuurlijk persoon](#geïdentificeerde-natuurlijk-persoon), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 Voorbeeld(en): Medewerkers, consumenten, cliënten, patiënten, zakelijke contacten, bezoekers, gebruikers, ingezetenen van een gemeente.
 
@@ -1177,7 +1185,7 @@ Voorbeeld(en): Medewerkers, consumenten, cliënten, patiënten, zakelijke contac
 
 Bron: paragraaf 3.6, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA](#dpia), [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA onderwerp](#dpia-onderwerp)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia)
 
 ### Derde
 
@@ -1191,7 +1199,7 @@ Een derde kan ook een ontvanger zijn.
 
 Bron: artikel 4, lid 10, [[AVG]]
 
-Gerelateerd: [Sub-verwerker](#sub-verwerker), [Verwerker](#verwerker), [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Partij](#partij)
+Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Partij](#partij), [Sub-verwerker](#sub-verwerker), [Betrokkene](#betrokkene), [Verwerker](#verwerker)
 
 ### Functie/afdeling met toegang tot persoonsgegevens bekend
 
@@ -1203,7 +1211,7 @@ Toelichting: Indien bekend, benoem welke afdelingen, of functies én afdelingen,
 
 Bron: paragraaf 3.6, pagina 33, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Afdeling](#afdeling), [Classificatie](#classificatie), [Functie](#functie), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Partij](#partij), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Partij](#partij), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Classificatie](#classificatie), [Functie](#functie), [Persoonsgegeven](#persoonsgegeven), [Afdeling](#afdeling)
 
 ### Functie/afdeling met toegang tot persoonsgegevens bekend: bekend
 
@@ -1213,7 +1221,7 @@ Gerelateerd: [Afdeling](#afdeling), [Classificatie](#classificatie), [Functie](#
 
 Bron: paragraaf 3.6, pagina 33, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Partij](#partij), [Afdeling](#afdeling), [Functie](#functie), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Functie/afdeling met toegang tot persoonsgegevens bekend](#functie/afdeling-met-toegang-tot-persoonsgegevens-bekend)
+Gerelateerd: [Functie](#functie), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Afdeling](#afdeling), [Functie/afdeling met toegang tot persoonsgegevens bekend](#functie/afdeling-met-toegang-tot-persoonsgegevens-bekend), [Partij](#partij)
 
 ### Functie/afdeling met toegang tot persoonsgegevens bekend: onbekend
 
@@ -1223,7 +1231,7 @@ Gerelateerd: [Partij](#partij), [Afdeling](#afdeling), [Functie](#functie), [Geg
 
 Bron: paragraaf 3.6, pagina 33, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Afdeling](#afdeling), [Partij](#partij), [Persoonsgegeven](#persoonsgegeven), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Functie/afdeling met toegang tot persoonsgegevens bekend](#functie/afdeling-met-toegang-tot-persoonsgegevens-bekend), [Functie](#functie)
+Gerelateerd: [Functie/afdeling met toegang tot persoonsgegevens bekend](#functie/afdeling-met-toegang-tot-persoonsgegevens-bekend), [Afdeling](#afdeling), [Partij](#partij), [Persoonsgegeven](#persoonsgegeven), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Functie](#functie)
 
 ### Functie/afdeling met toegang tot persoonsgegevens in gegevensverwerking
 
@@ -1233,7 +1241,7 @@ Toelichting: Indien bekend, benoem welke afdelingen, of functies én afdelingen,
 
 Bron: paragraaf 3.6, pagina 33, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Functie](#functie), [Afdeling](#afdeling), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Afdeling](#afdeling), [Functie](#functie)
 
 ### Gezamenlijke verwerkingsverantwoordelijke
 
@@ -1249,7 +1257,7 @@ Het is dus niet automatisch zo dat twee verwerkingsverantwoordelijken op dezelfd
 
 Bron: artikel 26, lid 1, [[AVG]]
 
-Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsdoeleinde](#verwerkingsdoeleinde)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Verwerkingsdoeleinde](#verwerkingsdoeleinde)
 
 ### Ontvanger
 
@@ -1275,9 +1283,9 @@ Een sub-verwerker kan niet zelf een verwerker, derde of verwerkingsverantwoordel
 
 *De definitie van sub-verwerker volgt uit het Rapportagemodel DPIA Rijksdienst. De toelichting komt uit het Model DPIA Rijksdienst. In overleg met het PAR-team is vastgesteld dat de verwerker van een sub-verwerker ook een sub-verwerker is.*
 
-Bron: paragraaf 3.6, pagina 34, [[ModelDPIARijksdienst]], paragraaf 6, pagina 10, [[RapportagemodelDPIARijksdienst]]
+Bron: paragraaf 6, pagina 10, [[RapportagemodelDPIARijksdienst]], paragraaf 3.6, pagina 34, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Partij](#partij), [Verwerker](#verwerker)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Verwerker](#verwerker), [Partij](#partij)
 
 Voorbeeld(en): Hostingpartij van de verwerker
 
@@ -1293,7 +1301,7 @@ Alleen een verwerkingsverantwoordelijke kan de rol van verstrekker krijgen.
 
 Bron: paragraaf 3.6, pagina 35, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Partij](#partij), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Partij](#partij)
 
 ### Verwerker
 
@@ -1313,7 +1321,7 @@ Een verwerker kan geen derde, sub-verwerker of verwerkingsverantwoordelijke zijn
 
 Bron: artikel 4, lid 8, [[AVG]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Partij](#partij), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
+Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Partij](#partij), [Persoonsgegeven](#persoonsgegeven)
 
 ### Verwerkingsverantwoordelijke
 
@@ -1327,31 +1335,35 @@ Een verwerkingsverantwoordelijke kan niet zelf een verwerker, derde of sub-verwe
 
 Bron: artikel 4, lid 7, [[AVG]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Partij](#partij)
+Gerelateerd: [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Partij](#partij)
 
 ## DPIA - 07. Belangen
 
-### Belang
+### Belang van betrokken partij
 
-> Een belang is hetgeen waaraan een [partij](#partij) waarde hecht met betrekking tot een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens).
+Alternatieve aanduiding: *Belang*
+
+> Een belang van een betrokken partij is hetgene waaraan een [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking) waarde hecht met betrekking tot een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) waar de [DPIA](#dpia) betrekking op heeft.
+
+Toelichting: Elk aspect of gevolg van de gegevensverwerking va de persoonsgegevens waar een bij de gegevensverwerking betrokken partij voor- of nadeel van kan ondervinden kan een belang zijn voor die partij.
 
 *Deze definitie is gebaseerd op die in het Juridisch woordenboek, aangescherpt naar het gebruik in het Model DPIA Rijksdienst.*
 
-Bron: AMO Institute of Sciences - Dutch Law Encyclopedic Dictionary [[Juridischwoordenboek]], paragraaf 3.7, [[ModelDPIARijksdienst]]
+Bron: paragraaf 3.7, [[ModelDPIARijksdienst]], AMO Institute of Sciences - Dutch Law Encyclopedic Dictionary [[Juridischwoordenboek]]
 
-Gerelateerd: [Partij](#partij), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 Voorbeeld(en): Bedrijfsbelangen, Financiële en commerciële belangen, Het handhaven van juridische vorderingen, Toezicht op medewerkers ten behoeve van de veiligheid Managementdoeleinden, (nationale of openbare) veiligheid, zoals de preventie van fraude, misbruik en netwerkbeveiliging, Gezondheidsredenen.
 
 ### Belangenafweging
 
-> Een belangenafweging is het op waarde schatten van twee vaak tegenstrijdige [belangen](#belang) en bepalen welk [belang](#belang) het zwaarst weegt.
+> Een belangenafweging is het op waarde schatten van twee vaak tegenstrijdige [belangen]() en bepalen welk [belang]() het zwaarst weegt.
 
 *Deze definitie is overgenomen uit het Juridisch woordenboek, maar is aangepast om deze onafhankelijk te maken van 'zaak', welke voor de DPIA geen relevant begrip is.*
 
 Bron: AMO Institute of Sciences - Dutch Law Encyclopedic Dictionary [[Juridischwoordenboek]]
 
-Gerelateerd: [Belang](#belang)
+Gerelateerd: [belangen](#belangen), [belang](#belang)
 
 ### Consultatie van betrokkenen
 
@@ -1363,15 +1375,15 @@ Toelichting: Consulteer waar passend de personen van wie persoonsgegevens worden
 
 Bron: paragraaf 3.7, pagina 38, [[ModelDPIARijksdienst]], paragraaf 1.6, pagina 10, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Betrokkene](#betrokkene), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Betrokkene](#betrokkene)
 
 ### DPIA onderwerp: belangen
 
-> Belangen is een [DPIA onderwerp](#dpia-onderwerp) dat de [belangen](#belang) beschrijft van elke [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking) waar de [DPIA](#dpia) betrekking op heeft.
+> Belangen is een [DPIA onderwerp](#dpia-onderwerp) dat de [belangen]() beschrijft van elke [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking) waar de [DPIA](#dpia) betrekking op heeft.
 
 Bron: paragraaf 3.7, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia), [Belang](#belang)
+Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia), [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [belangen](#belangen)
 
 ### Toelichting consultatie betrokkenen DPIA
 
@@ -1391,7 +1403,7 @@ Gerelateerd: [Consultatie van betrokkenen](#consultatie-van-betrokkenen)
 
 Bron: paragraaf 3.8, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingslocatie](#verwerkingslocatie)
+Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA](#dpia), [Verwerkingslocatie](#verwerkingslocatie)
 
 ### Derde land
 
@@ -1440,9 +1452,9 @@ Er is ook sprake van internationale doorgifte als het hoofdkantoor van de cloudp
 
 *De definitie volgt uit de AVG, de toelichting komt vanuit de EDPB.*
 
-Bron: artikel 44, [[AVG]], Vragenlijst, vraag 13-17, [[Pre-scanDPIA]], Internationale doorgifte van persoonsgegevens, [[EDPB]]
+Bron: artikel 44, [[AVG]], Internationale doorgifte van persoonsgegevens, [[EDPB]], Vragenlijst, vraag 13-17, [[Pre-scanDPIA]]
 
-Gerelateerd: [Derde land](#derde-land), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Derde land](#derde-land)
 
 ### Maatregel tegen risico op basis van doorgifte
 
@@ -1452,7 +1464,7 @@ Gerelateerd: [Derde land](#derde-land), [Persoonsgegeven](#persoonsgegeven)
 
 Bron: paragraaf 8, pagina 11, [[RapportagemodelDPIARijksdienst]], Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Maatregel](#maatregel), [Risico op basis van doorgifte](#risico-op-basis-van-doorgifte)
+Gerelateerd: [Risico op basis van doorgifte](#risico-op-basis-van-doorgifte), [Maatregel](#maatregel)
 
 ### Risico op basis van doorgifte
 
@@ -1480,9 +1492,9 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 *Deze definitie is afgeleid van de informatie in het Model DPIA Rijksdienst.*
 
-Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]], paragraaf 3.8, pagina 39, [[ModelDPIARijksdienst]]
+Bron: paragraaf 3.8, pagina 39, [[ModelDPIARijksdienst]], Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Derde land](#derde-land), [Verwerkingslocatie](#verwerkingslocatie)
+Gerelateerd: [Verwerkingslocatie](#verwerkingslocatie), [Derde land](#derde-land)
 
 ## DPIA - 09. Juridisch en beleidsmatig kader
 
@@ -1510,7 +1522,7 @@ Toelichting: De AVG en Richtlijn (EU) 2016/680 hoeven niet genoemd te worden.
 
 Bron: paragraaf 3.9, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [Beleidsmatig kader](#beleidsmatig-kader), [Juridisch kader](#juridisch-kader), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA](#dpia)
+Gerelateerd: [Juridisch kader](#juridisch-kader), [DPIA onderwerp](#dpia-onderwerp), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA](#dpia), [Beleidsmatig kader](#beleidsmatig-kader)
 
 ### Juridisch kader
 
@@ -1580,7 +1592,7 @@ Gerelateerd: [Persoonsgegeven](#persoonsgegeven)
 
 Bron: paragraaf 3.10, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [Persoonsgegeven](#persoonsgegeven), [Bewaartermijn](#bewaartermijn), [DPIA](#dpia)
+Gerelateerd: [DPIA](#dpia), [Persoonsgegeven](#persoonsgegeven), [Bewaartermijn](#bewaartermijn), [DPIA onderwerp](#dpia-onderwerp)
 
 ### Motivatie bewaartermijn
 
@@ -1606,11 +1618,11 @@ Gerelateerd: [Bewaartermijn](#bewaartermijn), [Partij](#partij), [Afdeling](#afd
 
 Bron: paragraaf 3.11, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Rechtsgrond](#rechtsgrond), [DPIA onderwerp](#dpia-onderwerp)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Rechtsgrond](#rechtsgrond), [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia)
 
 ### Maatschappelijk belang
 
-> Een maatschappelijk belang is een [belang](#belang) waarvan de behartiging voor de samenleving als geheel gewenst is.
+> Een maatschappelijk belang is een [belang]() waarvan de behartiging voor de samenleving als geheel gewenst is.
 
 Toelichting: Zo wordt algemeen aangenomen dat het een maatschappelijk belang is dat treinen rijden, dijken worden onderhouden, straten zijn verlicht, hygiëne wordt betracht, vervuiling van het milieu wordt tegengegaan, armoede wordt bestreden, een aantal individuele risico’s collectief wordt opgevangen. Niet alleen individuele burgers hebben daarbij immers belang, ook de samenleving als geheel. De welvaart in zijn algemeenheid is gebaat bij collectieve verzekeringen, bij armenzorg en bij het rijden van treinen; de veiligheid in haar algemeenheid is gebaat bij dijken die overstroming tegengaan en bij verlichting bij nacht en ontij; de gezondheid van alle burgers is gebaat bij hygiëne en een adequate gezondheidszorg; de toekomstige samenleving is gebaat bij het tegengaan van milieuvervuiling in het heden. Het is een maatschappelijk belang dat er voldoende brood is om te eten.
 
@@ -1618,20 +1630,20 @@ Toelichting: Zo wordt algemeen aangenomen dat het een maatschappelijk belang is 
 
 Bron: paragraaf 1.2, pagina 20, [[WRR56]]
 
-Gerelateerd: [Belang](#belang)
+Gerelateerd: [belang](#belang)
 
 ### Publiek belang
 
 Alternatieve aanduiding: *Algemeen belang*
 
-> Een publiek belang is een [belang](#belang). Er is sprake van een publiek belang
-indien de overheid zich de behartiging van een [maatschappelijk belang](#maatschappelijk-belang) aantrekt op grond van de overtuiging dat dit [belang](#belang) anders niet goed tot zijn recht komt.
+> Een publiek belang is een [belang](). Er is sprake van een publiek belang
+indien de overheid zich de behartiging van een [maatschappelijk belang](#maatschappelijk-belang) aantrekt op grond van de overtuiging dat dit [belang]() anders niet goed tot zijn recht komt.
 
 Toelichting: Het zich aantrekken van maatschappelijke belangen als publiek belang betekent derhalve dat de overheid het tot doelstelling van haar beleid maakt om dit belang te behartigen.
 
 Bron: paragraaf 1.2, pagina 20, [[WRR56]]
 
-Gerelateerd: [Maatschappelijk belang](#maatschappelijk-belang), [Belang](#belang)
+Gerelateerd: [Maatschappelijk belang](#maatschappelijk-belang), [belang](#belang)
 
 ### Rechtsgrond
 
@@ -1651,7 +1663,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Alternatieve aanduiding: *Gerechtvaardigde belangen van de verwerkingsverantwoordelijke of van een derde, Noodzakelijk voor de behartiging van een gerechtvaardigd belang*
 
-> Rechtsgrond gerechtvaardigd belang is een [rechtsgrond](#rechtsgrond) waarbij de [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) noodzakelijk is voor de behartiging van de gerechtvaardigde [belangen](#belang) van een [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke) of van een [derde](#derde), behalve wanneer de [belangen](#belang) of de grondrechten en de fundamentele vrijheden van de [betrokkene](#betrokkene) die tot bescherming van [persoonsgegevens](#persoonsgegeven) nopen, zwaarder wegen dan die [belangen](#belang), met name wanneer de [betrokkene](#betrokkene) een kind is.
+> Rechtsgrond gerechtvaardigd belang is een [rechtsgrond](#rechtsgrond) waarbij de [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) noodzakelijk is voor de behartiging van de gerechtvaardigde [belangen]() van een [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke) of van een [derde](#derde), behalve wanneer de [belangen]() of de grondrechten en de fundamentele vrijheden van de [betrokkene](#betrokkene) die tot bescherming van [persoonsgegevens](#persoonsgegeven) nopen, zwaarder wegen dan die [belangen](), met name wanneer de [betrokkene](#betrokkene) een kind is.
 
 Toelichting: Deze rechtsgrond is niet van toepassing op overheidsorganen en de gegevensverwerkingen die worden uitgevoerd in het kader van hun publieke taak. Overheidsorganen kunnen deze rechtsgrond alleen gebruiken voor gegevensverwerkingen in het kader van taken waarbij zij zich niet wezenlijk onderscheiden van private organisaties, zoals de beveiliging en bewaking van gebouwen.
 
@@ -1659,11 +1671,11 @@ Toelichting: Deze rechtsgrond is niet van toepassing op overheidsorganen en de g
 
 Bron: artikel 6, lid 1, onder f, [[AVG]]
 
-Gerelateerd: [Derde](#derde), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Belang](#belang), [Rechtsgrond](#rechtsgrond), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Rechtsgrond](#rechtsgrond), [belangen](#belangen), [Betrokkene](#betrokkene), [Derde](#derde), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Persoonsgegeven](#persoonsgegeven)
 
 ### Rechtsgrond gerechtvaardigd belang belangenafweging
 
-> Een rechtsgrond gerechtvaardigd belang belangenafweging is een [belangenafweging](#belangenafweging) tussen de [belangen](#belang) en grondrechten van de [betrokkene](#betrokkene) tegenover de [belangen](#belang) van de [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke).
+> Een rechtsgrond gerechtvaardigd belang belangenafweging is een [belangenafweging](#belangenafweging) tussen de [belangen]() en grondrechten van de [betrokkene](#betrokkene) tegenover de [belangen]() van de [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke).
 
 Toelichting: Om de rechtsgrond gerechtvaardigd belang legitiem van toepassing te laten zijn is het verplicht dat de verwerkingsverantwoordelijke een belangenafweging maakt tussen de belangen en grondrechten van de betrokkene tegenover de belangen van de verwerkingsverantwoordelijke.
 
@@ -1671,7 +1683,7 @@ Toelichting: Om de rechtsgrond gerechtvaardigd belang legitiem van toepassing te
 
 Bron: paragraaf 3.11, pagina 44, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Belang](#belang), [Belangenafweging](#belangenafweging), [Betrokkene](#betrokkene)
+Gerelateerd: [Belangenafweging](#belangenafweging), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Betrokkene](#betrokkene), [belangen](#belangen)
 
 ### Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst
 
@@ -1687,7 +1699,7 @@ Merk op dat we hier niet spreken over maatregelen ter beheersing van de risico's
 
 Bron: artikel 6, lid 1, onder b, [[AVG]], paragraaf 3.15, pagina 50, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Rechtsgrond](#rechtsgrond), [Betrokkene](#betrokkene), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Betrokkene](#betrokkene), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Rechtsgrond](#rechtsgrond)
 
 ### Rechtsgrond taak van algemeen belang
 
@@ -1699,7 +1711,7 @@ Toelichting: Hier geldt dat deze taak zal moeten blijken uit regelgeving die op 
 
 Bron: artikel 6, lid 1, onder e, [[AVG]]
 
-Gerelateerd: [Taak van algemeen belang](#taak-van-algemeen-belang), [Rechtsgrond](#rechtsgrond), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
+Gerelateerd: [Rechtsgrond](#rechtsgrond), [Taak van algemeen belang](#taak-van-algemeen-belang), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
 
 ### Rechtsgrond toestemming
 
@@ -1712,7 +1724,7 @@ wordt verleend door de wettelijke vertegenwoordiger van het kind.
 
 Bron: artikel 6, lid 1, onder a, [[AVG]]
 
-Gerelateerd: [Rechtsgrond](#rechtsgrond), [Persoonsgegeven](#persoonsgegeven), [Betrokkene](#betrokkene)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Betrokkene](#betrokkene), [Rechtsgrond](#rechtsgrond)
 
 ### Rechtsgrond vitaal belang
 
@@ -1724,7 +1736,7 @@ Toelichting: Hiervan kan sprake zijn wanneer iemands leven of gezondheid in geva
 
 Bron: artikel 6, lid 1, onder d, [[AVG]]
 
-Gerelateerd: [Natuurlijk persoon](#natuurlijk-persoon), [Vitaal belang](#vitaal-belang), [Betrokkene](#betrokkene), [Rechtsgrond](#rechtsgrond)
+Gerelateerd: [Natuurlijk persoon](#natuurlijk-persoon), [Rechtsgrond](#rechtsgrond), [Betrokkene](#betrokkene), [Vitaal belang](#vitaal-belang)
 
 ### Rechtsgrond wettelijke verplichting
 
@@ -1738,7 +1750,7 @@ Toelichting: De wettelijke verplichting hoeft niet noodzakelijkerwijs te bestaan
 
 Bron: artikel 6, lid 1, onder c, [[AVG]]
 
-Gerelateerd: [Rechtsgrond](#rechtsgrond), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Rechtsgrond](#rechtsgrond)
 
 ### Taak van algemeen belang
 
@@ -1752,7 +1764,7 @@ Toelichting: Hiermee bedoelen we dus de publieke taken en verantwoordelijkheden 
 
 Bron: Kennis Openbaar Bestuur [[KennisOpenbaarBestuur]]
 
-Gerelateerd: [Wetgeving](#wetgeving), [Publiek belang](#publiek-belang), [Regelgeving](#regelgeving)
+Gerelateerd: [Publiek belang](#publiek-belang), [Wetgeving](#wetgeving), [Regelgeving](#regelgeving)
 
 ### Toestemming ondubbelzinnig
 
@@ -1791,11 +1803,11 @@ Gerelateerd: [Rechtsgrond toestemming](#rechtsgrond-toestemming)
 
 ### Vitaal belang
 
-> Een vitaal belang is een [belang](#belang) dat essentieel is voor iemands leven of gezondheid, en die persoon niet om toestemming kan worden gevraagd om [persoonsgegevens](#persoonsgegeven) te verwerken.
+> Een vitaal belang is een [belang]() dat essentieel is voor iemands leven of gezondheid, en die persoon niet om toestemming kan worden gevraagd om [persoonsgegevens](#persoonsgegeven) te verwerken.
 
 Bron: Grondslagen AVG uitgelegd, Grondslagen [[AVG]] [[AP]]
 
-Gerelateerd: [Belang](#belang), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [belang](#belang), [Persoonsgegeven](#persoonsgegeven)
 
 ## DPIA - 12. Bijzondere persoonsgegevens, strafrechtelijke persoonsgegevens en nationale identificatienummers
 
@@ -1803,7 +1815,7 @@ Gerelateerd: [Belang](#belang), [Persoonsgegeven](#persoonsgegeven)
 
 > Een bijzonder persoonsgegeven is een [persoonsgegeven](#persoonsgegeven) dat in principe verboden is om te verwerken, volgend uit artikel 9, AVG.
 
-Toelichting: Om bijzondere persoonsgegevens toch rechtmatig te verwerken moet een doorbrekingsgrond uit de AVG van toepassing zijn.
+Toelichting: Het gaat hier om gegevens die grote risico's voor de betrokkenen kunnen opleveren indien er misbruik van de gegevens wordt gemaakt, of zelfs als deze algemeen bekend worden. Om bijzondere persoonsgegevens toch rechtmatig te verwerken moet een doorbrekingsgrond uit de AVG van toepassing zijn.
 
 Bron: paragraaf 3.2, pagina 23, [[ModelDPIARijksdienst]]
 
@@ -1811,13 +1823,137 @@ Gerelateerd: [Persoonsgegeven](#persoonsgegeven)
 
 Voorbeeld(en): Het adressenbestand van een kerkblad, gegevens die via een apothekers-app worden verwerkt, ziekte- en verzuimgegevens van werknemers en de ledenlijst van een politieke partij.
 
+### Categorie bijzondere persoonsgegevens
+
+Alternatieve aanduiding: *Type bijzonder persoonsgegeven; Bijzondere categorie van persoonsgegevens ; categorie bijzonder persoonsgegeven; categorie bijzondere persoonsgegevens*
+
+> Een categorie bijzondere persoonsgegevens is een [classificatie](#classificatie) van de categorie waartoe een [bijzonder persoonsgegeven](#bijzonder-persoonsgegeven) behoort.
+
+Toelichting: In de AVG is een limitatieve opsomming opgenomen van bijzondere persoonsgegevens in artikel 9 lid 1: Ras of etnische afkomst, politieke opvattingen, religieuze of levensbeschouwelijke overtuigingen, het lidmaatschap van een vakbond, genetische gegevens, biometrische gegevens met het oog op de unieke identificatie van een persoon, gegevens over gezondheid, gegevens met betrekking tot seksueel gedrag of seksuele gerichtheid.
+
+*Deze definitie is afgeleid uit de informatie in de AVG, die is overgenomen in het model DPIA Rijksdienst.*
+
+Bron: artikel 9, lid 1, [[AVG]], paragraaf 3.2, pagina 23, [[ModelDPIARijksdienst]]
+
+Gerelateerd: [Classificatie](#classificatie), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+### Categorie bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon
+
+> Biometrische gegevens met het oog op de unieke identificatie van een persoon zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) die het resultaat zijn van een specifieke technische verwerking met fysieke, fysiologische of gedragsgerelateerde kenmerken van een persoon op grond waarvan eenduidige identificatie van die persoon mogelijk is of wordt bevestigd.
+
+Toelichting: Gegevens zoals foto's, vingerafdrukken, irispatroon, gezichtsprofiel, looppatroon en stemgeluid vallen alleen onder de definitie van biometrische gegevens wanneer zij worden verwerkt met behulp van bepaalde technische middelen die de unieke identificatie of authenticatie mogelijk maken.
+
+*Deze definitie is letterlijk overgenomen uit de AVG, maar 'persoonsgegevens' is vervangen door 'bijzondere persoonsgegevens', om naar het juiste begrip te kunnen verwijzen. De toelichting komt uit het Model DPIA Rijksdienst.*
+
+Bron: paragraaf 3.2, pagina 24, [[ModelDPIARijksdienst]], artikel 9, lid 1, [[AVG]], artikel 4, lid 14, [[AVG]]
+
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+Voorbeeld(en): Vingerafdrukken, irispatroon, gezichtsprofiel, looppatroon en stemgeluid.
+
+### Categorie bijzondere persoonsgegevens: Gegevens met betrekking tot iemands seksueel gedrag of seksuele gerichtheid
+
+> Gegevens met betrekking tot iemands seksueel gedrag of seksuele gerichtheid zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) met betrekking tot iemands seksueel gedrag of seksuele gerichtheid.
+
+Toelichting: Het kan ook gaan over gegevens die indirect iets over iemands seksueel gedrag of seksuele gerichtheid zeggen, zoals een bezoekerslijst van een gay bar of het ledenbestand van het COC.
+
+Bron: artikel 9, lid 1, [[AVG]]
+
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+Voorbeeld(en): Lidmaatschap van LGBT belangenvereniging, bezoekersregistratie van LBGT bar, lidmaatschapslijst parenclub, bestellingen bij een sexshop.
+
+### Categorie bijzondere persoonsgegevens: Gegevens over gezondheid
+
+> Gegevens over gezondheid zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) over de fysieke of mentale gezondheid van een persoon.
+
+Toelichting: Inclusief gegevens over verleende gezondheidsdiensten waarmee informatie over iemands gezondheidstoestand wordt gegeven.
+
+*De definitie uit de AVG is opgesplitst in definitie en toelichting. 'Persoonsgegevens' is vervangen door 'bijzondere persoonsgegevens', om naar het juiste begrip te kunnen verwijzen.*
+
+Bron: artikel 4, lid 15, [[AVG]], artikel 9, lid 1, [[AVG]]
+
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+Voorbeeld(en): Gewicht, hartslag, handicap, ziekterisico, verleende gezondheidsdiensten.
+
+### Categorie bijzondere persoonsgegevens: Genetische gegevens
+
+> Genetische gegevens zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) over overgeërfde of verworven genetische kenmerken van een persoon die unieke informatie verschaffen over de fysiologie of gezondheid en die met name voortkomen uit een analyse van een biologisch monster van die persoon.
+
+Toelichting: Deze gegevens geven zeer gevoelige informatie prijs over iemands gezondheid, afkomst, toekomstig ziekteverloop of aanwezigheid bij bepaalde delicten. Het gaat hierbij niet alleen om persoonsgegevens van de persoon van wie biologische monsters zijn afgenomen, maar mogelijk ook over alle genetisch verwante personen zoals kinderen, ouders, neven en nichten, et cetera.
+
+*Deze definitie is letterlijk overgenomen uit de AVG, maar 'persoonsgegevens' is vervangen door 'bijzondere persoonsgegevens', om naar het juiste begrip te kunnen verwijzen.*
+
+Bron: artikel 4, lid 13, [[AVG]], artikel 9, lid 1, [[AVG]]
+
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+Voorbeeld(en): Chromosomen, DNA of RNA-profielen, genetische testresultaten (bijvoorbeeld voor erfelijke ziektes), informatie verkregen via bloed- of speekseltesten, genoomdata van sequencing, gegevens gebruikt voor verwantschapsonderzoek of stamboomonderzoek.
+
+### Categorie bijzondere persoonsgegevens: Persoonsgegevens waaruit het lidmaatschap van een vakbond blijkt
+
+> Persoonsgegevens waaruit het lidmaatschap van een vakbond blijkt zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) waaruit het lidmaatschap van een vakbond blijkt.
+
+Toelichting: Hieronder vallen niet alleen gegevens over het lidmaatschap zelf, maar ook indirecte gegevens waaruit het lidmaatschap zou kunnen worden afgeleid, zoals gegevens over bijvoorbeeld contributiebetalingen, deelname aan vakbondsbijeenkomsten, de ontvangst van een bijdrage werkgever voor de contributie of lidmaatschap van de ondernemingsraad namens de vakbond.
+
+Bron: artikel 9, lid 1, [[AVG]]
+
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+### Categorie bijzondere persoonsgegevens: Persoonsgegevens waaruit politieke opvattingen blijken
+
+> Persoonsgegevens waaruit politieke opvattingen blijken zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) waaruit kan worden afgeleid wat de politieke oriëntatie is van een persoon.
+
+Toelichting: Het gaat hier om gegevens waaruit iemands mening over politieke onderwerpen, d.w.z. over hoe de maatschappij zou moeten worden ingericht, kan worden afgeleid.
+
+Bron: artikel 9, lid 1, [[AVG]]
+
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+Voorbeeld(en): Stemgedrag, uitlatingen over politieke partijen, uitlatingen over politieke standpunten, een post op social media over een maatschappelijk onderwerp, lidmaatschap van een organisatie met bepaalde politieke opvattingen zoals een milieuorganisatie, bepaalde kerk of vakbond, of politieke partij.
+
+### Categorie bijzondere persoonsgegevens: Persoonsgegevens waaruit ras of etnische afkomst blijkt
+
+> Persoonsgegevens waaruit ras of etnische afkomst blijkt zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) waaruit direct of indirect een afkomst of [etniciteit](#etniciteit) is af te leiden.
+
+Toelichting: Sommige gewone gegevens kunnen indirect alsnog informatie geven over etnische afkomst, zoals postcode, achternaam of de basisschool waar iemand op heeft gezeten. Daarnaast zijn er gegevens die zowel als informatie over religie als over etnische afkomst kunnen worden gezien (bijv. of iemand Joods of Islamitisch is).
+
+In een onderzoek naar het gebruik van afkomstgerelateerde indicatoren binnen de overheid (n.a.v. "Motie #21") zijn de volgende indicatoren gebruikt:
+
+* Nationaliteit
+* Etniciteit
+* Geboorteland
+* Land van herkomst
+* Geboorteland ouders
+* Woonland
+
+Bron: Rapport uitvoering motie 21 door het
+ministerie van Justitie en Veiligheid [[RapportMotie21]], artikel 9, lid 1, [[AVG]]
+
+Gerelateerd: [Etniciteit](#etniciteit), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+Voorbeeld(en): Bij het onderzoek naar Motie 21 werd met name gekeken naar nationaliteit, etniciteit, geboorteland, land van herkomst, geboorteland ouders en woonland. Andere voorbeelden zijn achternaam (Bosnisch/Servisch) of religie (Joods, Islamitisch)
+
+### Categorie bijzondere persoonsgegevens: Persoonsgegevens waaruit religieuze of levensbeschouwelijke overtuigingen blijken
+
+> Persoonsgegevens waaruit religieuze of levensbeschouwelijke overtuigingen blijken zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) waaruit religieuze of levensbeschouwelijke overtuigingen blijken.
+
+Toelichting: Dit omvat alle gegevens waaruit direct of indirect een religieuze of levensbeschouwelijke overtuiging is af te leiden. Een religieuze of levensbeschouwelijke overtuiging is een samenhangend stelsel van opvattingen over het leven, de mens en de wereld dat voor een persoon van wezenlijk belang is en richting geeft aan diens handelen.
+
+Bron: artikel 9, lid 1, [[AVG]]
+
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+Voorbeeld(en): Lidmaatschap van een kerk, lidmaatschap van het humanistisch verbond, lidmaatschap van een organisatie die verbonden is aan een religieuze of levensbeschouwelijke beweging.
+
 ### DPIA onderwerp: bijzondere persoonsgegevens, strafrechtelijke persoonsgegevens en nationale identificatienummers
 
 > Bijzondere persoonsgegevens, strafrechtelijke persoonsgegevens en nationale identificatienummers is een [DPIA onderwerp](#dpia-onderwerp) dat de [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven), [strafrechtelijke persoonsgegevens](#strafrechtelijk-persoonsgegeven) en [nationale identificatienummers](#nationaal-identificatienummer) beschrijft waar de [DPIA](#dpia) betrekking op heeft.
 
 Bron: paragraaf 3.12, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven), [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia), [Nationaal identificatienummer](#nationaal-identificatienummer), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [Nationaal identificatienummer](#nationaal-identificatienummer), [DPIA](#dpia), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven)
 
 ### Doorbrekingsgrond
 
@@ -1825,9 +1961,17 @@ Gerelateerd: [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven)
 
 Toelichting: Een doorbrekingsgrond wordt niet letterlijk genoemd in de wet, maar volgt uit de systematiek van de wet, met name artikel 9 lid 1 en lid 2 van de AVG.
 
-Bron: artikel 9, lid 1, [[AVG]], Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]], artikel 9, lid 2, [[AVG]]
+Bron: artikel 9, lid 2, [[AVG]], Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]], artikel 9, lid 1, [[AVG]]
 
 Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
+
+### Etniciteit
+
+> Een etniciteit is een sociaal-culturele identiteit met gezamenlijke kenmerken als nationaliteit, verwantschap, religie, taal, fysieke kenmerken, cultuur of geschiedenis
+en de daaraan ontleende normen en waarden die een groep mensen of een aantal bevolkingsgroepen verbindt.
+
+Bron: Rapport uitvoering motie 21 door het
+ministerie van Justitie en Veiligheid [[RapportMotie21]]
 
 ### Strafrechtelijk persoonsgegeven
 
@@ -1846,109 +1990,11 @@ Zelfs voor strafbare feiten die naar nationaal recht niet als strafbare feiten i
 
 Strafrechtelijke persoonsgegevens kunnen, bijvoorbeeld, ook voorkomen in zwarte lijsten en een Verklaring Omtrent Gedrag (VOG). Dat is niet per definitie het geval, omdat een zwarte lijst ook kan bestaan uit negatieve gegevens over personen die niet strafrechtelijk van aard zijn en in een VOG kunnen strafrechtelijke persoonsgegevens ontbreken. Wees echter wel bewust dat dergelijke documenten strafrechtelijke persoonsgegevens kunnen bevatten; de beoordeling van strafrechtelijke persoonsgegevens dient breder te worden gelezen dan strafbare feiten die direct een relatie hebben met handelingen die vallen onder het strafrecht.
 
-Bron: artikel 10, [[AVG]], paragraaf 3.2, pagina 25, [[ModelDPIARijksdienst]]
+Bron: paragraaf 3.2, pagina 25, [[ModelDPIARijksdienst]], artikel 10, [[AVG]]
 
 Gerelateerd: [Persoonsgegeven](#persoonsgegeven)
 
 Voorbeeld(en): Proces-verbaal, sepotbeslissing, strafblad, relaas verhoor, aanvraag voor een toevoeging in een strafzaak.
-
-### Type bijzondere persoonsgegevens
-
-Alternatieve aanduiding: *Bijzondere categorie van persoonsgegevens*
-
-> Een type bijzondere persoonsgegevens is een [classificatie](#classificatie) van het type waartoe een [bijzonder persoonsgegeven](#bijzonder-persoonsgegeven) behoort.
-
-Toelichting: In de AVG is een limitatieve opsomming opgenomen van bijzondere persoonsgegevens in artikel 9 lid 1: Ras of etnische afkomst, politieke opvattingen, religieuze of levensbeschouwelijke overtuigingen, het lidmaatschap van een vakbond, genetische gegevens, biometrische gegevens met het oog op de unieke identificatie van een persoon, gegevens over gezondheid, gegevens met betrekking tot seksueel gedrag of seksuele gerichtheid.
-
-*Deze definitie is afgeleid uit de informatie in de AVG, die is overgenomen in het model DPIA Rijksdienst.*
-
-Bron: paragraaf 3.2, pagina 23, [[ModelDPIARijksdienst]], artikel 9, lid 1, [[AVG]]
-
-Gerelateerd: [Classificatie](#classificatie), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
-
-### Type bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon
-
-> Biometrische gegevens met het oog op de unieke identificatie van een persoon zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) die het resultaat zijn van een specifieke technische verwerking met fysieke, fysiologische of gedragsgerelateerde kenmerken van een persoon op grond waarvan eenduidige identificatie van die persoon mogelijk is of wordt bevestigd.
-
-Toelichting: Gegevens zoals foto's, vingerafdrukken, irispatroon, gezichtsprofiel, looppatroon en stemgeluid vallen alleen onder de definitie van biometrische gegevens wanneer zij worden verwerkt met behulp van bepaalde technische middelen die de unieke identificatie of authenticatie mogelijk maken.
-
-*Deze definitie is letterlijk overgenomen uit de AVG, maar 'persoonsgegevens' is vervangen door 'bijzondere persoonsgegevens', om naar het juiste begrip te kunnen verwijzen. De toelichting komt uit het Model DPIA Rijksdienst.*
-
-Bron: artikel 4, lid 14, [[AVG]], artikel 9, lid 1, [[AVG]], paragraaf 3.2, pagina 24, [[ModelDPIARijksdienst]]
-
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
-
-Voorbeeld(en): Vingerafdrukken, irispatroon, gezichtsprofiel, looppatroon en stemgeluid.
-
-### Type bijzondere persoonsgegevens: Gegevens met betrekking tot iemands seksueel gedrag of seksuele gerichtheid
-
-> Gegevens met betrekking tot iemands seksueel gedrag of seksuele gerichtheid zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) met betrekking tot iemands seksueel gedrag of seksuele gerichtheid.
-
-Toelichting: Het kan ook gaan over gegevens die indirect iets over iemands seksueel gedrag of seksuele gerichtheid zeggen, zoals een bezoekerslijst van een gay bar of het ledenbestand van het COC.
-
-Bron: artikel 9, lid 1, [[AVG]]
-
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
-
-Voorbeeld(en): Lidmaatschap van LGBT belangenvereniging, bezoekersregistratie van LBGT bar, lidmaatschapslijst parenclub, bestellingen bij een sexshop.
-
-### Type bijzondere persoonsgegevens: Gegevens over gezondheid
-
-> Gegevens over gezondheid zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) over de fysieke of mentale gezondheid van een persoon.
-
-Toelichting: Inclusief gegevens over verleende gezondheidsdiensten waarmee informatie over zijn gezondheidstoestand wordt gegeven.
-
-*De definitie uit de AVG is opgesplitst in definitie en toelichting. 'Persoonsgegevens' is vervangen door 'bijzondere persoonsgegevens', om naar het juiste begrip te kunnen verwijzen.*
-
-Bron: artikel 9, lid 1, [[AVG]], artikel 4, lid 15, [[AVG]]
-
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
-
-Voorbeeld(en): Gewicht, hartslag, handicap, ziekterisico, verleende gezondheidsdiensten.
-
-### Type bijzondere persoonsgegevens: Genetische gegevens
-
-> Genetische gegevens zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) over overgeërfde of verworven genetische kenmerken van een persoon die unieke informatie verschaffen over de fysiologie of gezondheid en die met name voortkomen uit een analyse van een biologisch monster van die persoon.
-
-*Deze definitie is letterlijk overgenomen uit de AVG, maar 'persoonsgegevens' is vervangen door 'bijzondere persoonsgegevens', om naar het juiste begrip te kunnen verwijzen.*
-
-Bron: artikel 9, lid 1, [[AVG]], artikel 4, lid 13, [[AVG]]
-
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
-
-Voorbeeld(en): Chromosomen, DNA of RNA en erfelijke ziekten
-
-### Type bijzondere persoonsgegevens: Persoonsgegevens waaruit het lidmaatschap van een vakbond blijkt
-
-> Persoonsgegevens waaruit het lidmaatschap van een vakbond blijkt zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) waaruit het lidmaatschap van een vakbond blijkt.
-
-Bron: artikel 9, lid 1, [[AVG]]
-
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
-
-### Type bijzondere persoonsgegevens: Persoonsgegevens waaruit politieke opvattingen blijken
-
-> Persoonsgegevens waaruit politieke opvattingen blijken zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) waaruit politieke opvattingen blijken.
-
-Bron: artikel 9, lid 1, [[AVG]]
-
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
-
-### Type bijzondere persoonsgegevens: Persoonsgegevens waaruit ras of etnische afkomst blijkt
-
-> Persoonsgegevens waaruit ras of etnische afkomst blijkt zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) waaruit ras of etnische afkomst blijken.
-
-Bron: artikel 9, lid 1, [[AVG]]
-
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
-
-### Type bijzondere persoonsgegevens: Persoonsgegevens waaruit religieuze of levensbeschouwelijke overtuigingen blijken
-
-> Persoonsgegevens waaruit religieuze of levensbeschouwelijke overtuigingen blijken zijn [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) waaruit religieuze of levensbeschouwelijke overtuigingen blijken.
-
-Bron: artikel 9, lid 1, [[AVG]]
-
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
 
 ### Uitzonderingsgrond
 
@@ -1958,7 +2004,7 @@ Toelichting: Het verwerken van strafrechtelijke persoonsgegevens of nationale id
 
 Bron: deel II, punt 12, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven), [Nationaal identificatienummer](#nationaal-identificatienummer)
+Gerelateerd: [Nationaal identificatienummer](#nationaal-identificatienummer), [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven)
 
 Voorbeeld(en): Overheidsorganen kunnen bij de uitvoering van hun publieke taak
 gebruik maken van het burgerservicenummer, zonder dat daarvoor nadere regelgeving vereist is (Artikel 10 Wet algemene bepalingen burgerservicenummer).
@@ -1973,7 +2019,7 @@ gebruik maken van het burgerservicenummer, zonder dat daarvoor nadere regelgevin
 
 Bron: paragraaf 3.13, pagina 46, [[ModelDPIARijksdienst]], artikel 6, lid 4, [[AVG]]
 
-Gerelateerd: [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Persoonsgegeven](#persoonsgegeven), [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde)
+Gerelateerd: [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde), [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Persoonsgegeven](#persoonsgegeven)
 
 ### Conclusie toelaatbaarheid hergebruik: niet toelaatbaar
 
@@ -1981,7 +2027,7 @@ Gerelateerd: [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Persoonsgegeven](#p
 
 *De term en definitie zijn afgeleid van de informatie in het Model DPIA Rijksdienst en de AVG.*
 
-Bron: paragraaf 3.13, pagina 46, [[ModelDPIARijksdienst]], artikel 6, lid 4, [[AVG]]
+Bron: artikel 6, lid 4, [[AVG]], paragraaf 3.13, pagina 46, [[ModelDPIARijksdienst]]
 
 Gerelateerd: [Conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-hergebruik)
 
@@ -1993,7 +2039,7 @@ Gerelateerd: [Conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-h
 
 Bron: paragraaf 3.13, pagina 46, [[ModelDPIARijksdienst]], artikel 6, lid 4, [[AVG]]
 
-Gerelateerd: [Betrokkene](#betrokkene), [Conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-hergebruik)
+Gerelateerd: [Conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-hergebruik), [Betrokkene](#betrokkene)
 
 ### Conclusie verenigbaarheidstoets
 
@@ -2011,7 +2057,7 @@ Gerelateerd: [Verenigbaarheidstoets](#verenigbaarheidstoets)
 
 Bron: Verstrekken van persoonsgegevens, [[AP]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Conclusie verenigbaarheidstoets](#conclusie-verenigbaarheidstoets), [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde)
+Gerelateerd: [Conclusie verenigbaarheidstoets](#conclusie-verenigbaarheidstoets), [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Conclusie verenigbaarheidstoets: verenigbaar
 
@@ -2021,7 +2067,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Bron: Verstrekken van persoonsgegevens, [[AP]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde), [Conclusie verenigbaarheidstoets](#conclusie-verenigbaarheidstoets)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Conclusie verenigbaarheidstoets](#conclusie-verenigbaarheidstoets), [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde)
 
 ### DPIA onderwerp: doelbinding
 
@@ -2029,7 +2075,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Bron: paragraaf 3.13, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA](#dpia), [Doelbinding](#doelbinding), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA onderwerp](#dpia-onderwerp)
+Gerelateerd: [Doelbinding](#doelbinding), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA onderwerp](#dpia-onderwerp)
 
 ### Doelbinding
 
@@ -2041,7 +2087,7 @@ Toelichting: Als de persoonsgegevens voor een ander doeleinde worden verwerkt da
 
 Bron: artikel 5, lid 1, onder b, [[AVG]]
 
-Gerelateerd: [Verenigbaar](#verenigbaar), [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde), [Persoonsgegeven](#persoonsgegeven), [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde), [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Verenigbaar](#verenigbaar)
 
 ### Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht
 
@@ -2051,9 +2097,17 @@ Toelichting: In dit geval wordt de conclusie voor de toelaatbaarheid van het her
 
 *De term en definitie zijn afgeleid van de informatie in het Model DPIA Rijksdienst en de AVG.*
 
-Bron: paragraaf 3.13, pagina 46, [[ModelDPIARijksdienst]], artikel 6, lid 4, [[AVG]]
+Bron: artikel 6, lid 4, [[AVG]], paragraaf 3.13, pagina 46, [[ModelDPIARijksdienst]]
 
 Gerelateerd: [toelaatbaarheid hergebruik](#toelaatbaarheid-hergebruik)
+
+### Toelaatbaar
+
+> Als het gebruik van gegevens toelaatbaar is, dan geeft dat in de context van de doelbinding van persoonsgegevens aan dat het gebruik van die persoonsgegevens is toegestaan.
+
+Toelichting: Het begrip toelaatbaar wordt voornamelijk gebruikt in de context van hergebruik van gegevens voor een ander verwerkingsdoeleinde dan waar deze persoonsgegevens oorspronkelijk voor zijn verzameld. Als men deze persoonsgegevens opnieuw wil gebruiken, moet worden beoordeeld of dat hergebruik toelaatbaar is.
+
+*Deze term is toegevoegd op verzoek van het RIG om extra ondersteuning te kunnen geven bij de invulling van de DPIA.*
 
 ### Toelaatbaarheid hergebruik: toelaatbaar o.b.v. Unie- of lidstatelijk recht
 
@@ -2061,7 +2115,7 @@ Gerelateerd: [toelaatbaarheid hergebruik](#toelaatbaarheid-hergebruik)
 
 *De term en definitie zijn afgeleid van de informatie in het Model DPIA Rijksdienst en de AVG.*
 
-Bron: artikel 6, lid 4, [[AVG]], paragraaf 3.13, pagina 46, [[ModelDPIARijksdienst]]
+Bron: paragraaf 3.13, pagina 46, [[ModelDPIARijksdienst]], artikel 6, lid 4, [[AVG]]
 
 Gerelateerd: [Conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-hergebruik)
 
@@ -2094,7 +2148,7 @@ Als de nieuwe gegevensverwerking verenigbaar is met het oorspronkelijk verwerkin
 
 Bron: overweging 50, preambule, [[AVG]], paragraaf 13, pagina 16, [[RapportagemodelDPIARijksdienst]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Verenigbaar](#verenigbaar), [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Verenigbaar](#verenigbaar), [Persoonsgegeven](#persoonsgegeven), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Oorspronkelijk verwerkingsdoeleinde](#oorspronkelijk-verwerkingsdoeleinde)
 
 ## DPIA - 14. Noodzaak en evenredigheid
 
@@ -2104,7 +2158,7 @@ Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Verenigbaar](#verenigbaar), [
 
 Bron: paragraaf 3.14, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Subsidiariteit](#subsidiariteit), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA](#dpia), [Proportionaliteit](#proportionaliteit), [DPIA onderwerp](#dpia-onderwerp)
+Gerelateerd: [Subsidiariteit](#subsidiariteit), [DPIA onderwerp](#dpia-onderwerp), [Proportionaliteit](#proportionaliteit), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA](#dpia)
 
 ### Proportionaliteit
 
@@ -2124,7 +2178,7 @@ Toelichting: Ter beoordeling van de proportionaliteit kunnen de volgende vragen 
 
 Bron: paragraaf 3.14, pagina 48, [[ModelDPIARijksdienst]], artikel 5, lid 4, [[VEU]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsdoeleinde](#verwerkingsdoeleinde)
+Gerelateerd: [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Proportionaliteitsbeoordeling
 
@@ -2134,7 +2188,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Bron: paragraaf 3.14, pagina 48, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Proportionaliteit](#proportionaliteit)
+Gerelateerd: [Proportionaliteit](#proportionaliteit), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Subsidiariteit
 
@@ -2156,7 +2210,7 @@ Toelichting: Ter beoordeling van de subsidiariteit kunnen de volgende vragen wor
 
 *Het beginsel van subsidiariteit komt voort uit de VEU, maar wordt verder gespecificeerd in het Model DPIA Rijksdienst, specifiek voor gegevensverwerkingen van persoonsgegevens.*
 
-Bron: paragraaf 3.14, pagina 48, [[ModelDPIARijksdienst]], artikel 5, lid 3, [[VEU]]
+Bron: artikel 5, lid 3, [[VEU]], paragraaf 3.14, pagina 48, [[ModelDPIARijksdienst]]
 
 Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Verwerkingsdoeleinde](#verwerkingsdoeleinde)
 
@@ -2168,7 +2222,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Bron: paragraaf 3.14, pagina 48, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Subsidiariteit](#subsidiariteit), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Subsidiariteit](#subsidiariteit)
 
 ## DPIA - 15. Rechten van de betrokkene
 
@@ -2188,7 +2242,7 @@ Gerelateerd: [Recht van de betrokkene](#recht-van-de-betrokkene)
 
 Bron: paragraaf 3.15, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Recht van de betrokkene](#recht-van-de-betrokkene), [DPIA onderwerp](#dpia-onderwerp)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA](#dpia), [DPIA onderwerp](#dpia-onderwerp), [Recht van de betrokkene](#recht-van-de-betrokkene)
 
 Voorbeeld(en): Het gaat bijvoorbeeld om het recht op informatie of vergetelheid van een betrokkene.
 
@@ -2206,6 +2260,8 @@ Gerelateerd: [Recht van de betrokkene](#recht-van-de-betrokkene)
 
 ### Recht om niet onderworpen te worden aan een uitsluitend op geautomatiseerde verwerking gebaseerd besluit
 
+Alternatieve aanduiding: *Recht niet onderworpen te worden aan geautomatiseerde besluitvorming*
+
 > Het recht om niet onderworpen te worden aan een uitsluitend op geautomatiseerde verwerking gebaseerd besluit is een [recht van de betrokkene](#recht-van-de-betrokkene) waarbij de [betrokkene](#betrokkene) het recht heeft niet te worden onderworpen aan een op [geautomatiseerde besluitvorming](#geautomatiseerde-besluitvorming) gebaseerd besluit waaraan voor hem rechtsgevolgen zijn verbonden of dat hem anderszins in aanmerkelijke mate treft.
 
 Toelichting: Artikel 22 AVG voorziet in een algemeen verbod op besluitvorming waaraan rechtsgevolgen zijn verbonden voor een betrokkene, of dat hem anderszins in aanmerkelijke mate treft, als deze is gebaseerd op uitsluitend geautomatiseerde verwerking, waaronder profilering. Hiervan mag worden afgeweken indien sprake is van een van onderstaande uitzonderingen op het verbod, namelijk als het besluit:
@@ -2215,9 +2271,9 @@ c. Berust op de uitdrukkelijke toestemming van de betrokkene.
 
 *De definitie volgt uit de AVG, de toelichting komt uit het Model DPIA Rijksdienst.*
 
-Bron: artikel 22, lid 1, [[AVG]], paragraaf 3.4, pagina 29, [[ModelDPIARijksdienst]]
+Bron: paragraaf 3.4, pagina 29, [[ModelDPIARijksdienst]], artikel 22, lid 1, [[AVG]]
 
-Gerelateerd: [Geautomatiseerde besluitvorming](#geautomatiseerde-besluitvorming), [Betrokkene](#betrokkene), [Recht van de betrokkene](#recht-van-de-betrokkene)
+Gerelateerd: [Betrokkene](#betrokkene), [Geautomatiseerde besluitvorming](#geautomatiseerde-besluitvorming), [Recht van de betrokkene](#recht-van-de-betrokkene)
 
 ### Recht op beperking van de verwerking
 
@@ -2225,7 +2281,7 @@ Gerelateerd: [Geautomatiseerde besluitvorming](#geautomatiseerde-besluitvorming)
 
 Bron: artikel 18, [[AVG]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Recht van de betrokkene](#recht-van-de-betrokkene), [Natuurlijk persoon](#natuurlijk-persoon), [Betrokkene](#betrokkene)
+Gerelateerd: [Recht van de betrokkene](#recht-van-de-betrokkene), [Persoonsgegeven](#persoonsgegeven), [Natuurlijk persoon](#natuurlijk-persoon), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Betrokkene](#betrokkene)
 
 ### Recht op gegevenswissing
 
@@ -2235,7 +2291,7 @@ Alternatieve aanduiding: *Recht op vergetelheid*
 
 Bron: artikel 17, lid 1, [[AVG]]
 
-Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Betrokkene](#betrokkene), [Recht van de betrokkene](#recht-van-de-betrokkene), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Betrokkene](#betrokkene), [Recht van de betrokkene](#recht-van-de-betrokkene), [Persoonsgegeven](#persoonsgegeven), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
 
 ### Recht op informatie
 
@@ -2251,7 +2307,7 @@ Het recht op informatie hangt nauw samen met een van de belangrijkste AVG-begins
 
 Bron: artikel 13-14, [[AVG]]
 
-Gerelateerd: [Recht van de betrokkene](#recht-van-de-betrokkene), [Persoonsgegeven](#persoonsgegeven), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Betrokkene](#betrokkene)
+Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Recht van de betrokkene](#recht-van-de-betrokkene), [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven)
 
 ### Recht op overdraagbaarheid van gegevens
 
@@ -2263,19 +2319,17 @@ Alternatieve aanduiding: *Recht op dataportabiliteit*
 
 Bron: artikel 20, lid 1, [[AVG]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Betrokkene](#betrokkene), [Recht van de betrokkene](#recht-van-de-betrokkene), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
+Gerelateerd: [Recht van de betrokkene](#recht-van-de-betrokkene), [Betrokkene](#betrokkene), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Persoonsgegeven](#persoonsgegeven)
 
 ### Recht op rectificatie en aanvulling
 
-> Het recht op rectificatie en aanvulling is een [recht van de betrokkene](#recht-van-de-betrokkene) waarbij de [betrokkene](#betrokkene) het recht heeft om van de [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke) rectificatie van hem betreffende onjuiste [persoonsgegevens](#persoonsgegeven) te verkrijgen. 
-
-Met inachtneming van de [verwerkingsdoeleinden](#verwerkingsdoeleinde) van de [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) heeft de [betrokkene](#betrokkene) daarnaast ook het recht vervollediging van onvolledige [persoonsgegevens](#persoonsgegeven) te verkrijgen, onder meer door een aanvullende verklaring te verstrekken.
+> Het recht op rectificatie en aanvulling is een [recht van de betrokkene](#recht-van-de-betrokkene) waarbij de [betrokkene](#betrokkene) het recht heeft om van de [verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke) rectificatie van hem betreffende onjuiste [persoonsgegevens](#persoonsgegeven) te verkrijgen. Met inachtneming van de [verwerkingsdoeleinden](#verwerkingsdoeleinde) van de [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) heeft de [betrokkene](#betrokkene) daarnaast ook het recht vervollediging van onvolledige [persoonsgegevens](#persoonsgegeven) te verkrijgen, onder meer door een aanvullende verklaring te verstrekken.
 
 *doeleinden' is vervangen door 'verwerkingsdoeleinden' en 'verwerking' door 'gegevensverwerking', om naar de juiste termen te kunnen verwijzen.*
 
 Bron: artikel 16, [[AVG]]
 
-Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Recht van de betrokkene](#recht-van-de-betrokkene), [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Betrokkene](#betrokkene)
+Gerelateerd: [Betrokkene](#betrokkene), [Recht van de betrokkene](#recht-van-de-betrokkene), [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Persoonsgegeven](#persoonsgegeven), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Recht van bezwaar
 
@@ -2285,7 +2339,7 @@ Alternatieve aanduiding: *Recht om bezwaar te maken*
 
 Bron: artikel 21, lid 1, [[AVG]]
 
-Gerelateerd: [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven), [Recht van de betrokkene](#recht-van-de-betrokkene)
+Gerelateerd: [Recht van de betrokkene](#recht-van-de-betrokkene), [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven)
 
 ### Recht van de betrokkene
 
@@ -2313,7 +2367,7 @@ wijze en onder welke omstandigheden zij die rechten kunnen uitoefenen.
 
 Bron: paragraaf 3.15, pagina 49, [[ModelDPIARijksdienst]], hoofdstuk 3, [[AVG]]
 
-Gerelateerd: [Recht van inzage](#recht-van-inzage), [Recht op beperking van de verwerking](#recht-op-beperking-van-de-verwerking), [Recht op rectificatie en aanvulling](#recht-op-rectificatie-en-aanvulling), [Persoonsgegeven](#persoonsgegeven), [Recht op informatie](#recht-op-informatie), [Recht om niet onderworpen te worden aan een uitsluitend op geautomatiseerde verwerking gebaseerd besluit](#recht-om-niet-onderworpen-te-worden-aan-een-uitsluitend-op-geautomatiseerde-verwerking-gebaseerd-besluit), [Recht op gegevenswissing](#recht-op-gegevenswissing), [Betrokkene](#betrokkene), [Recht op overdraagbaarheid van gegevens](#recht-op-overdraagbaarheid-van-gegevens), [Recht van bezwaar](#recht-van-bezwaar)
+Gerelateerd: [Recht op informatie](#recht-op-informatie), [Betrokkene](#betrokkene), [Recht op rectificatie en aanvulling](#recht-op-rectificatie-en-aanvulling), [Recht om niet onderworpen te worden aan een uitsluitend op geautomatiseerde verwerking gebaseerd besluit](#recht-om-niet-onderworpen-te-worden-aan-een-uitsluitend-op-geautomatiseerde-verwerking-gebaseerd-besluit), [Recht op gegevenswissing](#recht-op-gegevenswissing), [Recht van inzage](#recht-van-inzage), [Recht op beperking van de verwerking](#recht-op-beperking-van-de-verwerking), [Recht op overdraagbaarheid van gegevens](#recht-op-overdraagbaarheid-van-gegevens), [Recht van bezwaar](#recht-van-bezwaar), [Persoonsgegeven](#persoonsgegeven)
 
 ### Recht van inzage
 
@@ -2323,7 +2377,7 @@ Toelichting: Overige informatie waartoe inzicht kan worden verkregen zoals geste
 
 Bron: artikel 15, lid 1, [[AVG]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Recht van de betrokkene](#recht-van-de-betrokkene), [Betrokkene](#betrokkene)
+Gerelateerd: [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Recht van de betrokkene](#recht-van-de-betrokkene)
 
 ### Rechtsgrond voor beperking op recht van de betrokkene
 
@@ -2343,7 +2397,7 @@ j. de inning van civielrechtelijke vorderingen.
 
 *De definitie is afgeleid uit de informatie in het Model DPIA Rijksdienst. De toelichting volgt uit de UAVG, alhoewel deze grotendeels overeenkomt met lid 1, artikel 23, AVG.*
 
-Bron: artikel 41, lid 1, U artikel 41, lid 1, [[UAVG]] [[AVG]], artikel 23, lid 1, [[AVG]], paragraaf 3.15, pagina 51, [[ModelDPIARijksdienst]]
+Bron: paragraaf 3.15, pagina 51, [[ModelDPIARijksdienst]], artikel 41, lid 1, U artikel 41, lid 1, [[UAVG]] [[AVG]], artikel 23, lid 1, [[AVG]]
 
 Gerelateerd: [Beperking op recht van de betrokkene](#beperking-op-recht-van-de-betrokkene), [Wetsartikel over beperking op recht van de betrokkene](#wetsartikel-over-beperking-op-recht-van-de-betrokkene)
 
@@ -2365,7 +2419,7 @@ Toelichting: Het gaat in het kader van de DPIA om artikel 23 lid 1 van de AVG, i
 
 Bron: artikel 23, lid 1, [[AVG]]
 
-Gerelateerd: [Beperking op recht van de betrokkene](#beperking-op-recht-van-de-betrokkene), [Regelgeving](#regelgeving), [Wetgeving](#wetgeving)
+Gerelateerd: [Regelgeving](#regelgeving), [Beperking op recht van de betrokkene](#beperking-op-recht-van-de-betrokkene), [Wetgeving](#wetgeving)
 
 ## DPIA - 16. Risico's voor betrokkenen
 
@@ -2391,7 +2445,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Discriminatie
 
@@ -2441,7 +2495,7 @@ Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [kans](#kans)
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Impact](#impact), [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [Impact](#impact)
 
 ### Hoge kans
 
@@ -2463,7 +2517,7 @@ Alternatieve aanduiding: *Hoog risiconiveau*
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [Risiconiveau](#risiconiveau)
+Gerelateerd: [Risiconiveau](#risiconiveau), [Risico voor betrokkenen](#risico-voor-betrokkenen)
 
 ### Impact
 
@@ -2493,7 +2547,7 @@ Toelichting: Elk risico waarover in paragraaf 16 van het model DPIA Rijksdienst 
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [Maatregel](#maatregel)
+Gerelateerd: [Maatregel](#maatregel), [Risico voor betrokkenen](#risico-voor-betrokkenen)
 
 ### Kans op optreden risico voor betrokkenen
 
@@ -2545,7 +2599,7 @@ Gerelateerd: [kans](#kans), [Risico voor betrokkenen](#risico-voor-betrokkenen)
 
 Bron: paragraaf 3.16, pagina 54, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Classificatie](#classificatie), [Discriminatie](#discriminatie), [DPIA](#dpia)
+Gerelateerd: [Discriminatie](#discriminatie), [DPIA](#dpia), [Classificatie](#classificatie), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Mogelijk sprake van discriminatie: zou geen sprake kunnen zijn van discriminatie
 
@@ -2555,17 +2609,19 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Bron: paragraaf 3.16, pagina 54, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Discriminatie](#discriminatie), [DPIA](#dpia), [Mogelijk sprake van discriminatie](#mogelijk-sprake-van-discriminatie), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [DPIA](#dpia), [Mogelijk sprake van discriminatie](#mogelijk-sprake-van-discriminatie), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Discriminatie](#discriminatie)
 
 ### Mogelijk sprake van discriminatie: zou sprake kunnen zijn van discriminatie
 
 > Zou sprake kunnen zijn van discriminatie is een aanduiding van [mogelijk sprake van discriminatie](#mogelijk-sprake-van-discriminatie) die aangeeft dat er mogelijk sprake is van [discriminatie](#discriminatie) als gevolg van de [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) waar een [DPIA](#dpia) op toeziet.
 
+Toelichting: Indien er sprake kan zijn van discriminatie is een anti-discriminatietoets noodzakelijk.
+
 *De term en definitie zijn afgeleid van de informatie in het Model DPIA Rijksdienst.*
 
 Bron: paragraaf 3.16, pagina 54, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA](#dpia), [Discriminatie](#discriminatie), [Mogelijk sprake van discriminatie](#mogelijk-sprake-van-discriminatie)
+Gerelateerd: [Mogelijk sprake van discriminatie](#mogelijk-sprake-van-discriminatie), [Discriminatie](#discriminatie), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA](#dpia)
 
 ### Oorsprong risico voor betrokkenen
 
@@ -2611,9 +2667,7 @@ Hierbij kan gedacht worden aan de volgende risicocategorieën:
 
 Bij het opstellen van een DPIA worden alle (mogelijke) risico's voor de betrokkenen beschreven, ook als er al maatregelen zijn getroffen om deze risico's te mitigeren.
 
-*Deze definitie is afgeleid uit de beschrijving in het Model DPIA Rijksdienst.
-
-Risico's voor betrokkenen kunnen worden onderverdeeld in inherente risico's, resterende risico's en secundaire risico's.*
+*Deze definitie is afgeleid uit de beschrijving in het Model DPIA Rijksdienst. Risico's voor betrokkenen kunnen worden onderverdeeld in inherente risico's, resterende risico's en secundaire risico's.*
 
 Bron: paragraaf 3.16, pagina 52, [[ModelDPIARijksdienst]]
 
@@ -2622,6 +2676,8 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 Voorbeeld(en): Verzamelde gegevens worden na eindigen bewaartermijn niet verwijderd, ongeautoriseerde gebruiker krijgt toegang tot het systeem waarin persoonsgegevens zijn opgeslagen, Financiële persoonsgegevens worden voor ander doeleinde gebruikt dan bepaald ("function/mission creep")
 
 ### Risicobeschrijving
+
+Alternatieve aanduiding: *Beschrijving van het risico*
 
 > Een risicobeschrijving beschrijft het specifieke karakter van het risico in de context van de DPIA.
 
@@ -2635,14 +2691,12 @@ Bron: Overweging 84, [[AVG]]
 
 Toelichting: Het risiconiveau wordt bepaald aan de hand van de formule kans x impact.
 
-*Deze definitie is afgeleid van het gebruik van de term in het Model DPIA Rijksdienst, en overweging 90 in de preambule van de AVG.
-
-In de preambule van de AVG wordt in overweging 90 daarover het volgende gezegd: 	
+*Deze definitie is afgeleid van het gebruik van de term in het Model DPIA Rijksdienst, en overweging 90 in de preambule van de AVG. In de preambule van de AVG wordt in overweging 90 daarover het volgende gezegd: 	
 In dergelijke gevallen dient de verwerkingsverantwoordelijke voorafgaand aan de verwerking een gegevensbeschermingseffectbeoordeling te verrichten om de specifieke waarschijnlijkheid en de ernst van de grote risico's te beoordelen.*
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]], overweging 90, preambule, [[AVG]]
 
-Gerelateerd: [kans](#kans), [Impact](#impact), [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [Impact](#impact), [kans](#kans)
 
 ## DPIA - 17. Maatregelen
 
@@ -2657,9 +2711,9 @@ geraadpleegd. Als de DPIA betrekking heeft op regelgeving moet het voorstel alti
 
 *De term en definitie volgen uit het Model DPIA Rijksdienst en 1de geciteerde artikelen in AVG en Richtlijn.*
 
-Bron: artikel 36, lid 4, [[AVG]], artikel 28, lid 3, [[Richtlijn]], artikel 28, lid 2, [[Richtlijn]], paragraaf 1.6, pagina 11, punt 7, [[ModelDPIARijksdienst]], artikel 36, lid 1, [[AVG]], artikel 36, lid 2, [[AVG]], artikel 35, lid 2, [[AVG]], artikel 28, lid 1, [[Richtlijn]]
+Bron: artikel 28, lid 3, [[Richtlijn]], artikel 35, lid 2, [[AVG]], paragraaf 1.6, pagina 11, punt 7, [[ModelDPIARijksdienst]], artikel 28, lid 1, [[Richtlijn]], artikel 36, lid 4, [[AVG]], artikel 28, lid 2, [[Richtlijn]], artikel 36, lid 1, [[AVG]], artikel 36, lid 2, [[AVG]]
 
-Gerelateerd: [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Voorafgaande raadpleging AP](#voorafgaande-raadpleging-ap)
+Gerelateerd: [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Voorafgaande raadpleging AP](#voorafgaande-raadpleging-ap), [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens)
 
 ### Autoriteit Persoonsgegevens
 
@@ -2679,7 +2733,7 @@ Toelichting: Met verantwoordelijk wordt hier niet hetzelfde bedoeld als verwerki
 
 Bron: paragraaf 3.17, pagina 59, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Functie](#functie), [Maatregel](#maatregel), [Organisatorische eenheid](#organisatorische-eenheid), [Partij](#partij)
+Gerelateerd: [Partij](#partij), [Organisatorische eenheid](#organisatorische-eenheid), [Maatregel](#maatregel), [Functie](#functie)
 
 ### DPIA met resterend hoog risico
 
@@ -2687,7 +2741,7 @@ Gerelateerd: [Functie](#functie), [Maatregel](#maatregel), [Organisatorische een
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Hoog risico](#hoog-risico), [risiconiveau risico voor betrokkenen](#risiconiveau-risico-voor-betrokkenen), [DPIA met resterende risico's](#dpia-met-resterende-risico's), [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen)
+Gerelateerd: [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen), [Hoog risico](#hoog-risico), [DPIA met resterende risico's](#dpia-met-resterende-risico's), [risiconiveau risico voor betrokkenen](#risiconiveau-risico-voor-betrokkenen)
 
 ### DPIA met resterende risico's
 
@@ -2705,7 +2759,7 @@ Gerelateerd: [Inherent risico voor betrokkenen](#inherent-risico-voor-betrokkene
 
 Bron: paragraaf 3.17, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Maatregel](#maatregel), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia), [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA onderwerp](#dpia-onderwerp), [Maatregel](#maatregel)
 
 ### Effect maatregelen
 
@@ -2723,11 +2777,11 @@ Gerelateerd: [Maatregel](#maatregel), [Risico voor betrokkenen](#risico-voor-bet
 
 Toelichting: Het land waar de maatregelen en hun effectiviteit worden bewaakt en geëvalueerd kan relevant zijn voor de manier waarop met de maatregelen wordt omgegaan.
 
-*Deze term is geïntroduceerd op verzoek van het PAR-team.*
+*Deze term is geïntroduceerd op verzoek van het PAR-team. Geaccordeerd 31-3-2025.*
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Maatregel](#maatregel), [DPIA](#dpia)
+Gerelateerd: [DPIA](#dpia), [Maatregel](#maatregel)
 
 ### Maatregel
 
@@ -2741,7 +2795,7 @@ Toelichting: In het begrip ‘passend’ ligt besloten dat de beveiliging in ove
 
 Bron: paragraaf 3.17, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Maatregel doorgifte
 
@@ -2753,7 +2807,7 @@ Alternatieve aanduiding: *Risicobeheersingsmaatregel*
 
 Bron: paragraaf 3.17, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Risico op basis van doorgifte](#risico-op-basis-van-doorgifte), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Risico op basis van doorgifte](#risico-op-basis-van-doorgifte)
 
 ### Onderbouwing acceptatie resterende risico's
 
@@ -2763,7 +2817,7 @@ Gerelateerd: [Risico op basis van doorgifte](#risico-op-basis-van-doorgifte), [G
 
 Bron: paragraaf 3.17, pagina 58, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA](#dpia), [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen), [Maatregel](#maatregel)
+Gerelateerd: [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen), [DPIA](#dpia), [Maatregel](#maatregel)
 
 ### Resterend risico voor betrokkenen
 
@@ -2793,9 +2847,9 @@ Toelichting: Wanneer uit de DPIA voor overheidsverwerkingen blijkt dat de gegeve
 
 *De definitie komt grotendeels uit de AVG. Echter, in artikel 36, lid 1, AVG staat "Wanneer uit een gegevensbeschermingseffectbeoordeling krachtens artikel 35 blijkt dat de verwerking een hoog risico zou opleveren indien de verwerkingsverantwoordelijke geen maatregelen neemt om het risico te beperken, raadpleegt de verwerkingsverantwoordelijke voorafgaand aan de verwerking de toezichthoudende autoriteit." Dit is onjuist, daar genomen maatregelen in acht dienen te worden genomen bij de bepaling of een hoog risico overblijft. De definitie is hierop aangepast op basis van de informatie in het Model DPIA Rijksdienst.*
 
-Bron: Model DPIA Rijksdienst v3.0, mei 2023 [[ModelDPIARijksdienst]], artikel 36, lid 1, [[AVG]]
+Bron: artikel 36, lid 1, [[AVG]], Model DPIA Rijksdienst v3.0, mei 2023 [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Hoog risico](#hoog-risico), [DPIA met resterend hoog risico](#dpia-met-resterend-hoog-risico), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Maatregel](#maatregel)
+Gerelateerd: [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Maatregel](#maatregel), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA met resterend hoog risico](#dpia-met-resterend-hoog-risico), [Hoog risico](#hoog-risico)
 
 ## Pre-scan DPIA - A. Inleiding/algemeen
 
@@ -2826,7 +2880,7 @@ Als dit niet van toepassing is, kan er op basis van andere criteria nog steeds e
 
 Bron: info, [[Pre-scanDPIA]]
 
-Gerelateerd: [Partij](#partij), [DPIA](#dpia), [Organisatorische activiteit](#organisatorische-activiteit)
+Gerelateerd: [DPIA](#dpia), [Partij](#partij), [Organisatorische activiteit](#organisatorische-activiteit)
 
 ### Organisatorische activiteit persoonsgegevens
 
@@ -2840,7 +2894,7 @@ Binnen de context van de pre-scan DPIA kan het namelijk voorkomen dat de scan wo
 
 Bron: Vragenlijst, paragraaf A, vraag 7-9, [[Pre-scanDPIA]]
 
-Gerelateerd: [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Organisatorische activiteit](#organisatorische-activiteit)
+Gerelateerd: [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens), [Organisatorische activiteit](#organisatorische-activiteit), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Pre-scan DPIA
 
@@ -2848,9 +2902,9 @@ Gerelateerd: [Organisatorische activiteit persoonsgegevens](#organisatorische-ac
 
 *Deze definitie is grotendeels overgenomen uit de Pre-scan DPIA, maar 'organisatorische activiteit van persoonsgegevens' is toegevoegd om de context duidelijk te maken.*
 
-Bron: paragraaf 1, pagina 3, Handreiking paragraaf 1, pagina 3, [[Pre-scanDPIA]] [[HandreikingPre-scanDPIA]]
+Bron: paragraaf 1, pagina 3, paragraaf 1, pagina 3, Handreiking [[Pre-scanDPIA]] [[HandreikingPre-scanDPIA]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Organisatorische activiteit](#organisatorische-activiteit), [DTIA](#dtia), [DPIA](#dpia), [Kinderrechten Impact Assessment](#kinderrechten-impact-assessment), [IAMA](#iama), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [DPIA](#dpia), [Kinderrechten Impact Assessment](#kinderrechten-impact-assessment), [IAMA](#iama), [DTIA](#dtia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Organisatorische activiteit](#organisatorische-activiteit), [Persoonsgegeven](#persoonsgegeven)
 
 ## Pre-scan DPIA - B. Gegevensverwerkingen
 
@@ -2868,7 +2922,7 @@ Gerelateerd: [Bewaartermijn](#bewaartermijn), [Persoonsgegeven](#persoonsgegeven
 
 Bron: Vragenlijst, vraag 11d, [[Pre-scanDPIA]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Bewaartermijn](#bewaartermijn)
+Gerelateerd: [Bewaartermijn](#bewaartermijn), [Persoonsgegeven](#persoonsgegeven)
 
 ### Bewaartermijn: Minder dan 1 maand
 
@@ -2902,7 +2956,7 @@ Toelichting: Bij de categorie betrokkenen wordt in de pre-scan DPIA ook vastgele
 
 Bron: Vragenlijst, vraag 10, [[Pre-scanDPIA]]
 
-Gerelateerd: [Organisatorische activiteit](#organisatorische-activiteit), [Categorie betrokkenen](#categorie-betrokkenen)
+Gerelateerd: [Categorie betrokkenen](#categorie-betrokkenen), [Organisatorische activiteit](#organisatorische-activiteit)
 
 Voorbeeld(en): Medewerkers/bewindspersonen, burgers, kinderen jonger dan 16 jaar, andere kwetsbare groepen, specificatie categorie betrokkenen.
 
@@ -2910,11 +2964,11 @@ Voorbeeld(en): Medewerkers/bewindspersonen, burgers, kinderen jonger dan 16 jaar
 
 > Andere kwetsbare groepen is een [categorie betrokkenen](#categorie-betrokkenen) die aangeeft dat [persoonsgegevens](#persoonsgegeven) worden verwerkt van een [kwetsbare groep](#kwetsbare-groep), niet zijnde burgers, kinderen jonger dan 16 jaar of medewerkers/bewindspersonen.
 
-Toelichting: Andere kwetsbare groepen zijn bijvoorbeeld gehandicapten, minderheden, etc.
-
 Bron: Vragenlijst, vraag 10d, [[Pre-scanDPIA]]
 
 Gerelateerd: [Kwetsbare groep](#kwetsbare-groep), [Categorie betrokkenen](#categorie-betrokkenen), [Persoonsgegeven](#persoonsgegeven)
+
+Voorbeeld(en): Andere kwetsbare groepen zijn bijvoorbeeld gehandicapten, minderheden, etc.
 
 ### Categorie betrokkenen: Burgers
 
@@ -2928,9 +2982,11 @@ Gerelateerd: [Categorie betrokkenen](#categorie-betrokkenen), [Persoonsgegeven](
 
 > Kinderen jonger dan 16 jaar is een [categorie betrokkenen](#categorie-betrokkenen) die aangeeft dat [persoonsgegevens](#persoonsgegeven) worden verwerkt van kinderen jonger dan 16 jaar.
 
+Toelichting: Het gaat hier om kinderen jonger dan 16 jaar, ongeacht hun nationaliteit, afkomst of status.
+
 Bron: Vragenlijst, vraag 10c, [[Pre-scanDPIA]]
 
-Gerelateerd: [Categorie betrokkenen](#categorie-betrokkenen), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Categorie betrokkenen](#categorie-betrokkenen)
 
 ### Categorie betrokkenen: Medewerkers/bewindspersonen
 
@@ -2950,7 +3006,7 @@ Toelichting: Als deze categorie wordt geselecteerd in de Pre-scan DPIA, dient ee
 
 Bron: Vragenlijst, vraag 10e, [[Pre-scanDPIA]]
 
-Gerelateerd: [Betrokkene](#betrokkene), [Categorie betrokkenen](#categorie-betrokkenen), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven), [Categorie betrokkenen](#categorie-betrokkenen)
 
 ### Categorie gevoelige persoonsgegevens
 
@@ -2966,7 +3022,7 @@ Gerelateerd: [Categorie persoonsgegevens](#categorie-persoonsgegevens), [Classif
 
 Bron: Vragenlijst, vraag 9, [[Pre-scanDPIA]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoonsgegevens), [Betrokkene](#betrokkene)
+Gerelateerd: [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven), [Categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoonsgegevens)
 
 ### Categorie gevoelige persoonsgegevens: Communicatie- en locatiegegevens
 
@@ -2990,17 +3046,17 @@ Gerelateerd: [Categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoon
 
 Bron: Vragenlijst, vraag 9, [[Pre-scanDPIA]]
 
-Gerelateerd: [Categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Kwetsbare groep](#kwetsbare-groep)
+Gerelateerd: [Categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoonsgegevens), [Kwetsbare groep](#kwetsbare-groep), [Persoonsgegeven](#persoonsgegeven)
 
 ### Categorie gevoelige persoonsgegevens: Gegevens die kunnen worden gebruikt voor fraude
 
-> Gegevens die kunnen worden gebruikt voor fraude is een [categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) die kunnen worden gebruikt voor fraude.
-
-Toelichting: Fraude zoals identiteitsfraude.
+> Gegevens die kunnen worden gebruikt voor fraude is een [categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) die kunnen worden gebruikt voor identiteitsdiefstal of fraude.
 
 Bron: Vragenlijst, vraag 9, [[Pre-scanDPIA]]
 
 Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoonsgegevens)
+
+Voorbeeld(en): de geheime code van de creditcard, pincode, geboortedatum in combinatie met bankrekeningnummer, het antwoord op een geheime vraag.
 
 ### Categorie gevoelige persoonsgegevens: Gegevens over de financiële situatie van de betrokkene
 
@@ -3008,7 +3064,9 @@ Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Categorie gevoelige persoonsg
 
 Bron: Vragenlijst, vraag 9, [[Pre-scanDPIA]]
 
-Gerelateerd: [Categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoonsgegevens), [Betrokkene](#betrokkene), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Betrokkene](#betrokkene), [Categorie gevoelige persoonsgegevens](#categorie-gevoelige-persoonsgegevens)
+
+Voorbeeld(en): Salaris, loonstrook, pensioenoverzicht, bankafschrift, jaaroverzicht.
 
 ### Categorie gevoelige persoonsgegevens: Surfgedrag
 
@@ -3032,17 +3090,19 @@ Gerelateerd: [Categorie persoonsgegevens](#categorie-persoonsgegevens), [Classif
 
 > Apparaat- en internetgegevens is een [categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) over de gebruikte apparatuur en het gedrag van de betrokkene op internet.
 
-Toelichting: Gegevens zoals IP-adres, MAC-adres, metadata, locatiegegevens.
+Toelichting: Dit zijn gegevens waarmee kan worden bepaald wat een betrokkene op internet heeft gedaan, gecommuniceerd of gelezen, op welk moment dat is gebeurd, vanaf welke locatie, en met welk apparaat.
 
 Bron: Vragenlijst, vraag 7, [[Pre-scanDPIA]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens)
+Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+
+Voorbeeld(en): IP-adres, MAC-adres, metadata, locatiegegevens.
 
 ### Categorie gewone persoonsgegevens: Content
 
 > Content is een [categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) over content.
 
-Toelichting: Gegevens zoals inhoud van documenten of ingevulde velden in een applicatie.
+Toelichting: Dit zijn gegevens zoals de inhoud van documenten of ingevulde velden in een applicatie.
 
 Bron: Vragenlijst, vraag 7, [[Pre-scanDPIA]]
 
@@ -3052,37 +3112,49 @@ Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegev
 
 > Demografische gegevens is een [categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) over demografie.
 
+Toelichting: Dit zijn gegevens die worden gebruikt om statistieken te maken over (delen van) de bevolking. Hierbij gebruikt men vaak kenmerken van personen zoals leeftijd, geslacht, gewicht, postcode, burgerlijke staat, hoogst genoten opleiding et cetera. Dit noemen we demografische kenmerken. Deze kenmerken zijn zelf geen bijzondere persoonsgegevens, tenzij ze indirect iets zeggen over gevoelige of bijzondere kenmerken zoals etniciteit.
+
 Bron: Vragenlijst, vraag 7, [[Pre-scanDPIA]]
 
 Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+
+Voorbeeld(en): Geslacht, leeftijd, woonplaats, burgerlijke staat, opleidingsniveau, moedertaal.
 
 ### Categorie gewone persoonsgegevens: Diagnostische gegevens of telemetrie
 
 > Diagnostische gegevens of telemetrie is een [categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) over diagnostiek of telemetrie.
 
+Toelichting: Dit zijn technische gegevens over het gebruik van software of systemen. Deze gegevens worden gebruikt voor productverbetering die vaak automatisch worden vastgelegd.
+
 Bron: Vragenlijst, vraag 7, [[Pre-scanDPIA]]
 
-Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens)
+
+Voorbeeld(en): Foutmeldingen, prestatiemetingen.
 
 ### Categorie gewone persoonsgegevens: Gegevens verzameld via een website
 
-> Apparaat- en internetgegevens is een [categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) over apparaat- en internet.
+> Gegevens verzameld via een website is een [categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) verzameld via een website.
 
-Toelichting: Een website zoals een beheerders-website.
-
-(webformulieren, cookies)
+Toelichting: Het kan hier gaan om gegevens die worden verzameld via welke website dan ook, dus ook een beheerders-website waar alleen medewerkers en beheerders toegang toe hebben. Alle gegevens die bij het gebruik van websites worden vastgelegd en te herleiden zijn naar een persoon vallen hieronder, bijvoorbeeld cookies die bedoeld zijn voor profilering, een ingevoerde vraag, een aangeklikte knop, een ingediende wens of een aankoop, een wachtwoord of veiligheidszin.
 
 Bron: Vragenlijst, vraag 7, [[Pre-scanDPIA]]
 
 Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+
+Voorbeeld(en): Webformulieren, cookies, klikgedrag, sessie-informatie.
 
 ### Categorie gewone persoonsgegevens: Helpdeskgegevens
 
-> Gegevens verzameld via een website is een [categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) verzameld via een website.
+> Helpdeskgegevens is een [categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven) die zijn verstrekt aan of ontstaan tijdens een contactmoment met een helpdesk of klantenservice.
+
+Toelichting: Dit omvat ook gegevens uit andere categorieën zoals toestelgegevens en inkomend nummer wanneer deze worden vastgelegd als onderdeel van het contact met een helpdesk of klantenservice.
 
 Bron: Vragenlijst, vraag 7, [[Pre-scanDPIA]]
 
-Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens)
+
+Voorbeeld(en): De vraag of klacht, het contactmoment, welke medewerker de melding ontving, de opmerkingen van de medewerker, de gegevens over de afhandeling.
 
 ### Categorie gewone persoonsgegevens: Logging
 
@@ -3092,7 +3164,9 @@ Toelichting: Het gaat hier om gegevens die zijn verzameld als audit trail en/of 
 
 Bron: Vragenlijst, vraag 7, [[Pre-scanDPIA]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens)
+Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+
+Voorbeeld(en): MAC-adres, IP-adres, URL, foutmelding, statuscode, accountnaam, sessie ID, gebruikte encryptie, provider, oorspronkelijk IP-adres.
 
 ### Categorie gewone persoonsgegevens: Naam, contactgegevens
 
@@ -3102,13 +3176,21 @@ Bron: Vragenlijst, vraag 7, [[Pre-scanDPIA]]
 
 Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
 
+Voorbeeld(en): Voonaam, achternaam, doopnaam, familienaam, woonadres, verblijfadres.
+
 ### Categorie gewone persoonsgegevens: Overige
 
 > Overige is een [categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens) met [persoonsgegevens](#persoonsgegeven), niet zijnde apparaat- en internetgegevens, content, demografische gegevens, diagnostische gegevens of telemetrie, gegevens verzameld via een website, helpdeskgegevens, logging en naam- en/of contactgegevens.
 
-Toelichting: Als deze categorie wordt geselecteerd in de Pre-scan DPIA, dient een verdere specificatie van de categorie te worden gegeven.
+Toelichting: Deze categorie is bedoeld voor gegevens die niet netjes in één van de andere categorieën passen, maar toch herleidbaar zijn tot een persoon.
 
-Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven)
+Als deze categorie wordt geselecteerd in de Pre-scan DPIA, dient een verdere specificatie van de categorie te worden gegeven.
+
+Bron: Vragenlijst, vraag 7, [[Pre-scanDPIA]]
+
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens)
+
+Voorbeeld(en): Handgeschreven notities.
 
 ### Frequentie van verwerking
 
@@ -3144,7 +3226,7 @@ Gerelateerd: [Frequentie van verwerking](#frequentie-van-verwerking), [Persoonsg
 
 Bron: Vragenlijst, vraag 11c, [[Pre-scanDPIA]]
 
-Gerelateerd: [Frequentie van verwerking](#frequentie-van-verwerking), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Frequentie van verwerking](#frequentie-van-verwerking)
 
 ### Frequentie van verwerking: Minstens maandelijks
 
@@ -3160,7 +3242,7 @@ Gerelateerd: [Frequentie van verwerking](#frequentie-van-verwerking), [Persoonsg
 
 Bron: Vragenlijst, vraag 11c, [[Pre-scanDPIA]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Frequentie van verwerking](#frequentie-van-verwerking)
+Gerelateerd: [Frequentie van verwerking](#frequentie-van-verwerking), [Persoonsgegeven](#persoonsgegeven)
 
 ### Frequentie van verwerking: Vaker dan maandelijks
 
@@ -3178,7 +3260,7 @@ Gerelateerd: [Frequentie van verwerking](#frequentie-van-verwerking), [Persoonsg
 
 Bron: Vragenlijst, paragraaf A, vraag 8, [[Pre-scanDPIA]]
 
-Gerelateerd: [Organisatorische activiteit bijzondere persoonsgegevens](#organisatorische-activiteit-bijzondere-persoonsgegevens), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens)
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Organisatorische activiteit bijzondere persoonsgegevens](#organisatorische-activiteit-bijzondere-persoonsgegevens), [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens)
 
 ### Organisatorische activiteit gevoelige persoonsgegevens
 
@@ -3188,7 +3270,7 @@ Gerelateerd: [Organisatorische activiteit bijzondere persoonsgegevens](#organisa
 
 Bron: Vragenlijst, paragraaf A, vraag 9, [[Pre-scanDPIA]]
 
-Gerelateerd: [Gevoelig persoonsgegeven](#gevoelig-persoonsgegeven), [Organisatorische activiteit gevoelige persoonsgegevens](#organisatorische-activiteit-gevoelige-persoonsgegevens), [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens)
+Gerelateerd: [Organisatorische activiteit gevoelige persoonsgegevens](#organisatorische-activiteit-gevoelige-persoonsgegevens), [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens), [Gevoelig persoonsgegeven](#gevoelig-persoonsgegeven)
 
 ### Organisatorische activiteit gewone persoonsgegevens
 
@@ -3198,7 +3280,7 @@ Gerelateerd: [Gevoelig persoonsgegeven](#gevoelig-persoonsgegeven), [Organisator
 
 Bron: Vragenlijst, paragraaf A, vraag 7, [[Pre-scanDPIA]]
 
-Gerelateerd: [Organisatorische activiteit gevoelige persoonsgegevens](#organisatorische-activiteit-gevoelige-persoonsgegevens), [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens), [Gewoon persoonsgegeven](#gewoon-persoonsgegeven)
+Gerelateerd: [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens), [Gewoon persoonsgegeven](#gewoon-persoonsgegeven), [Organisatorische activiteit gevoelige persoonsgegevens](#organisatorische-activiteit-gevoelige-persoonsgegevens)
 
 ### Organisatorische activiteit met specificatie categorie betrokkenen
 
@@ -3208,7 +3290,7 @@ Gerelateerd: [Organisatorische activiteit gevoelige persoonsgegevens](#organisat
 
 Bron: Vragenlijst, paragraaf A, vraag 10, [[Pre-scanDPIA]]
 
-Gerelateerd: [Categorie betrokkenen: Specificatie categorie betrokkenen](#categorie-betrokkenen-specificatie-categorie-betrokkenen), [Categorie betrokkenen in organisatorische activiteit](#categorie-betrokkenen-in-organisatorische-activiteit), [Specificatie categorie betrokkenen](#specificatie-categorie-betrokkenen), [Organisatorische activiteit met specificatie categorie betrokkenen](#organisatorische-activiteit-met-specificatie-categorie-betrokkenen), [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens)
+Gerelateerd: [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens), [Organisatorische activiteit met specificatie categorie betrokkenen](#organisatorische-activiteit-met-specificatie-categorie-betrokkenen), [Specificatie categorie betrokkenen](#specificatie-categorie-betrokkenen), [Categorie betrokkenen: Specificatie categorie betrokkenen](#categorie-betrokkenen-specificatie-categorie-betrokkenen), [Categorie betrokkenen in organisatorische activiteit](#categorie-betrokkenen-in-organisatorische-activiteit)
 
 ### Organisatorische activiteit overige gewone persoonsgegevens
 
@@ -3218,7 +3300,7 @@ Gerelateerd: [Categorie betrokkenen: Specificatie categorie betrokkenen](#catego
 
 Bron: Vragenlijst, paragraaf A, vraag 7, [[Pre-scanDPIA]]
 
-Gerelateerd: [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens), [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens), [Gewoon persoonsgegeven](#gewoon-persoonsgegeven), [Organisatorische activiteit gevoelige persoonsgegevens](#organisatorische-activiteit-gevoelige-persoonsgegevens)
+Gerelateerd: [Organisatorische activiteit gevoelige persoonsgegevens](#organisatorische-activiteit-gevoelige-persoonsgegevens), [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens), [Gewoon persoonsgegeven](#gewoon-persoonsgegeven), [Categorie gewone persoonsgegevens](#categorie-gewone-persoonsgegevens)
 
 ### Specificatie categorie betrokkenen
 
@@ -3264,7 +3346,7 @@ Toelichting: Bij een adequaatheidsbesluit is er geen DTIA-verplichting.
 
 Bron: artikel 45, lid 1, [[AVG]]
 
-Gerelateerd: [Doorgiftemechanisme](#doorgiftemechanisme), [Derde land](#derde-land)
+Gerelateerd: [Derde land](#derde-land), [Doorgiftemechanisme](#doorgiftemechanisme)
 
 ### Doorgiftemechanisme: bindend bedrijfsvoorschrift
 
@@ -3274,9 +3356,9 @@ Toelichting: In de bindende bedrijfsvoorschriften legt een organisatie vast welk
 
 *De AVG geeft een definitie in artikel 4, en aanvullende voorwaarden aan de BCR in artikel 47. De AP verstrekt extra duidelijkheid.*
 
-Bron: artikel 4, lid 20, [[AVG]], artikel 47, [[AVG]], Autoriteit Persoonsgegevens [[AP]]
+Bron: Autoriteit Persoonsgegevens [[AP]], artikel 47, [[AVG]], artikel 4, lid 20, [[AVG]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Doorgiftemechanisme](#doorgiftemechanisme), [Beleid](#beleid), [Verwerker](#verwerker)
+Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Doorgiftemechanisme](#doorgiftemechanisme), [Persoonsgegeven](#persoonsgegeven), [Verwerker](#verwerker), [Beleid](#beleid)
 
 ### Doorgiftemechanisme: goedgekeurd certificeringsmechanisme
 
@@ -3284,7 +3366,7 @@ Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Verwerkingsverantwoordelijke]
 
 Bron: artikel 42, [[AVG]], artikel 46, lid 2, sub f, [[AVG]]
 
-Gerelateerd: [Derde land](#derde-land), [Recht van de betrokkene](#recht-van-de-betrokkene), [Verwerker](#verwerker), [Doorgiftemechanisme](#doorgiftemechanisme), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke)
+Gerelateerd: [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Doorgiftemechanisme](#doorgiftemechanisme), [Recht van de betrokkene](#recht-van-de-betrokkene), [Derde land](#derde-land), [Verwerker](#verwerker)
 
 ### Doorgiftemechanisme: goedgekeurde gedragscode
 
@@ -3292,7 +3374,7 @@ Gerelateerd: [Derde land](#derde-land), [Recht van de betrokkene](#recht-van-de-
 
 Bron: artikel 40, [[AVG]], artikel 46, lid 2, sub e, [[AVG]]
 
-Gerelateerd: [Derde land](#derde-land), [Recht van de betrokkene](#recht-van-de-betrokkene), [Verwerker](#verwerker), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Doorgiftemechanisme](#doorgiftemechanisme)
+Gerelateerd: [Derde land](#derde-land), [Verwerker](#verwerker), [Recht van de betrokkene](#recht-van-de-betrokkene), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Doorgiftemechanisme](#doorgiftemechanisme)
 
 ### Doorgiftemechanisme: juridisch bindend en afdwingbaar instrument
 
@@ -3302,7 +3384,7 @@ Toelichting: Dit kan bijvoorbeeld gaan om een internationale overeenkomst confor
 
 Bron: artikel 46, lid 2, sub a, [[AVG]], artikel 48, [[AVG]]
 
-Gerelateerd: [Internationale doorgifte](#internationale-doorgifte), [Doorgiftemechanisme](#doorgiftemechanisme)
+Gerelateerd: [Doorgiftemechanisme](#doorgiftemechanisme), [Internationale doorgifte](#internationale-doorgifte)
 
 ### Doorgiftemechanisme: overig mechanisme
 
@@ -3325,7 +3407,7 @@ Toelichting: Het gaat hier om standaardbepalingen inzake gegevensbescherming die
 
 *Deze definitie is afgeleid van de beschrijving op de website van de Europese Commissie en het uitvoeringsbesluit betreffende standaardcontractbepalingen voor de doorgifte van persoonsgegevens naar derde landen.*
 
-Bron: artikel 46, lid 2, sub d, [[AVG]], artikel 46, lid 2, sub c, [[AVG]], Standard Contractual Clauses (SCC), [[EuropeseCommissie]], Uitvoeringsbesluit (EU) 2021/914 van de Commissie van 4 juni 2021 betreffende standaardcontractbepalingen voor de doorgifte van persoonsgegevens naar derde landen overeenkomstig Verordening (EU) 2016/679 van het Europees Parlement en de Raad [[UitvoeringsbesluitSCC]]
+Bron: Standard Contractual Clauses (SCC), [[EuropeseCommissie]], artikel 46, lid 2, sub c, [[AVG]], artikel 46, lid 2, sub d, [[AVG]], Uitvoeringsbesluit (EU) 2021/914 van de Commissie van 4 juni 2021 betreffende standaardcontractbepalingen voor de doorgifte van persoonsgegevens naar derde landen overeenkomstig Verordening (EU) 2016/679 van het Europees Parlement en de Raad [[UitvoeringsbesluitSCC]]
 
 Gerelateerd: [Doorgiftemechanisme](#doorgiftemechanisme)
 
@@ -3337,7 +3419,7 @@ Toelichting: Bij ontstentenis van een adequaatheidsbesluit overeenkomstig artike
 
 *De definitie is afgeleid uit het gebruik van de term in de Pre-scan DPIA. De toelichting komt rechtstreeks uit de AVG.*
 
-Bron: Artikel 49, lid 1, [[AVG]], Vragenlijst, vraag 18, [[Pre-scanDPIA]]
+Bron: Vragenlijst, vraag 18, [[Pre-scanDPIA]], Artikel 49, lid 1, [[AVG]]
 
 Gerelateerd: [Doorgiftemechanisme](#doorgiftemechanisme)
 
@@ -3349,7 +3431,7 @@ Gerelateerd: [Doorgiftemechanisme](#doorgiftemechanisme)
 
 Bron: Vragenlijst, vraag 19, [[Pre-scanDPIA]]
 
-Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Derde land](#derde-land), [Internationale doorgifte](#internationale-doorgifte), [Classificatie](#classificatie), [Europese Economische Ruimte](#europese-economische-ruimte)
+Gerelateerd: [Internationale doorgifte](#internationale-doorgifte), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Classificatie](#classificatie), [Europese Economische Ruimte](#europese-economische-ruimte), [Derde land](#derde-land)
 
 ### Internationale doorgifte bijzondere persoonsgegevens: geen bijzondere persoonsgegevens
 
@@ -3359,7 +3441,7 @@ Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Derde lan
 
 Bron: Vragenlijst, vraag 19, [[Pre-scanDPIA]]
 
-Gerelateerd: [Internationale doorgifte](#internationale-doorgifte), [Classificatie](#classificatie), [Europese Economische Ruimte](#europese-economische-ruimte), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Derde land](#derde-land)
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Europese Economische Ruimte](#europese-economische-ruimte), [Classificatie](#classificatie), [Derde land](#derde-land), [Internationale doorgifte](#internationale-doorgifte)
 
 ### Internationale doorgifte: geen persoonsgegevens
 
@@ -3369,7 +3451,7 @@ Gerelateerd: [Internationale doorgifte](#internationale-doorgifte), [Classificat
 
 Bron: Vragenlijst, vraag 13, [[Pre-scanDPIA]]
 
-Gerelateerd: [Classificatie](#classificatie), [Europese Economische Ruimte](#europese-economische-ruimte), [Persoonsgegeven](#persoonsgegeven), [Internationale doorgifte](#internationale-doorgifte), [Derde land](#derde-land)
+Gerelateerd: [Europese Economische Ruimte](#europese-economische-ruimte), [Persoonsgegeven](#persoonsgegeven), [Derde land](#derde-land), [Classificatie](#classificatie), [Internationale doorgifte](#internationale-doorgifte)
 
 ### Internationale doorgifte: persoonsgegevens
 
@@ -3379,7 +3461,7 @@ Gerelateerd: [Classificatie](#classificatie), [Europese Economische Ruimte](#eur
 
 Bron: Vragenlijst, vraag 13, [[Pre-scanDPIA]]
 
-Gerelateerd: [Derde land](#derde-land), [Persoonsgegeven](#persoonsgegeven), [Internationale doorgifte](#internationale-doorgifte), [Europese Economische Ruimte](#europese-economische-ruimte), [Classificatie](#classificatie)
+Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Europese Economische Ruimte](#europese-economische-ruimte), [Internationale doorgifte](#internationale-doorgifte), [Derde land](#derde-land), [Classificatie](#classificatie)
 
 ### Opslag van gegevens
 
@@ -3391,7 +3473,7 @@ Toelichting: Bij invulling van 'opslag van gegevens' in de Pre-scan DPIA kan er 
 
 Bron: Vragenlijst, vraag 15, [[Pre-scanDPIA]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Classificatie](#classificatie)
+Gerelateerd: [Classificatie](#classificatie), [Persoonsgegeven](#persoonsgegeven)
 
 ### Opslag van gegevens: buiten EER
 
@@ -3401,7 +3483,7 @@ Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Classificatie](#classificatie
 
 Bron: Vragenlijst, vraag 15, [[Pre-scanDPIA]]
 
-Gerelateerd: [Opslag van gegevens](#opslag-van-gegevens), [Europese Economische Ruimte](#europese-economische-ruimte)
+Gerelateerd: [Europese Economische Ruimte](#europese-economische-ruimte), [Opslag van gegevens](#opslag-van-gegevens)
 
 ### Opslag van gegevens: datacenter EER
 
@@ -3411,7 +3493,7 @@ Gerelateerd: [Opslag van gegevens](#opslag-van-gegevens), [Europese Economische 
 
 Bron: Vragenlijst, vraag 15, [[Pre-scanDPIA]]
 
-Gerelateerd: [Opslag van gegevens](#opslag-van-gegevens), [Europese Economische Ruimte](#europese-economische-ruimte)
+Gerelateerd: [Europese Economische Ruimte](#europese-economische-ruimte), [Opslag van gegevens](#opslag-van-gegevens)
 
 ### Opslag van gegevens: on premise
 
@@ -3429,7 +3511,7 @@ Gerelateerd: [Opslag van gegevens](#opslag-van-gegevens)
 
 Bron: Vragenlijst, vraag 13, [[Pre-scanDPIA]]
 
-Gerelateerd: [Internationale doorgifte](#internationale-doorgifte), [Doorgiftemechanisme](#doorgiftemechanisme), [DTIA-verplichting](#dtia-verplichting), [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens)
+Gerelateerd: [Organisatorische activiteit persoonsgegevens](#organisatorische-activiteit-persoonsgegevens), [Internationale doorgifte](#internationale-doorgifte), [DTIA-verplichting](#dtia-verplichting), [Doorgiftemechanisme](#doorgiftemechanisme)
 
 ### Organisatorische activiteit met DTIA-verplichting en overig doorgiftemechanisme
 
@@ -3483,17 +3565,17 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 ### Lijst AP
 
-> De Lijst AP is een lijst opgesteld door de [AP](#autoriteit-persoonsgegevens) die zeventien verschillende soorten [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) omvat waarvoor een [DPIA](#dpia) verplicht is.
+> De Lijst AP is een lijst opgesteld door de [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens) die zeventien verschillende soorten [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) omvat waarvoor een [DPIA](#dpia) verplicht is.
 
 *Deze definitie is afgeleid uit de beschrijving in de Lijst AP.*
 
 Bron: pagina 1, pagina 1, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [DPIA](#dpia), [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [DPIA](#dpia)
 
 ### Lijst AP: Biometrische gegevens
 
-> Biometrische gegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) en/of stelselmatige monitoring van [type bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon](#type-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon).
+> Biometrische gegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) en/of stelselmatige monitoring van [type bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon]().
 
 Toelichting: Op grond van de Algemene verordening gegevensbescherming is de verwerking van biometrische gegevens met als doel de unieke identificatie van een natuurlijk persoon, in beginsel verboden. In Nederland zijn aanvullende voorwaarden gesteld in artikel 29 van de Uitvoeringswet Algemene verordening gegevensbescherming. Enkel als de verwerking strikt noodzakelijk is voor authenticatie of beveiligingsdoeleinden, is de verwerking van biometrische gegevens toegestaan.
 
@@ -3501,7 +3583,7 @@ Toelichting: Op grond van de Algemene verordening gegevensbescherming is de verw
 
 Bron: pagina 3, pagina 3, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Type bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon](#type-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon), [Lijst AP](#lijst-ap)
+Gerelateerd: [Lijst AP](#lijst-ap), [type bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon](#type-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Lijst AP: Cameratoezicht
 
@@ -3513,9 +3595,13 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 ### Lijst AP: Communicatiegegevens
 
+> Communicatiegegevens is een categorie van [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige en/of systematische [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) van communicatiegegevens inclusief metadata herleidbaar tot natuurlijke personen, tenzij en voor zover dit noodzakelijk is ter bescherming van de integriteit en de veiligheid van het netwerk en de dienst van de betrokken aanbieder, of het randapparaat van de eindgebruiker.
+
 *De definitie is overgenomen uit de Lijst AP, waarbij 'verwerking' is vervangen door 'gegevensverwerking' om zo naar de voorkeursterm van dit begrip te verwijzen.*
 
 Bron: pagina 3, pagina 3, Lijst [[LijstAP]] [[AP]]
+
+Gerelateerd: [Lijst AP](#lijst-ap), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Lijst AP: Controle werknemers
 
@@ -3525,7 +3611,7 @@ Bron: pagina 3, pagina 3, Lijst [[LijstAP]] [[AP]]
 
 Bron: pagina 3, pagina 3, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Persoonsgegeven](#persoonsgegeven), [Lijst AP](#lijst-ap), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap), [Persoonsgegeven](#persoonsgegeven)
 
 Voorbeeld(en): Controle van e-mail en internetgebruik, GPS-systemen in (vracht)auto’s van werknemers of cameratoezicht ten behoeve van diefstal- en fraudebestrijding
 
@@ -3537,7 +3623,7 @@ Toelichting: Inschattingen bijvoorbeeld tot uitdrukking gebracht in een creditsc
 
 Bron: pagina 2, pagina 2, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Natuurlijk persoon](#natuurlijk-persoon), [Lijst AP](#lijst-ap)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap), [Natuurlijk persoon](#natuurlijk-persoon)
 
 ### Lijst AP: Financiële situatie
 
@@ -3567,25 +3653,25 @@ Gerelateerd: [Lijst AP](#lijst-ap), [Gegevensverwerking persoonsgegevens](#gegev
 
 Bron: pagina 2, pagina 2, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Lijst AP](#lijst-ap), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap)
 
 Voorbeeld(en): fraudebestrijding door sociale diensten of door fraudeafdelingen van verzekeraars
 
 ### Lijst AP: Genetische persoonsgegevens
 
-> Genetische persoonsgegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) en/of stelselmatige monitoring van [Type bijzondere persoonsgegevens: Genetische gegevens](#type-bijzondere-persoonsgegevens-genetische-gegevens).
+> Genetische persoonsgegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) en/of stelselmatige monitoring van [Type bijzondere persoonsgegevens: Genetische gegevens]().
 
 *Verwerkingen' is vervangen door 'gegevensverwerkingen' en 'genetische persoonsgegevens' is vervangen door 'Type bijzonder persoonsgegeven: Genetische gegevens', om naar de juiste begrippen te kunnen verwijzen.*
 
 Bron: pagina 2, pagina 2, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Lijst AP](#lijst-ap), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Type bijzondere persoonsgegevens: Genetische gegevens](#type-bijzondere-persoonsgegevens-genetische-gegevens)
+Gerelateerd: [Type bijzondere persoonsgegevens: Genetische gegevens](#type-bijzondere-persoonsgegevens-genetische-gegevens), [Lijst AP](#lijst-ap), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 Voorbeeld(en): DNA-analyses ten behoeve van het in kaart brengen van persoonlijke kenmerken, biodatabanken
 
 ### Lijst AP: Gezondheidsgegevens
 
-> Gezondheidsgegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) (waaronder ook grootschalige elektronische uitwisseling) van [Type bijzondere persoonsgegevens: Gegevens over gezondheid](#type-bijzondere-persoonsgegevens-gegevens-over-gezondheid).
+> Gezondheidsgegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) (waaronder ook grootschalige elektronische uitwisseling) van [Type bijzondere persoonsgegevens: Gegevens over gezondheid]().
 
 Toelichting: Verwerkingen bijvoorbeeld door instellingen of voorzieningen voor gezondheidszorg of maatschappelijke dienstverlening, arbodiensten, reïntegratiebedrijven, (speciaal)onderwijsinstellingen, verzekeraars, en onderzoeksinstituten. Let wel: individuele artsen en individuele zorgprofessionals zijn op grond van overweging 91 van de Algemene verordening gegevensbescherming uitgezonderd van de verplichting een gegevensbeschermingseffectbeoordeling (DPIA) uit te voeren.
 
@@ -3593,7 +3679,7 @@ Toelichting: Verwerkingen bijvoorbeeld door instellingen of voorzieningen voor g
 
 Bron: pagina 2, pagina 2, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Lijst AP](#lijst-ap), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Type bijzondere persoonsgegevens: Gegevens over gezondheid](#type-bijzondere-persoonsgegevens-gegevens-over-gezondheid)
+Gerelateerd: [Type bijzondere persoonsgegevens: Gegevens over gezondheid](#type-bijzondere-persoonsgegevens-gegevens-over-gezondheid), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap)
 
 ### Lijst AP: Heimelijk onderzoek
 
@@ -3605,7 +3691,7 @@ Toelichting: Een gegevensbeschermingseffectbeoordeling (DPIA) is ook verplicht i
 
 Bron: pagina 2, pagina 2, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Betrokkene](#betrokkene), [Lijst AP](#lijst-ap)
+Gerelateerd: [Lijst AP](#lijst-ap), [Persoonsgegeven](#persoonsgegeven), [Betrokkene](#betrokkene), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 Voorbeeld(en): Heimelijk onderzoek door particuliere recherchebureaus, onderzoek in het kader van fraudebestrijding en onderzoek op internet in het kader van bijvoorbeeld online handhaving van auteursrechten
 
@@ -3631,7 +3717,7 @@ Toelichting: Gegevensverwerking en/of monitoring bijvoorbeeld door (scan)auto’
 
 Bron: pagina 3, pagina 3, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Natuurlijk persoon](#natuurlijk-persoon), [Lijst AP](#lijst-ap)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap), [Natuurlijk persoon](#natuurlijk-persoon)
 
 ### Lijst AP: Observatie en beïnvloeding van gedrag
 
@@ -3641,7 +3727,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Bron: pagina 3, pagina 3, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Persoonsgegeven](#persoonsgegeven), [Natuurlijk persoon](#natuurlijk-persoon), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap)
+Gerelateerd: [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Natuurlijk persoon](#natuurlijk-persoon), [Persoonsgegeven](#persoonsgegeven), [Lijst AP](#lijst-ap)
 
 ### Lijst AP: Profilering
 
@@ -3661,7 +3747,7 @@ Toelichting: Persoonsgegevens van gevoelige aard zoals gegevens over gezondheid,
 
 Bron: pagina 2, pagina 2, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Persoonsgegeven](#persoonsgegeven), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap)
 
 ### Lijst AP: Zwarte lijsten
 
@@ -3671,7 +3757,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Bron: pagina 2, pagina 2, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Lijst AP](#lijst-ap), [Derde](#derde), [Persoonsgegeven](#persoonsgegeven), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Persoonsgegeven](#persoonsgegeven), [Derde](#derde), [Lijst AP](#lijst-ap)
 
 Voorbeeld(en): zwarte lijsten of waarschuwingslijsten, zoals deze bijvoorbeeld gebruikt worden door verzekeraars, horecabedrijven, winkelbedrijven, telecomproviders alsook zwarte lijsten die betrekking hebben op onrechtmatig gedrag van werknemers, bijvoorbeeld in de zorg of door uitzendbureaus
 
@@ -3683,7 +3769,7 @@ Voorbeeld(en): zwarte lijsten of waarschuwingslijsten, zoals deze bijvoorbeeld g
 
 Bron: info, [[Pre-scanDPIA]]
 
-Gerelateerd: [Lijst EDPB](#lijst-edpb), [Organisatorische activiteit](#organisatorische-activiteit), [DPIA](#dpia), [Partij](#partij), [Lijst AP](#lijst-ap)
+Gerelateerd: [Lijst AP](#lijst-ap), [Partij](#partij), [DPIA](#dpia), [Organisatorische activiteit](#organisatorische-activiteit), [Lijst EDPB](#lijst-edpb)
 
 ### Organisatorische activiteit zonder DPIA-verplichting o.b.v. lijst AP of EDPB
 
@@ -3693,7 +3779,7 @@ Gerelateerd: [Lijst EDPB](#lijst-edpb), [Organisatorische activiteit](#organisat
 
 Bron: info, [[Pre-scanDPIA]]
 
-Gerelateerd: [Lijst AP](#lijst-ap), [Lijst EDPB](#lijst-edpb), [Partij](#partij)
+Gerelateerd: [Partij](#partij), [Lijst EDPB](#lijst-edpb), [Lijst AP](#lijst-ap)
 
 ## Pre-scan DPIA - E. Lijst EDPB
 
@@ -3711,9 +3797,9 @@ Gerelateerd: [Europese Economische Ruimte](#europese-economische-ruimte)
 
 *Deze term volgt uit de Pre-scan DPIA, de definitie is afgeleid van de beschrijving in de Richtsnoeren EDPB*
 
-Bron: paragraaf 3Ba, pagina 10, Richtsnoeren paragraaf 3Ba, pagina 10, [[RichtsnoerenEDPB]] [[EDPB]], Vragenlijst, paragraaf E, [[Pre-scanDPIA]]
+Bron: Vragenlijst, paragraaf E, [[Pre-scanDPIA]], paragraaf 3Ba, pagina 10, Richtsnoeren paragraaf 3Ba, pagina 10, [[RichtsnoerenEDPB]] [[EDPB]]
 
-Gerelateerd: [EDPB](#edpb), [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [EDPB](#edpb)
 
 ### Lijst EDPB: Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens
 
@@ -3734,7 +3820,7 @@ Toelichting: Het omvat de categorieën persoonsgegevens zoals omschreven in arti
 
 Bron: paragraaf 3Ba, pagina 11, Richtsnoeren paragraaf 3Ba, pagina 11, [[RichtsnoerenEDPB]] [[EDPB]], Vragenlijst, paragraaf E, [[Pre-scanDPIA]]
 
-Gerelateerd: [Lijst EDPB](#lijst-edpb), [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven), [Gevoelig persoonsgegeven](#gevoelig-persoonsgegeven), [Nationaal identificatienummer](#nationaal-identificatienummer)
+Gerelateerd: [Nationaal identificatienummer](#nationaal-identificatienummer), [Gevoelig persoonsgegeven](#gevoelig-persoonsgegeven), [Lijst EDPB](#lijst-edpb), [Strafrechtelijk persoonsgegeven](#strafrechtelijk-persoonsgegeven), [Bijzonder persoonsgegeven](#bijzonder-persoonsgegeven)
 
 ### Lijst EDPB: Blokkering van een dienst, recht of contract
 
@@ -3744,7 +3830,7 @@ Toelichting: Dit omvat verwerkingen die erop gericht zijn de toegang van betrokk
 
 Bron: paragraaf 3Ba, pagina 11, Richtsnoeren paragraaf 3Ba, pagina 11, [[RichtsnoerenEDPB]] [[EDPB]]
 
-Gerelateerd: [Betrokkene](#betrokkene), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst EDPB](#lijst-edpb)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst EDPB](#lijst-edpb), [Betrokkene](#betrokkene)
 
 Voorbeeld(en): een bank die zijn klanten screent op basis van een databank met kredietreferenties om te beslissen of ze al dan niet een lening aangeboden
 krijgen
@@ -3760,7 +3846,7 @@ met weinig of geen gevolg voor natuurlijke personen voldoet niet aan dit specifi
 
 Bron: Vragenlijst, paragraaf E, [[Pre-scanDPIA]], paragraaf 3Ba, pagina 11, Richtsnoeren paragraaf 3Ba, pagina 11, [[RichtsnoerenEDPB]] [[EDPB]]
 
-Gerelateerd: [Lijst EDPB](#lijst-edpb), [Natuurlijk persoon](#natuurlijk-persoon), [Betrokkene](#betrokkene), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst EDPB](#lijst-edpb), [Natuurlijk persoon](#natuurlijk-persoon), [Betrokkene](#betrokkene)
 
 ### Lijst EDPB: Gebruik van nieuwe technologieën
 
@@ -3816,7 +3902,7 @@ voorkeuren of interesses, betrouwbaarheid of gedrag, locatie of verplaatsingen v
 
 *Deze term volgt uit de Pre-scan DPIA, de definitie uit de Richtsnoeren EDPB.*
 
-Bron: Vragenlijst, paragraaf E, [[Pre-scanDPIA]], paragraaf 3Ba, pagina 10, Richtsnoeren paragraaf 3Ba, pagina 10, [[RichtsnoerenEDPB]] [[EDPB]]
+Bron: paragraaf 3Ba, pagina 10, Richtsnoeren paragraaf 3Ba, pagina 10, [[RichtsnoerenEDPB]] [[EDPB]], Vragenlijst, paragraaf E, [[Pre-scanDPIA]]
 
 Gerelateerd: [Lijst EDPB](#lijst-edpb)
 
@@ -3831,9 +3917,9 @@ Toelichting: Het monitoren of controleren van betrokkenen inclusief via netwerke
 
 *Deze term volgt uit de Pre-scan DPIA, de definitie uit de Richtsnoeren EDPB.*
 
-Bron: paragraaf 3Ba, pagina 11, Richtsnoeren paragraaf 3Ba, pagina 11, [[RichtsnoerenEDPB]] [[EDPB]], Vragenlijst, paragraaf E, [[Pre-scanDPIA]]
+Bron: Vragenlijst, paragraaf E, [[Pre-scanDPIA]], paragraaf 3Ba, pagina 11, Richtsnoeren paragraaf 3Ba, pagina 11, [[RichtsnoerenEDPB]] [[EDPB]]
 
-Gerelateerd: [Lijst EDPB](#lijst-edpb), [Betrokkene](#betrokkene), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Betrokkene](#betrokkene), [Lijst EDPB](#lijst-edpb), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 ### Lijst EDPB: Verwerking van persoonsgegevens over kwetsbare groepen of personen
 
@@ -4033,7 +4119,7 @@ Toelichting: Een partij is in ieder geval verplicht een KIA op te stellen als ee
 
 Bron: Vragenlijst, paragraaf J, [[Pre-scanDPIA]]
 
-Gerelateerd: [Kinderrechten Impact Assessment](#kinderrechten-impact-assessment), [Digitale dienst](#digitale-dienst), [Partij](#partij)
+Gerelateerd: [Digitale dienst](#digitale-dienst), [Partij](#partij), [Kinderrechten Impact Assessment](#kinderrechten-impact-assessment)
 
 ### Kinderrechten Impact Assessment
 

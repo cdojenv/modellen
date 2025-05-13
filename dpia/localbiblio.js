@@ -102,6 +102,10 @@ var localBiblio = {
     title: "Pre-scan DPIA (Pre-scan Data Protection Impact Assessment) v2.0, 23 augustus 2024",
     href: "https://www.cip-overheid.nl/producten-en-diensten/PS-PIA",
   },
+  "RapportMotie21": {
+    title: "Rapport uitvoering motie 21 door hetministerie van Justitie en Veiligheid",
+    href: "https://www.rijksoverheid.nl/documenten/rapporten/2022/07/06/tk-bijlage-rapport-uitvoering-motie-21-door-het-ministerie-van-justitie-en-veiligheid",
+  },
   "RapportagemodelDPIARijksdienst": {
     title: "Rapportagemodel DPIA Rijksdienst v3.0, 25 juli 2023",
     href: "https://www.kcbr.nl/beleid-en-regelgeving-ontwikkelen/beleidskompas/verplichte-kwaliteitseisen/data-protection-impact-assessment",

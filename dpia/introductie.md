@@ -145,7 +145,7 @@ Indien de [Functie/afdeling met toegang tot persoonsgegevens bekend](#functie-af
 
 ### 07. Belangen {#IntroBelangen}
 
-Paragraaf 7 van het rijksmodel voor de [DPIA](#dpia) bevat een beschrijving van de [belang](#belang)en van elke in paragraaf 6 beschreven [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking).
+Paragraaf 7 van het rijksmodel voor de [DPIA](#dpia) bevat een beschrijving van de [belangen](#belang-van-betrokken-partij) van elke in paragraaf 6 beschreven [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking).
 
 Elke [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking) is een [betrokken partij bij DPIA](#betrokken-partij-bij-dpia). Voor elke genoemde [partij](#partij) wordt het [belang van betrokken partij](#belang-van-betrokken-partij) beschreven, zodat een [belangenafweging](#belangenafweging) kan worden gemaakt.
 
@@ -185,7 +185,7 @@ Paragraaf 12 van het rijksmodel voor de [DPIA](#dpia) is van toepassing indien e
 
 Hierbij wordt elk [persoonsgegeven](#persoonsgegeven) beschreven, met de [naam persoonsgegeven](#naam-persoonsgegeven) en de [categorie betrokkenen](#categorie-betrokkenen) van wie de gegevens worden verwerkt.
 
-Voor [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) wordt beschreven welk [type bijzondere persoonsgegevens](#type-bijzondere-persoonsgegevens) er worden verwerkt. Voor elk [type bijzondere persoonsgegevens](#type-bijzondere-persoonsgegevens) wordt een [doorbrekingsgrond](#doorbrekingsgrond) vastgelegd, en de [wet- en regelgeving](#wet-en-regelgeving) die de doorbrekingsgrond beschrijft.
+Voor [bijzondere persoonsgegevens](#bijzonder-persoonsgegeven) wordt beschreven welk [categorie bijzondere persoonsgegevens](#categorie-bijzondere-persoonsgegevens) er worden verwerkt. Voor elke [categorie bijzondere persoonsgegevens](#categorie-bijzondere-persoonsgegevens) wordt een [doorbrekingsgrond](#doorbrekingsgrond) vastgelegd, en de [wet- en regelgeving](#wet-en-regelgeving) die de doorbrekingsgrond beschrijft.
 
 Voor een gegevensverwerking van [strafrechtelijke persoonsgegevens](#strafrechtelijk-persoonsgegeven) wordt vastgelegd welke [uitzonderingsgrond](#uitzonderingsgrond) wordt gehanteerd, en op basis van welke [wet- en regelgeving](#wet-en-regelgeving) dat gebeurd.
 
@@ -313,6 +313,8 @@ Er is sprake van een [organisatorische activiteit gevoelige persoonsgegevens](#o
 * [Categorie gevoelige persoonsgegevens: Gegevens die betrekking hebben op kwetsbare groepen](#categorie-gevoelige-persoonsgegevens-gegevens-die-betrekking-hebben-op-kwetsbare-groepen)
 * [Categorie gevoelige persoonsgegevens: Gegevens die kunnen worden gebruikt voor fraude](#categorie-gevoelige-persoonsgegevens-gegevens-die-kunnen-worden-gebruikt-voor-fraude)
 * [Categorie gevoelige persoonsgegevens: Gegevens over de financiële situatie van de betrokkene](#categorie-gevoelige-persoonsgegevens-gegevens-over-de-financiele-situatie-van-de-betrokkene)
+* [Categorie gevoelige persoonsgegevens: Nationale identificatienummers](#categorie-gevoelige-persoonsgegevens-nationale-identificatienummers)
+* [Categorie gevoelige persoonsgegevens: Strafrechtelijke gegevens](#categorie-gevoelige-persoonsgegevens-strafrechtelijke-gegevens)
 * [Categorie gevoelige persoonsgegevens: Surfgedrag](#categorie-gevoelige-persoonsgegevens-surfgedrag)
 
 Er is sprake van een [organisatorische activiteit bijzondere persoonsgegevens](#organisatorische-activiteit-bijzondere-persoonsgegevens) als de organisatorische activiteit een [classificatie type persoonsgegevens](#classificatie-type-persoonsgegevens) heeft, met als waarde [Classificatie type persoonsgegevens: Bijzonder](#classificatie-type-persoonsgegevens-bijzonder). In dat geval wordt vastgelegd om welk [classificatie type bijzondere persoonsgegevens](#type-bijzondere-persoonsgegevens) het gaat. Het gaat daarbij om de volgende categorieën:
