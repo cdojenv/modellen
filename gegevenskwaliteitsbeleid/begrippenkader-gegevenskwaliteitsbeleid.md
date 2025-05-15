@@ -108,42 +108,42 @@ Gerelateerd: [Gegevens](#gegevens)
 
 ### Gegevenskwaliteitsattribuut
 
-> Een gegevenskwaliteitsattribuut geeft een meer concreet meetbaar aspect binnen een [gegevenskwaliteitsdimensie](#gegevenskwaliteitsdimensie) aan. Voor een gegevenskwaliteitsattribuut kunnen meetbare indicatoren worden gedefinieerd in de vorm van [gegevenskwaliteitseisen]().
+> Een gegevenskwaliteitsattribuut geeft een meer concreet meetbaar aspect binnen een [gegevenskwaliteitsdimensie](#gegevenskwaliteitsdimensie) aan. Voor een gegevenskwaliteitsattribuut kunnen meetbare indicatoren worden gedefinieerd in de vorm van [gegevenskwaliteitseisen](#gegevenskwaliteitseis).
 
 Toelichting: Binnen het NORA kwaliteitsraamwerk vormen gegevenskwaliteitsattributen een verder uitgewerkte en beter meetbare onderverdeling van de kwaliteitsdimensies.
 
 Bron: Kerndepartement J&V [[KDJV]], NORA [[NORA]]
 
-Gerelateerd: [Gegevenskwaliteitsdimensie](#gegevenskwaliteitsdimensie), [gegevenskwaliteitseisen](#gegevenskwaliteitseisen)
+Gerelateerd: [Gegevenskwaliteitsdimensie](#gegevenskwaliteitsdimensie), [gegevenskwaliteitseisen](#gegevenskwaliteitseis)
 
 Voorbeeld(en): Bij gegevenskwaliteitsdimensie Plausibiliteit horen bijvoorbeeld de attributen Authenticiteit, Bewijsbaarheid, Representativiteit, Reputatie en Waarschijnlijkheid.
 
 ### Gegevenskwaliteitsbeleid
 
-> Het beleid wat vaststelt op welke [gegevenskwaliteitsattributen]() en [gegevenskwaliteitsdimensies]() welke [gegevenskwaliteitsmeetwaarden]() worden gemeten en tegen welke [gegevenskwaliteitseisen]() en [gegevenskwaliteitsnormen]() deze worden beoordeeld.
+> Het beleid wat vaststelt op welke [gegevenskwaliteitsattributen](#gegevenskwaliteitsattribuut) en [gegevenskwaliteitsdimensies](#gegevenskwaliteitsdimensie) welke [gegevenskwaliteitsmetrieken](#gegevenskwaliteitsmetriek) worden gemeten en tegen welke [gegevenskwaliteitseisen](#gegevenskwaliteitseis) en [gegevenskwaliteitsnormen](#gegevenskwaliteitsnorm) deze worden beoordeeld.
 
 Toelichting: Het gaat hier om het kiezen van de dimensies, de bijbehorende meetwaarden, en de daarop gestelde eisen en bijbehorende normen. Het stelt de parameters voor de processen rond gegevenskwaliteitsbeheer.
 
-Bron: Kerndepartement J&V [[KDJV]], NORA [[NORA]]
+Bron: JAGA Gegevenskwaliteitsbeleid [[Gegevenskwaliteitsbeleid]], Kerndepartement J&V [[KDJV]], NORA [[NORA]]
 
-Gerelateerd: [gegevenskwaliteitsnormen](#gegevenskwaliteitsnormen), [gegevenskwaliteitsdimensies](#gegevenskwaliteitsdimensies), [gegevenskwaliteitseisen](#gegevenskwaliteitseisen), [gegevenskwaliteitsmeetwaarden](#gegevenskwaliteitsmeetwaarden), [gegevenskwaliteitsattributen](#gegevenskwaliteitsattributen)
+Gerelateerd: [gegevenskwaliteitseisen](#gegevenskwaliteitseisen), [gegevenskwaliteitsmetrieken](#gegevenskwaliteitsmetriek), [gegevenskwaliteitsnormen](#gegevenskwaliteitsnormen), [gegevenskwaliteitsattributen](#gegevenskwaliteitsattributen), [gegevenskwaliteitsdimensies](#gegevenskwaliteitsdimensies)
 
 ### Gegevenskwaliteitsdimensie
 
-> Een specifiek aspect van de kwaliteit van een [gegeven]() dat bepaalt of het voldoet aan de vastgestelde eisen en bruikbaar is voor het beoogde doel.
+> Een specifiek aspect van de kwaliteit van een [gegevenselement](#gegevenselement) dat bepaalt of het voldoet aan de vastgestelde eisen en bruikbaar is voor het beoogde doel.
 
 Toelichting: Een kwaliteitsdimensie belicht een bepaald aspect van kwaliteit. Een kwaliteitsdimensie wordt uitgewerkt in meetwaarden en kwaliteitseisen voor die meetwaarden.
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [gegeven](#gegeven)
+Gerelateerd: [Gegevenselement](#gegevenselement)
 
 Voorbeeld(en): De volgende dimensies komen uit het NORA gegevenskwaliteitsraamwerk en dienen als voorbeeld:
 Juistheid, Compleetheid, Validiteit, Consistentie, Actualiteit, Precisie, Plausibiliteit, Traceerbaarheid, Begrijpelijkheid.
 
 ### Gegevenskwaliteitseis
 
-> Een eis waaraan een [kritiek gegevenselement](#kritiek-gegevenselement) moeten voldoen.
+> Een eis waaraan een [kritiek gegevenselement](#kritiek-gegevenselement) moet voldoen.
 
 *Er is een relatie met het begrip kwaliteitseis in het gegevensdelingsbeleid.*
 
@@ -155,15 +155,25 @@ Voorbeeld(en): Een geboortedatum in een bestand met persoonsgegevens mag niet le
 Het totaal aantal geleverde gegevens versus het gemiddelde aantal geleverde gegevens mag niet afwijken van de vorige levering.
 De rechter mag geen besluiten vernietigen met als oorzaak basisfouten in vastgelegde feiten.
 
+### Gegevenskwaliteitsmelding
+
+> Een melding van binnen of buiten die aangeeft dat er mogelijk een gegevenskwaliteitsprobleem in de gegevens aanwezig is.
+
+Toelichting: Een gegevenskwaliteitsmelding is aanleiding voor een gegevenskwaliteitsmeting.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
+Voorbeeld(en): De gegevens in de laatste aanlevering hadden een foute leverdatum. Mijn adres klopt niet. De geboortedata zijn niet geloofwaardig, iedereen is 200 jaar of ouder.
+
 ### Gegevenskwaliteitsmeting
 
-> Het proces van het kwantificeren en beoordelen van de [gegevenskwaliteit](#gegevenskwaliteit) volgens bewust gekozen criteria en normen.
+> Het proces van het kwantificeren en beoordelen van de [gegevenskwaliteit](#gegevenskwaliteit) volgens vastgestelde [gegevenskwaliteitseisen](#gegevenskwaliteitseis).
 
 Toelichting: De output van dit proces is een waarde voor een (gemeten) kwaliteitsmetriek.
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevenskwaliteit](#gegevenskwaliteit)
+Gerelateerd: [gegevenskwaliteitseisen](#gegevenskwaliteitseis), [Gegevenskwaliteit](#gegevenskwaliteit)
 
 ### Gegevenskwaliteitsmetriek
 
@@ -197,19 +207,19 @@ Het aantal door de rechter vernietigde besluiten met als oorzaak basisfouten in 
 
 ### Gegevenskwaliteitsprobleem
 
-> Een afwijking tussen de verwachte [gegevenskwaliteit](#gegevenskwaliteit) en de daadwerkelijke [gegevenskwaliteit](#gegevenskwaliteit), die de waarde, bruikbaarheid of betrouwbaarheid van de [gegevens](#gegevens) voor hun beoogde doel beïnvloedt. 
+> Een afwijking tussen de vereiste [gegevenskwaliteit](#gegevenskwaliteit) en de daadwerkelijke [gegevenskwaliteit](#gegevenskwaliteit), die de waarde, bruikbaarheid of betrouwbaarheid van de [gegevens](#gegevens) voor hun beoogde doel negatief beïnvloedt. 
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevens](#gegevens), [Gegevenskwaliteit](#gegevenskwaliteit)
+Gerelateerd: [Gegevenskwaliteit](#gegevenskwaliteit), [Gegevens](#gegevens)
 
 ### Gegevenskwaliteitsprobleemcategorie
 
-> Een groepering van een aantal verschillende [gegevenskwaliteitsproblemen]().
+> Een groepering van een aantal verschillende [gegevenskwaliteitsproblemen](#gegevenskwaliteitsprobleem).
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [gegevenskwaliteitsproblemen](#gegevenskwaliteitsproblemen)
+Gerelateerd: [gegevenskwaliteitsproblemen](#gegevenskwaliteitsprobleem)
 
 Voorbeeld(en): Invoerfouten, rekenfouten, validatieproblemen, typefouten, etc.
 
@@ -217,13 +227,13 @@ Voorbeeld(en): Invoerfouten, rekenfouten, validatieproblemen, typefouten, etc.
 
 Alternatieve aanduiding: *Gegevenskwaliteitsrapportage*
 
-> Een gegevenskwaliteitsrapport is een overzicht van de geconstateerde [gegevenskwaliteitsproblemen]() over een bepaalde tijdsperiode in één of meer [gegevensbronnen]()
+> Een gegevenskwaliteitsrapport is een overzicht van de geconstateerde [gegevenskwaliteitsproblemen](#gegevenskwaliteitsprobleem) over een bepaalde tijdsperiode in één of meer [gegevensbronnen](#gegevensbron)
 
 Toelichting: Een effectief gegevenskwaliteitsrapport is helder over hoe dit tot stand komt en op welke basis, is frequent genoeg om van nut te zijn, richt zich op de meest relevante gegevenskwaliteitsproblemen en geeft inzicht in hoe de afhandeling van de problemen verloopt. Daarnaast is het voorzien van relevante analyse en maakt het concrete verbeteracties mogelijk.
 
 Bron: JAGA Gegevenskwaliteitsbeleid [[Gegevenskwaliteitsbeleid]]
 
-Gerelateerd: [gegevensbronnen](#gegevensbronnen), [gegevenskwaliteitsproblemen](#gegevenskwaliteitsproblemen)
+Gerelateerd: [gegevensbronnen](#gegevensbron), [gegevenskwaliteitsproblemen](#gegevenskwaliteitsprobleem)
 
 ### Gegevensverwerking
 
@@ -231,15 +241,15 @@ Gerelateerd: [gegevensbronnen](#gegevensbronnen), [gegevenskwaliteitsproblemen](
 
 Toelichting: De bewerking of het geheel van bewerkingen wordt al dan niet uitgevoerd via geautomatiseerde procedés. Voorbeelden zijn het verzamelen, vastleggen, ordenen, structureren, opslaan, bijwerken of wijzigen, opvragen, raadplegen, gebruiken, verstrekken door middel van doorzending, verspreiden of op andere wijze ter beschikking stellen, aligneren of combineren, afschermen, wissen of vernietigen van gegevens.
 
-Bron: Verordening (EU) 2016/679 (Algemene Verordening Gegevensbescherming) [[AVG]], Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Verordening (EU) 2016/679 (Algemene Verordening Gegevensbescherming) [[AVG]]
 
 ### Integriteit
 
-> Integriteit van gegevens is een aanduiding voor de mate waarin het noodzakelijk wordt geacht om te voorkomen dat gegevens zodanig worden gewijzigd dat de organisatie haar processen niet meer kan uitvoeren, of dat de belangen van betrokken partijen worden bedreigd. Integriteit van gegevens omvat zowel de [nauwkeurigheid]() als de volledigheid van gegevens.
+> Integriteit van gegevens is een aanduiding voor de mate waarin het noodzakelijk wordt geacht om te voorkomen dat gegevens zodanig worden gewijzigd dat de organisatie haar processen niet meer kan uitvoeren, of dat de belangen van betrokken partijen worden bedreigd. Integriteit van gegevens omvat zowel de [precisie](#precisie) als de volledigheid van gegevens.
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [nauwkeurigheid](#nauwkeurigheid)
+Gerelateerd: [precisie](#precisie)
 
 ### Juistheid
 
@@ -275,11 +285,11 @@ Voorbeeld(en): Als er in een gegevensverzameling 1000 gegevens zitten, en 100 zi
 
 ### Kritiek gegevenselement
 
-> Een [gegevenselement](#gegevenselement) dat vanwege het gebruiksdoel of wettelijke vereisten van cruciaal belang is voor het functioneren, de besluitvorming of het behalen van de strategische doelen van een organisatie of keten.
+> Een [gegevenselement](#gegevenselement) dat vanwege het gebruiksdoeleind of wettelijke vereisten van cruciaal belang is voor het functioneren, de besluitvorming of het behalen van de strategische doelen van een organisatie of keten.
 
 Toelichting: De kwaliteit van deze gegevens moet nauwkeurig worden beheerd, omdat gebrekkige kwaliteit direct kan leiden tot verstoringen in processen of het nemen van onjuiste beslissingen.
 
-Bron: Richtlijn (EU) 2019/1024 over open data en hergebruik van overheidsinformatie [[RichtlijnEU2019-1024]], Kerndepartement J&V [[KDJV]]
+Bron: Kerndepartement J&V [[KDJV]], Richtlijn (EU) 2019/1024 over open data en hergebruik van overheidsinformatie [[RichtlijnEU2019-1024]]
 
 Gerelateerd: [Gegevenselement](#gegevenselement)
 
@@ -326,7 +336,8 @@ Toelichting: Dit kan bijvoorbeeld door de gegevenskwaliteitseisen vooraf vast te
 Bron: Kerndepartement J&V [[KDJV]]
 
 Voorbeeld(en): Maatregelen die gegevenskwaliteitsproblemen kunnen voorkomen zijn bijvoorbeeld:
-- Een verplicht veld, of een gegeven van een bepaald gegevenstype, kan bij de invoer al worden gevalideerd. 
+
+- Een verplicht veld, of een gegeven van een bepaald gegevenstype, kan bij de invoer al worden gevalideerd.
 - Ingevoerde gegevens kunnen worden opgehaald bij autoritatieve bronnen en niet door de gebruiker van het systeem moeten worden overgetypt. 
 - In plaats van het overnemen van gegevens nemen we alleen de verwijzing over, en laten we de gegevens in de bron staan.
 
@@ -338,7 +349,7 @@ Toelichting: Wijzigingen in secundaire gegevensbronnen worden niet doorgevoerd i
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevensbron](#gegevensbron), [Primaire gegevensbron](#primaire-gegevensbron)
+Gerelateerd: [Primaire gegevensbron](#primaire-gegevensbron), [Gegevensbron](#gegevensbron)
 
 ### Traceerbaarheid
 
@@ -406,7 +417,7 @@ De gegevenskwaliteitscontroleur is verantwoordelijk voor de gegevenskwaliteitsme
 
 Bron: JAGA Handreiking Organisatieinrichting Gegevensmanagement [[JAGA_OIGM]]
 
-Gerelateerd: [Gegevenskwaliteitsrapport](#gegevenskwaliteitsrapport), [Gegevensmanagement](#gegevensmanagement)
+Gerelateerd: [Gegevensmanagement](#gegevensmanagement), [Gegevenskwaliteitsrapport](#gegevenskwaliteitsrapport)
 
 ### Gegevensmanagement
 
@@ -428,9 +439,9 @@ Gerelateerd: [Gegevensmanagement](#gegevensmanagement)
 
 ### Gegevensverantwoordelijke
 
-> Een individu of entiteit binnen een organisatie die de uiteindelijke verantwoordelijkheid heeft voor het beheer, de kwaliteit, de integriteit en de beveiliging van een specifieke gegevensset.
+> Een individu of entiteit binnen een organisatie die de formele verantwoordelijkheid draagt voor de naleving van wet- en regelgeving, het beleid, de toegankelijkheid, de betekenis en de kwaliteit van gegevens binnen een specifiek gegevensgebied.
 
-Toelichting: Voor elk gegevensgebied wordt een gegevensverantwoordelijke benoemd die de formele verantwoordelijkheid draagt. Deze ziet toe op de toegankelijkheid, betekenis en kwaliteit van de gegevens binnen het desbetreffende gegevensgebied. In beginsel is de gegevensverantwoordelijke altijd een rol en geen functie.
+Toelichting: Voor elk gegevensgebied wordt een gegevensverantwoordelijke benoemd die de formele eindverantwoordelijkheid draagt. Deze ziet toe op de toegankelijkheid, betekenis en kwaliteit van de gegevens binnen het desbetreffende gegevensgebied. In beginsel is de gegevensverantwoordelijke een rol en geen functie. De rol wordt doorgaans vervuld door een leidinggevende binnen het betreffende organisatieonderdeel.
 
 Bron: JAGA Handreiking Organisatieinrichting Gegevensmanagement [[JAGA_OIGM]]
 
@@ -458,25 +469,25 @@ Gerelateerd: [Gegevenskwaliteit Rol](#gegevenskwaliteit-rol)
 
 Alternatieve aanduiding: *Thesaurus*
 
-> Een taalgebaseerd model van begrippen gericht op dat helpt om een beter inzicht te krijgen wat er wordt bedoeld met de [termen]() in het begrippenkader.
+> Een taalgebaseerd model van begrippen gericht op dat helpt om een beter inzicht te krijgen wat er wordt bedoeld met de [termen](#term) in het begrippenkader.
 
 Toelichting: We beschrijven begrippenkaders conform de NL-SBB standaard.
 
 Bron: Kerndepartement J&V [[KDJV]], Nederlandse standaard voor het beschrijven van begrippen [[NL-SBB]]
 
-Gerelateerd: [termen](#termen)
+Gerelateerd: [termen](#term)
 
 ### Gegevensset
 
 Alternatieve aanduiding: *Gegevensverzameling; dataset; gegevenstypegroep*
 
-> Een verzameling van gegevens met één of meer [gegevenstypen]().
+> Een verzameling van gegevens met één of meer [gegevenstypen](#gegevenstype).
 
 Toelichting: Een geldige gegevensset of gegevensverzameling heeft goed omschreven grenzen. Een gegevensset kan zelf ook weer bestaan uit andere gegevenssets, of opgaan in een grotere gegevensset. Er kunnen dus relaties bestaan tussen gegevenssets.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [gegevenstypen](#gegevenstypen)
+Gerelateerd: [gegevenstypen](#gegevenstype)
 
 ### Gegevenstype
 
@@ -490,13 +501,13 @@ Gerelateerd: [Gegevens](#gegevens)
 
 ### Gegevenstypegroep
 
-> Een gegevenstypegroep is een groepering van [gegevenstypen]().
+> Een gegevenstypegroep is een groepering van [gegevenstypen](#gegevenstype).
 
 Toelichting: Gegevenstypen zelf kun je groeperen. Bijvoorbeeld als je het wilt hebben over alle gegevenstypen die "geheim" zijn. Het is nu niet dat we deze gegevens als groep bij elkaar willen zetten, om ze vervolgens (als groep) te typeren. In dit geval willen we juist de gegevenstypen zelf groeperen.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [gegevenstypen](#gegevenstypen)
+Gerelateerd: [gegevenstypen](#gegevenstype)
 
 ### Term
 
@@ -544,15 +555,15 @@ Voorbeeld(en): Afhandelen aanvraag, beoordelen beroep of bezwaar, opstellen sele
 
 Alternatieve aanduiding: *Gebruikersdoel; gebruikersdoeleind*
 
-> Het doel waarvoor een gebruiker een [organisatorische activiteit](#organisatorische-activiteit) onderneemt.
+> Een organisatorische doelstelling is een doelstelling van de organisatie om te voldoen aan [wet- en regelgeving](#wet--en-regelgeving), of aan een andere eis die de omgeving of de eigen organisatie oplegt (een [motivatie](#motivatie)). Het is het doel waarvoor een organisatie een [organisatorische activiteit](#organisatorische-activiteit) onderneemt en beschrijft het resultaat wat men daarmee wil ([motivatie](#motivatie)) of moet ([wet- en regelgeving](#wet--en-regelgeving)) bereiken.
 
-Toelichting: Gebruikersdoeleinden ontstaan primair vanuit wet- en regelgeving. maar kunnen ook ontstaan uit een andere [motivatie], zoals een taakstelling, marktwerking of andere externe en interne factoren die bepalen waar een organisatie mee bezig is.
+Toelichting: Gebruikersdoeleinden ontstaan primair vanuit wet- en regelgeving. maar kunnen ook ontstaan uit een andere motivatie, zoals een taakstelling, marktwerking, het willen standaardiseren of vanuit andere externe en interne factoren die bepalen waar een organisatie mee bezig is.
 
 Bron: Archiefwet 1995 [[Archiefwet]], Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Organisatorische activiteit](#organisatorische-activiteit)
+Gerelateerd: [Wet- en regelgeving](#wet--en-regelgeving), [Organisatorische activiteit](#organisatorische-activiteit), [Motivatie](#motivatie)
 
-Voorbeeld(en): Het opstellen van een selectielijst is een organisatorische activiteit die we ondernemen om te voldoen aan de Archiefwet.
+Voorbeeld(en): Voldoen aan de Archiefwet en AVG, terugdringen criminaliteit onder jongeren, verhoging naamsbekendheid, etc.
 
 ### Regelgeving
 
@@ -570,7 +581,7 @@ Toelichting: We verwijzen naar wet- en regelgeving op de officiële naam van de 
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Regelgeving](#regelgeving), [Wetgeving](#wetgeving)
+Gerelateerd: [Wetgeving](#wetgeving), [Regelgeving](#regelgeving)
 
 ### Wetgeving
 
@@ -579,4 +590,3 @@ Gerelateerd: [Regelgeving](#regelgeving), [Wetgeving](#wetgeving)
 Toelichting: In Nederland is dit voornamelijk het parlement (Staten-Generaal), bestaande uit de Eerste en Tweede Kamer. Wetgeving vormt de basis van het juridisch kader en regelt het gedrag van burgers, bedrijven en overheidsinstanties.
 
 Bron: Kerndepartement J&V [[KDJV]]
-

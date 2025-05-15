@@ -7,8 +7,8 @@ Dit document beschrijft de gegevenstypering van het Gegevenskwaliteitsbeleid. De
 
 De modellen zijn gebaseerd op de volgende documenten:
 
-* Gegevenskwaliteitsbeleid ([[Gegevenskwaliteitsbeleid]])
-* Implementatiehandreiking Gegevenskwaliteitsbeleid (te vinden op [[Gegevenskwaliteitsbeleid]])
+* Het goedgekeurde [Gegevenskwaliteitsbeleid](https://jenvgegevens.pleio.nl/page/view/87da304d-b300-4b5b-b005-519701cdf647/gegevenskwaliteit).
+* De [Implementatiehandreiking Gegevenskwaliteitsbeleid](https://jenvgegevens.pleio.nl/attachment/entity/deebfde8-7101-4e76-a738-b419137bd40b)
 
 
 **Versionering in dit document**

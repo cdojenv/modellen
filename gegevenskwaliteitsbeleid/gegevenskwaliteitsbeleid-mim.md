@@ -13,12 +13,15 @@
 - [Gegevenskwaliteitsdimensie](#TGegevenskwaliteitsdimensie)
 - [Gegevenskwaliteitseis](#TGegevenskwaliteitseis)
 - [Gegevenskwaliteitseis op KGE](#TGegevenskwaliteitseis-op-KGE)
+- [Gegevenskwaliteitsmelding](#TGegevenskwaliteitsmelding)
 - [Gegevenskwaliteitsmeting](#TGegevenskwaliteitsmeting)
 - [Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem)
 - [Gegevenskwaliteitsmeting voor Gegevenskwaliteitseis op KGE](#TGegevenskwaliteitsmeting-voor-Gegevenskwaliteitseis-op-KGE)
 - [Gegevenskwaliteitsmetriek](#TGegevenskwaliteitsmetriek)
 - [Gegevenskwaliteitsnorm](#TGegevenskwaliteitsnorm)
 - [Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem)
+  - [Gegevenskwaliteitsprobleem na melding](#TGegevenskwaliteitsprobleem-na-melding)
+  - [Gegevenskwaliteitsprobleem na meting](#TGegevenskwaliteitsprobleem-na-meting)
 - [Gegevenskwaliteitsprobleem na Gegevenskwaliteitsmeting op Gegevenselement in Gegevensbron](#TGegevenskwaliteitsprobleem-na-Gegevenskwaliteitsmeting-op-Gegevenselement-in-Gegevensbron)
 - [Gegevenskwaliteitsprobleemcategorie](#TGegevenskwaliteitsprobleemcategorie)
 - [Gegevenskwaliteitsrapport](#TGegevenskwaliteitsrapport)
@@ -262,6 +265,21 @@
 |Rol van|0..* [Gegevenskwaliteitseis op KGE](#TGegevenskwaliteitseis-op-KGE)|
 |Met|1..1 [Gegevenskwaliteitseis](#TGegevenskwaliteitseis)|
 
+## Gegevenskwaliteitsmelding {#TGegevenskwaliteitsmelding}
+
+|{: .def}||
+|-|-|
+|Begrip|[Gegevenskwaliteitsmelding](#gegevenskwaliteitsmelding)|
+|Kenmerken|[gegevenskwaliteitsmeldingsnummer](#TGegevenskwaliteitsmelding-gegevenskwaliteitsmeldingsnummer)|
+|Relatie met|[Gegevenskwaliteitsprobleem na Gegevenskwaliteitsmelding](#TGegevenskwaliteitsprobleem-na-Gegevenskwaliteitsmelding)|
+
+### gegevenskwaliteitsmeldingsnummer {#TGegevenskwaliteitsmelding-gegevenskwaliteitsmeldingsnummer}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevenskwaliteitsmelding](#TGegevenskwaliteitsmelding)|
+|Type|[gegevenskwaliteitsmeldingsnummer](#Tgegevenskwaliteitsmeldingsnummer)|
+
 ## Gegevenskwaliteitsmeting {#TGegevenskwaliteitsmeting}
 
 |{: .def}||
@@ -310,7 +328,7 @@
 
 |{: .def}||
 |-|-|
-|Rollen|[Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem in relatie met Gegevenskwaliteitsmeting](#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem-Gegevenskwaliteitsmeting), [Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem in relatie met Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem-Gegevenskwaliteitsprobleem)|
+|Rollen|[Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem in relatie met Gegevenskwaliteitsmeting](#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem-Gegevenskwaliteitsmeting), [Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem in relatie met Gegevenskwaliteitsprobleem na meting](#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem-Gegevenskwaliteitsprobleem-na-meting)|
 |Relatie met|[Gegevenskwaliteitsprobleem na Gegevenskwaliteitsmeting op Gegevenselement in Gegevensbron in relatie met Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem-na-Gegevenskwaliteitsmeting-op-Gegevenselement-in-Gegevensbron-Gegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem)|
 
 ### Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem in relatie met Gegevenskwaliteitsmeting {#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem-Gegevenskwaliteitsmeting}
@@ -320,12 +338,12 @@
 |Rol van|0..* [Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem)|
 |Met|1..1 [Gegevenskwaliteitsmeting](#TGegevenskwaliteitsmeting)|
 
-### Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem in relatie met Gegevenskwaliteitsprobleem {#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem-Gegevenskwaliteitsprobleem}
+### Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem in relatie met Gegevenskwaliteitsprobleem na meting {#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem-Gegevenskwaliteitsprobleem-na-meting}
 
 |{: .def}||
 |-|-|
 |Rol van|0..* [Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem)|
-|Met|1..1 [Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem)|
+|Met|1..1 [Gegevenskwaliteitsprobleem na meting](#TGegevenskwaliteitsprobleem-na-meting)|
 
 ## Gegevenskwaliteitsmeting voor Gegevenskwaliteitseis op KGE {#TGegevenskwaliteitsmeting-voor-Gegevenskwaliteitseis-op-KGE}
 
@@ -396,9 +414,16 @@
 |{: .def}||
 |-|-|
 |Begrip|[Gegevenskwaliteitsprobleem](#gegevenskwaliteitsprobleem)|
-|Kenmerken|[Gegevenskwaliteitsprobleem Omschrijving](#TGegevenskwaliteitsprobleem-Omschrijving), [Gegevenskwaliteitsprobleem Oorsprong](#TGegevenskwaliteitsprobleem-Oorsprong), [gegevenskwaliteitsprobleemcode](#TGegevenskwaliteitsprobleem-gegevenskwaliteitsprobleemcode)|
+|Subtype(s)|[Gegevenskwaliteitsprobleem na melding](#TGegevenskwaliteitsprobleem-na-melding), [Gegevenskwaliteitsprobleem na meting](#TGegevenskwaliteitsprobleem-na-meting)|
+|Kenmerken|[Gegevenskwaliteitsprobleem Beschrijving](#TGegevenskwaliteitsprobleem-Beschrijving), [Gegevenskwaliteitsprobleem Oorsprong](#TGegevenskwaliteitsprobleem-Oorsprong), [gegevenskwaliteitsprobleemcode](#TGegevenskwaliteitsprobleem-gegevenskwaliteitsprobleemcode)|
 |Rollen|[Gegevenskwaliteitsprobleem Categorie](#TGegevenskwaliteitsprobleem-Categorie), [Gegevenskwaliteitsprobleem gerapporteerd op Gegevenskwaliteitsrapport](#TGegevenskwaliteitsprobleem-gerapporteerd-op-Gegevenskwaliteitsrapport)|
-|Relatie met|[Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem in relatie met Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem-Gegevenskwaliteitsprobleem)|
+
+### Gegevenskwaliteitsprobleem Beschrijving {#TGegevenskwaliteitsprobleem-Beschrijving}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem)|
+|Type|[gegevenskwaliteitsprobleemomschrijving](#Tgegevenskwaliteitsprobleemomschrijving)|
 
 ### Gegevenskwaliteitsprobleem Oorsprong {#TGegevenskwaliteitsprobleem-Oorsprong}
 
@@ -406,14 +431,7 @@
 |-|-|
 |Eigenschap van|[Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem)|
 |Type|[gegevenskwaliteitsprobleemoorsprong](#Tgegevenskwaliteitsprobleemoorsprong)|
-|Mogelijke waarden|interne meting; externe melding; interne melding; externe meting|
-
-### Gegevenskwaliteitsprobleem Omschrijving {#TGegevenskwaliteitsprobleem-Omschrijving}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem)|
-|Type|[gegevenskwaliteitsprobleemomschrijving](#Tgegevenskwaliteitsprobleemomschrijving)|
+|Mogelijke waarden|externe melding; interne meting; interne melding|
 
 ### gegevenskwaliteitsprobleemcode {#TGegevenskwaliteitsprobleem-gegevenskwaliteitsprobleemcode}
 
@@ -462,6 +480,27 @@
 |-|-|
 |Rol van|0..* [Gegevenskwaliteitsprobleem na Gegevenskwaliteitsmeting op Gegevenselement in Gegevensbron](#TGegevenskwaliteitsprobleem-na-Gegevenskwaliteitsmeting-op-Gegevenselement-in-Gegevensbron)|
 |Met|1..1 [U2 - Gegevenskwaliteit is verankerd in de gegevensbron](#TU2-Gegevenskwaliteit-is-verankerd-in-de-gegevensbron)|
+
+## Gegevenskwaliteitsprobleem na melding {#TGegevenskwaliteitsprobleem-na-melding}
+
+|{: .def}||
+|-|-|
+|Supertype|[Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem)|
+|Rollen|[Gegevenskwaliteitsprobleem na Gegevenskwaliteitsmelding](#TGegevenskwaliteitsprobleem-na-Gegevenskwaliteitsmelding)|
+
+### Gegevenskwaliteitsprobleem na Gegevenskwaliteitsmelding {#TGegevenskwaliteitsprobleem-na-Gegevenskwaliteitsmelding}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Gegevenskwaliteitsprobleem na melding](#TGegevenskwaliteitsprobleem-na-melding)|
+|Met|0..* [Gegevenskwaliteitsmelding](#TGegevenskwaliteitsmelding)|
+
+## Gegevenskwaliteitsprobleem na meting {#TGegevenskwaliteitsprobleem-na-meting}
+
+|{: .def}||
+|-|-|
+|Supertype|[Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem)|
+|Relatie met|[Gegevenskwaliteitsmeting constateert Gegevenskwaliteitsprobleem in relatie met Gegevenskwaliteitsprobleem na meting](#TGegevenskwaliteitsmeting-constateert-Gegevenskwaliteitsprobleem-Gegevenskwaliteitsprobleem-na-meting)|
 
 ## Gegevenskwaliteitsprobleemcategorie {#TGegevenskwaliteitsprobleemcategorie}
 
@@ -858,6 +897,11 @@
 |-|-|
 |Gebaseerd op|DateTime|
 
+### gegevenskwaliteitsmeldingsnummer {#Tgegevenskwaliteitsmeldingsnummer}
+
+|{: .def}||
+|-|-|
+
 ### gegevenskwaliteitsmetingmeetmoment {#Tgegevenskwaliteitsmetingmeetmoment}
 
 |{: .def}||
@@ -894,7 +938,6 @@ De volgende waarden zijn mogelijk:
 
 De volgende waarden zijn mogelijk:
 - externe melding
-- externe meting
 - interne melding
 - interne meting
 
