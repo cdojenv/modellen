@@ -1,6 +1,6 @@
 # CIM pre-scan_dpia
 
-![](pre-scan-dpia.svg "Conceptueel informatiemodel pre-scan_dpia")
+![Conceptueel informatiemodel pre-scan DPIA](pre-scan-dpia.svg "Conceptueel informatiemodel pre-scan DPIA")
 
 - [Categorie betrokkenen in organisatorische activiteit](#TCategorie-betrokkenen-in-organisatorische-activiteit)
 - [Classificatie](#TClassificatie)
@@ -504,6 +504,7 @@
 ### basisregistratie {#Tbasisregistratie}
 
 De volgende waarden zijn mogelijk:
+
 - [Basisregistratie Adressen en Gebouwen - BAG](#basisregistratie-basisregistratie-adressen-en-gebouwen)
 - [Basisregistratie Grootschalige Topografie - BGT](#basisregistratie-basisregistratie-grootschalige-topografie)
 - [Basisregistratie Inkomen - BRI](#basisregistratie-basisregistratie-inkomen)
@@ -518,6 +519,7 @@ De volgende waarden zijn mogelijk:
 ### categorie betrokkenen pre-scan DPIA {#Tcategorie-betrokkenen-pre-scan-DPIA}
 
 De volgende waarden zijn mogelijk:
+
 - [Andere kwetsbare groepen](#categorie-betrokkenen-andere-kwetsbare-groepen)
 - [Burgers](#categorie-betrokkenen-burgers)
 - [Kinderen jonger dan 16 jaar](#categorie-betrokkenen-kinderen-jonger-dan-16-jaar)
@@ -538,6 +540,7 @@ De volgende waarden zijn mogelijk:
 ### categorie gewone persoonsgegevens {#Tcategorie-gewone-persoonsgegevens}
 
 De volgende waarden zijn mogelijk:
+
 - [Apparaat- en internetgegevens](#categorie-gewone-persoonsgegevens-apparaat-en-internetgegevens)
 - [Content](#categorie-gewone-persoonsgegevens-content)
 - [Demografische gegevens](#categorie-gewone-persoonsgegevens-demografische-gegevens)
@@ -551,6 +554,7 @@ De volgende waarden zijn mogelijk:
 ### classificatie bewaartermijn {#Tclassificatie-bewaartermijn}
 
 De volgende waarden zijn mogelijk:
+
 - [Aantal jaren](#bewaartermijn-aantal-jaren)
 - [Jaar](#bewaartermijn-jaar)
 - [Minder dan 1 maand](#bewaartermijn-minder-dan-1-maand)
@@ -566,6 +570,7 @@ De volgende waarden zijn mogelijk:
 ### classificatie_type_bpg_waarde {#Tclassificatie-type-bpg-waarde}
 
 De volgende waarden zijn mogelijk:
+
 - [biometrische gegevens met het oog op de unieke identificatie van een persoon](#type-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon)
 - [gegevens over gezondheid](#type-bijzondere-persoonsgegevens-gegevens-over-gezondheid)
 - [gegevens over iemands seksueel gedrag of seksuele gerichtheid](#type-bijzondere-persoonsgegevens-gegevens-met-betrekking-tot-iemands-seksueel-gedrag-of-seksuele-gerichtheid)
@@ -578,6 +583,7 @@ De volgende waarden zijn mogelijk:
 ### classificatie_type_pg_waarde {#Tclassificatie-type-pg-waarde}
 
 De volgende waarden zijn mogelijk:
+
 - [bevat bijzondere persoonsgegevens](#classificatie-type-persoonsgegevens-bijzonder)
 - [bevat gevoelige persoonsgegevens](#classificatie-type-persoonsgegevens-gevoelig)
 - [bevat gewone persoonsgegevens](#classificatie-type-persoonsgegevens-gewoon)
@@ -587,6 +593,7 @@ De volgende waarden zijn mogelijk:
 ### criteria lijst EDPB {#Tcriteria-lijst-EDPB}
 
 De volgende waarden zijn mogelijk:
+
 - [Bijzondere persoonsgegevens of zeer gevoelige persoonsgegevens](#lijst-edpb-bijzondere-persoonsgegevens-of-zeer-gevoelige-persoonsgegevens)
 - [Blokkering van een dienst, recht of contract](#lijst-edpb-blokkering-van-een-dienst-recht-of-contract)
 - [Geautomatiseerde besluitvorming](#geautomatiseerde-besluitvorminglijst-edpb-geautomatiseerde-besluitvorming)
@@ -600,6 +607,7 @@ De volgende waarden zijn mogelijk:
 ### doorgiftemechanisme pre-scan DPIA {#Tdoorgiftemechanisme-pre-scan-DPIA}
 
 De volgende waarden zijn mogelijk:
+
 - [Binding Corporate Rules (BCR)](#doorgiftemechanisme-bindend-bedrijfsvoorschrift)
 - [adequaatheidsbesluit](#doorgiftemechanisme-adequaatheidsbesluit)
 - [goedgekeurd certificeringsmechanisme](#doorgiftemechanisme-goedgekeurd-certificeringsmechanisme)
@@ -612,6 +620,7 @@ De volgende waarden zijn mogelijk:
 ### gegevensverwerking lijst AP {#Tgegevensverwerking-lijst-AP}
 
 De volgende waarden zijn mogelijk:
+
 - [Biometrische gegevens](#lijst-ap-biometrische-gegevens)
 - [Cameratoezicht](#lijst-ap-cameratoezicht)
 - [Communicatiegegevens](#lijst-ap-communicatiegegevens)
@@ -633,6 +642,7 @@ De volgende waarden zijn mogelijk:
 ### gegevensverwerkingsfrequentie {#Tgegevensverwerkingsfrequentie}
 
 De volgende waarden zijn mogelijk:
+
 - [Continu](#frequentie-van-verwerking-continu)
 - [Eenmalig](#frequentie-van-verwerking-eenmalig)
 - [Minstens jaarlijks](#frequentie-van-verwerking-minstens-jaarlijks)
@@ -643,6 +653,7 @@ De volgende waarden zijn mogelijk:
 ### on premise/datacenter EER/buiten EER {#Ton-premise-datacenter-EER-buiten-EER}
 
 De volgende waarden zijn mogelijk:
+
 - buiten EER
 - datacenter EER
 - on premise
@@ -650,12 +661,14 @@ De volgende waarden zijn mogelijk:
 ### wel/geen bijzondere persoonsgegevens {#Twel-geen-bijzondere-persoonsgegevens}
 
 De volgende waarden zijn mogelijk:
+
 - bijzondere persoonsgegevens
 - geen bijzondere persoonsgegevens
 
 ### wel/geen digitale dienst primair bedoeld voor gebruik door personen jonger dan 18 {#Twel-geen-digitale-dienst-primair-bedoeld-voor-gebruik-door-personen-jonger-dan-18}
 
 De volgende waarden zijn mogelijk:
+
 - een digitale dienst aangeboden die primair bedoeld is voor gebruik door personen
 - geen digitale dienst aangeboden die primair bedoeld is voor gebruik door
 - jonger dan 18 jaar
@@ -664,18 +677,21 @@ De volgende waarden zijn mogelijk:
 ### wel/geen persoonsgegevens {#Twel-geen-persoonsgegevens}
 
 De volgende waarden zijn mogelijk:
+
 - geen persoonsgegevens
 - persoonsgegevens
 
 ### wel/geen sprake van een algoritme {#Twel-geen-sprake-van-een-algoritme}
 
 De volgende waarden zijn mogelijk:
+
 - [geen sprake van een algoritme](#algoritme-geen-sprake-van-een-algoritme)
 - [sprake van een algoritme](#algoritme-sprake-van-een-algoritme)
 
 ### wel/geen sprake van een algoritme dat kwalificeert als een AI-systeem {#Twel-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-AI-systeem}
 
 De volgende waarden zijn mogelijk:
+
 - [geen sprake van een algoritme dat kwalificeert als een AI-systeem](#ai-systeem-geen-sprake-van-een-algoritme-dat-kwalificeert-als-een-ai-systeem)
 - [sprake van een algoritme dat kwalificeert als een AI-systeem](#ai-systeem-sprake-van-een-algoritme-dat-kwalificeert-als-een-ai-systeem)
 

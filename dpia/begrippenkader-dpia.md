@@ -891,11 +891,11 @@ Bron: Het Algoritmeregister van de Nederlandse overheid [[Algoritmeregister]]
 
 ### Algoritme toelichting
 
-> In de algoritme toelichting van een [DPIA met algoritme]() wordt een ingezet algoritme verder beschreven.
+> In de algoritme toelichting van een DPIA met [algoritme](#algoritme) wordt een ingezet algoritme verder beschreven.
 
 Bron: paragraaf 3.4, pagina 28, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA met algoritme](#dpia-met-algoritme)
+Gerelateerd: [Algoritme](#algoritme)
 
 ### Algoritme: geen sprake van een algoritme
 
@@ -929,11 +929,11 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 ### Big data-verwerking toelichting
 
-> In de big data-verwerking toelichting van een [DPIA met big data-verwerking]() wordt de inzet van big-data technieken verder beschreven.
+> In de big data-verwerking toelichting van een DPIA met [big data-verwerking](#big-data-verwerking) wordt de inzet van big-data technieken verder beschreven.
 
 Bron: paragraaf 3.4, pagina 28, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA met big data-verwerking](#dpia-met-big-data-verwerking)
+Gerelateerd: [Big data-verwerking](#big-data-verwerking)
 
 ### Cloudoplossing
 
@@ -951,11 +951,11 @@ Bron: paragraaf 2, pagina 2, [[NIST]], paragraaf 3.4, pagina 30, [[ModelDPIARijk
 
 ### Cloudoplossing toelichting
 
-> In de cloudoplossing toelichting van een [DPIA met cloudoplossing]() wordt verder beschreven welke Cloud en op welke manier de beschikbare oplossingen in de Cloud worden ingezet.
+> In de cloudoplossing toelichting van een DPIA met [cloudoplossing](#cloudoplossing) wordt verder beschreven welke Cloud en op welke manier de beschikbare oplossingen in de Cloud worden ingezet.
 
 Bron: paragraaf 3.4, pagina 28, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA met cloudoplossing](#dpia-met-cloudoplossing)
+Gerelateerd: [Cloudoplossing](#cloudoplossing)
 
 ### DPIA onderwerp: technieken en methoden van gegevensverwerking
 
@@ -968,16 +968,6 @@ Bron: paragraaf 3.4, [[ModelDPIARijksdienst]]
 Gerelateerd: [DPIA](#dpia), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [DPIA onderwerp](#dpia-onderwerp)
 
 Voorbeeld(en): geautomatiseerde besluitvorming, profilering, een cloudoplossing, of big data-verwerking.
-
-### Fundamental Rights Impact Assessment
-
-> Een Fundamental Rights Impact Assessment (FRIA) is een verplicht instrument om bij AI-systemen met een hoog risico voorafgaand aan de ingebruikname de risico's voor fundamentele rechten van personen in kaart te brengen.
-
-Toelichting: De fundamentele rechten kunnen worden ondergebracht in een aantal categorieën, zoals Privacy, Vrijheid, Gelijkheid, Solidariteit, Burgerschap en Rechtspleging. Binnen elke categorie zijn er meerdere fundamentele rechten die kunnen worden geschonden door implementatie van een algoritme met hoog risico. Denk hierbij aan het recht op onderwijs, het recht op non-discriminatie, het kiesrecht, recht op geheime communicatie, toegang tot sociale zekerheid of het vermoeden van onschuld.
-
-*Omdat een FRIA nog niet naar voren komt in de huidige pre-scan DPIA is deze nog niet meegenomen in het gegevensmodel. Dit instrument wordt verplicht met ingang van 2 augustus 2026.*
-
-Bron: Verordening (EU) 2024/1689 van het Europees parlement en de raad van 13 juni 2024, verordening artificiële intelligentie [[AIAct]]
 
 ### Geautomatiseerde besluitvorming
 
@@ -995,11 +985,11 @@ Bron: paragraaf 2B, pagina 9, [[Richtsnoerengeautomatiseerdebesluitvorming]]
 
 ### Geautomatiseerde besluitvorming toelichting
 
-> In de geautomatiseerde besluitvorming toelichting van een [DPIA met geautomatiseerde besluitvorming]() wordt toegelicht op welke wijze deze wordt ingezet.
+> In de geautomatiseerde besluitvorming toelichting van een DPIA met [geautomatiseerde besluitvorming](#geautomatiseerde-besluitvorming) wordt toegelicht op welke wijze deze wordt ingezet.7
 
 Bron: paragraaf 3.4, pagina 28, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA met geautomatiseerde besluitvorming](#dpia-met-geautomatiseerde-besluitvorming)
+Gerelateerd: [Geautomatiseerde besluitvorming](#geautomatiseerde-besluitvorming)
 
 ### Profilering
 
@@ -1019,11 +1009,11 @@ Denk bijvoorbeeld aan een overheidsorganisatie die persoonsgegevens gebruikt om 
 
 ### Profilering toelichting
 
-> In de profilering toelichting van een [DPIA met profilering]() wordt beschreven op welke wijze profilering wordt ingezet.
+> In de profilering toelichting van een DPIA met [profilering](#profilering) wordt beschreven op welke wijze profilering wordt ingezet.
 
 Bron: paragraaf 3.4, pagina 28, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA met profilering](#dpia-met-profilering)
+Gerelateerd: [Profilering](#profilering)
 
 ### Technieken en methoden van gegevensverwerking
 
@@ -1341,9 +1331,9 @@ Gerelateerd: [Verwerkingsdoeleinde](#verwerkingsdoeleinde), [Gegevensverwerking 
 
 ### Belang van betrokken partij
 
-Alternatieve aanduiding: *Belang*
+Alternatieve aanduiding: *belang*
 
-> Een belang van een betrokken partij is hetgene waaraan een [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking) waarde hecht met betrekking tot een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) waar de [DPIA](#dpia) betrekking op heeft.
+> Een belang van een betrokken partij is hetgene waaraan een [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking) waarde hecht (en daarom wil behouden of bereiken) met betrekking tot een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) waar de [DPIA](#dpia) betrekking op heeft.
 
 Toelichting: Elk aspect of gevolg van de gegevensverwerking va de persoonsgegevens waar een bij de gegevensverwerking betrokken partij voor- of nadeel van kan ondervinden kan een belang zijn voor die partij.
 
@@ -1383,7 +1373,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 Bron: paragraaf 3.7, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [DPIA](#dpia), [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking), [belangen](#belangen)
+Gerelateerd: [DPIA onderwerp](#dpia-onderwerp), [belangen](#belangen), [DPIA](#dpia), [Betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking)
 
 ### Toelichting consultatie betrokkenen DPIA
 
@@ -1643,7 +1633,7 @@ Toelichting: Het zich aantrekken van maatschappelijke belangen als publiek belan
 
 Bron: paragraaf 1.2, pagina 20, [[WRR56]]
 
-Gerelateerd: [Maatschappelijk belang](#maatschappelijk-belang), [belang](#belang)
+Gerelateerd: [belang](#belang), [Maatschappelijk belang](#maatschappelijk-belang)
 
 ### Rechtsgrond
 
@@ -1671,7 +1661,7 @@ Toelichting: Deze rechtsgrond is niet van toepassing op overheidsorganen en de g
 
 Bron: artikel 6, lid 1, onder f, [[AVG]]
 
-Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Rechtsgrond](#rechtsgrond), [belangen](#belangen), [Betrokkene](#betrokkene), [Derde](#derde), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Persoonsgegeven](#persoonsgegeven)
+Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Rechtsgrond](#rechtsgrond), [Betrokkene](#betrokkene), [Derde](#derde), [belangen](#belangen), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Persoonsgegeven](#persoonsgegeven)
 
 ### Rechtsgrond gerechtvaardigd belang belangenafweging
 
@@ -1683,7 +1673,7 @@ Toelichting: Om de rechtsgrond gerechtvaardigd belang legitiem van toepassing te
 
 Bron: paragraaf 3.11, pagina 44, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Belangenafweging](#belangenafweging), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Betrokkene](#betrokkene), [belangen](#belangen)
+Gerelateerd: [Belangenafweging](#belangenafweging), [belangen](#belangen), [Verwerkingsverantwoordelijke](#verwerkingsverantwoordelijke), [Betrokkene](#betrokkene)
 
 ### Rechtsgrond noodzakelijk voor de uitvoering van een overeenkomst
 
@@ -2091,7 +2081,7 @@ Gerelateerd: [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsg
 
 ### Hergebruik toelaatbaar o.b.v. Unie- of lidstatelijk recht
 
-> Toelaatbaarheid o.b.v. Unie- of lidstatelijk recht is een aanduiding van [toelaatbaarheid hergebruik]() die aangeeft dat hergebruik is toegestaan op basis van een of meerdere wetsbepalingen in Unie- of lidstatelijk recht.
+> Toelaatbaarheid o.b.v. Unie- of lidstatelijk recht is een aanduiding van een [conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-hergebruik) die aangeeft dat hergebruik is toegestaan op basis van een of meerdere wetsbepalingen in Unie- of lidstatelijk recht.
 
 Toelichting: In dit geval wordt de conclusie voor de toelaatbaarheid van het hergebruik bepaald op "toelaatbaar o.b.v. Unie- of lidstatelijk recht".
 
@@ -2099,9 +2089,11 @@ Toelichting: In dit geval wordt de conclusie voor de toelaatbaarheid van het her
 
 Bron: artikel 6, lid 4, [[AVG]], paragraaf 3.13, pagina 46, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [toelaatbaarheid hergebruik](#toelaatbaarheid-hergebruik)
+Gerelateerd: [Conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-hergebruik)
 
 ### Toelaatbaar
+
+Alternatieve aanduiding: *toelaatbaarheid hergebruik*
 
 > Als het gebruik van gegevens toelaatbaar is, dan geeft dat in de context van de doelbinding van persoonsgegevens aan dat het gebruik van die persoonsgegevens is toegestaan.
 
@@ -2111,7 +2103,7 @@ Toelichting: Het begrip toelaatbaar wordt voornamelijk gebruikt in de context va
 
 ### Toelaatbaarheid hergebruik: toelaatbaar o.b.v. Unie- of lidstatelijk recht
 
-> Toelaatbaarheid o.b.v. Unie- of lidstatelijk recht is een aanduiding van [conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-hergebruik) die aangeeft dat hergebruik is toegestaan op basis van een of meerdere wetsbepalingen in Unie- of lidstatelijk recht.
+> Toelaatbaar o.b.v. Unie- of lidstatelijk recht is een aanduiding van [conclusie toelaatbaarheid hergebruik](#conclusie-toelaatbaarheid-hergebruik) die aangeeft dat hergebruik is toegestaan op basis van een of meerdere wetsbepalingen in Unie- of lidstatelijk recht.
 
 *De term en definitie zijn afgeleid van de informatie in het Model DPIA Rijksdienst en de AVG.*
 
@@ -2479,13 +2471,13 @@ Gerelateerd: [Impact](#impact), [Risico voor betrokkenen](#risico-voor-betrokken
 
 ### Gemiddelde kans
 
-> Een gemiddelde kans is een aanduiding dat de [kans]() dat een [risico voor betrokkenen](#risico-voor-betrokkenen) intreedt gemiddeld is.
+> Een gemiddelde kans is een aanduiding dat de [kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen) gemiddeld is.
 
 *Deze definitie is afgeleid van het gebruik van de term in het Model DPIA Rijksdienst.*
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [kans](#kans)
+Gerelateerd: [Kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen)
 
 ### Hoge impact
 
@@ -2499,13 +2491,13 @@ Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [Impact](#impa
 
 ### Hoge kans
 
-> Een hoge kans is een aanduiding dat de [kans]() dat een [risico voor betrokkenen](#risico-voor-betrokkenen) intreedt hoog is.
+> Een hoge kans is een aanduiding dat de [kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen) hoog is.
 
 *Deze definitie is afgeleid van het gebruik van de term in het Model DPIA Rijksdienst.*
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [kans](#kans)
+Gerelateerd: [Kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen)
 
 ### Hoog risico
 
@@ -2551,6 +2543,8 @@ Gerelateerd: [Maatregel](#maatregel), [Risico voor betrokkenen](#risico-voor-bet
 
 ### Kans op optreden risico voor betrokkenen
 
+Alternatieve aanduiding: *kans*
+
 > De kans op optreden risico voor betrokkenen is de waarschijnlijkheid dat de gevolgen van een [risico voor betrokkenen](#risico-voor-betrokkenen) zullen intreden.
 
 Toelichting: De kans dat de risico’s zich voltrekken is mede afhankelijk van de middelen die de verwerkingsverantwoordelijke gebruikt bij de gegevensverwerking en de aard van de persoonsgegevens.
@@ -2583,13 +2577,13 @@ Gerelateerd: [Impact](#impact), [Risico voor betrokkenen](#risico-voor-betrokken
 
 ### Lage kans
 
-> Een lage kans is een aanduiding dat de [kans]() dat een [risico voor betrokkenen](#risico-voor-betrokkenen) intreedt laag is.
+> Een lage kans is een aanduiding dat de [kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen) laag is.
 
 *Deze definitie is afgeleid van het gebruik van de term in het Model DPIA Rijksdienst.*
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]]
 
-Gerelateerd: [kans](#kans), [Risico voor betrokkenen](#risico-voor-betrokkenen)
+Gerelateerd: [Kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen)
 
 ### Mogelijk sprake van discriminatie
 
@@ -2687,7 +2681,7 @@ Bron: Overweging 84, [[AVG]]
 
 ### Risiconiveau
 
-> Een risiconiveau is de zwaarte van een specifiek [risico voor betrokkenen](#risico-voor-betrokkenen), bepaald op basis van de [kans]() en de [impact](#impact).
+> Een risiconiveau is de zwaarte van een specifiek [risico voor betrokkenen](#risico-voor-betrokkenen), bepaald op basis van de [kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen) en de [impact](#impact).
 
 Toelichting: Het risiconiveau wordt bepaald aan de hand van de formule kans x impact.
 
@@ -2696,7 +2690,7 @@ In dergelijke gevallen dient de verwerkingsverantwoordelijke voorafgaand aan de 
 
 Bron: paragraaf 3.16, [[ModelDPIARijksdienst]], overweging 90, preambule, [[AVG]]
 
-Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [Impact](#impact), [kans](#kans)
+Gerelateerd: [Risico voor betrokkenen](#risico-voor-betrokkenen), [Impact](#impact), [Kans op optreden risico voor betrokkenen](#kans-op-optreden-risico-voor-betrokkenen)
 
 ## DPIA - 17. Maatregelen
 
@@ -2737,11 +2731,11 @@ Gerelateerd: [Partij](#partij), [Organisatorische eenheid](#organisatorische-een
 
 ### DPIA met resterend hoog risico
 
-> Een DPIA met resterend hoog risico is een [DPIA met resterende risico's](#dpia-met-resterende-risico's) waar een [resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen) is geïdentificeerd met een [risiconiveau risico voor betrokkenen]() van [hoog risico](#hoog-risico).
+> Een DPIA met resterend hoog risico is een [DPIA met resterende risico's](#dpia-met-resterende-risico's) waar een [resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen) is geïdentificeerd met een [risiconiveau van optreden risico voor betrokkenen](#risiconiveau-van-optreden-risico-voor-betrokkenen) van [hoog risico](#hoog-risico).
 
 Bron: Het analyse team in de ontwikkeling van het metamodel DPIA [[Analyseteam]]
 
-Gerelateerd: [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen), [Hoog risico](#hoog-risico), [DPIA met resterende risico's](#dpia-met-resterende-risico's), [risiconiveau risico voor betrokkenen](#risiconiveau-risico-voor-betrokkenen)
+Gerelateerd: [Resterend risico voor betrokkenen](#resterend-risico-voor-betrokkenen), [Hoog risico](#hoog-risico), [Risiconiveau van optreden risico voor betrokkenen](#risiconiveau-van-optreden-risico-voor-betrokkenen), [DPIA met resterende risico's](#dpia-met-resterende-risico's)
 
 ### DPIA met resterende risico's
 
@@ -3575,7 +3569,7 @@ Gerelateerd: [Autoriteit Persoonsgegevens](#autoriteit-persoonsgegevens), [Gegev
 
 ### Lijst AP: Biometrische gegevens
 
-> Biometrische gegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) en/of stelselmatige monitoring van [type bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon]().
+> Biometrische gegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) en/of stelselmatige monitoring van [categorie bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon](#categorie-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon).
 
 Toelichting: Op grond van de Algemene verordening gegevensbescherming is de verwerking van biometrische gegevens met als doel de unieke identificatie van een natuurlijk persoon, in beginsel verboden. In Nederland zijn aanvullende voorwaarden gesteld in artikel 29 van de Uitvoeringswet Algemene verordening gegevensbescherming. Enkel als de verwerking strikt noodzakelijk is voor authenticatie of beveiligingsdoeleinden, is de verwerking van biometrische gegevens toegestaan.
 
@@ -3583,7 +3577,7 @@ Toelichting: Op grond van de Algemene verordening gegevensbescherming is de verw
 
 Bron: pagina 3, pagina 3, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Lijst AP](#lijst-ap), [type bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon](#type-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Lijst AP](#lijst-ap), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Categorie bijzondere persoonsgegevens: Biometrische gegevens met het oog op de unieke identificatie van een persoon](#categorie-bijzondere-persoonsgegevens-biometrische-gegevens-met-het-oog-op-de-unieke-identificatie-van-een-persoon)
 
 ### Lijst AP: Cameratoezicht
 
@@ -3659,19 +3653,19 @@ Voorbeeld(en): fraudebestrijding door sociale diensten of door fraudeafdelingen 
 
 ### Lijst AP: Genetische persoonsgegevens
 
-> Genetische persoonsgegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) en/of stelselmatige monitoring van [Type bijzondere persoonsgegevens: Genetische gegevens]().
+> Genetische persoonsgegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) en/of stelselmatige monitoring van [categorie bijzondere persoonsgegevens: Genetische gegevens](#categorie-bijzondere-persoonsgegevens-genetische-gegevens).
 
 *Verwerkingen' is vervangen door 'gegevensverwerkingen' en 'genetische persoonsgegevens' is vervangen door 'Type bijzonder persoonsgegeven: Genetische gegevens', om naar de juiste begrippen te kunnen verwijzen.*
 
 Bron: pagina 2, pagina 2, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Type bijzondere persoonsgegevens: Genetische gegevens](#type-bijzondere-persoonsgegevens-genetische-gegevens), [Lijst AP](#lijst-ap), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
+Gerelateerd: [Lijst AP](#lijst-ap), [Categorie bijzondere persoonsgegevens: Genetische gegevens](#categorie-bijzondere-persoonsgegevens-genetische-gegevens), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens)
 
 Voorbeeld(en): DNA-analyses ten behoeve van het in kaart brengen van persoonlijke kenmerken, biodatabanken
 
 ### Lijst AP: Gezondheidsgegevens
 
-> Gezondheidsgegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) (waaronder ook grootschalige elektronische uitwisseling) van [Type bijzondere persoonsgegevens: Gegevens over gezondheid]().
+> Gezondheidsgegevens is een [gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens) uit de [Lijst AP](#lijst-ap) m.b.t. grootschalige [gegevensverwerkingen](#gegevensverwerking-persoonsgegevens) (waaronder ook grootschalige elektronische uitwisseling) van [categorie bijzondere persoonsgegevens: Gegevens over gezondheid](#categorie-bijzondere-persoonsgegevens-gegevens-over-gezondheid).
 
 Toelichting: Verwerkingen bijvoorbeeld door instellingen of voorzieningen voor gezondheidszorg of maatschappelijke dienstverlening, arbodiensten, reïntegratiebedrijven, (speciaal)onderwijsinstellingen, verzekeraars, en onderzoeksinstituten. Let wel: individuele artsen en individuele zorgprofessionals zijn op grond van overweging 91 van de Algemene verordening gegevensbescherming uitgezonderd van de verplichting een gegevensbeschermingseffectbeoordeling (DPIA) uit te voeren.
 
@@ -3679,7 +3673,7 @@ Toelichting: Verwerkingen bijvoorbeeld door instellingen of voorzieningen voor g
 
 Bron: pagina 2, pagina 2, Lijst [[LijstAP]] [[AP]]
 
-Gerelateerd: [Type bijzondere persoonsgegevens: Gegevens over gezondheid](#type-bijzondere-persoonsgegevens-gegevens-over-gezondheid), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap)
+Gerelateerd: [Categorie bijzondere persoonsgegevens: Gegevens over gezondheid](#categorie-bijzondere-persoonsgegevens-gegevens-over-gezondheid), [Gegevensverwerking persoonsgegevens](#gegevensverwerking-persoonsgegevens), [Lijst AP](#lijst-ap)
 
 ### Lijst AP: Heimelijk onderzoek
 
@@ -4028,6 +4022,18 @@ Bron: Stelsel van basisregistraties - 10 basisregistraties [[BasisregistratieDig
 Gerelateerd: [Basisregistratie](#basisregistratie)
 
 ## Pre-scan DPIA - G. Algoritmes/AI
+
+### Fundamental Rights Impact Assessment
+
+> Een Fundamental Rights Impact Assessment (FRIA) is een in de toekomst verplicht instrument, afkomstig uit de AI Act, om bij AI-systemen met een hoog risico voorafgaand aan de ingebruikname de risico's voor fundamentele rechten van personen in kaart te brengen.
+
+Toelichting: De fundamentele rechten kunnen worden ondergebracht in een aantal categorieën, zoals Privacy, Vrijheid, Gelijkheid, Solidariteit, Burgerschap en Rechtspleging. Binnen elke categorie zijn er meerdere fundamentele rechten die kunnen worden geschonden door implementatie van een algoritme met hoog risico. Denk hierbij aan het recht op onderwijs, het recht op non-discriminatie, het kiesrecht, recht op geheime communicatie, toegang tot sociale zekerheid of het vermoeden van onschuld.
+
+Op dit moment vind de toetsing plaats via de verplichte IAMA.
+
+*Omdat een FRIA nog niet naar voren komt in de huidige pre-scan DPIA is deze nog niet meegenomen in het gegevensmodel. Dit instrument wordt verplicht met ingang van 2 augustus 2026.*
+
+Bron: Verordening (EU) 2024/1689 van het Europees parlement en de raad van 13 juni 2024, verordening artificiële intelligentie [[AIAct]]
 
 ### IAMA
 
