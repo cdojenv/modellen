@@ -4,8 +4,8 @@
 
 - [Administratie](#TAdministratie)
 - [Algoritme](#TAlgoritme)
-- [Begrip in Begrippenkader](#TBegrip-in-Begrippenkader)
-- [Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3)](#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-)
+- [Begrip](#TBegrip)
+- [Begrip beschrijft betekenis van Gegevenstype (U3)](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-)
 - [Begrippenkader](#TBegrippenkader)
 - [Beschouwingsdomein](#TBeschouwingsdomein)
 - [Definitiebron](#TDefinitiebron)
@@ -75,77 +75,84 @@
 |Rol van|0..* [Algoritme](#TAlgoritme)|
 |Met|0..* [Uitvoeringsregel](#TUitvoeringsregel)|
 
-## Begrip in Begrippenkader {#TBegrip-in-Begrippenkader}
+## Begrip {#TBegrip}
 
 |{: .def}||
 |-|-|
-|Begrip|[Begrip in begrippenkader](#begrip-in-begrippenkader)|
-|Kenmerken|[Begripsbeschrijving](#TBegripsbeschrijving), [voorkeursterm](#TBegrip-in-Begrippenkader-voorkeursterm)|
-|Rollen|[Begrip in Begrippenkader gebruikt Definitiebron (U10)](#TBegrip-in-Begrippenkader-gebruikt-Definitiebron-U10-), [Begrip in Begrippenkader in relatie met Begrippenkader](#TBegrip-in-Begrippenkader-Begrippenkader), [Gegevensmodelleur beschrijft Begrip in Begrippenkader (U5)](#TGegevensmodelleur-beschrijft-Begrip-in-Begrippenkader-U5-)|
-|Relatie met|[Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3) in relatie met Begrip in Begrippenkader](#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-Begrip-in-Begrippenkader)|
+|Begrip|[Begrip](#begrip)|
+|Kenmerken|[Begripsbeschrijving](#TBegripsbeschrijving), [voorkeursterm](#TBegrip-voorkeursterm)|
+|Rollen|[Begrip gebruikt Definitiebron (U10)](#TBegrip-gebruikt-Definitiebron-U10-), [Begrip in relatie met Begrippenkader](#TBegrip-Begrippenkader), [Begrip is uniek binnen Beschouwingsdomein](#TBegrip-is-uniek-binnen-Beschouwingsdomein), [Gegevensmodelleur beschrijft Begrip (U5)](#TGegevensmodelleur-beschrijft-Begrip-U5-)|
+|Relatie met|[Begrip beschrijft betekenis van Gegevenstype (U3) in relatie met Begrip](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-Begrip)|
 
-### voorkeursterm {#TBegrip-in-Begrippenkader-voorkeursterm}
+### voorkeursterm {#TBegrip-voorkeursterm}
 
 |{: .def}||
 |-|-|
 |Begrip|[Voorkeursterm](#voorkeursterm)|
-|Eigenschap van|[Begrip in Begrippenkader](#TBegrip-in-Begrippenkader)|
+|Eigenschap van|[Begrip](#TBegrip)|
 |Type|CharacterString|
 
 ### Begripsbeschrijving {#TBegripsbeschrijving}
 
 |{: .def}||
 |-|-|
-|Eigenschap van|[Begrip in Begrippenkader](#TBegrip-in-Begrippenkader)|
+|Eigenschap van|[Begrip](#TBegrip)|
 |Type|[begrip beschrijving](#Tbegrip-beschrijving)|
 
-### Gegevensmodelleur beschrijft Begrip in Begrippenkader (U5) {#TGegevensmodelleur-beschrijft-Begrip-in-Begrippenkader-U5-}
+### Begrip is uniek binnen Beschouwingsdomein {#TBegrip-is-uniek-binnen-Beschouwingsdomein}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Begrip in Begrippenkader](#TBegrip-in-Begrippenkader)|
+|Rol van|0..* [Begrip](#TBegrip)|
+|Met|0..* [Beschouwingsdomein](#TBeschouwingsdomein)|
+
+### Gegevensmodelleur beschrijft Begrip (U5) {#TGegevensmodelleur-beschrijft-Begrip-U5-}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Begrip](#TBegrip)|
 |Met|0..* [Gegevensmodelleur](#TGegevensmodelleur)|
 
-### Begrip in Begrippenkader gebruikt Definitiebron (U10) {#TBegrip-in-Begrippenkader-gebruikt-Definitiebron-U10-}
+### Begrip gebruikt Definitiebron (U10) {#TBegrip-gebruikt-Definitiebron-U10-}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Begrip in Begrippenkader](#TBegrip-in-Begrippenkader)|
+|Rol van|0..* [Begrip](#TBegrip)|
 |Met|0..* [Definitiebron](#TDefinitiebron)|
 
-### Begrip in Begrippenkader in relatie met Begrippenkader {#TBegrip-in-Begrippenkader-Begrippenkader}
+### Begrip in relatie met Begrippenkader {#TBegrip-Begrippenkader}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Begrip in Begrippenkader](#TBegrip-in-Begrippenkader)|
+|Rol van|0..* [Begrip](#TBegrip)|
 |Met|1..1 [Begrippenkader](#TBegrippenkader)|
 
-## Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3) {#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-}
+## Begrip beschrijft betekenis van Gegevenstype (U3) {#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-}
 
 |{: .def}||
 |-|-|
-|Rollen|[Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3) in relatie met Begrip in Begrippenkader](#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-Begrip-in-Begrippenkader), [Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3) in relatie met Gegevenstype](#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-Gegevenstype), [Gegevensmodelleur beschrijft relatie tussen Begrip in Begrippenkader en Gegevenstype](#TGegevensmodelleur-beschrijft-relatie-tussen-Begrip-in-Begrippenkader-en-Gegevenstype)|
+|Rollen|[Begrip beschrijft betekenis van Gegevenstype (U3) in relatie met Begrip](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-Begrip), [Begrip beschrijft betekenis van Gegevenstype (U3) in relatie met Gegevenstype](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-Gegevenstype), [Gegevensmodelleur beschrijft relatie tussen Begrip en Gegevenstype](#TGegevensmodelleur-beschrijft-relatie-tussen-Begrip-en-Gegevenstype)|
 
-### Gegevensmodelleur beschrijft relatie tussen Begrip in Begrippenkader en Gegevenstype {#TGegevensmodelleur-beschrijft-relatie-tussen-Begrip-in-Begrippenkader-en-Gegevenstype}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3)](#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-)|
-|Met|0..* [Gegevensmodelleur](#TGegevensmodelleur)|
-
-### Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3) in relatie met Gegevenstype {#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-Gegevenstype}
+### Begrip beschrijft betekenis van Gegevenstype (U3) in relatie met Gegevenstype {#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-Gegevenstype}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3)](#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-)|
+|Rol van|0..* [Begrip beschrijft betekenis van Gegevenstype (U3)](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-)|
 |Met|1..1 [Gegevenstype](#TGegevenstype)|
 
-### Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3) in relatie met Begrip in Begrippenkader {#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-Begrip-in-Begrippenkader}
+### Begrip beschrijft betekenis van Gegevenstype (U3) in relatie met Begrip {#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-Begrip}
 
 |{: .def}||
 |-|-|
-|Rol van|0..* [Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3)](#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-)|
-|Met|1..1 [Begrip in Begrippenkader](#TBegrip-in-Begrippenkader)|
+|Rol van|0..* [Begrip beschrijft betekenis van Gegevenstype (U3)](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-)|
+|Met|1..1 [Begrip](#TBegrip)|
+
+### Gegevensmodelleur beschrijft relatie tussen Begrip en Gegevenstype {#TGegevensmodelleur-beschrijft-relatie-tussen-Begrip-en-Gegevenstype}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Begrip beschrijft betekenis van Gegevenstype (U3)](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-)|
+|Met|0..* [Gegevensmodelleur](#TGegevensmodelleur)|
 
 ## Begrippenkader {#TBegrippenkader}
 
@@ -153,7 +160,7 @@
 |-|-|
 |Begrip|[Begrippenkader](#begrippenkader)|
 |Kenmerken|[begrippenkadercode](#TBegrippenkader-begrippenkadercode)|
-|Relatie met|[Begrip in Begrippenkader in relatie met Begrippenkader](#TBegrip-in-Begrippenkader-Begrippenkader), [Begrippenkader beschrijft Beschouwingsdomein (U1)](#TBegrippenkader-beschrijft-Beschouwingsdomein-U1-)|
+|Relatie met|[Begrip in relatie met Begrippenkader](#TBegrip-Begrippenkader), [Begrippenkader beschrijft Beschouwingsdomein (U1)](#TBegrippenkader-beschrijft-Beschouwingsdomein-U1-)|
 
 ### begrippenkadercode {#TBegrippenkader-begrippenkadercode}
 
@@ -169,6 +176,7 @@
 |Begrip|[Beschouwingsdomein](#beschouwingsdomein)|
 |Kenmerken|[Beschouwingsdomeinnaam](#TBeschouwingsdomein-Beschouwingsdomeinnaam)|
 |Rollen|[Begrippenkader beschrijft Beschouwingsdomein (U1)](#TBegrippenkader-beschrijft-Beschouwingsdomein-U1-)|
+|Relatie met|[Begrip is uniek binnen Beschouwingsdomein](#TBegrip-is-uniek-binnen-Beschouwingsdomein)|
 
 ### Beschouwingsdomeinnaam {#TBeschouwingsdomein-Beschouwingsdomeinnaam}
 
@@ -188,9 +196,8 @@
 
 |{: .def}||
 |-|-|
-|Begrip|[Definitiebron](#definitiebron)|
 |Kenmerken|[definitiebron naam](#TDefinitiebron-definitiebron-naam)|
-|Relatie met|[Begrip in Begrippenkader gebruikt Definitiebron (U10)](#TBegrip-in-Begrippenkader-gebruikt-Definitiebron-U10-)|
+|Relatie met|[Begrip gebruikt Definitiebron (U10)](#TBegrip-gebruikt-Definitiebron-U10-)|
 
 ### definitiebron naam {#TDefinitiebron-definitiebron-naam}
 
@@ -310,7 +317,7 @@
 |{: .def}||
 |-|-|
 |Supertype|[Persoon in Rol](#TPersoon-in-Rol)|
-|Relatie met|[Gegevensmodelleur beschrijft Begrip in Begrippenkader (U5)](#TGegevensmodelleur-beschrijft-Begrip-in-Begrippenkader-U5-), [Gegevensmodelleur beschrijft relatie tussen Begrip in Begrippenkader en Gegevenstype](#TGegevensmodelleur-beschrijft-relatie-tussen-Begrip-in-Begrippenkader-en-Gegevenstype)|
+|Relatie met|[Gegevensmodelleur beschrijft Begrip (U5)](#TGegevensmodelleur-beschrijft-Begrip-U5-), [Gegevensmodelleur beschrijft relatie tussen Begrip en Gegevenstype](#TGegevensmodelleur-beschrijft-relatie-tussen-Begrip-en-Gegevenstype)|
 
 ## Gegevensobject {#TGegevensobject}
 
@@ -364,7 +371,7 @@
 |Begrip|[Gegevenstype](#gegevenstype)|
 |Kenmerken|[Naam gegevenstype](#TNaam-gegevenstype), [gegevenstype code](#TGegevenstype-gegevenstype-code)|
 |Rollen|[Gegevenstype typeert gelijksoortig Elementair gegeven](#TGegevenstype-typeert-gelijksoortig-Elementair-gegeven)|
-|Relatie met|[Begrip in Begrippenkader beschrijft betekenis van Gegevenstype (U3) in relatie met Gegevenstype](#TBegrip-in-Begrippenkader-beschrijft-betekenis-van-Gegevenstype-U3-Gegevenstype), [Gegevenselement wordt gespecificeerd door Gegevenstype](#TGegevenselement-wordt-gespecificeerd-door-Gegevenstype)|
+|Relatie met|[Begrip beschrijft betekenis van Gegevenstype (U3) in relatie met Gegevenstype](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-Gegevenstype), [Gegevenselement wordt gespecificeerd door Gegevenstype](#TGegevenselement-wordt-gespecificeerd-door-Gegevenstype)|
 
 ### Naam gegevenstype {#TNaam-gegevenstype}
 
@@ -756,7 +763,6 @@
 
 |{: .def}||
 |-|-|
-|Begrip|[Wet- en regelgeving](#wet-en-regelgeving)|
 |Kenmerken|[artikel](#TWet-en-Regelgeving-artikel), [lid](#TWet-en-Regelgeving-lid), [sub](#TWet-en-Regelgeving-sub), [wet- en regelgeving naam](#TWet-en-Regelgeving-wet-en-regelgeving-naam)|
 |Relatie met|[Organisatorische Activiteit is onderhevig aan Wet- en Regelgeving](#TOrganisatorische-Activiteit-is-onderhevig-aan-Wet-en-Regelgeving), [Wettelijke grondslag voor Organisatorische Doelstelling o.b.v. Wet- en regelgeving](#TWettelijke-grondslag-voor-Organisatorische-Doelstelling-o-b-v-Wet-en-regelgeving)|
 

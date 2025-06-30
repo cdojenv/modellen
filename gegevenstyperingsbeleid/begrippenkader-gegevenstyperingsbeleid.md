@@ -1,102 +1,30 @@
 # Begrippen
 
-## Gegevenskwaliteit
+## Begrippenkader Gegevenstypering
 
 ### Administratie
 
-> Elk systeem, applicatie of proces waarin gegevens worden geadministreerd.
+> Elk systeem, applicatie, proces of andere bewaarplaats waarin gegevens worden bewaard, met de bedoeling om te allen tijde de rechten en verplichtingen van de rechtspersoon te kunnen kennen.
 
-Toelichting: Administraties administreren gegevens binnen een organisatie of extern daaraan. Dit omvat zowel de opslag en bewaking van de gegevens, als de processen om die gegevens heen om deze actueel en correct te houden.
+Toelichting: Het is een wettelijke verplichting dat binnen een organisatie of extern daaraan alle gegevens die nodig zijn om de rechten en plichten van de organisatie te kunnen kennen, worden bewaard. Het administreren omvat zowel de opslag en bewaking van de gegevens, als de processen om die gegevens heen om deze actueel en correct te houden.
 
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+Bron: Titel 1, artikel 10, [[BW2]]
 
 Voorbeeld(en): De basisregistraties uit het stelsel basisregistraties vormen administraties over de gegevens die betrekking hebben op een bepaald onderwerp.
 
-### Gegeven
+### Begrip
 
-> Onder een gegeven verstaan we elke weergave, digitaal en niet-digitaal, van handelingen, feiten of informatie en elke compilatie van dergelijke handelingen, feiten of informatie, ook in de vorm van geluidsopnames of visuele of audiovisuele opnames. Een gegeven is een vastgelegde uitspraak met een beoogde, menselijke, betekenis.
+> Een begrip is een eenheid van denken - een idee, betekenis of categorisering. Een begrip wordt binnen een begrippenkader uniek geïdentificeerd door een [term](#term) en gebundeld in een [begrippenkader](#begrippenkader) met de overige termen die mede de betekenis van dit begrip bepalen.
 
-Toelichting: Ook niet-digitale gegevens (uitgeprinte documenten) worden als gegevens beschouwd. Dit is een ruimere formulering dan in de originele bron (Data Governance Act) wordt gehanteerd. Deze uitbreiding is gemaakt omdat de reikwijdte van het Afsprakenstelsel verder gaat dan alleen digitale gegevens. 'Gegevens' kunnen ook 'Persoonsgegevens' zijn.
+Toelichting: Begrippen worden weergegeven door termen. Elke term in een thesaurus moet een enkel begrip (of denkeenheid) vertegenwoordigen. Begrippen kunnen variëren van eenvoudig (bijv. katten) tot zeer complex (bijv. rassendiscriminatie onder etnische minderheden). Samengestelde termen of zinsdelen zijn over het algemeen nodig om de meer complexe begrippen uit te drukken.
 
-Gegevens zijn vastgelegde uitspraken met een beoogde, menselijke, betekenis. Ze zijn altijd uit te drukken in een menselijke taal, waarin begrippen voorkomen met een beoogde betekenis.
+Een begrip is feitelijk nooit los te zien van zijn context, dus het begrippenkader waarin het begrip dat bij een voorkeursterm hoort, wordt gedefinieerd, en het bijbehorende beschouwingsdomein. Daarom verwijzen gegevenselementen uitsluitend naar begrippen in een begrippenkader, dus ingebed in hun context.
 
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+De primaire taak van de gegevenstypering is het komen tot een beschrijving van de begrippen die gebruikt worden in gegevens: hun definitie, onderlinge relaties en grondslag voor de beoogde betekenis.
 
-### Gegevenskwaliteitsproces
+Bron: 
 
-> Een proces waarin de kwaliteit van de [gegevenstypering](#gegevenstypering) wordt gemeten en zo nodig verbeterd. De [gegevenstypering](#gegevenstypering) wordt gevalideerd op juistheid door kennishouders en geverifieerd op consistentie door een afzonderlijke kwaliteitsbewaker.
-
-Toelichting: Omdat het gebruik van gegevens voortdurend verandert en evolueert is voortdurende monitoring (en mogelijk aanpassing) nodig. Daarom wordt daarvoor een proces ingericht. Dit impliceert dat er medewerkers zijn, die toegewijd zijn aan de gegevenstypering. 
-
-De juiste (waar mogelijk geautomatiseerde) technieken kunnen worden ingezet om de gegevenstypering actueel, betrouwbaar en consistent te houden met het daadwerkelijke gegevensgebruik.
-
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
-
-Gerelateerd: [Gegevenstypering](#gegevenstypering), [Gegevenstypering](#gegevenstypering)
-
-## Gegevensmodellering
-
-### Entity-Relationship Modeling
-
-> Een entiteit-relatiemodel (of ER-model) beschrijft onderling gerelateerde zaken die van belang zijn binnen een specifiek kennisdomein.
-
-Toelichting: Een basis ER-model bestaat uit entiteitstypen (die de zaken van belang classificeren) en specificeert de relaties die tussen entiteiten (instanties van die entiteitstypen) kunnen bestaan.
-
-Bron: ERM (Wikipedia) [[WikipediaERM]], JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
-
-### Fact-based Modeling
-
-> Fact-Based Modelling is een type conceptuele modellering waarbij de belangrijkste datastructuur, het facttype, over feiten werkt.
-
-Toelichting: Er zijn typen Fact-Based Modelling die van nature grafisch zijn en anderen die tekstgebaseerd zijn.
-
-Grafische Fact-Based Modelling-methodologieën omvatten Object-Role Modeling (ORM), Fully Communication Oriented Information Modeling (FCO-IM) en CogNIAM. Tekstgebaseerde Fact-Based Modelling omvat de Constellation Query Language.
-
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], Fact Based Modeling (Medium) [[MediumFBM]]
-
-### Unified Modeling Language
-
-> De Unified Modeling Language (UML) is een algemene visuele modellerings-taal die bedoeld is om een standaard manier te bieden om het ontwerp van een systeem te visualiseren.
-
-Toelichting: Onderdeel van UML is een notatie voor gegevensmodellen.
-
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], UML (Wikipedia) [[WikipediaUML]]
-
-### Web Ontology Language
-
-> De Web Ontology Language (OWL) is een formele taal die speciaal is ontworpen voor het definiëren en delen van ontologieën op het semantisch web.
-
-Toelichting: OWL maakt het mogelijk om rijke en complexe kennisrepresentaties te creëren door middel van logische beschrijvingen van concepten, relaties en instanties binnen een bepaald domein. Deze taal ondersteunt automatische redenering, waardoor computers de gestructureerde informatie kunnen interpreteren en er conclusies uit kunnen trekken.
-
-Bron: Web Ontology Language [[W3COWL]], JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
-
-## Gegevenstypering
-
-### Algoritme
-
-> Een algoritme is een set van [uitvoeringsregels](#uitvoeringsregel) die wordt gevolgd bij het maken van berekeningen om een probleem op te lossen of een vraag te beantwoorden.
-
-Toelichting: Algoritmen bestaan uit een reeks, meestal wiskundige, instructies of [uitvoeringsregels]. Wanneer deze instructies een bepaalde input krijgen, dan gaat deze door deze instructies heen en er volgt een output op basis van die instructies. 
-
-Afzonderlijke [uitvoeringsregels] kunnen we in het verwerkingsdomein groeperen tot algoritmen.
-
-*De definitie is een synthese van de definitie in het algoritmeregister, de AI Act en het gegevenstyperingsbeleid.*
-
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], Het Algoritmeregister van de Nederlandse overheid [[Algoritmeregister]], Verordening (EU) 2024/1689 van het Europees parlement en de raad van 13 juni 2024, verordening artificiële intelligentie [[AIAct]]
-
-Gerelateerd: [Uitvoeringsregel](#uitvoeringsregel)
-
-### Begrip in begrippenkader
-
-> Een begrip in begrippenkader is een [term](#term) in de volledige context van de overige termen die mede de betekenis van deze [term](#term) bepalen, gebundeld in een [begrippenkader](#begrippenkader).
-
-Toelichting: Een begrip is feitelijk nooit los te zien van de context waarin het begrip wordt gebruikt, d.w.z. het begrippenkader waarin het begrip dat bij een voorkeursterm hoort, wordt gedefinieerd. Daarom verwijzen gegevenselementen nooit naar losse begrippen, maar uitsluitend naar begrippen in een begrippenkader, dus ingebed in hun context.
-
-*Een manier om termen uit verschillende begrippenkaders toch veilig te gebruiken is om de context (beschouwingsdomein) mee te geven in de naam: Financiële voorraad, Fysieke voorraad, etc.*
-
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
-
-Gerelateerd: [Begrippenkader](#begrippenkader), [Term](#term)
+Gerelateerd: [Term](#term), [Begrippenkader](#begrippenkader)
 
 Voorbeeld(en): Voorraad in een begrippenkader over financiële administratie heeft een andere betekenis dan voorraad in een begrippenkader over magazijnbeheer, en is dus een ander begrip met dezelfde term: iets kan financieel in de voorraad vallen zonder fysiek aanwezig te zijn.
 
@@ -104,17 +32,29 @@ Voorbeeld(en): Voorraad in een begrippenkader over financiële administratie hee
 
 Alternatieve aanduiding: *Thesaurus*
 
-> Een taalgebaseerd model van begrippen gericht op dat helpt om een beter inzicht te krijgen wat er wordt bedoeld met de [termen](#term) in het begrippenkader. Een begrippenkader beschrijft de begrippen in een [beschouwingsdomein](#beschouwingsdomein).
+> Een begrippenkader is een verzameling van [begrippen]() die in een bepaalde context of [beschouwingsdomein](#beschouwingsdomein) relevant zijn.
 
-Toelichting: Onderdeel van de gegevenstypering is het komen tot een beschrijving van de begrippen die gebruikt worden in gegevens: hun definitie, onderlinge relaties en grondslag voor de beoogde betekenis.
+Toelichting: Een begrippenkader is een taalgebaseerd model van begrippen dat helpt om een beter inzicht te krijgen in wat er wordt bedoeld met de termen in het begrippenkader. Een begrippenkader beschrijft de begrippen uit een beschouwingsdomein in hun onderlinge samenhang, dus in context. Begrippenkaders ordenen kennis om deze later eenvoudig te kunnen gebruiken, bijvoorbeeld in indexeringsschema's, thesauri, taxonomieën en andere kennisorganisatiesystemen.
 
-We beschrijven begrippenkaders conform de NL-SBB standaard.
+Begrippenkaders verplichten het gebruik van vooraf gedefinieerde, geautoriseerde termen die zijn geselecteerd door de ontwerpers ervan, in tegenstelling tot natuurlijke taalvocabulaires,die een dergelijke beperking niet hebben.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], , Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Beschouwingsdomein](#beschouwingsdomein), [Term](#term)
+Gerelateerd: [Beschouwingsdomein](#beschouwingsdomein), [begrippen](#begrippen)
+
+### Conceptueel gegevensmodel
+
+> Een specificatie van de [gegevenstypegroepen](#gegevenstypegroep), [gegevenstypen](#gegevenstype) en hun onderlinge relaties binnen een [beschouwingsdomein](#beschouwingsdomein), onafhankelijk van zowel technische implementatie als specifieke gebruiksscenario’s.
+
+Toelichting: Het conceptueel model richt zich op het creëren van een gedeelde, abstracte weergave van de werkelijkheid, bedoeld als communicatiemiddel tussen betrokkenen en als uitgangspunt voor het uitwerken van zowel logische als technische modellen. In het conceptuele gegevensmodel duiden we de pragmatische betekenis.
+
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
+Gerelateerd: [Gegevenstypegroep](#gegevenstypegroep), [Gegevenstype](#gegevenstype), [Beschouwingsdomein](#beschouwingsdomein)
 
 ### Contextuele betekenis
+
+Alternatieve aanduiding: *Contextuele rol*
 
 > De contextuele betekenis van [gegevens]() is de betekenis in een bepaalde context, dus in een specifieke situatie of [beschouwingsdomein](#beschouwingsdomein).
 
@@ -129,14 +69,6 @@ Deze context zorgt voor extra duiding van de betekenis.
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
 Gerelateerd: [gegevens](#gegevens), [Beschouwingsdomein](#beschouwingsdomein)
-
-### Definitiebron
-
-> Een definitiebron is een formele of autoritaire bron voor de definitie van een [term](#term).
-
-Toelichting: De NORA bevat autoritaire definities voor begrippen
-
-Gerelateerd: [Term](#term)
 
 ### Elementair gegeven
 
@@ -154,6 +86,16 @@ Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
 Gerelateerd: [Getypeerde eigenschap](#getypeerde-eigenschap), [Object](#object), [Vastgelegde uitspraak](#vastgelegde-uitspraak)
 
+### Gegeven
+
+> Onder een gegeven verstaan we elke weergave, digitaal en niet-digitaal, van handelingen, feiten of informatie en elke compilatie van dergelijke handelingen, feiten of informatie, ook in de vorm van geluidsopnames of visuele of audiovisuele opnames. Een gegeven is een vastgelegde uitspraak met een beoogde, menselijke, betekenis.
+
+Toelichting: Ook niet-digitale gegevens (uitgeprinte documenten) worden als gegevens beschouwd. Dit is een ruimere formulering dan in de originele bron (Data Governance Act) wordt gehanteerd. Deze uitbreiding is gemaakt omdat de reikwijdte van het Afsprakenstelsel verder gaat dan alleen digitale gegevens. 'Gegevens' kunnen ook 'Persoonsgegevens' zijn.
+
+Gegevens zijn vastgelegde uitspraken met een beoogde, menselijke, betekenis. Ze zijn altijd uit te drukken in een menselijke taal, waarin begrippen voorkomen met een beoogde betekenis.
+
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
 ### Gegevensbeleid
 
 > Gegevensbeleid omvat het vaststellen van duidelijke richtlijnen en procedures voor het verzamelen, opslaan, verwerken en delen van [gegevens](), evenals het implementeren van technologische oplossingen en controles om o.a. de nauwkeurigheid, consistentie en integriteit van de gegevens te waarborgen.
@@ -164,11 +106,11 @@ Gerelateerd: [gegevens](#gegevens)
 
 ### Gegevenselement
 
-> Een gegevenselement is een categorie van gegevens uit één of meerdere [gegevenssets](#gegevensset) zoals verwerkt binnen een organisatorische activiteit en gespecificeerd door één of meerdere [gegevenstypen](#gegevenstype).
+> Een gegevenselement is een categorie van gegevens uit één of meerdere [gegevenssets](#gegevensset) zoals verwerkt binnen een [organisatorische activiteit](#organisatorische-activiteit) en gespecificeerd door één of meerdere [gegevenstypen](#gegevenstype).
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [Gegevenstype](#gegevenstype), [Gegevensset](#gegevensset)
+Gerelateerd: [Organisatorische activiteit](#organisatorische-activiteit), [Gegevensset](#gegevensset), [Gegevenstype](#gegevenstype)
 
 ### Gegevensobject
 
@@ -302,13 +244,13 @@ Gerelateerd: [Objectrelatie](#objectrelatie), [Object](#object)
 
 ### Herleidbaarheid normatieve betekenis
 
-> De herleidbaarheid van de [normatieve betekenis](#normatieve-betekenis) van [gegevens]() wordt geborgd met een verwijzing naar de relevante [wet- en regelgeving](#wet--en-regelgeving) waarin die betekenis wordt beschreven, d.w.z. het specifieke [informatieobject](#informatieobject) waarin dat staat.
+> De herleidbaarheid van de [normatieve betekenis](#normatieve-betekenis) van [gegevens]() wordt geborgd met een verwijzing naar de relevante [wet- en regelgeving]() waarin die betekenis wordt beschreven, d.w.z. het specifieke [informatieobject](#informatieobject) waarin dat staat.
 
 Toelichting: Het gaat dus om een verwijzing naar de tekst van de wet- of regelgeving waarin de normatieve betekenis wordt beschreven, in de vorm van een document, website of andere vorm met eigen identiteit waarnaar kan worden verwezen. Zolang deze tekst op zichzelf eenvoudig te vinden is, is het noemen van de wet, het artikel, het lid en het subnummer in principe afdoende. Zo niet, dan moet er ook naar de representatie worden verwezen, bijvoorbeeld de website of bijlage.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [Wet- en regelgeving](#wet--en-regelgeving), [Informatieobject](#informatieobject), [Normatieve betekenis](#normatieve-betekenis), [gegevens](#gegevens)
+Gerelateerd: [Informatieobject](#informatieobject), [wet- en regelgeving](#wet--en-regelgeving), [Normatieve betekenis](#normatieve-betekenis), [gegevens](#gegevens)
 
 Voorbeeld(en): Een verwijzing naar artikel 9, lid 1 van de AVG geeft aan welke categorieën van persoonsgegevens bijzondere categorieën zijn, en dat het verboden is om die te verwerken.
 
@@ -320,7 +262,7 @@ Toelichting: We doelen hier dus op een verwijzing naar de wetstekst, het beleids
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [Informatieobject](#informatieobject), [Pragmatische betekenis](#pragmatische-betekenis), [gegevens](#gegevens), [Uitvoeringsregel](#uitvoeringsregel), [Organisatorische activiteit](#organisatorische-activiteit)
+Gerelateerd: [Informatieobject](#informatieobject), [Pragmatische betekenis](#pragmatische-betekenis), [Uitvoeringsregel](#uitvoeringsregel), [Organisatorische activiteit](#organisatorische-activiteit), [gegevens](#gegevens)
 
 ### Informatieobject
 
@@ -344,6 +286,16 @@ Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
 Gerelateerd: [gegevens](#gegevens)
 
+### Kennisbron
+
+> Een kennisbron is een autoritaire en vaak formele bron voor de definitie van een [term](#term). Het bevat de autoritaire kennis over de betekenis van de [term](#term).
+
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
+Gerelateerd: [Term](#term)
+
+Voorbeeld(en): De NORA bevat autoritaire definities voor begrippen die gerelateerd zijn aan de bedrijfsarchitectuur van de overheid. Het Wetboek van Strafrecht bevat autoritaire definities voor (een aantal) termen die we gebruiken in het strafrecht.
+
 ### Kritiek gegevenselement
 
 > Een kritiek gegevenselement is een [gegevenselement](#gegevenselement) dat vanwege het gebruiksdoeleind of wettelijke vereisten van cruciaal belang is voor het functioneren, besluitvorming of strategische doelen van een organisatie of keten.
@@ -358,9 +310,9 @@ Gerelateerd: [Gegevenselement](#gegevenselement)
 
 > Een specificatie van de [intrinsieke betekenis](#intrinsieke-betekenis) van de [gegevenstypen](#gegevenstype) en hun onderlinge relaties binnen een [beschouwingsdomein](#beschouwingsdomein).
 
-Toelichting: De intrinsieke betekenis is de betekenis van het gegeven zelf, zonder interpretatie of waardeoordeel. Het is meestal het startpunt vóór men betekenis gaat toekennen in een bepaalde context (zoals in systemen, beleid of rapportages). 
+Toelichting: In een logisch gegevensmodel vinden we de intrinsieke betekenis van gegevens. De intrinsieke betekenis is de betekenis van het gegeven zelf, zonder interpretatie of waardeoordeel. Het is meestal het startpunt vóór men betekenis gaat toekennen in een bepaalde context (zoals in systemen, beleid of rapportages). 
 
-De intrinsieke betekenis van "5,4" is dat het een getal is. De normatieve betekenis kan echter zijn dat dit een onvoldoende is als examencijfer, dat het buiten koud is, of dat binnenschepen met normale belading de RIjn mogen bevaren.
+De intrinsieke betekenis van "5,4" is dat het een getal is. De normatieve betekenis kan echter zijn dat dit een onvoldoende is als examencijfer, dat het buiten koud is, of dat binnenschepen met normale belading de Rijn mogen bevaren. De intrinsieke betekenis wordt nader gedetailleerd in een technisch gegevensmodel.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
@@ -370,7 +322,7 @@ Gerelateerd: [Gegevenstype](#gegevenstype), [Intrinsieke betekenis](#intrinsieke
 
 > Gegevens over gegevens.
 
-Toelichting: Elk gegeven wat een uitspraak doet over een ander gegeven, is een metagegeven.
+Toelichting: Elk gegeven dat een uitspraak doet over een ander gegeven, is een metagegeven.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
@@ -386,7 +338,7 @@ Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
 ### Normatieve betekenis
 
-> De normatieve betekenis van [gegevens]() is de betekenis zoals deze volgt uit [wet- en regelgeving](#wet--en-regelgeving), uitvoeringsbeleid en andere kaderstelling die beoogt om normen te stellen aan gedrag.
+> De normatieve betekenis van [gegevens]() is de betekenis zoals deze volgt uit [wet- en regelgeving](), uitvoeringsbeleid en andere kaderstelling die beoogt om normen te stellen aan gedrag.
 
 Toelichting: In beleid, administratie of besluitvorming krijgt een gegeven vaak een normatieve lading:
 
@@ -399,7 +351,7 @@ De normatieve betekenis van gegevens is dus de manier waarop we aan gegevens een
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [gegevens](#gegevens), [Wet- en regelgeving](#wet--en-regelgeving)
+Gerelateerd: [gegevens](#gegevens), [wet- en regelgeving](#wet--en-regelgeving)
 
 ### Object
 
@@ -459,21 +411,33 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Object](#object), [Objectrelatie](#objectrelatie), [Administratie](#administratie)
 
+### Semantisch gegevensmodel
+
+> Een specificatie van de [normatieve betekenis](#normatieve-betekenis) van de [gegevenstypen](#gegevenstype) en hun [contextuele betekenis](#contextuele-betekenis) binnen een [beschouwingsdomein](#beschouwingsdomein), waarbij vastgelegd wordt hoe gegevens geïnterpreteerd worden in termen van [wet en regelgeving](#wet-en-regelgeving), [uitvoeringsregels](#uitvoeringsregel) en organisatorische doelstellingen.
+
+Toelichting: Het semantisch model legt de normatieve betekenislaag vast: het beschrijft wát de gegevens in een gegeven context betekenen, binnen een bepaald beschouwingsdomein. Dit staat los van hun fysieke opslag of technische representatie.
+
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
+Gerelateerd: [Normatieve betekenis](#normatieve-betekenis), [Gegevenstype](#gegevenstype), [Beschouwingsdomein](#beschouwingsdomein), [Uitvoeringsregel](#uitvoeringsregel), [Wet en regelgeving](#wet-en-regelgeving), [Contextuele betekenis](#contextuele-betekenis)
+
 ### Semantische interoperabiliteit
 
 > Semantische interoperabiliteit onstaat wanneer partijen de betekenis van begrippen onderling harmoniseren, zodat vastgelegde gegevens over dat begrip voor alle betrokken partijen dezelfde beoogde betekenis hebben.
 
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], New European Interoperability Framework (ISA2) [[NewEUInterop]]
+Bron: New European Interoperability Framework (ISA2) [[NewEUInterop]], JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
 ### Taalbinding
 
 Alternatieve aanduiding: *Eenheid van taal*
 
-> Een taalbinding is een verbinding tussen begrippen in één begrippenkader, met alternatieve termen uit een ander begrippenkader.
+> Een taalbinding is een verbinding tussen verschillende begrippenkaders, waarbij wordt aangegeven hoe de termen in het ene [begrippenkader](#begrippenkader) zich verhouden tot de termen uit het andere [begrippenkader](#begrippenkader).
 
-Toelichting: Het gaat om een directe relatie (de binding), waarbij de begrippen dezelfde of een vergelijkbare betekenis hebben maar alternatieve termen gebruiken. De alternatieve termen verbinden we met de voorkeursterm zodat we zoveel mogelijk naar één term voor het begrip kunnen bewegen.
+Toelichting: Het gaat om een directe relatie (de binding), waarbij de begrippen dezelfde of een vergelijkbare betekenis hebben maar alternatieve termen gebruiken. Niet elk begrip hoeft rechtstreeks te kunnen worden vertaald, maar er moet wel een manier zijn om te kunnen zien hoe je van het ene naar het andere begrippenkader kan komen.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
+Gerelateerd: [Begrippenkader](#begrippenkader)
 
 Voorbeeld(en): Een woordenboek NL-EN is een voorbeeld van een taalbinding tussen Nederlands en Engels.
 
@@ -481,7 +445,7 @@ Voorbeeld(en): Een woordenboek NL-EN is een voorbeeld van een taalbinding tussen
 
 > Een specificatie van de neerslag in een fysiek opslagmedium van het [logisch gegevensmodel](#logisch-gegevensmodel).
 
-Toelichting: Een technisch model is dus een weergave van (en verbonden met) een logisch gegevensmodel, gericht op de technische werkelijkheid. De vorm kan dus anders zijn dan die van het logisch model, zolang de semantiek, gegevenstypering en de overige beperkingen die het logisch model oplegt maar intact blijven.
+Toelichting: Een technisch model is dus een weergave van (en verbonden met) een logisch gegevensmodel, gericht op de technische werkelijkheid. De vorm kan dus anders zijn dan die van het logisch model, zolang de semantiek, gegevenstypering en de overige beperkingen die het logisch model oplegt maar intact blijven. In een technisch gegevensmodel vinden we de intrinsieke betekenis van gegevens.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
@@ -491,13 +455,13 @@ Gerelateerd: [Logisch gegevensmodel](#logisch-gegevensmodel)
 
 Alternatieve aanduiding: *Voorkeursterm*
 
-> Een woord dat (of woordcombinatie die) wordt gebruikt in een beschouwings- of kennisdomein, waarbij we met dat woord verwijzen naar de betekenis voor de gebruikers in de context van dat domein, het [begrip in begrippenkader](#begrip-in-begrippenkader).
+> Een woord dat (of woordcombinatie die) wordt gebruikt in een beschouwings- of kennisdomein, waarbij we met dat woord verwijzen naar de betekenis voor de gebruikers in de context van dat domein, het [begrip in begrippenkader]().
 
 Toelichting: Een term is de naam van een begrip, als onderdeel van een begrippenkader. We (her)gebruiken waar mogelijk formele begrippen, zoals bijvoorbeeld de begrippen uit de NORA. We verwijzen naar een begrip met een voorkeursterm, om de eenheid van taal te borgen.
 
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], 
+Bron: , JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [Begrip in begrippenkader](#begrip-in-begrippenkader)
+Gerelateerd: [begrip in begrippenkader](#begrip-in-begrippenkader)
 
 ### Uitvoeringsregel
 
@@ -533,11 +497,97 @@ Gerelateerd: [gegevens](#gegevens)
 
 ### Voorkeursterm
 
-> De voorkeursterm is de term waaronder een begrip bekend is en indien mogelijk wordt gebruikt.
+> De voorkeursterm is de [term](#term) waaronder een [begrip](#begrip) bekend is en indien mogelijk wordt gebruikt.
 
 Toelichting: Het kan zijn dat er in het verleden alternatieve termen zijn gehanteerd, of dat er een andere reden is geweest om andere termen te hanteren voor hetzelfde begrip. Deze worden alternatieve termen. De voorkeursterm is leidend.
 
 Bron: Kerndepartement J&V [[KDJV]]
+
+Gerelateerd: [Term](#term), [Begrip](#begrip)
+
+## Gegevensgebruik
+
+### Algoritme
+
+> Een algoritme is een set van [uitvoeringsregels](#uitvoeringsregel) die wordt gevolgd bij het maken van berekeningen om een probleem op te lossen of een vraag te beantwoorden.
+
+Toelichting: Algoritmen bestaan uit een reeks, meestal wiskundige, instructies of [uitvoeringsregels]. Wanneer deze instructies een bepaalde input krijgen, dan gaat deze door deze instructies heen en er volgt een output op basis van die instructies. 
+
+Afzonderlijke [uitvoeringsregels] kunnen we in het verwerkingsdomein groeperen tot algoritmen.
+
+*De definitie is een synthese van de definitie in het algoritmeregister, de AI Act en het gegevenstyperingsbeleid.*
+
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], Het Algoritmeregister van de Nederlandse overheid [[Algoritmeregister]], Verordening (EU) 2024/1689 van het Europees parlement en de raad van 13 juni 2024, verordening artificiële intelligentie [[AIAct]]
+
+Gerelateerd: [Uitvoeringsregel](#uitvoeringsregel)
+
+## Gegevenskwaliteit
+
+### Gegevenskwaliteitsproces
+
+> Een proces waarin de kwaliteit van de [gegevenstypering](#gegevenstypering) wordt gemeten en zo nodig verbeterd. De [gegevenstypering](#gegevenstypering) wordt gevalideerd op juistheid door kennishouders en geverifieerd op consistentie door een afzonderlijke kwaliteitsbewaker.
+
+Toelichting: Omdat het gebruik van gegevens voortdurend verandert en evolueert is voortdurende monitoring (en mogelijk aanpassing) nodig. Daarom wordt daarvoor een proces ingericht. Dit impliceert dat er medewerkers zijn, die toegewijd zijn aan de gegevenstypering. 
+
+De juiste (waar mogelijk geautomatiseerde) technieken kunnen worden ingezet om de gegevenstypering actueel, betrouwbaar en consistent te houden met het daadwerkelijke gegevensgebruik.
+
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
+Gerelateerd: [Gegevenstypering](#gegevenstypering)
+
+## Gegevensmodellering
+
+### Entity-Relationship Modeling
+
+> Een entiteit-relatiemodel (of ER-model) beschrijft onderling gerelateerde zaken die van belang zijn binnen een specifiek kennisdomein.
+
+Toelichting: Een basis ER-model bestaat uit entiteitstypen (die de zaken van belang classificeren) en specificeert de relaties die tussen entiteiten (instanties van die entiteitstypen) kunnen bestaan.
+
+Bron: ERM (Wikipedia) [[WikipediaERM]], JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
+### Fact-based Modeling
+
+> Fact-Based Modelling is een type conceptuele modellering waarbij de belangrijkste datastructuur, het facttype, over feiten werkt.
+
+Toelichting: Er zijn typen Fact-Based Modelling die van nature grafisch zijn en anderen die tekstgebaseerd zijn.
+
+Grafische Fact-Based Modelling-methodologieën omvatten Object-Role Modeling (ORM), Fully Communication Oriented Information Modeling (FCO-IM) en CogNIAM. Tekstgebaseerde Fact-Based Modelling omvat de Constellation Query Language.
+
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], Fact Based Modeling (Medium) [[MediumFBM]]
+
+### Metamodel Informatie Modellering
+
+> Het Metamodel Informatie Modellering (MIM) is een metamodel waarmee [conceptuele gegevensmodellen](#conceptueel-gegevensmodel) en [logische gegevensmodellen](#logisch-gegevensmodel) kunnen worden uitgewisseld tussen verschillende partijen.
+
+Toelichting: De MIM is één van de standaarden die door de overheid worden gebruikt.
+
+Bron: Metamodel Informatie Modellering [[MIM]]
+
+Gerelateerd: [Logisch gegevensmodel](#logisch-gegevensmodel), [Conceptueel gegevensmodel](#conceptueel-gegevensmodel)
+
+### Shapes Constraint Language
+
+> Shapes Constraint Language of SHACL is een World Wide Web Consortium (W3C) standaard taal om Resource Description Framework (RDF) grafen te beschrijven.
+
+Toelichting: SHACL is ontworpen om de semantische en technische interoperabiliteitslagen van ontologieën die als RDF graaf worden uitgedrukt, te kunnen beschrijven.
+
+Bron: Shapes Constraint Language (SHACL) [[W3C-SHACL]]
+
+### Unified Modeling Language
+
+> De Unified Modeling Language (UML) is een algemene visuele modellerings-taal die bedoeld is om een standaard manier te bieden om het ontwerp van een systeem te visualiseren.
+
+Toelichting: Onderdeel van UML is een notatie voor gegevensmodellen.
+
+Bron: UML (Wikipedia) [[WikipediaUML]], JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
+### Web Ontology Language
+
+> De Web Ontology Language (OWL) is een formele taal die speciaal is ontworpen voor het definiëren en delen van ontologieën op het semantisch web.
+
+Toelichting: OWL maakt het mogelijk om rijke en complexe kennisrepresentaties te creëren door middel van logische beschrijvingen van concepten, relaties en instanties binnen een bepaald domein. Deze taal ondersteunt automatische redenering, waardoor computers de gestructureerde informatie kunnen interpreteren en er conclusies uit kunnen trekken.
+
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], Web Ontology Language [[W3COWL]]
 
 ## Organisatorische context
 
@@ -567,15 +617,15 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Wetgeving](#wetgeving)
 
-### Wet- en regelgeving
+### Wet en regelgeving
 
 > Wet- en regelgeving omvat zowel [wetgeving](#wetgeving) als [regelgeving](#regelgeving)
 
 Toelichting: We verwijzen naar wet- en regelgeving op de officiële naam van de wet, met vermelding van het artikel-, lid- en eventuele sub-nummer.
 
-Bron: Archiefwet 1995 [[Archiefwet]], Kerndepartement J&V [[KDJV]], Verordening (EU) 679/2016 van het Europees Parlement en de Raad van 27 april 2016 [[AVG]]
+Bron: Archiefwet 1995 [[Archiefwet]], Verordening (EU) 679/2016 van het Europees Parlement en de Raad van 27 april 2016 [[AVG]], Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Regelgeving](#regelgeving), [Wetgeving](#wetgeving)
+Gerelateerd: [Wetgeving](#wetgeving), [Regelgeving](#regelgeving)
 
 Voorbeeld(en): De Algemene Verordening Gegevensbescherming (AVG) en de Archiefwet zijn voorbeelden van wetgeving die op vrijwel alle organisatorische activiteiten in de overheid van toepassing zijn.
 

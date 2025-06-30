@@ -15,6 +15,10 @@ var localBiblio = {
     title: "Archiefwet 1995",
     href: "https://wetten.overheid.nl/BWBR0007376/2024-06-19",
   },
+  "BW2": {
+    title: "Burgerlijk Wetboek boek 2",
+    href: "https://wetten.overheid.nl/BWBR0003045/2025-01-01/",
+  },
   "DigitaleOverheid": {
     title: "Digitale Overheid",
     href: "https://www.digitaleoverheid.nl/",
@@ -61,6 +65,10 @@ var localBiblio = {
   "SemVer": {
     title: "Semantic Versioning",
     href: "https://semver.org/",
+  },
+  "W3C-SHACL": {
+    title: "Shapes Constraint Language (SHACL)",
+    href: "https://www.w3.org/TR/shacl/",
   },
   "W3COWL": {
     title: "Web Ontology Language",
