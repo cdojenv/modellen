@@ -114,7 +114,7 @@ Paragraaf 5 van het rijksmodel voor de [DPIA](#dpia) bevat een beschrijving van 
 
 ### 06. Betrokken partijen {#IntroBetrokkenPartijen}
 
-Paragraaf 6 van het rijksmodel voor de [DPIA](#dpia) bevat voor de gegevensverwerkingen waar de DPIA betrekking op heeft, een overzicht van de [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking) voor elke [gegevensverwerking personengegevens] in de DPIA. 
+Paragraaf 6 van het rijksmodel voor de [DPIA](#dpia) bevat voor de gegevensverwerkingen waar de DPIA betrekking op heeft, een overzicht van de [betrokken partij bij gegevensverwerking](#betrokken-partij-bij-gegevensverwerking) voor elke [gegevensverwerking persoonsgegevens] in de DPIA. 
 
 Een [partij](#partij) kan voorkomen in meerdere rollen, soms tegelijkertijd en soms exclusief. Voor elke partij wordt de [partij naam](#partij-naam) vastgelegd.
 
