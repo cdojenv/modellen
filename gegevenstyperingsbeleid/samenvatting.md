@@ -1,15 +1,14 @@
 Dit document beschrijft de gegevenstypering van het Gegevenstyperingsbeleid. Deze gegevenstypering bestaat uit de volgende onderdelen:
 
-1. Een [introductie](#Intro) die de beleidsregels samenvat, en in verhalende vorm de relatie tussen de begrippen in het gegevenstyperingsbeleid uitlegt.
+1. Een [introductie](#Intro) die in verhalende vorm de relatie tussen de begrippen in het gegevenstyperingsbeleid uitlegt.
 1. De definities van de [relevante begrippen](#begrippen) voor het [gegevenstyperingsbeleid](#gegevenstyperingsbeleid) en hun onderlinge relaties;
-1. De conceptuele informatiemodellen van het [gegevenstyperingsbeleid](#cim-gegevenstyperingsbeleid) (CIM). Dit model beschrijft de informatiebehoefte in termen van de relevante objecten en hun eigenschappen;
-1. Het logische gegevensmodel (LGM) van het [gegevenstyperingsbeleid](#gegevenstyperingsbeleid-0) dat beschrijft welke gegevens bijgehouden dienen te worden (en op welke wijze) als men een administratie (boekhouding) rond gegevenstypering zou willen bijhouden.
+1. Het [conceptueel informatiemodel (CIM) van het gegevenstyperingsbeleid](#cim-gegevenstyperingsbeleid) (CIM). Dit model beschrijft de informatiebehoefte in termen van de relevante objecten en hun eigenschappen;
+1. Het [logische gegevensmodel (LGM)](#logische-gegevensmodellen) van het [gegevenstyperingsbeleid](#gegevenstyperingsbeleid-0) dat beschrijft welke gegevens bijgehouden dienen te worden (en op welke wijze) als men een administratie (boekhouding) rond gegevenstypering zou willen bijhouden.
 
 De modellen zijn gebaseerd op de volgende documenten:
 
 * Gegevenstyperingsbeleid ([[Gegevenstyperingsbeleid]])
 * Implementatiehandreiking Gegevenstyperingsbeleid (te vinden op [[Gegevenstyperingsbeleid]])
-
 
 **Versionering in dit document**
 

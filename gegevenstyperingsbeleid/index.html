@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Informatiemodel voor het J&ampV gegevenstyperingsbeleid" />
     <title>Informatiemodel voor het J&ampV gegevenstyperingsbeleid</title>
-    <script
-      src="https://www.w3.org/Tools/respec/respec-w3c"
-      class="remove"
-      defer
-    ></script>
     <script src="localbiblio.js" class="remove"></script>
     <script src="postprocess.js" class="remove"></script>
     <script class="remove">
@@ -21,11 +16,13 @@
         localBiblio: localBiblio,
         specStatus: "base",
         shortName: "gegevenstyperingsbeleid",
-        subtitle: "concept versie 0.8.0",
-        publishDate: "2025-06-10",
-        postProcess: [markupDefTables],
+        subtitle: "concept versie 0.8.1",
+        publishDate: "2025-07-21",
         latestVersion: "https://modellen.jenvgegevens.nl/gegevenstyperingsbeleid/",
-        thisVersion: "https://modellen.jenvgegevens.nl/gegevenstyperingsbeleid/20251006/",
+        thisVersion: "https://modellen.jenvgegevens.nl/gegevenstyperingsbeleid/v081/",
+        previousPublishDate: "2025-06-10",
+        previousMaturity: "LC",
+        prevRecURI: "https://modellen.jenvgegevens.nl/gegevenstyperingsbeleid/v080",
         licenses: {
           cc0: {
             name: "Creative Commons 0 Public Domain Dedication",
@@ -67,7 +64,40 @@
           },
         ],
         lint: false,
+        postProcess: [markupDefTables],
       };
+    </script>
+    <script
+      src="https://www.w3.org/Tools/respec/respec-w3c"
+      class="remove"
+      defer
+    ></script>
+    <script defer>
+      // Override the "Latest Recommendation" text in dt element
+      // This is a workaround for the fact that the l10n key is not applied to this document but only works inside the W3C Respec context.
+      // Also, we can't use any of the other actual Respec features here, so we have to do it manually.
+      (function overrideRecommendationLabel() {
+        function doReplace() {
+          document.querySelectorAll("dt").forEach(dt => {
+            const txt = dt.textContent.trim();
+            if (txt === "Latest Recommendation:") {
+              dt.textContent = "Vorige versie:";
+              console.log("✔️ Overrode Latest Recommendation");
+            }
+          });
+        }
+        // If the page is already fully loaded, run immediately
+        if (document.readyState === "complete") {
+          doReplace();
+        } else {
+          // Otherwise wait for load
+          window.addEventListener("load", doReplace);
+        }
+        // Also try to run after 500ms, in case the page is not fully loaded yet (needed to catch a simple refresh)
+        setTimeout(doReplace, 500);
+
+        // Note: do not rely on the document.respec.ready (https://github.com/speced/respec/wiki/document.respec) to fire, it doesn't work.
+      })();
     </script>
   </head>
   <body>

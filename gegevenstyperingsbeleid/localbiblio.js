@@ -54,6 +54,10 @@ var localBiblio = {
     title: "Nationaal Archief",
     href: "https://www.nationaalarchief.nl/archiveren/kennisbank/",
   },
+  "NL-SBB": {
+    title: "NL-SBB - Standaard voor het beschrijven van begrippen",
+    href: "https://docs.geostandaarden.nl/nl-sbb/nl-sbb/",
+  },
   "NewEUInterop": {
     title: "New European Interoperability Framework (ISA2)",
     href: "https://ec.europa.eu/isa2/eif_en/",
@@ -69,6 +73,10 @@ var localBiblio = {
   "W3C-SHACL": {
     title: "Shapes Constraint Language (SHACL)",
     href: "https://www.w3.org/TR/shacl/",
+  },
+  "W3C-SKOS": {
+    title: "Simple Knowledge Organisation System (SKOS)",
+    href: "https://www.w3.org/TR/skos-reference/",
   },
   "W3COWL": {
     title: "Web Ontology Language",

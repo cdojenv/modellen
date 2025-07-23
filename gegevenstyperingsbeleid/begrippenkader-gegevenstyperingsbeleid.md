@@ -22,7 +22,7 @@ Een begrip is feitelijk nooit los te zien van zijn context, dus het begrippenkad
 
 De primaire taak van de gegevenstypering is het komen tot een beschrijving van de begrippen die gebruikt worden in gegevens: hun definitie, onderlinge relaties en grondslag voor de beoogde betekenis.
 
-Bron: 
+Bron: Begrip, [[NL-SBB]]
 
 Gerelateerd: [Term](#term), [Begrippenkader](#begrippenkader)
 
@@ -38,37 +38,19 @@ Toelichting: Een begrippenkader is een taalgebaseerd model van begrippen dat hel
 
 Begrippenkaders verplichten het gebruik van vooraf gedefinieerde, geautoriseerde termen die zijn geselecteerd door de ontwerpers ervan, in tegenstelling tot natuurlijke taalvocabulaires,die een dergelijke beperking niet hebben.
 
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], , Kerndepartement J&V [[KDJV]]
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], Kerndepartement J&V [[KDJV]], NL-SBB - Standaard voor het beschrijven van begrippen [[NL-SBB]]
 
 Gerelateerd: [Beschouwingsdomein](#beschouwingsdomein), [begrippen](#begrippen)
 
-### Conceptueel gegevensmodel
+### Conceptueel model
 
 > Een specificatie van de [gegevenstypegroepen](#gegevenstypegroep), [gegevenstypen](#gegevenstype) en hun onderlinge relaties binnen een [beschouwingsdomein](#beschouwingsdomein), onafhankelijk van zowel technische implementatie als specifieke gebruiksscenario’s.
 
-Toelichting: Het conceptueel model richt zich op het creëren van een gedeelde, abstracte weergave van de werkelijkheid, bedoeld als communicatiemiddel tussen betrokkenen en als uitgangspunt voor het uitwerken van zowel logische als technische modellen. In het conceptuele gegevensmodel duiden we de pragmatische betekenis.
+Toelichting: Het conceptueel model richt zich op het creëren van een gedeelde, abstracte weergave van de werkelijkheid, bedoeld als communicatiemiddel tussen betrokkenen en als uitgangspunt voor het uitwerken van zowel logische als technische modellen. Het conceptuele model is vooral gericht op het modelleren van de informatie die door de gegevens wordt gedragen en dus feitelijk meer een informatiemodel dan een gegevensmodel.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [Gegevenstypegroep](#gegevenstypegroep), [Gegevenstype](#gegevenstype), [Beschouwingsdomein](#beschouwingsdomein)
-
-### Contextuele betekenis
-
-Alternatieve aanduiding: *Contextuele rol*
-
-> De contextuele betekenis van [gegevens]() is de betekenis in een bepaalde context, dus in een specifieke situatie of [beschouwingsdomein](#beschouwingsdomein).
-
-Toelichting: Een gegeven krijgt extra betekenis doordat we de context kennen:
-
-* Een getal "5,4" is toegekend door een docent na het controleren van een examen.
-* Een getal "5,4" is gemeten met een gecalibreerde buitenthermometer om 08:00 in De Bilt.
-* Een getal "5,4" is een waterstand gemeten in de Rijn bij Lobith. 
-
-Deze context zorgt voor extra duiding van de betekenis.
-
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
-
-Gerelateerd: [gegevens](#gegevens), [Beschouwingsdomein](#beschouwingsdomein)
+Gerelateerd: [Beschouwingsdomein](#beschouwingsdomein), [Gegevenstype](#gegevenstype), [Gegevenstypegroep](#gegevenstypegroep)
 
 ### Elementair gegeven
 
@@ -156,6 +138,8 @@ Voorbeeld(en): In de uitspraak "Marco is een persoon" en de uitspraak "Ronald is
 
 Toelichting: Gegevenstypen zelf kun je groeperen. Bijvoorbeeld als je het wilt hebben over alle gegevenstypen die "geheim" zijn. Het is nu niet dat we deze gegevens als groep bij elkaar willen zetten, om ze vervolgens (als groep) te typeren. In dit geval willen we juist de gegevenstypen zelf groeperen.
 
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
 Gerelateerd: [Gegevenstype](#gegevenstype)
 
 ### Gegevenstypering
@@ -242,6 +226,16 @@ Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
 Gerelateerd: [Objectrelatie](#objectrelatie), [Object](#object)
 
+### Herleidbaarheid intrinsieke betekenis
+
+> De herleidbaarheid van de [intrinsieke betekenis](#intrinsieke-betekenis) van [gegevens]() wordt geborgd door de verwijzing naar de [normatieve betekenis](#normatieve-betekenis) en de [praktische betekenis](#praktische-betekenis) van de gegevens, en een correcte [gegevensmodellering]().
+
+Toelichting: In principe is de intrinsieke betekenis van gegevens afleidbaar uit de typering van de gegevens zelf, maar als we willen herleiden waarom die betekenis en bijbehorende typering op deze manier tot stand is gekomen, is een relatie met de normatieve en praktische betekenis noodzakelijk.
+
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+
+Gerelateerd: [Normatieve betekenis](#normatieve-betekenis), [Gegevensmodellering](#gegevensmodellering), [Praktische betekenis](#praktische-betekenis), [gegevens](#gegevens), [Intrinsieke betekenis](#intrinsieke-betekenis)
+
 ### Herleidbaarheid normatieve betekenis
 
 > De herleidbaarheid van de [normatieve betekenis](#normatieve-betekenis) van [gegevens]() wordt geborgd met een verwijzing naar de relevante [wet- en regelgeving]() waarin die betekenis wordt beschreven, d.w.z. het specifieke [informatieobject](#informatieobject) waarin dat staat.
@@ -250,19 +244,19 @@ Toelichting: Het gaat dus om een verwijzing naar de tekst van de wet- of regelge
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [Informatieobject](#informatieobject), [wet- en regelgeving](#wet--en-regelgeving), [Normatieve betekenis](#normatieve-betekenis), [gegevens](#gegevens)
+Gerelateerd: [gegevens](#gegevens), [Informatieobject](#informatieobject), [wet- en regelgeving](#wet--en-regelgeving), [Normatieve betekenis](#normatieve-betekenis)
 
 Voorbeeld(en): Een verwijzing naar artikel 9, lid 1 van de AVG geeft aan welke categorieën van persoonsgegevens bijzondere categorieën zijn, en dat het verboden is om die te verwerken.
 
-### Herleidbaarheid pragmatische betekenis
+### Herleidbaarheid praktische betekenis
 
-> De herleidbaarheid van de [pragmatische betekenis](#pragmatische-betekenis) van [gegevens]() wordt geborgd met een verwijzing naar de [organisatorische activiteit](#organisatorische-activiteit) en de [uitvoeringsregels](#uitvoeringsregel) waarin die betekenis wordt beschreven, d.w.z. het specifieke [informatieobject](#informatieobject) waarin dat staat.
+> De herleidbaarheid van de [praktische betekenis](#praktische-betekenis) van [gegevens]() wordt geborgd met een verwijzing naar de [organisatorische activiteit](#organisatorische-activiteit) en de [uitvoeringsregels](#uitvoeringsregel) waarin die betekenis wordt beschreven, d.w.z. het specifieke [informatieobject](#informatieobject) waarin dat staat.
 
-Toelichting: We doelen hier dus op een verwijzing naar de wetstekst, het beleidsdocument, de NEN-standaard etc. die is gebruikt om de pragmatische betekenis van gegevens van af te leiden. Hoe specifieker die verwijzing is, hoe bruikbaarder.
+Toelichting: We doelen hier dus op de onderliggende wetsteksten, het beleidsdocument, de NEN-standaard etc. die is gebruikt om de praktische betekenis van gegevens van af te leiden en vast te leggen in bedrijfsregelmodellen en procesmodellen. Hoe specifieker die verwijzing is, hoe bruikbaarder.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [Informatieobject](#informatieobject), [Pragmatische betekenis](#pragmatische-betekenis), [Uitvoeringsregel](#uitvoeringsregel), [Organisatorische activiteit](#organisatorische-activiteit), [gegevens](#gegevens)
+Gerelateerd: [Praktische betekenis](#praktische-betekenis), [Organisatorische activiteit](#organisatorische-activiteit), [Informatieobject](#informatieobject), [gegevens](#gegevens), [Uitvoeringsregel](#uitvoeringsregel)
 
 ### Informatieobject
 
@@ -280,7 +274,7 @@ Voorbeeld(en): Een document, een databaserecord, een boek, een poster of een fil
 
 > De intrinsieke betekenis van [gegevens]() is de betekenis zoals deze volgt uit de aard van de gegevens zelf, inclusief hun vorm, structuur en relatie met andere gegevens.
 
-Toelichting: Gegevens als "5,4" of "21" zijn getallen en "5 mei 1945" is een datum. Dat is de intrinsieke betekenis van het gegeven zelf, zonder interpretatie of waardeoordeel. De intrinsieke betekenis moet bekend zijn voordat men betekenis kan toekennen in een bepaalde context (zoals in systemen, beleid of rapportages).
+Toelichting: Gegevens als "5,4" of "21" zijn getallen en "5 mei 1945" is een datum. Dat is de intrinsieke betekenis van het gegeven zelf, zonder interpretatie of waardeoordeel. De intrinsieke betekenis moet bekend zijn voordat men betekenis aan die gegevens kan toekennen in een bepaalde context (zoals in systemen, beleid of rapportages).
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
@@ -383,21 +377,27 @@ Bron: Metamodel Informatie Modellering [[MIM]]
 
 Gerelateerd: [Object](#object), [Beschouwingsdomein](#beschouwingsdomein)
 
-### Pragmatische betekenis
+### Praktische betekenis
 
-> De pragmatische betekenis van [gegevens]() is de betekenis zoals deze volgt uit het gebruik van de gegevens en de impact die dit gebruik met zich meebrengt.
+Alternatieve aanduiding: *contextuele betekenis*
 
-Toelichting: De pragmatische betekenis is de betekenis die mensen hechten aan de gegevens, en wat de impact van die gegevens is:
+> De praktische betekenis van [gegevens]() is de betekenis zoals deze volgt uit (de context van) het gebruik van de gegevens en de impact die dit gebruik met zich meebrengt. Deze wordt geformaliseerd in de verbinding tussen aan de ene kant de [logische gegevensmodellen](#logisch-gegevensmodel) en [technische gegevensmodellen](#technisch-gegevensmodel), en aan de andere kant de procesmodellen en bedrijfsregelmodellen.
+
+Toelichting: De praktische betekenis is de betekenis die mensen hechten aan de gegevens, en wat de impact van die gegevens is:
 
 * wel of geen inkomenssteun bij een bepaald inkomen.
 * het examen moet opnieuw worden afgelegd, omdat een onvoldoende werd behaald.
 * de persoon mag een rijexamen afleggen.
 
-De pragmatische betekenis heeft een relatie met de normatieve betekenis.
+Deze betekenis ontstaat in de praktijk in een context die wordt bepaald door de organisatorische activiteit waar de gegevens in worden vastgelegd. Die context is medebepalend voor de betekenis. Een getal "5,4" dat is toegekend door een docent na het nakijken van een examen, is een ander gegeven dan een "5,4" die wordt gemeten met een gecalibreerde buitenthermometer om 08:00 uur in De Bilt, of dat als waterpeil wordt gemeten in de Rijn bij Lobith.
+
+De praktische betekenis heeft een relatie met de normatieve of bedoelde betekenis.
+
+*Bij het bepalen van de praktische betekenis van een gegeven zijn "wie, wat, waar, hoe en wanneer" belangrijke vragen.*
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [gegevens](#gegevens)
+Gerelateerd: [gegevens](#gegevens), [Technisch gegevensmodel](#technisch-gegevensmodel), [Logisch gegevensmodel](#logisch-gegevensmodel)
 
 ### Registratietijd
 
@@ -411,21 +411,21 @@ Bron: Kerndepartement J&V [[KDJV]]
 
 Gerelateerd: [Object](#object), [Objectrelatie](#objectrelatie), [Administratie](#administratie)
 
-### Semantisch gegevensmodel
+### Semantisch model
 
-> Een specificatie van de [normatieve betekenis](#normatieve-betekenis) van de [gegevenstypen](#gegevenstype) en hun [contextuele betekenis](#contextuele-betekenis) binnen een [beschouwingsdomein](#beschouwingsdomein), waarbij vastgelegd wordt hoe gegevens geïnterpreteerd worden in termen van [wet en regelgeving](#wet-en-regelgeving), [uitvoeringsregels](#uitvoeringsregel) en organisatorische doelstellingen.
+> Een specificatie van de [normatieve betekenis](#normatieve-betekenis) van de [gegevenstypen](#gegevenstype) en hun [praktische betekenis](#praktische-betekenis) binnen een [beschouwingsdomein](#beschouwingsdomein), waarbij vastgelegd wordt hoe gegevens geïnterpreteerd worden in termen van [wet en regelgeving](#wet-en-regelgeving), [uitvoeringsregels](#uitvoeringsregel) en organisatorische doelstellingen.
 
-Toelichting: Het semantisch model legt de normatieve betekenislaag vast: het beschrijft wát de gegevens in een gegeven context betekenen, binnen een bepaald beschouwingsdomein. Dit staat los van hun fysieke opslag of technische representatie.
+Toelichting: Het semantisch model legt de normatieve betekenislaag vast: het beschrijft wát de gegevens in een gegeven context betekenen, binnen een bepaald beschouwingsdomein. Dit staat los van hun fysieke opslag of technische representatie. We modelleren dus niet de gegevens, maar het begrip van de gegevens. Feitelijk is een semantisch model dus een begripsmodel en geen gegevensmodel.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [Normatieve betekenis](#normatieve-betekenis), [Gegevenstype](#gegevenstype), [Beschouwingsdomein](#beschouwingsdomein), [Uitvoeringsregel](#uitvoeringsregel), [Wet en regelgeving](#wet-en-regelgeving), [Contextuele betekenis](#contextuele-betekenis)
+Gerelateerd: [Wet en regelgeving](#wet-en-regelgeving), [Beschouwingsdomein](#beschouwingsdomein), [Praktische betekenis](#praktische-betekenis), [Normatieve betekenis](#normatieve-betekenis), [Uitvoeringsregel](#uitvoeringsregel), [Gegevenstype](#gegevenstype)
 
 ### Semantische interoperabiliteit
 
 > Semantische interoperabiliteit onstaat wanneer partijen de betekenis van begrippen onderling harmoniseren, zodat vastgelegde gegevens over dat begrip voor alle betrokken partijen dezelfde beoogde betekenis hebben.
 
-Bron: New European Interoperability Framework (ISA2) [[NewEUInterop]], JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], New European Interoperability Framework (ISA2) [[NewEUInterop]]
 
 ### Taalbinding
 
@@ -537,6 +537,16 @@ Gerelateerd: [Gegevenstypering](#gegevenstypering)
 
 ## Gegevensmodellering
 
+### Bedrijfsregelmodel
+
+> Een bedrijfsregelmodel is een formeel model waarin de beslislogica van een organisatie in heldere, herbruikbare en onderhoudbare bouwstenen (regels, condities, acties, metadata) worden geplaatst, zodat zowel vakinhoudelijke experts als IT-systemen eenduidig begrijpen hoe en wanneer bepaalde beslissingen genomen moeten worden.
+
+Toelichting: Een goed bedrijfsregelmodel beschrijft de regels, op welke entiteiten en attributen deze van toepassing zijn, de conditie-actie-patronen, en prioritering bij conflicten.
+
+De regels zijn uitspraken die aangeven wat wel of niet mag, of onder welke voorwaarden bepaalde handelingen plaatsvinden, zoals bijvoorbeeld “een klant met een kredietscore onder 600 krijgt geen nieuwe lening.” De conditie‑actie‑patronen bestaan uit één of meer condities, en één of meer acties of uitkomsten, meestal in de vorm van ALS-DAN-ANDERS regels. In pseudocode: "ALS kredietscore < 600 DAN nieuwe_lening_toegestaan := Nee ANDERS nieuwe_lening_toegestaan := Ja". Regels worden vaak onderverdeeld in regel­sets (bijv. Verzendregels, Prijsregels, Risicobeoordeling) en krijgen een prioriteit of hit‑policy om conflicten op te lossen.
+
+Bron: Kerndepartement J&V [[KDJV]]
+
 ### Entity-Relationship Modeling
 
 > Een entiteit-relatiemodel (of ER-model) beschrijft onderling gerelateerde zaken die van belang zijn binnen een specifiek kennisdomein.
@@ -557,13 +567,19 @@ Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], Fact Based Model
 
 ### Metamodel Informatie Modellering
 
-> Het Metamodel Informatie Modellering (MIM) is een metamodel waarmee [conceptuele gegevensmodellen](#conceptueel-gegevensmodel) en [logische gegevensmodellen](#logisch-gegevensmodel) kunnen worden uitgewisseld tussen verschillende partijen.
+> Het Metamodel Informatie Modellering (MIM) is een metamodel waarmee [conceptuele gegevensmodellen]() en [logische gegevensmodellen](#logisch-gegevensmodel) kunnen worden uitgewisseld tussen verschillende partijen.
 
 Toelichting: De MIM is één van de standaarden die door de overheid worden gebruikt.
 
 Bron: Metamodel Informatie Modellering [[MIM]]
 
-Gerelateerd: [Logisch gegevensmodel](#logisch-gegevensmodel), [Conceptueel gegevensmodel](#conceptueel-gegevensmodel)
+Gerelateerd: [conceptuele gegevensmodellen](#conceptuele-gegevensmodellen), [Logisch gegevensmodel](#logisch-gegevensmodel)
+
+### Procesmodel
+
+> Een procesmodel is een gestructureerde weergave van de stappen, beslispunten en samenhangen die nodig zijn om een bepaald bedrijfs­proces uit te voeren. Het formaliseert de volgorde, besluit­logica, betrokken rollen en benodigde resources van een bedrijfsproces, zodat zowel functionele experts als IT‑systemen eenduidig begrijpen hoe, wanneer en door wie elke stap moet worden uitgevoerd.
+
+Bron: Kerndepartement J&V [[KDJV]]
 
 ### Shapes Constraint Language
 
@@ -579,7 +595,7 @@ Bron: Shapes Constraint Language (SHACL) [[W3C-SHACL]]
 
 Toelichting: Onderdeel van UML is een notatie voor gegevensmodellen.
 
-Bron: UML (Wikipedia) [[WikipediaUML]], JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
+Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], UML (Wikipedia) [[WikipediaUML]]
 
 ### Web Ontology Language
 
@@ -587,7 +603,7 @@ Bron: UML (Wikipedia) [[WikipediaUML]], JAGA Gegevenstyperingsbeleid [[Gegevenst
 
 Toelichting: OWL maakt het mogelijk om rijke en complexe kennisrepresentaties te creëren door middel van logische beschrijvingen van concepten, relaties en instanties binnen een bepaald domein. Deze taal ondersteunt automatische redenering, waardoor computers de gestructureerde informatie kunnen interpreteren en er conclusies uit kunnen trekken.
 
-Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]], Web Ontology Language [[W3COWL]]
+Bron: Web Ontology Language [[W3COWL]], JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
 ## Organisatorische context
 

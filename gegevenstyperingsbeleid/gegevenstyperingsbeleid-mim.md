@@ -2,24 +2,23 @@
 
 ![](gegevenstyperingsbeleid.svg "Conceptueel informatiemodel gegevenstyperingsbeleid")
 
-- [Administratie](#TAdministratie)
 - [Algoritme](#TAlgoritme)
 - [Begrip](#TBegrip)
 - [Begrip beschrijft betekenis van Gegevenstype (U3)](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-)
 - [Begrippenkader](#TBegrippenkader)
 - [Beschouwingsdomein](#TBeschouwingsdomein)
-- [Definitiebron](#TDefinitiebron)
 - [Gegeven](#TGegeven)
   - [Elementair gegeven](#TElementair-gegeven)
   - [Gestructureerd gegeven](#TGestructureerd-gegeven)
-  - [Ongestructureerd gegeven](#TOngestructureerd-gegeven)
 - [Gegevenselement](#TGegevenselement)
 - [Gegevenskwaliteit Rol](#TGegevenskwaliteit-Rol)
+- [Gegevensopslag](#TGegevensopslag)
 - [Gegevensset](#TGegevensset)
 - [Gegevenstype](#TGegevenstype)
 - [Gegevensverwerkingstype](#TGegevensverwerkingstype)
 - [Informatieobject](#TInformatieobject)
   - [Gegevensobject](#TGegevensobject)
+- [Kennisbron](#TKennisbron)
 - [Kritiek Gegevenselement](#TKritiek-Gegevenselement)
 - [Motivatie](#TMotivatie)
 - [Object](#TObject)
@@ -37,21 +36,6 @@
 - [Uitvoeringsregel](#TUitvoeringsregel)
 - [Verwerkingsdomein](#TVerwerkingsdomein)
 - [Wet- en Regelgeving](#TWet-en-Regelgeving)
-
-## Administratie {#TAdministratie}
-
-|{: .def}||
-|-|-|
-|Begrip|[Administratie](#administratie)|
-|Kenmerken|[administratienaam](#TAdministratie-administratienaam)|
-|Relatie met|[Gegeven in Administratie](#TGegeven-in-Administratie)|
-
-### administratienaam {#TAdministratie-administratienaam}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Administratie](#TAdministratie)|
-|Type|CharacterString|
 
 ## Algoritme {#TAlgoritme}
 
@@ -81,7 +65,7 @@
 |-|-|
 |Begrip|[Begrip](#begrip)|
 |Kenmerken|[Begripsbeschrijving](#TBegripsbeschrijving), [voorkeursterm](#TBegrip-voorkeursterm)|
-|Rollen|[Begrip gebruikt Definitiebron (U10)](#TBegrip-gebruikt-Definitiebron-U10-), [Begrip in relatie met Begrippenkader](#TBegrip-Begrippenkader), [Begrip is uniek binnen Beschouwingsdomein](#TBegrip-is-uniek-binnen-Beschouwingsdomein), [Gegevensmodelleur beschrijft Begrip (U5)](#TGegevensmodelleur-beschrijft-Begrip-U5-)|
+|Rollen|[Begrip gebruikt Kennisbron (U10)](#TBegrip-gebruikt-Kennisbron-U10-), [Begrip in relatie met Begrippenkader](#TBegrip-Begrippenkader), [Begrip is uniek binnen Beschouwingsdomein](#TBegrip-is-uniek-binnen-Beschouwingsdomein), [Gegevensmodelleur beschrijft Begrip (U5)](#TGegevensmodelleur-beschrijft-Begrip-U5-)|
 |Relatie met|[Begrip beschrijft betekenis van Gegevenstype (U3) in relatie met Begrip](#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-Begrip)|
 
 ### voorkeursterm {#TBegrip-voorkeursterm}
@@ -113,19 +97,19 @@
 |Rol van|0..* [Begrip](#TBegrip)|
 |Met|0..* [Gegevensmodelleur](#TGegevensmodelleur)|
 
-### Begrip gebruikt Definitiebron (U10) {#TBegrip-gebruikt-Definitiebron-U10-}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Begrip](#TBegrip)|
-|Met|0..* [Definitiebron](#TDefinitiebron)|
-
 ### Begrip in relatie met Begrippenkader {#TBegrip-Begrippenkader}
 
 |{: .def}||
 |-|-|
 |Rol van|0..* [Begrip](#TBegrip)|
 |Met|1..1 [Begrippenkader](#TBegrippenkader)|
+
+### Begrip gebruikt Kennisbron (U10) {#TBegrip-gebruikt-Kennisbron-U10-}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Begrip](#TBegrip)|
+|Met|0..* [Kennisbron](#TKennisbron)|
 
 ## Begrip beschrijft betekenis van Gegevenstype (U3) {#TBegrip-beschrijft-betekenis-van-Gegevenstype-U3-}
 
@@ -192,36 +176,53 @@
 |Rol van|0..* [Beschouwingsdomein](#TBeschouwingsdomein)|
 |Met|0..* [Begrippenkader](#TBegrippenkader)|
 
-## Definitiebron {#TDefinitiebron}
-
-|{: .def}||
-|-|-|
-|Kenmerken|[definitiebron naam](#TDefinitiebron-definitiebron-naam)|
-|Relatie met|[Begrip gebruikt Definitiebron (U10)](#TBegrip-gebruikt-Definitiebron-U10-)|
-
-### definitiebron naam {#TDefinitiebron-definitiebron-naam}
-
-|{: .def}||
-|-|-|
-|Eigenschap van|[Definitiebron](#TDefinitiebron)|
-|Type|CharacterString|
-
 ## Elementair gegeven {#TElementair-gegeven}
 
 |{: .def}||
 |-|-|
 |Begrip|[Elementair gegeven](#elementair-gegeven)|
 |Supertype|[Gegeven](#TGegeven)|
+|Kenmerken|[Registratietijd](#TRegistratietijd)|
+|Rollen|[Elementair gegeven is vastgelegd](#TElementair-gegeven-is-vastgelegd), [Uitspraak over eigenschap van Object (U1)](#TUitspraak-over-eigenschap-van-Object-U1-), [Uitspraak over eigenschap van Objectrelatie (U1)](#TUitspraak-over-eigenschap-van-Objectrelatie-U1-)|
 |Relatie met|[Gegevensobject is geheel van Elementaire gegevens](#TGegevensobject-is-geheel-van-Elementaire-gegevens), [Gegevenstype typeert gelijksoortig Elementair gegeven](#TGegevenstype-typeert-gelijksoortig-Elementair-gegeven), [Gestructureerd gegeven wordt opgebouwd uit Elementaire gegevens](#TGestructureerd-gegeven-wordt-opgebouwd-uit-Elementaire-gegevens)|
+
+### Registratietijd {#TRegistratietijd}
+
+|{: .def}||
+|-|-|
+|Begrip|[Registratietijd](#registratietijd)|
+|Eigenschap van|[Elementair gegeven](#TElementair-gegeven)|
+|Type|[registratietijdslijn](#Tregistratietijdslijn)|
+
+### Uitspraak over eigenschap van Objectrelatie (U1) {#TUitspraak-over-eigenschap-van-Objectrelatie-U1-}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Elementair gegeven](#TElementair-gegeven)|
+|Met|0..* [Objectrelatie](#TObjectrelatie)|
+
+### Uitspraak over eigenschap van Object (U1) {#TUitspraak-over-eigenschap-van-Object-U1-}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Elementair gegeven](#TElementair-gegeven)|
+|Met|0..* [Object](#TObject)|
+
+### Elementair gegeven is vastgelegd {#TElementair-gegeven-is-vastgelegd}
+
+|{: .def}||
+|-|-|
+|Rol van|0..* [Elementair gegeven](#TElementair-gegeven)|
+|Met|0..* [Gegevensopslag](#TGegevensopslag)|
 
 ## Gegeven {#TGegeven}
 
 |{: .def}||
 |-|-|
 |Begrip|[Gegeven](#gegeven)|
-|Subtype(s)|[Elementair gegeven](#TElementair-gegeven), [Ongestructureerd gegeven](#TOngestructureerd-gegeven), [Gestructureerd gegeven](#TGestructureerd-gegeven)|
-|Kenmerken|[Registratietijd](#TRegistratietijd), [vastgelegde uitspraak](#TGegeven-vastgelegde-uitspraak)|
-|Rollen|[Gegeven in Administratie](#TGegeven-in-Administratie), [Informatieobject is geheel van Gegevens](#TInformatieobject-is-geheel-van-Gegevens), [Uitspraak over eigenschap van Object (U1)](#TUitspraak-over-eigenschap-van-Object-U1-), [Uitspraak over eigenschap van Objectrelatie (U1)](#TUitspraak-over-eigenschap-van-Objectrelatie-U1-)|
+|Subtype(s)|[Elementair gegeven](#TElementair-gegeven), [Gestructureerd gegeven](#TGestructureerd-gegeven)|
+|Kenmerken|[vastgelegde uitspraak](#TGegeven-vastgelegde-uitspraak)|
+|Rollen|[Informatieobject is geheel van Gegevens](#TInformatieobject-is-geheel-van-Gegevens)|
 |Relatie met|[Gegevensset bevat Gegeven](#TGegevensset-bevat-Gegeven), [Organisatorische activiteit bepaalt pragmatische betekenis van Gegeven (U4)](#TOrganisatorische-activiteit-bepaalt-pragmatische-betekenis-van-Gegeven-U4-), [Uitvoeringsregel bepaalt pragmatische betekenis van Gegeven (U4)](#TUitvoeringsregel-bepaalt-pragmatische-betekenis-van-Gegeven-U4-)|
 
 ### vastgelegde uitspraak {#TGegeven-vastgelegde-uitspraak}
@@ -232,41 +233,12 @@
 |Eigenschap van|[Gegeven](#TGegeven)|
 |Type|CharacterString|
 
-### Registratietijd {#TRegistratietijd}
-
-|{: .def}||
-|-|-|
-|Begrip|[Registratietijd](#registratietijd)|
-|Eigenschap van|[Gegeven](#TGegeven)|
-|Type|[registratietijdslijn](#Tregistratietijdslijn)|
-
-### Uitspraak over eigenschap van Objectrelatie (U1) {#TUitspraak-over-eigenschap-van-Objectrelatie-U1-}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Gegeven](#TGegeven)|
-|Met|0..* [Objectrelatie](#TObjectrelatie)|
-
 ### Informatieobject is geheel van Gegevens {#TInformatieobject-is-geheel-van-Gegevens}
 
 |{: .def}||
 |-|-|
 |Rol van|0..* [Gegeven](#TGegeven)|
 |Met|0..* [Informatieobject](#TInformatieobject)|
-
-### Uitspraak over eigenschap van Object (U1) {#TUitspraak-over-eigenschap-van-Object-U1-}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Gegeven](#TGegeven)|
-|Met|0..* [Object](#TObject)|
-
-### Gegeven in Administratie {#TGegeven-in-Administratie}
-
-|{: .def}||
-|-|-|
-|Rol van|0..* [Gegeven](#TGegeven)|
-|Met|0..* [Administratie](#TAdministratie)|
 
 ## Gegevenselement {#TGegevenselement}
 
@@ -333,6 +305,20 @@
 |-|-|
 |Rol van|0..* [Gegevensobject](#TGegevensobject)|
 |Met|0..* [Elementair gegeven](#TElementair-gegeven)|
+
+## Gegevensopslag {#TGegevensopslag}
+
+|{: .def}||
+|-|-|
+|Kenmerken|[gegevensopslagplaats](#TGegevensopslag-gegevensopslagplaats)|
+|Relatie met|[Elementair gegeven is vastgelegd](#TElementair-gegeven-is-vastgelegd)|
+
+### gegevensopslagplaats {#TGegevensopslag-gegevensopslagplaats}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Gegevensopslag](#TGegevensopslag)|
+|Type|CharacterString|
 
 ## Gegevensset {#TGegevensset}
 
@@ -462,6 +448,21 @@
 |Eigenschap van|[Informatieobject](#TInformatieobject)|
 |Type|[Informatieobject verwijzing](#TInformatieobject-verwijzing)|
 
+## Kennisbron {#TKennisbron}
+
+|{: .def}||
+|-|-|
+|Begrip|[Kennisbron](#kennisbron)|
+|Kenmerken|[kennisbron naam](#TKennisbron-kennisbron-naam)|
+|Relatie met|[Begrip gebruikt Kennisbron (U10)](#TBegrip-gebruikt-Kennisbron-U10-)|
+
+### kennisbron naam {#TKennisbron-kennisbron-naam}
+
+|{: .def}||
+|-|-|
+|Eigenschap van|[Kennisbron](#TKennisbron)|
+|Type|CharacterString|
+
 ## Kritiek Gegevenselement {#TKritiek-Gegevenselement}
 
 |{: .def}||
@@ -570,12 +571,6 @@
 |-|-|
 |Rol van|0..* [Objecttype](#TObjecttype)|
 |Met|0..* [Object](#TObject)|
-
-## Ongestructureerd gegeven {#TOngestructureerd-gegeven}
-
-|{: .def}||
-|-|-|
-|Supertype|[Gegeven](#TGegeven)|
 
 ## Organisatorische Doelstelling {#TOrganisatorische-Doelstelling}
 

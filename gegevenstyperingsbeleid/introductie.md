@@ -2,23 +2,6 @@
 
 In deze introductie worden de gemodelleerde begrippen in het JAGA [gegevenstyperingsbeleid](https://jenvgegevens.pleio.nl/page/view/2775c681-1f4a-4819-8776-d7d93e81ea90/gegevenstypering) verbonden in een verhaal, waardoor het model begrijpelijker wordt. De uitgangspunten die in dit informatiemodel worden gebruikt komen uit dat beleid.
 
-## De belangrijkste beleidsregels  {#IntroBeleid}
-
-De volgende regels worden in dit beleid gehanteerd:
-
-1. Beheersing en besturing van gegevens is noodzakelijk. Dus administreren we minimaal de volgende zaken: welke gegevens hebben we, waar zijn die opgeslagen, wat is de betekenis, wie heeft toegang, wat is de kwaliteit, en wat is de relatie met onze wettelijke taak;
-1. Bij het beschrijven van de betekenis van gegevens moet onderscheid gemaakt worden tussen de beschrijving van de gegevens zelf, en de beschrijving van de zaken waarover deze gegevens gaan, met behoud van het verband hiertussen;
-1. De verantwoordelijkheid voor [gegevenstypering](#gegevenstypering-0) is belegd op bestuurlijk niveau. Deze verantwoordelijkheid wordt belegd op de plek waar de gegevens ontstaan, worden ingewonnen en/of gebruikt (U5, U6). Het uitvoeren van het [gegevenstyperingsbeleid](#gegevenstyperingsbeleid) is ingebed in de strategie van de organisatie, wordt gemonitord en er wordt over gerapporteerd;
-1. Gegevenstypering vraagt om voortdurende zorg. Er zijn structureel medewerkers toegewijd aan de uitvoering van gegevenstypering en de monitoring en bijstelling van het gegevenstyperingsbeleid in de organisatie. Er is een gegevenskwaliteitsproces ingericht waarin de kwaliteit van de gegevenstypering wordt gemeten en zo nodig verbeterd (U7);
-1. Gegevenstypering is afgestemd vanuit samenwerking. Bij deling van gegevens moet de betekenis van de gedeelde gegevens tussen de betrokkenen worden afgestemd (U8);
-1. Gegevenstypering is openbaar beschikbaar. Organisaties maken de gegevenstypering proactief openbaar, tenzij dit een onredelijke inspanning vereist, of vanuit wettelijke overwegingen niet is toegestaan (U9);
-1. Bij het typeren van gegevens worden primair bestaande betekenissen uit het hoogst mogelijke bovenliggende formele kader hergebruikt, en geen eigen definities gehanteerd, tenzij de organisatie de eigenaar is van het begrip (U10);
-1. Indien er ook alternatieve terminologie wordt gebruikt, wordt een taalbinding aangebracht met de voorkeurstermen (U11);
-1. De betekenis van gegevens dient beschreven te worden door het samenhangend te modelleren vanuit vier invalshoeken: semantisch, conceptueel, logisch en technisch. Vanuit zowel de logische als technische invalshoek wordt de intrinsieke betekenis van gegevens beschreven. Deze verplichting rust op gegevens die als kritiek gegevenselement zijn benoemd. Dit betekent dat de gegevensverantwoordelijke van een gegevensset met kritieke gegevenselement(en) zorgt dat de gegevenstypen zijn gespecificeerd doordat een logisch gegevensmodel wordt opgesteld. Voor kritieke gegevenselementen is ook een directe of indirecte verbinding met de normatieve betekenis verplicht. De pragmatische betekenis van gegevens volgt uit het gebruik van gegevens in uitvoeringsprocessen en uitvoeringsregels. Voor alle gegevenssets dient duidelijk te zijn welke gegevensset in welk proces wordt gebruikt en door welk algoritme;
-1. Elke organisatie dient bij te houden welke gegevens zij verwerkt. Daartoe worden gegevenssets onderkend. Elke door de organisatie onderkende gegevensset kent een gegevens-verantwoordelijke. Deze is verantwoordelijk voor een actuele, juiste en betrouwbare beschrijving van deze gegevenssets;
-1. Het staat J&V-organisaties, overeenkomstig uitgangspunt U10, vrij om een eigen invulling te kiezen van de manier waarop gegevenstypering wordt uitgevoerd. Daarbij volgt uit uitgangspunt U9 de verplichting dat een eenduidige taal gehanteerd wordt op het moment dat de resultaten van gegevenstypering worden uitgewisseld en/of beschikbaar worden gesteld. Dit geldt voor de uitwerking van elke invalshoek: zowel semantisch, conceptueel, logische als technisch;
-1. Bij de uitwisseling van de gegevenstypering vanuit een invalshoek zijn organisaties verplicht om gebruik te maken van de standaard die voor de betreffende invalshoek geldt.
-
 ## De context van de gegevens  {#IntroContext}
 
 ### Het beschouwingsdomein {#IntroBeschouwingsdomein}
@@ -36,38 +19,40 @@ Het beschouwingsdomein bepaalt hiermee het bereik van ons de in gegevens vastgel
 Gegevens kunnen op meerdere manieren betekenis krijgen:
 
 * De [normatieve betekenis](#normatieve-betekenis) volgt uit de definitie zoals vastgelegd in [wet- en regelgeving](#wet-en-regelgeving), uitvoeringsbeleid of andere normatieve kaderstelling;
-* De [pragmatische betekenis](#pragmatische-betekenis) volgt uit het gebruik van de gegevens en de impact die dit gebruik met zich meebrengt;
+* De [praktische betekenis](#praktische-betekenis) volgt uit het gebruik van de gegevens en de impact die dit gebruik met zich meebrengt. Het is de betekenis van een gegeven in een bepaalde context, dus in een specifieke situatie of beschouwingsdomein, die kan veranderen indien we van context veranderen. Bij het bepalen van de praktische betekenis van een gegeven zijn "wie, wat, waar, hoe en wanneer" belangrijke vragen.
 * De [intrinsieke betekenis](#intrinsieke-betekenis) volgt uit de aard van de gegevens zelf, zoals de logische en technische vorm, structuur, en relatie met andere gegevens.
 
-De bovenstaande betekenissen kunnen veranderen als we van context veranderen. De [contextuele betekenis](#contextuele-betekenis) is de betekenis van een gegeven in een bepaalde context, dus in een specifieke situatie of beschouwingsdomein. Hierbij zijn "wie, wat, waar, hoe en wanneer" belangrijke vragen.
-
-De betekenis van gegevens wordt conform uitgangspunt U3, uitgedrukt in een menselijke taal, als begrippen met een beoogde betekenis. Die leggen we vast in een [begrippenkader](#begrippenkader), wat bestaat uit de [begrippen](#begrip). Daarmee beschrijven we dus het [beschouwingsdomein](#beschouwingsdomein).
+De betekenis van gegevens wordt conform uitgangspunt U3, uitgedrukt in een menselijke taal, als begrippen met een beoogde betekenis. Die leggen we vast in een [begrippenkader](#begrippenkader), wat bestaat uit de [begrippen](#begrip). Daarmee beschrijven we dus de objecten die samen het [beschouwingsdomein](#beschouwingsdomein) vormen, inclusief hun onderlinge relaties en hun eigenschappen.
 
 Begrippen in een begrippenkader worden daarbinnen gekenmerkt door hun [voorkeursterm](#voorkeursterm), en beschreven door een [begripsbeschrijving](#begripsbeschrijving). Indien mogelijk wordt de definitie van een begrip uit een formele [definitiebron](#definitiebron) overgenomen, conform uitgangspunt U10.
 
-Een begrip kan ook bestaan in een ander beschouwingsdomeinen of begrippenkader, maar  mogelijk met een andere voorkeursterm of afwijkende begripsbeschrijving. In dat geval kunnen we een [taalbinding](#taalbinding) aanleggen die aangeeft op welke manier je de twee begrippenkaders met elkaar kan verbinden. Begrippen hoeven niet één op één op elkaar te passen, zolang we maar kunnen bepalen hoe we van het ene begrippenkader naar het andere kunnen komen, zodat we de [semantische interoperabiliteit](#semantische-interoperabiliteit) van de domeinen kunnen borgen.
+Een vergelijkbaar begrip kan ook bestaan in een ander beschouwingsdomeinen of begrippenkader, maar  mogelijk met een andere voorkeursterm of afwijkende begripsbeschrijving. In dat geval kunnen we een [taalbinding](#taalbinding) aanleggen die aangeeft op welke manier je de twee begrippenkaders met elkaar kan verbinden. Begrippen hoeven niet één op één op elkaar te passen, zolang we maar kunnen bepalen hoe we van het ene begrippenkader naar het andere kunnen komen, zodat we de [semantische interoperabiliteit](#semantische-interoperabiliteit) van de domeinen kunnen borgen.
 
-De [herleidbaarheid van de normatieve betekenis](#herleidbaarheid-normatieve-betekenis) van een begrip, evenals de [herleidbaarheid van de pragmatische betekenis](#herleidbaarheid-pragmatische-betekenis), wordt geborgd met verwijzingen naar de relevante administraties. De herleidbaarheid van de intrinsieke betekenis van gegevens wordt geborgd door een correcte [gegevensmodellering](#gegevensmodellering).
+De [herleidbaarheid van de normatieve betekenis](#herleidbaarheid-normatieve-betekenis) van een begrip, evenals de [herleidbaarheid van de praktische betekenis](#herleidbaarheid-praktische-betekenis), wordt geborgd met verwijzingen naar de relevante administraties. De [herleidbaarheid van de intrinsieke betekenis](#herleidbaarheid-intrinsieke-betekenis) van gegevens wordt geborgd door een correcte [gegevensmodellering](#gegevensmodellering), in combinatie met verwijzingen naar de [normatieve](#normatieve-betekenis) en [praktische betekenis](#praktische-betekenis).
 
 ### Het verwerkingsdomein {#IntroVerwerkingsdomein}
 
 Een [verwerkingsdomein](#verwerkingsdomein) is een afgebakend deel van de verwerking van gegevens binnen een organisatie. Het geeft de afbakening weer van de gegevens en hun verwerking (uitwisseling, registratie, creatie, gebruik, vernietiging). Het bestaat uit alle soorten gegevensverwerkingen, de [gegevensverwerkingstypen](#gegevensverwerkingstype), die binnen [organisatorische activiteiten](#organisatorische-activiteiten) gebeuren.
 
-Dit verwerkingsdomein is belangrijk omdat binnen de gegevensverwerkingen die in het verwerkingsdomein plaatsvinden de [pragmatische betekenis](#pragmatische-betekenis) wordt bepaald van de gegevens die binnen het domein worden verwerkt, zoals ook gesteld in uitgangspunt U4: het gebruik van gegevens is bepalend voor de betekenis, omdat dit duidelijk maakt wat de gegevens daadwerkelijk voor impact hebben. Die impact is helder als iemand geen uitkering krijgt op grond van een foutief ingevoerd gegeven, of betaalde toeslagen worden teruggevorderd door een verkeerde interpretatie van de ingevoerde gegevens. Maar het gaat ook om bijvoorbeeld de manier waarop gegevens worden ingevoerd, of in welke vorm.
+Dit verwerkingsdomein is belangrijk omdat binnen de gegevensverwerkingen die in het verwerkingsdomein plaatsvinden de [praktische betekenis](#praktische-betekenis) wordt bepaald van de gegevens die binnen het domein worden verwerkt, zoals ook gesteld in uitgangspunt U4: het gebruik van gegevens is bepalend voor de betekenis, omdat dit duidelijk maakt wat de gegevens daadwerkelijk voor impact hebben. Die impact is helder als iemand geen uitkering krijgt op grond van een foutief ingevoerd gegeven, of betaalde toeslagen worden teruggevorderd door een verkeerde interpretatie van de ingevoerde gegevens. Maar het gaat ook om bijvoorbeeld de manier waarop gegevens worden ingevoerd, of in welke vorm.
 
-De [pragmatische betekenis](#pragmatische-betekenis) van gegevens volgt dus uit het gebruik van gegevens en de impact van dat gebruik in de verwerking van die gegevens binnen de organisatie. Aangezien die verwerkingen plaatsvinden binnen een [organisatorische activiteit](#organisatorische-activiteit) die ontstaan is om een reden, is de pragmatische betekenis van gegevens primair afgeleid van de grondslag van die [organisatorische activiteit](#organisatorische-activiteit), namelijk de [organisatorische doelstelling](#organisatorische-doelstelling) waarvoor die [organisatorische activiteit](#organisatorische-activiteit) wordt gestart of ingericht.
+De [praktische betekenis](#praktische-betekenis) van gegevens volgt dus uit het gebruik van gegevens en de impact van dat gebruik in de verwerking van die gegevens binnen de organisatie. Aangezien die verwerkingen plaatsvinden binnen een [organisatorische activiteit](#organisatorische-activiteit) die ontstaan is om een reden, is de praktische betekenis van gegevens primair afgeleid van de grondslag van die [organisatorische activiteit](#organisatorische-activiteit), namelijk de [organisatorische doelstelling](#organisatorische-doelstelling) waarvoor die [organisatorische activiteit](#organisatorische-activiteit) wordt gestart of ingericht.
 
-Een belangrijk onderdeel van de gegevenstypering is dus het relateren van de getypeerde gegevens aan het gebruik hiervan in de uitvoeringsprocessen, dus in de [organisatorische activiteiten](#organisatorische-activiteit), de [uitvoeringsregels](#uitvoeringsregel) en [algoritmen](#algoritme). Een [algoritme](#algoritme) is een reeks bij elkaar behorende uitvoeringsregels die dus gezamenlijk de pragmatische betekenis van de gebruikte gegevens bepalen.
+Een belangrijk onderdeel van de gegevenstypering is dus het relateren van de getypeerde gegevens aan het gebruik hiervan in de uitvoeringsprocessen, dus in de [organisatorische activiteiten](#organisatorische-activiteit), de [uitvoeringsregels](#uitvoeringsregel) en [algoritmen](#algoritme). Een [algoritme](#algoritme) is een reeks bij elkaar behorende uitvoeringsregels die dus gezamenlijk de praktische betekenis van de gebruikte gegevens bepalen.
 
 ### Verantwoordelijkheden
 
-Omdat de impact van verkeerde omgang met gegevens zo groot is, stelt uitgangspunt U5 dat het beleggen van de verantwoordelijkheid voor de gegevenstypering noodzakelijk is voor een doelmatige en verantwoorde verwerking van gegevens, en uiteindelijk dus ook voor de rechtmatige verwerking van die gegevens. Er moet dus een eindverantwoordelijke zijn voor het toekennen van  betekenis aan begrippen en gegevens, de [gegevensverantwoordelijke](#gegevensverantwoordelijke). Deze is verantwoordelijk voor de naleving van de [normatieve betekenis](#normatieve-betekenis) in de praktijk, dus de samenhang tussen de [normatieve betekenis](#normatieve-betekenis) en de [pragmatische betekenis](#pragmatische-betekenis).
+Omdat de impact van verkeerde omgang met gegevens zo groot is, stelt uitgangspunt U5 dat het beleggen van de verantwoordelijkheid voor de gegevenstypering noodzakelijk is voor een doelmatige en verantwoorde verwerking van gegevens, en uiteindelijk dus ook voor de rechtmatige verwerking van die gegevens. Er moet dus een eindverantwoordelijke zijn voor het beschrijven van de begrippen en (daarmee) het toekennen van betekenis aan de gegevens. Deze eindverantwoordelijke heeft de rol van [gegevensverantwoordelijke](#gegevensverantwoordelijke). Deze is verantwoordelijk voor de naleving van de [normatieve betekenis](#normatieve-betekenis) in de praktijk, dus de samenhang tussen de [normatieve betekenis](#normatieve-betekenis) en de [praktische betekenis](#praktische-betekenis). De eindverantwoordelijkheid voor gegevenstypering en het toeschrijven van betekenis aan gegevens ligt op bestuurlijk niveau bij de [gegevensverantwoordelijke](#gegevensverantwoordelijke), conform uitgangspunt U6.
 
-De gegevensverantwoordelijke stelt iemand aan die de gegevenstypering uitvoert en beschrijft wat begrippen betekenen, bijvoorbeeld een [persoon in rol](#persoon-in-rol) in een [gegevenskwaliteit rol](#gegevenskwaliteit-rol) genaamd gegevensmodelleur. Hiermee wordt de samenhang met de [intrinsieke betekenis](#intrinsieke-betekenis) geborgd.
+Aangezien conform uitgangspunt U7 er continu beheer nodig is, is er ook een [gegevensmodelleur](#gegevensmodelleur) nodig die permanent bezig is met de gegevenstypering. De gegevensverantwoordelijke stelt daartoe iemand aan die de gegevenstypering uitvoert en beschrijft wat begrippen betekenen, bijvoorbeeld een [persoon in rol](#persoon-in-rol) in een [gegevenskwaliteit rol](#gegevenskwaliteit-rol) genaamd gegevensmodelleur. Hiermee wordt de samenhang met de [intrinsieke betekenis](#intrinsieke-betekenis) geborgd.
 
-Een actuele en correct uitgevoerde [gegevenstypering](#gegevenstypering-0) is een voorwaarde om het [gegevenskwaliteitsproces](#gegevenskwaliteitsproces) uit te kunnen voeren.
+Een actuele en correct uitgevoerde [gegevenstypering](#gegevenstypering-0) is een voorwaarde om het [gegevenskwaliteitsproces](#gegevenskwaliteitsproces) uit te kunnen voeren. Als de normatieve en intrinsieke betekenis van gegevens niet bekend is, is het onmogelijk om te bepalen of de vastgelegde gegevens daarmee overeenstemmen en dus als correct kunnen worden beschouwd.
 
 In het [gegevensbeleid](#gegevensbeleid) van een organisatie wordt in meer detail uitgewerkt hoe men de verantwoordelijkheid voor de omgang met gegevens (inclusief de [metadata](#metadata)) in de organisatie invult.
+
+Organisaties die samenwerken met andere organisaties moeten onderling afspraken maken over hoe de gegevenstypering wordt ingevuld, conform uitgangspunt U8.
+
+De gegevenstypering wordt openbaar gemaakt, conform uitgangspunt U9. Dit maakt het eenvoudiger voor andere organisaties om samen te werken. Publicatie mag alleen achterwege worden gelaten als de publicatie een onevenredige inspanning vereist of vanwege wettelijke beperkingen niet is toegestaan.
 
 ### organisatorische activiteiten en doelstellingen {#IntroDoelstellingen}
 
@@ -78,7 +63,7 @@ Een [organisatorische activiteit](#organisatorische-activiteit) die de overheid 
 * óf het is de aanleiding (via de organisatorische doelstelling, bijvoorbeeld omdat de organisatie de taakstelling heeft om een wet uit te voeren),
 * óf het is van toepassing doordat we gegevens gaan verzamelen die onderhevig zijn aan bepaalde wet- en regelgeving.
 
-Deze [wet- en regelgeving](#wet-en-regelgeving) leggen we vast. Het kan zijn dat op één [organisatorische activiteit](#organisatorische-activiteit) meer dan één stuk [wet- en regelgeving](#wet-en-regelgeving) van toepassing is, bijvoorbeeld de [[AVG]] én de [[Archiefwet]].
+Deze [wet- en regelgeving](#wet-en-regelgeving) leggen we vast. in de praktijk zal op één [organisatorische activiteit](#organisatorische-activiteit) meer dan één stuk [wet- en regelgeving](#wet-en-regelgeving) van toepassing zijn, bijvoorbeeld de [[AVG]] én de [[Archiefwet]].
 
 De [wet- en regelgeving](#wet-en-regelgeving) die de aanleiding vormt of van toepassing is op een [organisatorische activiteit](#organisatorische-activiteit), bepaalt de [normatieve betekenis](#normatieve-betekenis) van de gegevens die onder die wet- en regelgeving wordt verwerkt.
 
@@ -86,23 +71,15 @@ De [wet- en regelgeving](#wet-en-regelgeving) die de aanleiding vormt of van toe
 
 ### Gegevens en hun betekenis {#IntroGegevensbetekenis}
 
-Een [gegeven](#gegeven) is een vastgelegde uitspraak over een eigenschap van een object of objectrelatie in een bepaald beschouwingsdomein, met een beoogde menselijke betekenis. De gedane uitspraken kunnen we vaak onderbrengen in categorieën met eigen regels en een eigen naam: we kunnen deze uitspraken dus typeren.
+Een [gegeven](#gegeven) is een [vastgelegde uitspraak](#vastgelegde-uitspraak) over een eigenschap van een object of objectrelatie in een bepaald beschouwingsdomein, met een beoogde menselijke betekenis. De gedane uitspraken kunnen we vaak onderbrengen in categorieën met eigen regels en een eigen naam: we kunnen deze uitspraken dus gaan typeren.
 
 Let op dat het typeren van *eigenschappen van objecten* iets anders is dan het typeren van de *uitspraken over eigenschappen van objecten*, dus de gegevens. Als we eigenschappen typeren, dan zeggen we bijvoorbeeld dat elk persoon een persoonsnaam heeft. Als we de uitspraken die we vast willen leggen gaan typeren, dan stellen we daarmee eisen aan de vastlegging van het begrip "persoonsnaam".
 
-Uitgangspunt U4 stelt verder dat het gebruik van gegevens bepalend is voor de betekenis, omdat dit duidelijk maakt wat de gegevens daadwerkelijk voor impact hebben. Onderdeel van de gegevenstypering is dus het relateren van de getypeerde gegevens aan het gebruik hiervan in uitvoeringsprocessen, de [organisatorische activiteiten](#organisatorische-activiteit), [uitvoeringsregels](#uitvoeringsregel) en [algoritmen](#algoritme). Een [algoritme](#algoritme) is dan feitelijk een reeks bij elkaar behorende uitvoeringsregels die (vaak geautomatiseerd) gezamenlijk de pragmatische betekenis van de gebruikte gegevens bepalen.
+Uitgangspunt U4 stelt verder dat het gebruik van gegevens bepalend is voor de betekenis, omdat dit duidelijk maakt wat de gegevens daadwerkelijk voor impact hebben. Onderdeel van de gegevenstypering is dus het relateren van de getypeerde gegevens aan het gebruik hiervan in uitvoeringsprocessen, de [organisatorische activiteiten](#organisatorische-activiteit), [uitvoeringsregels](#uitvoeringsregel) en [algoritmen](#algoritme). Een [algoritme](#algoritme) is dan feitelijk een reeks bij elkaar behorende uitvoeringsregels die (vaak geautomatiseerd) gezamenlijk de praktische betekenis van de gebruikte gegevens bepalen.
 
 Kortom, als we een [gegeven](#gegeven) typeren, dan kennen we dus een naam, betekenis, vorm en randvoorwaarden toe aan datgene wat wij typeren, en we geven aan hoe deze gegevens worden gebruikt in processen en (beleids)regels. Hoe deze [gegevenstypering](#gegevenstypering) vervolgens verloopt is het onderwerp van het [gegevenstyperingsbeleid](#gegevenstyperingsbeleid).
 
 Het gegevenstyperingsbeleid heeft als doel om een gestructureerde en herhaalbare aanpak te bieden om te komen tot een beschrijving van de betekenis van [gegevens](#gegevens).
-
-### De organisatorische inbedding van de gegevenstypering {#IntroOrganisatorischeInbedding}
-
-De eindverantwoordelijkheid voor gegevenstypering ligt op bestuurlijk niveau bij de [gegevensverantwoordelijke](#gegevensverantwoordelijke), conform uitgangspunt U6. Aangezien conform uitgangspunt U7 er continu beheer nodig is, is er ook een [gegevensmodelleur](#gegevensmodelleur) nodig die permanent bezig is met de gegevenstypering.
-
-Organisaties die samenwerken met andere organisaties moeten onderling afspraken maken over hoe de gegevenstypering wordt ingevuld, conform uitgangspunt U8.
-
-De gegevenstypering wordt openbaar gemaakt, conform uitgangspunt U9. Dit maakt het eenvoudiger voor andere organisaties om samen te werken. Publicatie mag alleen achterwege worden gelaten als de publicatie een onevenredige inspanning vereist of vanwege wettelijke beperkingen niet is toegestaan.
 
 ### Gegevenstypering en groepering {#IntroGegevenstypen}
 
@@ -140,17 +117,13 @@ In het gegevenskwaliteitsbeleid wordt dieper ingegaan op kritieke gegevenselemen
 
 Een complete gegevensmodellering bestaat uit vier typen modellen:
 
-* een [semantisch gegevensmodel](#semantisch-gegevensmodel);
-* een [conceptueel gegevensmodel](#conceptueel-gegevensmodel);
-* een [logisch gegevensmodel](#logisch-gegevensmodel);
-* een [technisch gegevensmodel](#technisch-gegevensmodel).
+* een [semantisch model](#semantisch-model), uitgedrukt in bijvoorbeeld [[W3C-SKOS]] of [[NL-SBB]];
+* een [conceptueel model](#conceptueel-model), uitgedrukt in bijvoorbeeld [[MIM]] niveau 2, [Fact-based modeling](#fact-based-modeling), [Unified Modeling Language](#unified-modeling-language), [Entity-Relationship Modeling](#entity-relationship-modeling), [Web Ontology Language](#web-ontology-language), [Shapes Constraint Language](#shapes-constraint-language) et cetera.
+* een [logisch gegevensmodel](#logisch-gegevensmodel), uitgedrukt in bijvoorbeeld [[MIM]] niveau 3, [Fact-based modeling](#fact-based-modeling), [Unified Modeling Language](#unified-modeling-language), [Entity-Relationship Modeling](#entity-relationship-modeling), [Web Ontology Language](#web-ontology-language), [Shapes Constraint Language](#shapes-constraint-language) et cetera.
+* een [technisch gegevensmodel](#technisch-gegevensmodel), uitgedrukt in een vorm die afhankelijk is van de gekozen implementatie.
 
-De [normatieve betekenis](#normatieve-betekenis) wordt geduid in het [semantisch gegevensmodel](#semantisch-gegevensmodel), de [pragmatische betekenis](#pragmatische-betekenis) in het [conceptueel gegevensmodel](#conceptueel-gegevensmodel) en de [intrinsieke betekenis](#intrinsieke-betekenis) wordt nader gespecificeerd in een [logisch gegevensmodel](#logisch-gegevensmodel) en [technisch gegevensmodel](#technisch-gegevensmodel).
+Hierin wordt de betekenis van gegevens als volgt vastgelegd:
 
-Voorbeelden van methoden en technieken voor semantische modellering zijn o.a. [Web Ontology Language](#web-ontology-language) en [Shapes Constraint Language](#shapes-constraint-language).
-
-Voor [conceptuele gegevensmodellen](#conceptueel-gegevensmodel) zijn [Fact-based modeling](#fact-based-modeling), [Unified Modeling Language](#unified-modeling-language) en [Entity-Relationship Modeling](#entity-relationship-modeling) veel gebruikte formaten.
-
-Voor [logische gegevensmodellen](#logisch-gegevensmodel) kan het [Metamodel Informatie Modellering](#metamodel-informatie-modellering) worden gebruikt om deze vast te leggen en onderling uit te wisselen.
-
-[Technische gegevensmodellen](#technisch-gegevensmodel) zijn altijd afhankelijk van de gekozen implementatie.
+* De [normatieve betekenis](#normatieve-betekenis) wordt geduid in het [semantisch model](#semantisch-model) en vaak gecommuniceerd met behulp van het [conceptueel model](#conceptueel-model).
+* De [praktische betekenis](#praktische-betekenis) wordt geduid in de relatie tussen de verschillende gegevensmodellen en de bijbehorende [bedrijfsregelmodellen](#bedrijfsregelmodel) en [procesmodellen](#procesmodel).
+* De [intrinsieke betekenis](#intrinsieke-betekenis) wordt nader gespecificeerd in een [logisch gegevensmodel](#logisch-gegevensmodel) en [technisch gegevensmodel](#technisch-gegevensmodel).
