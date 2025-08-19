@@ -7,10 +7,6 @@ var localBiblio = {
     title: "AI Act - Shaping Europe’s digital future",
     href: "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
   },
-  "APG-grondslagen": {
-    title: "Grondslagen AVG uitgelegd (Autoriteit Persoonsgegevens)",
-    href: "https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/grondslagen-avg-uitgelegd",
-  },
   "APG-persoonsgegevens": {
     title: "Wat zijn persoonsgegevens (Autoriteit Persoonsgegevens)",
     href: "https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/privacy-en-persoonsgegevens/wat-zijn-persoonsgegevens",
@@ -27,17 +23,9 @@ var localBiblio = {
     title: "Baseline Informatievoorziening Overheid v1.0.4zv",
     href: "https://bio-overheid.nl/category/producten#BIO",
   },
-  "BIO-overzicht": {
-    title: "Baseline Informatievoorziening Overheid en ENSIA overzicht",
-    href: "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/baseline-informatiebeveiliging-overheid/",
-  },
   "DGA": {
     title: "Verordening (EU) 2022/868",
     href: "https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32022R0868&from=EN",
-  },
-  "DPIA": {
-    title: "Informatiemodellen voor de DPIA en pre-scan DPIA",
-    href: "https://modellen.jenvgegevens.nl/dpia/",
   },
   "Encyclo": {
     title: "Encyclo",
@@ -45,11 +33,7 @@ var localBiblio = {
   },
   "Gegevensdelingsbeleid": {
     title: "JAGA Gegevensdelingsbeleid v1.0",
-    href: "https://jenvgegevens.pleio.nl/page/view/89700017-9894-4c05-9d05-e1565b65fc10/gegevensdeling",
-  },
-  "Gegevenskwaliteitsbeleid": {
-    title: "JAGA Gegevenskwaliteitsbeleid v1.0",
-    href: "https://jenvgegevens.pleio.nl/page/view/87da304d-b300-4b5b-b005-519701cdf647/gegevenskwaliteit",
+    href: "https://jenvgegevens.pleio.nl/",
   },
   "ISO27000": {
     title: "ISO/IEC 27000:2018 - Information technology - Security techniques - Informationsecurity management systems - Overview and vocabulary",
@@ -57,7 +41,7 @@ var localBiblio = {
   },
   "ImplementatiehandreikingGegevensdeling": {
     title: "JAGA Implementatiehandreiking Gegevensdeling v1.0",
-    href: "https://jenvgegevens.pleio.nl/page/view/89700017-9894-4c05-9d05-e1565b65fc10/gegevensdeling",
+    href: "https://jenvgegevens.pleio.nl/",
   },
   "KDJV": {
     title: "Kerndepartement J&V",
@@ -65,10 +49,6 @@ var localBiblio = {
   "MIM": {
     title: "Metamodel informatiemodelleren",
     href: "https://docs.geostandaarden.nl/mim/mim",
-  },
-  "ModelDPIARijksdienst": {
-    title: "Model DPIA Rijksdienst",
-    href: "https://www.dpia.nu/dpia-publicaties/model-dpia-rijksdienst",
   },
   "ModelGLP": {
     title: "Model GLP v1.0",
@@ -81,14 +61,6 @@ var localBiblio = {
   "ModelVO": {
     title: "Model Verwerkersovereenkomst ARVODI-2018",
     href: "https://redactie.rijksportaal.overheid-i.nl/site/binaries/content/assets/rijksportaal/inkoop/strategie-en-beleid/algemene-rijksinkoopvoorwaarden/2018/arvodi-2018/model-verwerkersovereenkomst-arvodi-2018-sept-2022.docx",
-  },
-  "NA-archivering": {
-    title: "Waarom archiveert de overheid? (Nationaal Archief)",
-    href: "https://www.nationaalarchief.nl/archiveren/kennisbank/waarom-archiveert-de-overheid-informatie",
-  },
-  "NA-vernietigen": {
-    title: "DUTO-proces Vernietigen",
-    href: "https://www.nationaalarchief.nl/archiveren/kennisbank/module-5-duto-proces-vernietigen",
   },
   "NL-SBB": {
     title: "Nederlandse standaard voor het beschrijven van begrippen",

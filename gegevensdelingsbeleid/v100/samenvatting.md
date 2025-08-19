@@ -1,17 +1,8 @@
-Dit document beschrijft de gegevenstypering van het Gegevenskwaliteitsbeleid. Deze gegevenstypering bestaat uit de volgende onderdelen:
+Dit document beschrijft de gegevenstypering van het gegevensdelingsbeleid. Deze gegevenstypering bestaat uit de volgende onderdelen:
 
-1. Een [introductie](#Intro) die in verhalende vorm de relatie tussen de begrippen in het gegevenskwaliteitsbeleid uitlegt.
-1. De definities van de [relevante begrippen](#begrippen) voor het [gegevenskwaliteitsbeleid](#gegevenskwaliteitsbeleid) en hun onderlinge relaties;
-1. De conceptuele informatiemodellen van het [gegevenskwaliteitsbeleid](#cim-gegevenskwaliteitsbeleid) (CIM). Dit model beschrijft de informatiebehoefte in termen van de relevante objecten en hun eigenschappen;
-1. Het logische gegevensmodel (LGM) van het [gegevenskwaliteitsbeleid](#gegevenskwaliteitsbeleid-0) dat beschrijft welke gegevens bijgehouden dienen te worden (en op welke wijze) als men een administratie (boekhouding) rond gegevenskwaliteit zou willen bijhouden.
-
-De modellen zijn gebaseerd op de volgende documenten:
-
-* Het goedgekeurde [Gegevenskwaliteitsbeleid](https://jenvgegevens.pleio.nl/page/view/87da304d-b300-4b5b-b005-519701cdf647/gegevenskwaliteit).
-* De [Implementatiehandreiking Gegevenskwaliteitsbeleid](https://jenvgegevens.pleio.nl/attachment/entity/deebfde8-7101-4e76-a738-b419137bd40b)
-
-
-**Versionering in dit document**
+1. De definities van de relevante begrippen voor gegevensdeling en hun onderlinge relaties;
+2. Het conceptueel informatiemodel (CIM) van het gegevensleveringsprotocol (GLP) en de gegevensleveringsspecificatie (GLS). Deze modellen beschrijven de informatiebehoefte voor het GLP en de GLS in termen van de relevante objecten en hun eigenschappen;
+3. Het logisch gegevensmodel (LGM) van het GLP en het GLS dat beschrijft welke gegevens bijgehouden dienen te worden als een administratie (boekhouding) van de gegevensdeling wordt ingevoerd.
 
 Het versienummer van dit document is opgebouwd conform Semantic versioning [[SemVer]]. Het versienummer geeft daarmee informatie over de status van dit document:
 
@@ -21,5 +12,3 @@ Het versienummer van dit document is opgebouwd conform Semantic versioning [[Sem
 - Een wijziging van het PATCH deel van het versienummer geeft aan dat een typefout of een verandering van de vorm is doorgevoerd, zonder dat sprake is van een inhoudelijke wijziging. Dergelijke PATCH wijzigingen hebben geen impact op organisaties die gebruik maken van modellen uit dit document;
 - Een wijziging van het MINOR deel van het versienummer geeft aan dat een inhoudelijke wijziging of aanvulling is doorgevoerd. Dergelijke MINOR wijzigingen kunnen impact hebben op organisaties die gebruik maken van modellen uit dit document. Geadviseerd wordt om in dat geval te kijken of sprake is van een dergelijke impact en hiervoor de noodzakelijke acties uit te zetten.
 - Een wijziging van het MAJOR deel van het versienummer geeft aan dat een grote inhoudelijke wijziging is doorgevoerd. Dergelijke MAJOR wijzigingen zullen een impact hebben op organisaties die gebruik maken van modellen uit dit document. Bij een dergelijke wijziging zal een reviewproces doorlopen worden, gelijk als bij de eerste oplevering van dit document.
-
-De [veranderingen](#changes) ten opzichte van vorige versies van dit informatiemodel worden beschreven in [Appendix A](#changes).

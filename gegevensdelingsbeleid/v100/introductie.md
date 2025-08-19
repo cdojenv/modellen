@@ -10,11 +10,7 @@ Een [gegevensdeling](#gegevensdeling) tussen twee verschillende [partijen](#part
 
 Het [gegevensdelingsbeleid](#gegevensdelingsbeleid) schrijft voor dat we de afspraken over de procesgang, randvoorwaarden en inhoud van de geplande [gegevensdelingen](#gegevensdeling) vastleggen voordat we gaan delen (behoudens in [crisissituaties](#crisissituatie), waarbij je eerst mag delen en dan vastleggen).
 
-Een [gegevensdeling](#gegevensdeling) is namelijk een vorm van [gegevensverwerking](#gegevensverwerking) waarbij de gegevens de organisatie verlaten, en de betekenis geborgd moet worden door daar afspraken over te maken. Het gaat daarbij om afspraken over de interpretatie (zowel inhoud als vorm), de risico's, de procesgang, het beoogd en toegestaan gebruik, et cetera.
-
-De vastlegging van de primair juridische en organisatorische afspraken voor deze [gegevensdeling](#gegevensdeling) gebeurt in een [gegevensleveringsprotocol](#gegevensleveringsprotocol). Het vastleggen van deze afspraken gebeurt met het oog op gegevensbeheersing en heeft niet tot doel het maken van juridisch bindende afspraken. Het aspect ‘juridisch' beperkt zich hierbij tot de vastlegging van het [doel](#doel) en de gehanteerde [wettelijke grondslag](#wettelijke-grondslag) van een beoogde [gegevensdeling](#gegevensdeling). 
-
-Eventueel kan deze vastlegging ook in een [verwerkersovereenkomst](#verwerkersovereenkomst) worden gedaan. Indien een [verwerkersovereenkomst](#verwerkersovereenkomst) voor de gegevensdeling wordt afgesloten waarin de juridische en organisatorische afspraken worden geborgd die anders in de GLP zouden staan, is een gegevensleveringsprotocol overbodig.
+De vastlegging van de primair juridische en organisatorische afspraken voor deze [gegevensdeling](#gegevensdeling) gebeurt in een [gegevensleveringsprotocol](#gegevensleveringsprotocol). Het vastleggen van deze afspraken gebeurt met het oog op gegevensbeheersing en heeft niet tot doel het maken van juridisch bindende afspraken. Het aspect ‘juridisch' beperkt zich hierbij tot de vastlegging van het [doel](#doel) en de gehanteerde [wettelijke grondslag](#wettelijke-grondslag) van een beoogde [gegevensdeling](#gegevensdeling). Eventueel kan deze vastlegging ook in een [verwerkersovereenkomst](#verwerkersovereenkomst) worden gedaan.
 
 De functionele en technische beschrijving van de inhoud van de [gegevensdeling](#gegevensdeling), de [gegevensleverset](#gegevensleverset), evenals de manier waarop we leveren en de afspraken die betrekking hebben op de operationele aspecten van de [gegevensdeling](#gegevensdeling), worden beschreven in een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie).
 
@@ -33,16 +29,8 @@ Naast deze verplichte informatie kan nog een aantal zaken aanvullend worden vast
 
 * Een algemene beschrijving van de [gegevensdeling](#gegevensdeling).
 * Gerelateerde documenten waarmee afspraken in een [GLP](#glp) samen hangen, zoals het [Model GLP](#model-GLP), een [gegevensleveringsspecificatie](#gls), een Convenant of een Data Protection Impact Assessment (DPIA).
-* Extra [GLP afspraken](#glp-afspraak) die zelfstandig tijdens het opstellen van een [GLP](#glp) worden toegevoegd, bovenop de [GLP standaardafspraken](#glp-standaardafspraken). Het kan hier gaan om de volgende afspraakonderwerpen:
-  * de [documentdoelstelling](#afspraak-omtrent-documentdoelstelling);
-  * over hoe om te gaan met [geschillen](#afspraak-omtrent-geschillen);
-  * hoe de overeenkomst over de gegevensdeling kan worden [opgeschort of opgezegd](#afspraak-omtrent-opschorten-of-opzeggen);
-  * hoe vaak en hoe  een [tussentijdse evaluatie](#afspraak-omtrent-tussentijdse-evaluatie) zal plaatsvinden;
-  * welke [verantwoordelijkheden en verplichtingen voor de ontvanger](#afspraak-omtrent-verantwoordelijkheden-en-verplichtingen-ontvanger) bestaan;
-  * welke [verantwoordelijkheden en verplichtingen voor de verstrekker](#afspraak-omtrent-verantwoordelijkheden-en-verplichtingen-verstrekker) bestaan;
-  * hoe [wijzigingen van de overeenkomst](#afspraak-omtrent-wijzigingsprocedure) tot stand komen;
-  * of en hoe de [financiële verrekening](#financiele-afspraak) verloopt;
-  
+* Extra GLP afspraken die zelfstandig tijdens het opstellen van een [GLP](#glp) worden toegevoegd, bovenop de [GLP standaardafspraken](#glp-standaardafspraken).
+
 Een specifieke [GLP](#glp) kan verschillende [GLP statussen](#glp-statussen) hebben:
 
 * [Akkoord](#akkoord) geeft aan dat de [GLP](#glp) formeel is goedgekeurd namens zowel [verstrekker](#verstrekker) als [ontvanger](#ontvanger).
@@ -65,14 +53,7 @@ Een [gegevensleveringsspecificatie](#gegevensleveringsspecificatie) omvat een re
 * Een [begrippenkader](#begrippenkader) met daarin alle voor [gegevenstype](#gegevenstype)n gebruikte termen.
 * Een [logisch gegevensmodel](#logisch-gegevensmodel) met daarin alle [gegevenstype](#gegevenstype)n. Een [gegevenstype](#gegevenstype) heeft een unieke code, een naam, en een waardetype. Een gegevenstype dat een categorie weergeeft kent ook een waardebereik.
 * De [classificatie](#classificatie)s van objectief vast te stellen eigenschappen van de [gegevensdeling](#gegevensdeling), bijvoorbeeld op het gebied van vertrouwelijkheid, geheimhouding, begrijpelijkheid, verantwoording et cetera. Deze worden aangeduid in vooraf afgesproken waarden en categorieën. Soms is bij een bepaalde classificatie een nadere aanduiding nodig, zoals bijvoorbeeld een [geregistreerd algoritme](#geregistreerd-algoritme) waar het [AKI-gegevens](#aki-gegevens-direct-of-regelgebaseerd) betreft.
-* De afspraken over de manier waarop de [gegevensdeling](#gegevensdeling) tot stand komt. Voor de [gegevensdeling](#gegevensdeling) in haar geheel gaat het in ieder geval om afspraken over:
-  * welke [maatregelen tegen herleidbaarheid van gegevens](#afspraak-over-maatregelen-tegen-herleidbaarheid-van-gegevens) moeten worden genomen;
-  * of en hoe [foutherstel door hernieuwde levering](#afspraak-over-foutherstel-door-hernieuwde-levering) zal plaatsvinden;
-  * hoe de [communicatie bij normale levering](#afspraak-over-communicatie-bij-normale-levering) verloopt;
-  * hoe de [communicatie bij afwijkende levering](#afspraak-over-communicatie-bij-afwijkende-levering) verloopt;
-  * hoe de [communicatie over kwaliteit](#afspraak-over-communicatie-over-kwaliteit) verloopt;
-  * het borgen en meten van de [gegevenskwaliteit](#afspraak-over-gegevenskwaliteit);
-  * het borgen en meten van de [administratieve kwaliteit](#afspraak-over-administratieve-kwaliteit), d.w.z. de kwaliteit van de procesgang.
+* De afspraken over de manier waarop de [gegevensdeling](#gegevensdeling) tot stand komt. Voor de [gegevensdeling](#gegevensdeling) in haar geheel gaat het in ieder geval om de afspraken over maatregelen tegen herleidbaarheid van gegevens, over hoe foutherstel verloopt en hoe de communicatie zal verlopen.
 * Minimaal één [gegevensleversetspecificatie](#gegevensleversetspecificatie).
 
 Verder kan de [gegevensleveringsspecificatie](#gegevensleveringsspecificatie) de volgende optionele elementen bevatten:
@@ -99,11 +80,7 @@ De gegevensleversetspecificatie kent ook een aantal onderdelen die alleen aanwez
 
 * De toegepaste [gegevensfilterregel](#gegevensfilterregel)s op de [gegevenstype](#gegevenstype)n in de gegevenslevering. Deze regels worden gebruikt om de selectiecriteria te beschrijven die gelden ten opzichte van de populatie van de gehele [gegevensdeling](#gegevensdeling).
 * De [classificatie](#classificatie)s van objectief vast te stellen eigenschappen van de gegevensleverset, bijvoorbeeld op het gebied van vertrouwelijkheid, geheimhouding, begrijpelijkheid, verantwoording et cetera. Deze worden aangeduid in vooraf afgesproken waarden en categorieën. Het gaat hier vooral om de afwijkingen ten opzichte van de [gegevensdeling](#gegevensdeling) als geheel.
-* De [gegevensleversetafspraken](#gegevensleversetafspraak) voor alle specifiek te regelen zaken rond de levering van de gegevensleverset. Het gaat hier om:
-  * [toe te passen beveiligingsmaatregelen](#afspraak-over-toe-te-passen-beveiligingsmaatregelen) op de gegevens in de [gegevensleverset](#gegevensleverset);
-  * de omgang met [tijdslijnen](#afspraak-over-tijdslijnen) op de gegevens in de [gegevensleverset](#gegevensleverset);
-  * de te hanteren [bewaartermijnen](#afspraak-over-bewaartermijnen) voor de gegevens in de [gegevensleverset](#gegevensleverset);
-  * welke [toegangsgerechtigden](#afspraak-over-toegangsgerechtigden) bij de gegevens in de [gegevensleverset](#gegevensleverset) mogen.
+* Een [gegevensleversetafspraak](#gegevensleversetafspraak) voor alle specifiek te regelen zaken rond de levering van de gegevensleverset. Het gaat hier o.a. om de omgang met tijdslijnen, bewaartermijnen en beveiligingsmaatregelen.
 
 ### Gegevensmiddelspecificaties {#IntroGegevensmiddelspecificatie}
 
@@ -118,17 +95,17 @@ Een [gegevensmiddelspecificatie](#gegevensmiddelspecificatie) omvat de volgende 
 * Een [technisch gegevensmodel](#technisch-gegevensmodel). Dit is binnen de MIM bekend als MIM niveau 4. Dit bestaat uit de [gegevensveld](#gegevensveld)en in het gegevensmiddel. De technische metadata in headers en footers is hier ook onderdeel van. Een gegevensveld wordt voorzien van een naam en een beschrijving.
 * De relatie tussen de [gegevenstype](#gegevenstype)n in het logisch model en de [gegevensveld](#gegevensveld)en in het technisch model. Elk [gegevensveld](#gegevensveld) hoort bij een [gegevenstype](#gegevenstype).
 * De [gegevensmiddelafspraken](#gegevensmiddelafspraak) over de karakteristieken van het gegevensmiddel:
-  * De [initiatie van de gegevensdeling](#afspraak-over-de-gegevensleveringsinitiatie) via dit specifieke gegevensmiddel;
-  * De [actualiteit van de gegevens in het gegevensmiddel](#afspraak-over-de-actualiteit-van-het-gegevensmiddel);
-  * De [frequentie waarmee dit gegevensmiddel beschikbaar wordt gesteld](#afspraak-over-de-gegevensleveringsfrequentie);
-  * De manier waarop een eventuele [deltaverwerking](#afspraak-over-deltaverwerking) wordt gekenmerkt en bestuurd;
-  * De opdeling van een [gegevensmiddel](#gegevensmiddel) in eventuele [deelleveringen](#afspraak-over-deelleveringen);
-  * De [wijze van leveren](#afspraak-over-de-wijze-van-leveren);
-  * De [transportkarakteristieken](#afspraak-over-de-transportkarakteristieken) van het [gegevensmiddel](#gegevensmiddel) zoals protocollen, locaties, aanspreekmethoden, authenticatie en autorisatie, benodigde hardware, compressie, etc.
-  * De belangrijke [karakteristieken van het gebruikte type gegevensmiddel](#afspraak-over-het-gegevensmiddeltype), inclusief bestandsformaat, scheidingstekens en ontsnappingstekens, de karakterset, etc.;
-  * De [samenstelling van het gegevensmiddel](#afspraak-over-de-samenstelling-van-het-gegevensmiddel), zoals de manier waarop het [gegevensmiddel](#gegevensmiddel) in losse bestanden wordt opgedeeld bij gebruik van bestanden. Hier wordt ook de enveloppe van het [gegevensmiddel](#gegevensmiddel) beschreven, indien de bestanden worden gebundeld (denk bijv. aan een zipfile).
-  * De [naamgeving van onderdelen van het gegevensmiddel](#afspraak-over-de-naamgevingsconventies) (inclusief extensies);
-  * Afspraken over de [interpretatie van het gegevensmiddel](#afspraak-over-de-interpretatie-van-het-gegevensmiddel). Denk daarbij aan de manier waarop datums, getallen, bedragen en andere zaken worden omgezet naar tekst bij gebruik van een CSV-formaat.
+  * De initiatie van de [gegevensdeling](#gegevensdeling) via dit specifieke gegevensmiddel;
+  * De actualiteit van de gegevens in het [gegevensmiddel](#gegevensmiddel);
+  * De frequentie waarmee dit [gegevensmiddel](#gegevensmiddel) beschikbaar wordt gesteld;
+  * De manier waarop een eventuele deltaverwerking wordt gekenmerkt en bestuurd;
+  * De opdeling van een [gegevensmiddel](#gegevensmiddel) in eventuele deelleveringen;
+  * De wijze van leveren;
+  * De transportkarakteristieken van het [gegevensmiddel](#gegevensmiddel) zoals protocollen, locaties, aanspreekmethoden, authenticatie en autorisatie, benodigde hardware, compressie, etc.
+  * De naamgeving van onderdelen van het [gegevensmiddel](#gegevensmiddel) (inclusief extensies);
+  * De beschrijving van het specifieke medium, inclusief bestandsformaat, scheidingstekens en ontsnappingstekens, de karakterset, etc.;
+  * De samenstelling van het [gegevensmiddel](#gegevensmiddel), zoals de manier waarop het [gegevensmiddel](#gegevensmiddel) in losse bestanden wordt opgedeeld bij gebruik van bestanden. Hier wordt ook de enveloppe van het [gegevensmiddel](#gegevensmiddel) beschreven, indien de bestanden worden gebundeld (denk bijv. aan een zipfile).
+  * Afspraken over de interpretatie van het [gegevensmiddel](#gegevensmiddel). Denk daarbij aan de manier waarop datums, getallen, bedragen en andere zaken worden omgezet naar tekst bij gebruik van een CSV-formaat.
 
 De [gegevensmiddelspecificatie](#gegevensmiddelspecificatie) kent optioneel nog:
 

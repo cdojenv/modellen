@@ -6,23 +6,23 @@
 
 ### Actualiteit
 
-> De mate waarin [gegevens](#gegeven) recent genoeg zijn.
+> De mate waarin [gegevens](#gegevens) recent genoeg zijn.
 
 Toelichting: Wat recent genoeg is, kan verschillen per [organisatorische doelstelling], per gegevenstype en per individueel gegeven.
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 ### Begrijpelijkheid
 
-> De mate waarin [gegevens](#gegeven) eenvoudig gelezen en geïnterpreteerd kunnen worden door gebruikers.
+> De mate waarin [gegevens](#gegevens) eenvoudig gelezen en geïnterpreteerd kunnen worden door gebruikers.
 
 Toelichting: Denk hierbij aan de aanwezigheid van begrippenkaders of handleidingen, logische modellen, maar ook aan bijvoorbeeld de taal waarin (en het taalniveau waarop) informatie wordt beschreven of hoe de informatie wordt gepresenteerd op een dashboard of rapport.
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 ### Begrippenkader
 
@@ -40,23 +40,23 @@ Gerelateerd: [beschouwingsdomein](#beschouwingsdomein), [Term](#term)
 
 ### Compleetheid
 
-> De mate waarin [gegevens](#gegeven) aanwezig zijn.
+> De mate waarin [gegevens](#gegevens) aanwezig zijn.
 
 Toelichting: Als er genoeg gegevens aanwezig zijn om de doelstelling te kunnen behalen waarvoor die gegevens worden verzameld, dan is de verzameling gegevens compleet genoeg.
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 ### Consistentie
 
-> De mate van interne samenhang en betrouwbaarheid van [gegevens](#gegeven), d.w.z. de mate waarin de [gegevens](#gegeven) vrij van tegenspraak zijn en samenhang vertonen met andere [gegevens](#gegeven).
+> De mate van interne samenhang en betrouwbaarheid van [gegevens](#gegevens), d.w.z. de mate waarin de [gegevens](#gegevens) vrij van tegenspraak zijn en samenhang vertonen met andere [gegevens](#gegevens).
 
 Toelichting: Gegevens zijn consistent als dezelfde feiten op dezelfde manier worden weergegeven, ongeacht waar en hoe ze worden opgeslagen of verwerkt.
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 Voorbeeld(en): Als twee gegevensbronnen van mening verschillen over een feit, dan zijn ze onderling niet consistent.
 
@@ -68,13 +68,11 @@ Toelichting: Het kan voorkomen dat wet- en regelgeving en (meerdere) beoogde geb
 
 Bron: ISO 9001 (2015) Quality Management Systems - Requirements [[ISO9001]]
 
-### Gegeven
+### Gegevens
 
-> Een enkel gegeven is een vastgelegde uitspraak met een beoogde, menselijke, betekenis. Onder het begrip gegevens valt dus elke weergave, digitaal en niet-digitaal, van handelingen, feiten of informatie en elke compilatie van dergelijke handelingen, feiten of informatie, ook in de vorm van geluidsopnames of visuele of audiovisuele opnames.
+> Onder gegevens verstaan we elke weergave, digitaal en niet-digitaal, van handelingen, feiten of informatie en elke compilatie van dergelijke handelingen, feiten of informatie, ook in de vorm van geluidsopnames of visuele of audiovisuele opnames.
 
-Toelichting: Gegevens zijn vastgelegde uitspraken met een beoogde, menselijke, betekenis. Ze zijn altijd uit te drukken in een menselijke taal, waarin begrippen voorkomen met een beoogde betekenis.
-
-Ook niet-digitale gegevens (zoals uitgeprinte documenten) worden als gegevens beschouwd. Dit is een ruimere formulering dan in de originele bron (Data Governance Act) wordt gehanteerd. Deze uitbreiding is gemaakt omdat de reikwijdte van het Afsprakenstelsel verder gaat dan alleen digitale gegevens. 'Gegevens' kunnen ook 'Persoonsgegevens' zijn.
+Toelichting: Ook niet-digitale gegevens (uitgeprinte documenten) worden als gegevens beschouwd. Dit is een ruimere formulering dan in de originele bron (Data Governance Act) wordt gehanteerd. Deze uitbreiding is gemaakt omdat de reikwijdte van het Afsprakenstelsel verder gaat dan alleen digitale gegevens. 'Gegevens' kunnen ook 'Persoonsgegevens' zijn.
 
 Bron: Kerndepartement J&V [[KDJV]]
 
@@ -112,13 +110,13 @@ Gerelateerd: [gegevenssets](#gegevenssets), [Gegevenstype](#gegevenstype)
 
 Alternatieve aanduiding: *Datakwaliteit; Informatiebetrouwbaarheid; Gegevensprecisie; Nauwkeurigheid van gegevens;*
 
-> De mate waarin een geheel van eigenschappen en kenmerken van één of meer [gegevens](#gegeven) voldoet aan eisen.
+> De mate waarin een geheel van eigenschappen en kenmerken van één of meer [gegevens](#gegevens) voldoet aan eisen.
 
 Toelichting: De gegevenskwaliteit heeft betrekking op de mate waarin wordt voldaan aan de eisen die gesteld uit juridisch oogpunt (wet- en regelgeving) of de eisen die voortkomen uit een (beoogd) gebruik van gegevens. Zonder meting van de mate waarin aan de eisen wordt voldaan is de gegevenskwaliteit niet bekend. Een kwaliteitsraamwerk omvat dus metingen en normen.
 
 Bron: Gegevenskwaliteit, [[NORA]], Gegevenskwaliteit, [[ASTRA]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 ### Gegevenskwaliteitsattribuut
 
@@ -223,11 +221,11 @@ Het aantal door de rechter vernietigde besluiten met als oorzaak basisfouten in 
 
 ### Gegevenskwaliteitsprobleem
 
-> Een afwijking tussen de vereiste [gegevenskwaliteit](#gegevenskwaliteit) en de daadwerkelijke [gegevenskwaliteit](#gegevenskwaliteit), die de waarde, bruikbaarheid of betrouwbaarheid van de [gegevens](#gegeven) voor hun beoogde doel negatief beïnvloedt. 
+> Een afwijking tussen de vereiste [gegevenskwaliteit](#gegevenskwaliteit) en de daadwerkelijke [gegevenskwaliteit](#gegevenskwaliteit), die de waarde, bruikbaarheid of betrouwbaarheid van de [gegevens](#gegevens) voor hun beoogde doel negatief beïnvloedt. 
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegevenskwaliteit](#gegevenskwaliteit), [Gegeven](#gegeven)
+Gerelateerd: [Gegevenskwaliteit](#gegevenskwaliteit), [Gegevens](#gegevens)
 
 ### Gegevenskwaliteitsprobleemcategorie
 
@@ -269,13 +267,13 @@ Gerelateerd: [nauwkeurigheid](#nauwkeurigheid)
 
 ### Juistheid
 
-> De mate waarin de vastgelegde [gegevens](#gegeven) overeenkomen met de werkelijkheid.
+> De mate waarin de vastgelegde [gegevens](#gegevens) overeenkomen met de werkelijkheid.
 
 *De vraag wanneer iets "fout" is, is wel relevant om te weten wat deze meetwaarde aangeeft. Het is vaak niet genoeg om twee bronsystemen met elkaar te vergelijken: beide kunnen fout zijn.*
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 Voorbeeld(en): Het betekent bijvoorbeeld dat een incident correct wordt geregistreerd, dat de naam van een verdachte correct wordt gespeld en dat een vastgelegd kenteken ook op de betrokken auto zit.
 
@@ -289,13 +287,13 @@ Bron: Artikel 5 lid 1d, [[AVG]]
 
 ### Juistheidspercentage
 
-> De mate waarin de vastgelegde [gegevens](#gegeven) overeenkomen met de werkelijkheid, als het percentage geconstateerde correcte gegevens, in verhouding met het totaal aantal te meten gegevens.
+> De mate waarin de vastgelegde [gegevens](#gegevens) overeenkomen met de werkelijkheid, als het percentage geconstateerde correcte gegevens, in verhouding met het totaal aantal te meten gegevens.
 
 Toelichting: Dit is dus gelijk aan (100% - foutpercentage).
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 Voorbeeld(en): Als er in een gegevensverzameling 1000 gegevens zitten, en 100 zijn fout (conform een afgesproken definitie) dan is het foutpercentage gelijk aan 10% en het juistheidspercentage daarmee gelijk aan 100% - 10% = 90%.
 
@@ -311,19 +309,19 @@ Gerelateerd: [Gegevenselement](#gegevenselement)
 
 ### Plausibiliteit
 
-> De mate waarin [gegevens](#gegeven) worden beschouwd als waar en geloofwaardig door gebruikers.
+> De mate waarin [gegevens](#gegevens) worden beschouwd als waar en geloofwaardig door gebruikers.
 
 Toelichting: Bij plausibiliteit gaat het voornamelijk om de geloofwaardigheid van gegevens, wat mede afhankelijk is van andere gegevenskwaliteitsdimensies, maar ook van zaken als de reputatie van de bron, de waarschijnlijkheid en de bewijsbaarheid.
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 ### Precisie
 
 Alternatieve aanduiding: *Accuratesse; nauwkeurigheid*
 
-> De mate van detail en precisie van de vastgelegde [gegevens](#gegeven).
+> De mate van detail en precisie van de vastgelegde [gegevens](#gegevens).
 
 Toelichting: De gewenste mate van precisie geeft aan hoe specifiek gegevens moeten zijn om het beoogde gebruiksdoel te dienen.
 
@@ -331,7 +329,7 @@ Toelichting: De gewenste mate van precisie geeft aan hoe specifiek gegevens moet
 
 Bron: Kerndepartement J&V [[KDJV]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 Voorbeeld(en): Het kan voor bepaalde doeleinden genoeg zijn om te weten dat iemand een boete heeft gehad. Voor andere doelen is het echter nodig om ook de hoogte van de boete en de reden voor het opleggen te weten.
 
@@ -368,23 +366,23 @@ Gerelateerd: [Primaire gegevensbron](#primaire-gegevensbron), [Gegevensbron](#ge
 
 ### Traceerbaarheid
 
-> De mate waarin de totstandkoming en het gebruik van [gegevens](#gegeven) zijn vastgelegd.
+> De mate waarin de totstandkoming en het gebruik van [gegevens](#gegevens) zijn vastgelegd.
 
 Toelichting: Traceerbaarheid geeft aan in welke mate men controle heeft over de instroom en uitstroom van gegevens.
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 ### Validiteit
 
-> De mate waarin [gegevens](#gegeven) voldoen aan de verwachte structuur en opslagvorm.
+> De mate waarin [gegevens](#gegevens) voldoen aan de verwachte structuur en opslagvorm.
 
 Toelichting: Gegevens zijn valide als ze voldoen aan de verwachting van de administratie voor wat betreft structuur en vorm. Deze verwachting kan worden vastgelegd in de vorm van een logisch en fysiek gegevensmodel.
 
 Bron: Raamwerk Gegevenskwaliteit – Nederlandse Overheids Referentie Architectuur (NORA) [[NORARaamwerk]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 ## Gegevensmanagement
 
@@ -494,13 +492,13 @@ Gerelateerd: [Gegevenstype](#gegevenstype)
 
 ### Gegevenstype
 
-> Een gegevenstype is een typering van gelijksoortige [gegevens](#gegeven).
+> Een gegevenstype is een typering van gelijksoortige [gegevens](#gegevens).
 
 Toelichting: Er kan sprake zijn van gelijksoortige gegevens, als deze gegevens over dezelfde eigenschap van gelijksoortige domeinobjecten gaat. Dus bijvoorbeeld gegevenstypen die gaan over de eigenschap geboortedatum van een objecttype persoon. Er is sprake van een ander gegevenstype, als de eigenschap verschilt, of als het over een ander objecttype gaat.
 
 Bron: JAGA Gegevenstyperingsbeleid [[Gegevenstyperingsbeleid]]
 
-Gerelateerd: [Gegeven](#gegeven)
+Gerelateerd: [Gegevens](#gegevens)
 
 ### Gegevenstypegroep
 

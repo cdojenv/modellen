@@ -278,7 +278,7 @@
 |{: .def}||
 |-|-|
 |Eigenschap van|[Gegevenskwaliteitsmelding](#TGegevenskwaliteitsmelding)|
-|Type|CharacterString|
+|Type|[gegevenskwaliteitsmeldingsnummer](#Tgegevenskwaliteitsmeldingsnummer)|
 
 ## Gegevenskwaliteitsmeting {#TGegevenskwaliteitsmeting}
 
@@ -431,7 +431,7 @@
 |-|-|
 |Eigenschap van|[Gegevenskwaliteitsprobleem](#TGegevenskwaliteitsprobleem)|
 |Type|[gegevenskwaliteitsprobleemoorsprong](#Tgegevenskwaliteitsprobleemoorsprong)|
-|Mogelijke waarden|interne melding; interne meting; externe melding|
+|Mogelijke waarden|interne meting; externe melding; interne melding|
 
 ### gegevenskwaliteitsprobleemcode {#TGegevenskwaliteitsprobleem-gegevenskwaliteitsprobleemcode}
 
@@ -896,6 +896,11 @@
 |{: .def}||
 |-|-|
 |Gebaseerd op|DateTime|
+
+### gegevenskwaliteitsmeldingsnummer {#Tgegevenskwaliteitsmeldingsnummer}
+
+|{: .def}||
+|-|-|
 
 ### gegevenskwaliteitsmetingmeetmoment {#Tgegevenskwaliteitsmetingmeetmoment}
 
