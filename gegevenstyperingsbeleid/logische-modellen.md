@@ -4,9 +4,9 @@
 
 Het logische model van de gegevens die nodig zijn om het gegevenstyperingsbeleid te implementeren wordt hieronder getoond.
 
-![LGM Gegevenstyperingsbeleid](logische-modellen/gegevenstyperingsbeleid.uml.svg "Logisch gegevensmodel Gegevenstyperingsbeleid")
+![LGM Gegevenstyperingsbeleid](logische-modellen/gegevenstyperingsbeleid.erd.svg "Logisch gegevensmodel Gegevenstyperingsbeleid")
 
-<a href="./logische-modellen/gegevenstyperingsbeleid.uml.svg" target="_blank">Vergrote versie LDM op nieuw tabblad</a>
+<a href="./logische-modellen/gegevenstyperingsbeleid.erd.svg" target="_blank">Vergrote versie LDM op nieuw tabblad</a>
 
 De afleidingsregels die bij de gegevens horen die nodig zijn om het gegevenstyperingsbeleid te implementeren wordt hieronder getoond.
 

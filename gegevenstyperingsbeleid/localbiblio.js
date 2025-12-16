@@ -23,6 +23,10 @@ var localBiblio = {
     title: "Digitale Overheid",
     href: "https://www.digitaleoverheid.nl/",
   },
+  "Gegevensdelingsbeleid": {
+    title: "JAGA Gegevensdelingsbeleid",
+    href: "https://jenvgegevens.pleio.nl/page/view/89700017-9894-4c05-9d05-e1565b65fc10/gegevensdeling",
+  },
   "Gegevenskwaliteitsbeleid": {
     title: "JAGA Gegevenskwaliteitsbeleid",
     href: "https://jenvgegevens.pleio.nl/page/view/26a14916-d154-4a22-9abe-4eb408b0bc29/resultaten",
@@ -35,6 +39,10 @@ var localBiblio = {
     title: "JenV Afsprakenstelsel Gegevens en Algoritmes (JAGA)",
     href: "https://jenvgegevens.pleio.nl/page/view/26a14916-d154-4a22-9abe-4eb408b0bc29/resultaten",
   },
+  "JAGA_OIGM": {
+    title: "JAGA Handreiking Organisatieinrichting Gegevensmanagement",
+    href: "https://jenvgegevens.pleio.nl/page/view/b0105100-2519-4575-aaf2-251b2927cce8/algemeen",
+  },
   "JenVGegevens": {
     title: "JenVGegevens",
     href: "https://jenvgegevens.pleio.nl/",
@@ -43,8 +51,8 @@ var localBiblio = {
     title: "Kerndepartement J&V",
   },
   "MIM": {
-    title: "Metamodel Informatie Modellering",
-    href: "https://docs.geostandaarden.nl/mim/mim10/",
+    title: "MIM - Metamodel Informatie Modellering v1.2 (juni 2024)",
+    href: "https://docs.geostandaarden.nl/mim/mim/",
   },
   "MediumFBM": {
     title: "Fact Based Modeling (Medium)",

@@ -1,0 +1,74 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definieer stijlen -->
+  <defs>
+    <linearGradient id="gradientBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#01689B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#015480;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradientGrey" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7D8894;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5A6570;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Bovenste rij -->
+  <!-- Blok 1: Organisatorische aspecten -->
+  <rect x="40" y="40" width="220" height="120" rx="8" fill="url(#gradientBlue)" filter="url(#shadow)"/>
+  <text x="150" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="white">
+    <tspan x="150" dy="0">Organisatorische</tspan>
+    <tspan x="150" dy="20">aspecten</tspan>
+  </text>
+  
+  <!-- Blok 3: Modellering van gegevens -->
+  <rect x="290" y="40" width="220" height="120" rx="8" fill="url(#gradientBlue)" filter="url(#shadow)"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="white">
+    <tspan x="400" dy="0">Modellering van</tspan>
+    <tspan x="400" dy="20">gegevens</tspan>
+  </text>
+  
+  <!-- Blok 5: Gegevens over dingen in de werkelijkheid -->
+  <rect x="540" y="40" width="220" height="120" rx="8" fill="url(#gradientGrey)" filter="url(#shadow)"/>
+  <text x="650" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="white">
+    <tspan x="650" dy="0">Gegevens over</tspan>
+    <tspan x="650" dy="19">dingen in de</tspan>
+    <tspan x="650" dy="19">werkelijkheid</tspan>
+  </text>
+  
+  <!-- Onderste rij -->
+  <!-- Blok 2: Begripsvorming -->
+  <rect x="40" y="200" width="220" height="120" rx="8" fill="url(#gradientBlue)" filter="url(#shadow)"/>
+  <text x="150" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="white">
+    Begripsvorming
+  </text>
+  
+  <!-- Blok 4: Modellering van het beschouwingsdomein -->
+  <rect x="290" y="200" width="220" height="120" rx="8" fill="url(#gradientBlue)" filter="url(#shadow)"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="white">
+    <tspan x="400" dy="0">Modellering van het</tspan>
+    <tspan x="400" dy="19">beschouwings-</tspan>
+    <tspan x="400" dy="19">domein</tspan>
+  </text>
+  
+  <!-- Blok 6: Dingen in de werkelijkheid -->
+  <rect x="540" y="200" width="220" height="120" rx="8" fill="url(#gradientGrey)" filter="url(#shadow)"/>
+  <text x="650" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="white">
+    <tspan x="650" dy="0">Dingen in de</tspan>
+    <tspan x="650" dy="20">werkelijkheid</tspan>
+  </text>
+  
+  <!-- Verticale verbindingslijnen -->
+  <line x1="150" y1="160" x2="150" y2="200" stroke="#357ABD" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="400" y1="160" x2="400" y2="200" stroke="#357ABD" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="650" y1="160" x2="650" y2="200" stroke="#357ABD" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Horizontale verbindingslijnen onderste rij -->
+  <line x1="260" y1="260" x2="290" y2="260" stroke="#357ABD" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="510" y1="260" x2="540" y2="260" stroke="#357ABD" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Horizontale verbindingslijnen bovenste rij -->
+  <line x1="260" y1="100" x2="290" y2="100" stroke="#357ABD" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="510" y1="100" x2="540" y2="100" stroke="#357ABD" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>
