@@ -3,26 +3,25 @@
 Het gegevenstyperingsbeleid heeft als doel om een gestructureerde en herhaalbare aanpak te bieden om te komen tot een beschrijving van de betekenis van [gegevens](#gegevens), door deze te benoemen en structureren. Daarom wordt dit begrippenkader en informatiemodel voor de gegevenstypering aangeboden.
 
 In deze introductie worden de gemodelleerde begrippen in het JAGA [gegevenstyperingsbeleid](https://jenvgegevens.pleio.nl/page/view/2775c681-1f4a-4819-8776-d7d93e81ea90/gegevenstypering) verbonden in een verhaal, waardoor het model begrijpelijker wordt. Hiermee hopen we de begrippen die we gebruiken zodanig te verduidelijken dat deze, samen met de handreiking, zorgen dat gegevenstypering uitvoerbaar wordt.
- 
+
 ## De context van de gegevens  {#IntroContext}
 
 De modellering van het gegevenstyperingsbeleid en de onderwerpen die daarin worden behandeld hebben een bepaalde samenhang. Deze samenhang wordt hieronder getoond. In de daaropvolgende paragrafen worden die onderdelen en hun onderlinge samenhang besproken.
 
 Hierbij merken we op dat de grijze gedeeltes zijn gemodelleerd om de begrijpelijkheid van het model te verhogen, maar niet bedoeld zijn om op te nemen in een administratie. Vanuit hun aard is dat niet mogelijk.
 
-![Overzicht samenhang onderdelen](/diagram6blokken.svg "Samenhang onderdelen gegevenstyperingsbeleid")
+![Overzicht samenhang onderdelen](diagram6blokken.svg "Samenhang onderdelen gegevenstyperingsbeleid")
 
 ### De werkelijkheid en het beschouwingsdomein {#IntroBeschouwingsdomein}
 
-Het primaire uitgangspunt U1 van het [gegevenstyperingsbeleid](#gegevenstyperingsbeleid) is dat inzicht in gegevens, allereerst inzicht in het [beschouwingsdomein](#beschouwingsdomein) vereist. Dit beschouwingsdomein betreft alle "dingen in het domein" die we relevant vinden. Een [beschouwingsdomein](#beschouwingsdomein) heeft een naam, en een beschrijving. Dit is bij voorkeur in een verhalende vorm, het narratief. Deze introductie is daarvan een voorbeeld. Daarnaast worden alle begrippen die in dat verhaal worden gebruikt in een begrippenkader gebundeld. Elk begrip in het beschouwingsdomein is eenduidig beschreven en is dus uniek binnen het domein.
+Het primaire uitgangspunt U1 van het [gegevenstyperingsbeleid](#gegevenstyperingsbeleid) is dat inzicht in gegevens, allereerst inzicht in het [beschouwingsdomein](#beschouwingsdomein) vereist. Dit beschouwingsdomein betreft alle "dingen in het domein" die we relevant vinden. Een [beschouwingsdomein](#beschouwingsdomein) kent een naam en een beschrijving. Dit is bij voorkeur in een verhalende vorm, het narratief. Deze introductie is daarvan een voorbeeld. Daarnaast worden alle begrippen die in dat verhaal worden gebruikt in een begrippenkader gebundeld. Elk begrip in het beschouwingsdomein is eenduidig beschreven en is dus uniek binnen het domein.
 
-Het deel van de werkelijkheid wat wij zien als een beschouwingsdomein bestaat zelf uit de [domeinobjecten](#domeinobject), de relevante [domeinrelaties](#domeinrelatie) tussen deze [domeinobjecten](#domeinobject), en alle eigenschappen van die domeinobjecten en domeinrelaties die wij op enige manier belangrijk vinden (de [kenmerken](#kenmerk)).
+Het deel van de werkelijkheid wat wij zien als een beschouwingsdomein bestaat zelf uit de [domeinobjecten](#domeinobject), de relevante [domeinrelaties](#domeinrelatie) tussen deze [domeinobjecten](#domeinobject), en alle [kenmerken](#kenmerk) van die domeinobjecten en domeinrelaties die wij op enige manier belangrijk vinden.
 
-Over een domeinobject kunnen we iets zeggen doordat een [kenmerk](#kenmerk) van een domeinobject een bepaalde [waarde](#waarde) aan kan nemen. Daardoor ontstaan [feiten over eigenschappen van domeinobjecten](#feit-over-eigenschap-van-domeinobject) en [feiten over categorische kenmerken van domeinobjecten](#feit-over-categorisch-kenmerk-van-domeinobject). Een feit over een eigenschap van een domeinobject geeft een [letterlijke waarde](#letterlijke-waarde) aan een [eigenschap](#eigenschap) van een domeinobject, zoals bijvoorbeeld de lengte. Een letterlijke waarde heeft geen bijbetekenis.
+Een [kenmerk](#kenmerk) van een domeinobject kan een bepaalde [waarde](#waarde) hebben. <!--Daardoor ontstaan [feiten over eigenschappen van domeinobjecten](#feit-over-eigenschap-van-domeinobject) en [feiten over categorische kenmerken van domeinobjecten](#feit-over-categorisch-kenmerk-van-domeinobject). Een feit over een eigenschap van een domeinobject geeft een [letterlijke waarde](#letterlijke-waarde) aan een [eigenschap](#eigenschap) van een domeinobject, zoals bijvoorbeeld de lengte. Een letterlijke waarde heeft geen bijbetekenis.
 
 Een feit over een categorisch kenmerk van een domeinobject geeft een [categorie](#categorie) of categorische waarde aan een [categorisch kenmerk](#categorisch-kenmerk) van een domeinobject.
-
-Een letterlijke waarde is een [waarde](#waarde) en kan dus ook een [complexe waarde](#complexe-waarde) zijn, die weer bestaat uit niet-complexe waarden. Een voorbeeld is "100 meter", die bestaat uit twee waarden, waarvan één letterlijk en één die een [categorie](#categorie) aangeeft.
+-->Dit kan een eenvoudige letterlijke waarde zijn (bijvoorbeeld de waarde 26 voor de leeftijd van een persoon) of een [complexe waarde](#complexe-waarde) zijn, die weer bestaat uit andere waarden. Een voorbeeld is "100 meter", die bestaat uit twee waarden, waarvan één letterlijk en één die een [categorie](#categorie) aangeeft.
 
 Er kunnen ook relaties tussen domeinobjecten bestaan, en als we specifiek die [domeinrelaties](#domeinrelatie) willen beschouwen als zelfstandige objecten met kenmerken, dan is zo'n relatie zelf ook een bepaald soort domeinobject, een [relatiedomeinobject](#relatiedomeinobject). Een concreet voorbeeld is een huwelijk, geboorte of een arbeidsrelatie, die (los van de daarin verbonden domeinobjecten) zelfstandige ook aspecten kunnen hebben waarover we iets willen weten of zeggen.
 
@@ -32,35 +31,37 @@ Om over de feiten in het beschouwingsdomein te kunnen praten, hebben we kenmerke
 
 Een [kenmerk](#kenmerk) is óf een [inherent kenmerk](#inherent-kenmerk), of een [rol](#rol). Een rol is de manier waarop een domeinobject is verbonden met een ander domeinobject: zo kan bijvoorbeeld een Persoon verbonden zijn met een Organisatie in de rol van medewerker, maar tegelijkertijd (in een andere domeinrelatie) ook als klant.
 
-Een inherent kenmerk is onlosmakelijk verbonden met het domeinobject zelf. Hierin onderkennen we twee smaken: een [categorisch kenmerk](#categorisch-kenmerk) waarvan de waarde verwijst naar een categorie, met vrijwel altijd een betekenis, en een [eigenschap](#eigenschap) waarvan de waarde op zichzelf staat en verder geen losstaande betekenis kent.
+Een inherent kenmerk is onlosmakelijk verbonden met het domeinobject zelf. Hierin onderkennen we twee smaken: een [categorisch kenmerk](#categorisch-kenmerk) waarvan de waarde verwijst naar een categorie met een specifieke betekenis (zoals: beroep), en een [eigenschap](#eigenschap) waarvan de waarde letterlijk genomen mag worden (zoals lengte, geboortedatum of leeftijd).
 
-Een kenmerk bestaat pas in de werkelijkheid als we er ook een waarde aan kunnen geven, waarover later meer.
+<!-- Een kenmerk bestaat pas in de werkelijkheid als we er ook een waarde aan kunnen geven, waarover later meer. -->
 
 ### Verslaglegging over de werkelijkheid door gegevens {#IntroGegevens}
 
-Over de werkelijkheid kunnen we praten door uitspraken te doen over de waarde van kenmerken van domeinobjecten. Zodra we die gaan vastleggen in een administratie, ontstaan er [elementaire gegevens](#elementair-gegeven).
+De werkelijkheid kunnen we beschouwen door uitspraken te doen over de waarde van kenmerken van domeinobjecten. Zodra we die gaan vastleggen in een administratie, ontstaan er [elementaire gegevens](#elementair-gegeven).
 
 Een [elementair gegeven](#elementair-gegeven) is een [vastgelegde uitspraak](#vastgelegde-uitspraak) over (de waarde van) een kenmerk van een domeinobject of domeinrelatie uit een bepaald beschouwingsdomein, met een beoogde menselijke betekenis. Een gegeven kent een [gegevensbron](#gegevensbron) waarvan de uitspraak afkomstig is.
 
 Gegevens kunnen ook over andere gegevens gaan. Het moment dat een bepaald gegeven is vastgelegd is bijvoorbeeld een uitspraak over de letterlijke waarde van het kenmerk "registratiedatum" voor het elementair gegeven "de geboortedatum van Jan is 1 januari 2021". Gegevens die iets zeggen over andere gegevens noemen we [metadata](#metadata).
 
-Zoals gesteld in uitgangspunt U2 kennen de domeinobjecten en hun domeinrelaties en vervolgens de gegevens en gegevensobjecten met gegevens over die domeinobjecten en hun relaties een eigen (en mogelijk van elkaar verschillende) levenscyclus. De levensduur van de domeinobjecten en de relaties daartussen noemen we de [geldigheidstijd](#geldigheidstijd), de levensduur van de gegevens over die domeinobjecten en hun relaties noemen we de [registratietijd](#registratietijd). in principe is de tijdslijn van een gegeven metadata, maar we benoemen deze expliciet vanwege het grote belang van deze specifieke soort metadata.
+Zoals gesteld in uitgangspunt U2 kennen de domeinobjecten en hun domeinrelaties en vervolgens de gegevens en gegevensobjecten met gegevens over die domeinobjecten en hun relaties een eigen (en mogelijk van elkaar verschillende) levenscyclus.
 
-Een elementair gegeven kan onderdeel zijn van een groep elementaire gegevens, een [gegevensobject](#gegevensobject). Zo'n gegevensobject groepeert gegevens die over een bepaald onderwerp gaan. Het hoofdonderwerp van een gegevensobject is altijd een domeinobject.
+<!-- De levensduur van de domeinobjecten en de relaties daartussen noemen we de [geldigheidstijd](#geldigheidstijd), de levensduur van de gegevens over die domeinobjecten en hun relaties noemen we de [registratietijd](#registratietijd). in principe is de tijdslijn van een gegeven metadata, maar we benoemen deze expliciet vanwege het grote belang van deze specifieke soort metadata. -->
 
-Een groep elementaire gegevens en/of gegevensobjecten kan worden gebundeld in een [informatieobject](#informatieobject). Een informatieobject heeft altijd een eigen identiteit, maar niet noodzakelijk een enkel domeinobject als hoofdonderwerp.
+Een elementair gegeven kan onderdeel zijn van een groep elementaire gegevens, een [gegevensobject](#gegevensobject). Zo'n gegevensobject is de kleinste groep van elementaire gegevens die nog als eenheid wordt verwerkt. Het hoofdonderwerp van een gegevensobject is het domeinobject waarover de gegevens uit dit gegevensobject in hoofdzaak gaan.
 
-Een groep elementaire gegevens kan ook worden gebundeld in een [gegevensset](#gegegensset). Deze heeft geen hoofdonderwerp of eigen identiteit, maar wordt wel in samenhang beheerd door één organisatie. Een gegevensset zit altijd in een [gegevensopslag](#gegevensopslag).
+<!--Een groep elementaire gegevens en/of gegevensobjecten kan worden gebundeld in een [informatieobject](#informatieobject). Een informatieobject heeft altijd een eigen identiteit, maar niet noodzakelijk een enkel domeinobject als hoofdonderwerp.-->
+
+Een groep elementaire gegevens kan als een [gegevensset](#gegegensset) worden aangemerkt. Het gaat daarbij om gegevens die in samenhang worden beheerd door één organisatie. Met gegevenssets wordt de verantwoordelijkheid voor deze groep van gegevens toegewezen aan een [gegevensverantwoordelijke](gegevensverantwoordelijke). Een gegevensset zit altijd in een [gegevensopslag](#gegevensopslag).
 
 ### De betekenis van gegevens {#IntroBetekenis}
 
 Gegevens kunnen op meerdere manieren betekenis krijgen:
 
-* De [normatieve betekenis](#normatieve-betekenis) volgt uit de definitie zoals vastgelegd in [wet- en regelgeving](#wet-en-regelgeving), uitvoeringsbeleid of andere normatieve kaderstelling;
-* De [pragmatische betekenis](#pragmatische-betekenis) volgt uit het gebruik van de gegevens en de impact die dit gebruik met zich meebrengt. Het is de betekenis van een gegeven in een bepaalde context, dus in een specifieke situatie of beschouwingsdomein, die kan veranderen indien we van context veranderen. Bij het bepalen van de pragmatische betekenis van een gegeven zijn "wie, wat, waar, hoe en wanneer" belangrijke vragen. Voor de pragmatische betekenis is het verwerkingsdomein dus bepalend.
-* De [intrinsieke betekenis](#intrinsieke-betekenis) volgt uit de aard van de gegevens zelf, zoals de logische en technische vorm, structuur, en relatie met andere gegevens. Deze is dus vooral terug te vinden in het [logisch gegevensmodel](#logisch-gegevensmodel) en enigszins in het [conceptueel informatiemodel](#onceptueel-informatiemodel).
+* De [normatieve betekenis](#normatieve-betekenis) volgt uit de definitie zoals vastgelegd in [wet- en regelgeving](#wet-en-regelgeving), uitvoeringsbeleid of andere normatieve kaderstelling en wordt geformaliseerd in het [conceptueel informatiemodel](#onceptueel-informatiemodel);
+* De [pragmatische betekenis](#pragmatische-betekenis) volgt uit het gebruik van de gegevens en de impact die dit gebruik met zich meebrengt. Het is de betekenis van een gegeven in een verwerkingscontext, dus in een specifieke situatie of verwerkingsdomein, die kan veranderen indien we van context veranderen. Bij het bepalen van de pragmatische betekenis van een gegeven zijn "wie, wat, waar, hoe en wanneer" belangrijke vragen. Voor de pragmatische betekenis is de verbinding met het [procesmodel](#procesmodel) relevant;
+* De [intrinsieke betekenis](#intrinsieke-betekenis) volgt uit de aard van de gegevens zelf, zoals de logische en technische vorm, structuur, en relatie met andere gegevens. Deze is dus vooral terug te vinden in het [logisch gegevensmodel](#logisch-gegevensmodel) en [technische datamodel](#technisch-gegevensmodel).
 
-De betekenis van gegevens wordt conform uitgangspunt U3, uitgedrukt in een menselijke taal, als begrippen met een beoogde betekenis. Die leggen we vast in een [begrippenkader](#begrippenkader), wat bestaat uit de [begrippen](#begrip). Daarmee beschrijven we dus de domeinobjecten die samen het [beschouwingsdomein](#beschouwingsdomein) vormen, evenals hun onderlinge relaties, hun eigenschappen en alles wat nodig is om een goed begrip te verkrijgen van wat het beschouwingsdomein precies is. Een begrippenkader wordt gekenmerkt door de naam, en heeft een versie met versiedatum, en een toelichting die beschrijft waar het begrippenkader over gaat.
+De betekenis van gegevens wordt conform uitgangspunt U3, uitgedrukt in een menselijke taal, als begrippen met een beoogde betekenis. Die leggen we vast in een [begrippenkader](#begrippenkader), wat bestaat uit de [begrippen](#begrip). Daarmee beschrijven we de terminologie waarmee we over het [beschouwingsdomein](#beschouwingsdomein) kunnen praten. Een begrippenkader wordt gekenmerkt door de naam, en heeft een versie met versiedatum, en een toelichting die beschrijft waar het begrippenkader over gaat.
 
 Begrippen worden binnen een begrippenkader gekenmerkt door hun [voorkeursterm](#voorkeursterm), en beschreven door een begripsdefinitie. Een begrip wordt verder voorzien van een aantal beschrijvende onderdelen. Dit zijn de unieke code van een begrip (indien relevant), eventuele alternatieve termen en zoektermen, een toelichting zoals deze, voorbeelden, een redactionele notitie, en een [juridische classificatie](#juridische-classificatie) van het begrip als het om een juridisch begrip gaat.
 
@@ -68,7 +69,7 @@ Indien mogelijk wordt de definitie van een begrip uit een formele [kennisbron](#
 
 Een vergelijkbaar begrip kan ook bestaan in een ander beschouwingsdomeinen of begrippenkader, maar  mogelijk met een andere voorkeursterm of afwijkende begripsbeschrijving. In dat geval kunnen we een [taalbinding](#taalbinding) aanleggen die aangeeft op welke manier je de twee begrippenkaders met elkaar kan verbinden. Begrippen hoeven niet één op één op elkaar te passen, zolang we maar kunnen bepalen hoe we van het ene begrippenkader naar het andere kunnen komen, zodat we de [semantische interoperabiliteit](#semantische-interoperabiliteit) van de domeinen kunnen borgen.
 
-De [herleidbaarheid van de normatieve betekenis](#herleidbaarheid-normatieve-betekenis) van een begrip, evenals de [herleidbaarheid van de pragmatische betekenis](#herleidbaarheid-pragmatische-betekenis), wordt geborgd met verwijzingen naar de relevante administraties. De [herleidbaarheid van de intrinsieke betekenis](#herleidbaarheid-intrinsieke-betekenis) van gegevens wordt geborgd door een correcte [gegevensmodellering](#gegevensmodellering), in combinatie met verwijzingen naar de [normatieve](#normatieve-betekenis) en [pragmatische betekenis](#pragmatische-betekenis).
+De [herleidbaarheid van de normatieve betekenis](#herleidbaarheid-normatieve-betekenis) van een begrip wordt geborgd met verwijzingen naar de relevante kennisbron(nen) voor dat begrip. De [herleidbaarheid van de pragmatische betekenis](#herleidbaarheid-pragmatische-betekenis) ligt in de opsomming van de gegevenstypen die worden verwerkt in een gegevensverwerking. De [herleidbaarheid van de intrinsieke betekenis](#herleidbaarheid-intrinsieke-betekenis) van gegevens wordt geborgd door een correcte [gegevensmodellering](#gegevensmodellering), in combinatie met verwijzingen naar de [normatieve](#normatieve-betekenis) en [pragmatische betekenis](#pragmatische-betekenis).
 
 ### Modellering en typering van de gegevens {#IntroGegevensmodellering}
 
@@ -90,7 +91,7 @@ Een waardegegevenstype verwijst niet naar een ander gegevensobjecttype, maar geg
 
 ### Modellering en typering van de concepten {#IntroConceptmodellering}
 
-De werkelijkheid waarin "dingen" een rol spelen en waarvan we iets willen weten of zeggen over de aspecten van die dingen die we belangrijk zijn, vormen samen het [beschouwingsdomein](#beschouwingsdomein). De dingen in dat beschouwingsdomein, hun onderlinge relaties en de aspecten waar we iets over willen zeggen, kunnen we in hun onderlinge samenhang modelleren in een [conceptueel informatiemodel](#conceptueel-informatiemodel). 
+De werkelijkheid waarin "dingen" een rol spelen en waarvan we iets willen weten van of zeggen over de aspecten van die dingen die we belangrijk vinden, vormen samen het [beschouwingsdomein](#beschouwingsdomein). De dingen in dat beschouwingsdomein, hun onderlinge relaties en de aspecten waar we iets over willen zeggen, kunnen we in hun onderlinge samenhang modelleren in een [conceptueel informatiemodel](#conceptueel-informatiemodel).
 
 De [conceptuele informatiemodelelementen](#conceptueel-informatiemodelelement) zijn de [domeinobjecttypen](#domeinobjecttype), hun [attribuuttypen](#attribuuttype) en de [domeinrelatietypen](#domeinrelatietype) die de relaties tussen de domeinobjecttypen weergeven.
 
@@ -110,7 +111,7 @@ Een domeinrelatieverbintenis verbind een domeinobjecttype met een rol die dat do
 
 Een domeinrelatietype waarbij men over de aspecten van dat type weer aspecten wil modelleren, wordt verzelfstandigt tot een eigen domeinobjecttype, een [relatiedomeinobjecttype](#relatiedomeinobjecttype). Dit is zowel een domeinobjecttype als een domeinrelatietype.
 
-Een relatiedomeinobjecttype typeert gelijksoortige [relatiedomeinobjecten](#relatiedomeinobject) uit het beschouwingsdomein.
+<!-- Een relatiedomeinobjecttype typeert gelijksoortige [relatiedomeinobjecten](#relatiedomeinobject) uit het beschouwingsdomein. -->
 
 ### Het verwerkingsdomein {#IntroVerwerkingsdomein}
 
@@ -134,9 +135,9 @@ De [organisatorische activiteiten](#organisatorische-activiteit) die vervolgens 
 
 Een organisatorische activiteit kan niet worden uitgevoerd zonder gegevens te verwerken. Vergelijkbare gegevensverwerkingen die dagelijks worden uitgevoerd kunnen worden getypeerd in een [gegevensverwerkingstype](#gegevensverwerkingstype) zoals "Raadplegen externe gegevensbron" of "inscannen gegevens op binnengekomen formulier". De gegevensverwerkingstypen zijn bepalend voor de omvang van het [verwerkingsdomein](#verwerkingsdomein): alle gegevens die worden verwerkt in de gegevensverwerkingstypen vallen binnen het verwerkingsdomein.
 
-Elk gegevensverwerkingstype specificeert de daarbinnen gebruikte gegevens in [gegevenssetspecificaties](#gegevenssetspecificatie). Deze beschrijven de structuur van de gegevens middels een logisch gegevensmodel, en de inhoud van de gegevens aan de hand van een populatiebeschrijving. Zo weet ik bijvoorbeeld dat een lijst met adresgegevens (structuur) gaat over adressen van verdachten (inhoud). Samen zijn ze nodig voor bijvoorbeeld de inschatting van privacyrisico's en te nemen maatregelen.
+Elk gegevensverwerkingstype specificeert de daarbinnen gebruikte gegevens in [gegevenssetspecificaties](#gegevenssetspecificatie). Deze beschrijven de structuur van de gegevens middels een logisch gegevensmodel, en de inhoud van de gegevens aan de hand van een populatiebeschrijving. Zo wordt duidelijk dat een lijst met adresgegevens (structuur) gaat over adressen van verdachten (inhoud). Samen zijn ze nodig voor bijvoorbeeld de inschatting van privacyrisico's en te nemen maatregelen.
 
-Sommige gegevenstypen die in een gegevensverwerkingstype worden gebruikt zijn [kritieke gegevenselementen](#kritiek-gegevenselement), die bepalend zijn voor de betrouwbare uitvoering van de verwerking. Deze worden apart beschouwd omdat het [[gegevenskwaliteitsbeleid]] zich met name op die gegevenstypen in de gegevensverwerkingen richt.
+Sommige gegevenstypen die in een gegevensverwerkingstype worden gebruikt zijn [kritieke gegevenselementen](#kritiek-gegevenselement), die bepalend zijn voor de betrouwbare uitvoering van de verwerking. Deze worden apart beschouwd omdat het [[Gegevenskwaliteitsbeleid]] zich met name op die gegevenstypen in de gegevensverwerkingen richt.
 
 ### Verantwoordelijkheden
 
@@ -146,7 +147,7 @@ Omdat de impact van verkeerde omgang met gegevens zo groot is, stelt uitgangspun
 
 De eindverantwoordelijkheid voor gegevenstypering en het toeschrijven van betekenis aan gegevens ligt op bestuurlijk niveau bij de [gegevensverantwoordelijke](#gegevensverantwoordelijke), conform uitgangspunt U6. De gegevensverantwoordelijke is altijd een medewerker van de [partij](#partij) die verantwoordelijk is voor de uitvoering van een bepaald soort organisatorische activiteit.
 
-Aangezien conform uitgangspunt U7 er continu beheer nodig is, is er iemand nodig die permanent bezig is met de gegevenstypering en begripsbeschrijving. De gegevensverantwoordelijke stelt daartoe een [persoon](#persoon) aan in een [gegevenskwaliteit rol](#gegevenskwaliteit-rol) genaamd [gegevensmodelleur](#gegevensmodelleur). Hiermee wordt de samenhang met de [intrinsieke betekenis](#intrinsieke-betekenis) geborgd.
+Aangezien conform uitgangspunt U7 er continu beheer nodig is, is er iemand nodig die permanent bezig is met de gegevenstypering en begripsbeschrijving. De gegevensverantwoordelijke stelt daartoe een [persoon](#persoon) aan in een [gegevenskwaliteit rol](#gegevenskwaliteit-rol) genaamd [gegevensmodelleur](#gegevensmodelleur) cq. kennismodelleur. Hiermee wordt de samenhang met de [intrinsieke betekenis](#intrinsieke-betekenis) geborgd.
 
 Een actuele en correct uitgevoerde [gegevenstypering](#gegevenstypering-0) is een voorwaarde om het [gegevenskwaliteitsproces](#gegevenskwaliteitsproces) uit te kunnen voeren. Als de normatieve en intrinsieke betekenis van gegevens niet bekend is, is het onmogelijk om te bepalen of de vastgelegde gegevens daarmee overeenstemmen en dus als correct kunnen worden beschouwd.
 
@@ -158,9 +159,9 @@ Organisaties die samenwerken met andere organisaties moeten onderling afspraken 
 
 Een complete gegevensmodellering bestaat uit vier typen modellen:
 
-* een [semantisch model](#semantisch-model), uitgedrukt in bijvoorbeeld [[W3C-SKOS]] of [[NL-SBB]];
-* een [conceptueel model](#conceptueel-model), uitgedrukt in bijvoorbeeld [[MIM]] niveau 2, [Fact-based modeling](#fact-based-modeling), [Unified Modeling Language](#unified-modeling-language), [Entity-Relationship Modeling](#entity-relationship-modeling), [Web Ontology Language](#web-ontology-language), [Shapes Constraint Language](#shapes-constraint-language) et cetera.
-* een [logisch gegevensmodel](#logisch-gegevensmodel), uitgedrukt in bijvoorbeeld [[MIM]] niveau 3, [Fact-based modeling](#fact-based-modeling), [Unified Modeling Language](#unified-modeling-language), [Entity-Relationship Modeling](#entity-relationship-modeling), [Web Ontology Language](#web-ontology-language), [Shapes Constraint Language](#shapes-constraint-language) et cetera.
+* een [semantisch model](#semantisch-model) conform [[NL-SBB]], uitgedrukt in bijvoorbeeld [[W3C-SKOS]];
+* een [conceptueel model](#conceptueel-model), conform [[MIM]] niveau 2, uitgedrukt in bijvoorbeeld [Fact-based modeling](#fact-based-modeling), [Unified Modeling Language](#unified-modeling-language), [Entity-Relationship Modeling](#entity-relationship-modeling), [Web Ontology Language](#web-ontology-language), [Shapes Constraint Language](#shapes-constraint-language) et cetera.
+* een [logisch gegevensmodel](#logisch-gegevensmodel), conform [[MIM]] niveau 3, uitgedrukt in bijvoorbeeld [Fact-based modeling](#fact-based-modeling), [Unified Modeling Language](#unified-modeling-language), [Entity-Relationship Modeling](#entity-relationship-modeling), [Web Ontology Language](#web-ontology-language), [Shapes Constraint Language](#shapes-constraint-language) et cetera.
 * een [technisch gegevensmodel](#technisch-gegevensmodel), uitgedrukt in een vorm die afhankelijk is van de gekozen implementatie.
 
 Hierin wordt de betekenis van gegevens als volgt vastgelegd:
